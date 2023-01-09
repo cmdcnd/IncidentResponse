@@ -5,7 +5,7 @@
 
 
 ## Standards  
-An IR Team will generally be operating under Military Mission Authority (e.g., Title 10), although other legal authorities could be possible. Supporting a CIKR mission can bring in additional privacy and civil liberty constraints that should be discussed with the mission owner.  
+An IR Team will generally be operating under State legal authorities. Supporting a CIKR mission can bring in additional privacy and civil liberty constraints that should be discussed with the mission owner.  
 
 
 ## End State  
