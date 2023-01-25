@@ -65,38 +65,38 @@ do {
     '1' {
         Write-Host "Creating new SMB Share"
         #SMB Share - making an smb share of the current directory so workstations will have access to copy files from.
-        New-SmbShare -Name "Tools" -Path "$dir" -FullAccess "users" -ErrorAction SilentlyContinue
+        New-SmbShare -Name "SoftwareTools" -Path "$dir" -FullAccess "users" -ErrorAction SilentlyContinue
     }
     '2' {
         ##For every IP in the Client IP list, psexec will make a remote connection and execute the .bat script.
         ##Execution will complete in order according to the Client IP list.
         Write-Host "Copying files to systems"
         ForEach ($client in Get-Content $clients) {
-            New-Item -Path \\$client\C$\Tools -type directory -Force;
-            Copy-Item -Path $dir\* -Destination \\$client\c$\Tools;
+            New-Item -Path \\$client\C$\SoftwareTools -type directory -Force;
+            Copy-Item -Path $dir\* -Destination \\$client\c$\SoftwareTools;
             Write-Host "$client copy of files completed successfully";
         }
     }
     '3' {
         ##psexec install sysmon
         Write-Host "Installing Sysmon and Wazuh Agents"
-        Start-Process -filepath $psexec "-h @$dir\ips.txt -u $domain\$domainuser -p $pass c:\Tools\install-sysmon.bat -accepteula" -wait;
+        Start-Process -filepath $psexec "-h @$dir\ips.txt -u $domain\$domainuser -p $pass c:\SoftwareTools\install-sysmon.bat -accepteula" -wait;
     }
 	'4' {
         ##psexec install wazzuh
         Write-Host "Installing Sysmon and Wazuh Agents"
-        Start-Process -filepath $psexec "-h @$dir\ips.txt -u $domain\$domainuser -p $pass c:\Tools\install-wazuh.bat -accepteula" -wait;
+        Start-Process -filepath $psexec "-h @$dir\ips.txt -u $domain\$domainuser -p $pass c:\SoftwareTools\install-wazuh.bat -accepteula" -wait;
     }
     '5' {
         ##psexec delete wazzuh - uncomment the line below and run the line individually
         Write-Host "Uninstalling Sysmon"
-        Start-Process -FilePath $psexec "-h @$dir\ips.txt -u $domain\$domainuser -p $pass c:\Tools\uninstall-sysmon64.bat -accepteula";
+        Start-Process -FilePath $psexec "-h @$dir\ips.txt -u $domain\$domainuser -p $pass c:\SoftwareTools\uninstall-sysmon64.bat -accepteula";
         sleep 20
     }
     '6' {
         ##psexec delete wazzuh - uncomment the line below and run the line individually
         Write-Host "Uninstalling Wazuh"
-        Start-Process -FilePath $psexec "-h @$dir\ips.txt -u $domain\$domainuser -p $pass c:\Tools\uninstall-wazuh.bat -accepteula";
+        Start-Process -FilePath $psexec "-h @$dir\ips.txt -u $domain\$domainuser -p $pass c:\SoftwareTools\uninstall-wazuh.bat -accepteula";
         sleep 20
     }
     '7' {
@@ -112,7 +112,7 @@ do {
     '8' {
         ##psexec to install Velociraptor on client machines
         Write-Host "Installing Velociraptor Clients"
-        Start-Process -filepath $psexec "-h @$dir\ips.txt -u $domain\$domainuser -p $pass c:\Tools\install-velociraptor.bat";
+        Start-Process -filepath $psexec "-h @$dir\ips.txt -u $domain\$domainuser -p $pass c:\SoftwareTools\install-velociraptor.bat";
     }
     '9' {
         ##psexec to run gpupdate /force
