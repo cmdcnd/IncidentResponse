@@ -105,7 +105,7 @@ do {
         Write-Host "Copying Ossec.conf file to all workstations and restarting service"
         ForEach ($client in Get-Content $clients) {
             Copy-Item -Path $dir\ossec.conf -Destination "\\$client\c$\Program Files (x86)\ossec-agent\ossec.conf"
-            Get-Service -ComputerName $client -Name OssecSvc | Restart-Service
+            Get-Service -ComputerName $client -Name Wazuh | Restart-Service
             Write-Host "$client osssec.conf copied  completed successfully";
         } 
     }
@@ -135,8 +135,8 @@ do {
         Write-Host "checking Wazuh services"
         ForEach ($client in Get-Content $clients) {
             write-host "checking" $client
-            Get-Service OssecSvc -ComputerName $client | ft -HideTableHeaders
-            Get-Service ossecsvc -ComputerName $client | Where-Object {$_.Status -eq "Stopped"} | Start-Service
+            Get-Service Wazuh -ComputerName $client | ft -HideTableHeaders
+            Get-Service Wazuh -ComputerName $client | Where-Object {$_.Status -eq "Stopped"} | Start-Service
             Write-Host "$client is completed";
             write-host "-------------------"
         }
