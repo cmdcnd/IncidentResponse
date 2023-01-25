@@ -1,2 +1,2 @@
 net stop sysmon
-c:\tools\sysmon.exe -u
+c:\SoftwareTools\sysmon.exe -u
