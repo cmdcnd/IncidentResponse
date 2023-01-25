@@ -1,5 +1,5 @@
-cd c:\Tools
+cd c:\SoftwareTools
 
-c:\Tools\sysmon.exe -i C:\tools\ionstorm-config.xml -accepteula
+c:\SoftwareTools\sysmon.exe -i C:\SoftwareTools\ionstorm-config.xml -accepteula
 sc config sysmon start= auto
 
