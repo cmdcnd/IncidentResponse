@@ -2,21 +2,13 @@
 ##initial information gathering for script.
 $dir1 = Get-Location
 $dir = $dir1.ToString();
-$wazuh = Get-ChildItem -path $dir -Include wazuh-agent*.msi -Recurse | Select-Object -expand Name
+$winlogbeat = Get-ChildItem -path $dir\software -Include winlogbeat*.msi -Recurse | Select-Object -expand Name
 $SOserver = Read-Host "Type ip of Security Onion Server: "
 
 <#this portion is modifying the local files install-sysmon.bat and ossec.conf#>
-(Get-Content "$dir\install-wazuh.bat").Replace('x.x.x.x',"$SOserver") | Out-File "$dir\install-wazuh.bat" -Encoding ascii
+(Get-Content "$dir\software\winlogbeat.yml").Replace('x.x.x.x',"$SOserver") | Out-File "$dir\software\winlogbeat.yml" -Encoding ascii
 sleep 1
-(Get-Content "$dir\install-wazuh.bat").Replace('<change>',"$wazuh") | Out-File "$dir\install-wazuh.bat" -Encoding ascii
-sleep 1
-write-host "Completed modifying uninstall-wazuh.bat"
-(Get-Content "$dir\uninstall-wazuh.bat").Replace('<change>',"$wazuh") | Out-File "$dir\uninstall-wazuh.bat" -Encoding ascii
-sleep 1
-write-host "Completed modifying uninstall-wazuh.bat"
-(Get-Content "$dir\ossec.conf").Replace('x.x.x.x',"$SOserver") | Out-File "$dir\ossec.conf" -Encoding utf8
-sleep 1
-Write-Host "Completed modifying ossec.conf"
+Write-Host "Completed modifying winlogbeat.yml"
 
 <# ------variables used for testing below, uncomment to use and re-comment in production
 $ip = "x.x.x.x"
@@ -33,8 +25,6 @@ $ip = (
     }
 ).IPv4Address.IPAddress
 #>
-Write-Host "Run the following command on SecurityOnion to enable client autoregistration: /var/ossec/bin/ossec-agentd -f"
-pause
 $domainuser = Read-Host 'Enter Domain Admin Username'
 $pass = Read-Host 'Enter Domain Admin password'
 $domain = Read-Host 'Enter Domain name'
@@ -50,14 +40,14 @@ do {
     Write-host "Press 1 to make current Directory an SMB Share(*Optional for workstations that fail to copy otherwise)"
     write-host "Press 2 to copy files to the workstations"
     write-host "Press 3 to install sysmon"
-	write-host "press 4 to install wazuh"
+	write-host "press 4 to install winlogbeat"
     write-host "Press 5 to uninstall sysmon (under construction)"
-    write-host "Press 6 to uninstall wazuh agents"
-    write-host "Press 7 to push modified ossec configuration file"
+    write-host "Press 6 to uninstall winlogbeat agents"
+    write-host "Press 7 to push modified winlogbeat configuration file"
     write-host "Press 8 to install velociraptor client"
     Write-Host "Press 9 to run GPUPDATE /FORCE"
     Write-Host "Press 10 to check Sysmon services"
-    Write-Host "Press 11 to check Wazuh services"
+    Write-Host "Press 11 to check Winlogbeat services"
     Write-Host "Press 12 to check Velociraptor services"
     write-host "Press q to exit"
     $input = Read-Host
@@ -73,40 +63,40 @@ do {
         Write-Host "Copying files to systems"
         ForEach ($client in Get-Content $clients) {
             New-Item -Path \\$client\C$\SoftwareTools -type directory -Force;
-            Copy-Item -Path $dir\* -Destination \\$client\c$\SoftwareTools;
+            Copy-Item -Path $dir\software\* -Destination \\$client\c$\SoftwareTools;
             Write-Host "$client copy of files completed successfully";
         }
     }
     '3' {
         ##psexec install sysmon
-        Write-Host "Installing Sysmon and Wazuh Agents"
+        Write-Host "Installing Sysmon"
         Start-Process -filepath $psexec "-h @$dir\ips.txt -u $domain\$domainuser -p $pass c:\SoftwareTools\install-sysmon.bat -accepteula" -wait;
     }
 	'4' {
         ##psexec install wazzuh
-        Write-Host "Installing Sysmon and Wazuh Agents"
-        Start-Process -filepath $psexec "-h @$dir\ips.txt -u $domain\$domainuser -p $pass c:\SoftwareTools\install-wazuh.bat -accepteula" -wait;
+        Write-Host "Installing Winlogbeat Agents"
+        Start-Process -filepath $psexec "-h @$dir\ips.txt -u $domain\$domainuser -p $pass c:\SoftwareTools\install-winlogbeat.bat -accepteula" -wait;
     }
     '5' {
-        ##psexec delete wazzuh - uncomment the line below and run the line individually
+        ##psexec delete sysmon - uncomment the line below and run the line individually
         Write-Host "Uninstalling Sysmon"
         Start-Process -FilePath $psexec "-h @$dir\ips.txt -u $domain\$domainuser -p $pass c:\SoftwareTools\uninstall-sysmon64.bat -accepteula";
         sleep 20
     }
     '6' {
-        ##psexec delete wazzuh - uncomment the line below and run the line individually
+        ##psexec delete winlogbeat - uncomment the line below and run the line individually
         Write-Host "Uninstalling Wazuh"
-        Start-Process -FilePath $psexec "-h @$dir\ips.txt -u $domain\$domainuser -p $pass c:\SoftwareTools\uninstall-wazuh.bat -accepteula";
+        Start-Process -FilePath $psexec "-h @$dir\ips.txt -u $domain\$domainuser -p $pass c:\SoftwareTools\uninstall-winlogbeat.bat -accepteula";
         sleep 20
     }
     '7' {
         
-        #push config for ossecon.conf then restart the service.
-        Write-Host "Copying Ossec.conf file to all workstations and restarting service"
+        #push config for winlogbeat.yml then restart the service.
+        Write-Host "Copying winlogbeat.yml file to all workstations and restarting service"
         ForEach ($client in Get-Content $clients) {
-            Copy-Item -Path $dir\ossec.conf -Destination "\\$client\c$\Program Files (x86)\ossec-agent\ossec.conf"
-            Get-Service -ComputerName $client -Name Wazuh | Restart-Service
-            Write-Host "$client osssec.conf copied  completed successfully";
+            Copy-Item -Path $dir\software\winlogbeat.yml -Destination "\\$client\c$\ProgramData\Elastic\Beats\winlogbeat\winlogbeat.yml"
+            Get-Service -ComputerName $client -Name winlogbeat | Restart-Service
+            Write-Host "$client winlogbeat.yml copied  completed successfully";
         } 
     }
     '8' {
@@ -120,7 +110,7 @@ do {
         Start-Process -filepath $psexec "-h @$dir\ips.txt -u $domain\$domainuser -p $pass gpupdate /force";
     }
     '10' {
-        ##psexec to check windows computers for wazuh service
+        ##psexec to check windows computers for sysmon service
         Write-Host "checking Sysmon services"
         ForEach ($client in Get-Content $clients) {
             write-host "checking" $client
@@ -131,18 +121,18 @@ do {
         }
     }
     '11' {
-        ##psexec to check windows computers for wazuh service
-        Write-Host "checking Wazuh services"
+        ##psexec to check windows computers for winlogbeat service
+        Write-Host "checking Winlogbeat services"
         ForEach ($client in Get-Content $clients) {
             write-host "checking" $client
-            Get-Service Wazuh -ComputerName $client | ft -HideTableHeaders
-            Get-Service Wazuh -ComputerName $client | Where-Object {$_.Status -eq "Stopped"} | Start-Service
+            Get-Service winlogbeat -ComputerName $client | ft -HideTableHeaders
+            Get-Service winlogbeat -ComputerName $client | Where-Object {$_.Status -eq "Stopped"} | Start-Service
             Write-Host "$client is completed";
             write-host "-------------------"
         }
     }
     '12' {
-        ##psexec to check windows computers for wazuh service
+        ##psexec to check windows computers for velociraptor service
         Write-Host "checking Velociraptor services"
         ForEach ($client in Get-Content $clients) {
             write-host "checking" $client
