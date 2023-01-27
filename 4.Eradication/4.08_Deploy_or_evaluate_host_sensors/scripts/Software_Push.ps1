@@ -231,24 +231,32 @@ do {
     '3' {
         ##psexec install sysmon
         Write-Host "Installing Sysmon"
-        Start-Process -filepath $psexec "-h @$dir\ips.txt -u $domain\$domainuser -p $pass c:\SoftwareTools\install-sysmon.bat -accepteula" -wait;
+        Foreach ($client in Get-Content $clients) {
+        Start-Process -filepath $psexec "-h \\$client -u $domain\$domainuser -p $pass c:\SoftwareTools\install-sysmon.bat -accepteula" -wait;
+        }
     }
 	'4' {
-        ##psexec install wazzuh
+        ##psexec install winlogbeat
         Write-Host "Installing Winlogbeat Agents"
-        Start-Process -filepath $psexec "-h @$dir\ips.txt -u $domain\$domainuser -p $pass c:\SoftwareTools\install-winlogbeat.bat -accepteula" -wait;
+        Foreach ($client in Get-Content $clients) {
+        Start-Process -filepath $psexec "-h \\$client -u $domain\$domainuser -p $pass c:\SoftwareTools\install-winlogbeat.bat -accepteula" -wait;
+        }
     }
     '5' {
         ##psexec delete sysmon - uncomment the line below and run the line individually
         Write-Host "Uninstalling Sysmon"
-        Start-Process -FilePath $psexec "-h @$dir\ips.txt -u $domain\$domainuser -p $pass c:\SoftwareTools\uninstall-sysmon64.bat -accepteula";
+        Foreach ($client in Get-Content $clients) {
+        Start-Process -FilePath $psexec "-h \\$client -u $domain\$domainuser -p $pass c:\SoftwareTools\uninstall-sysmon64.bat -accepteula";
         sleep 20
+        }
     }
     '6' {
         ##psexec delete winlogbeat - uncomment the line below and run the line individually
         Write-Host "Uninstalling Wazuh"
-        Start-Process -FilePath $psexec "-h @$dir\ips.txt -u $domain\$domainuser -p $pass c:\SoftwareTools\uninstall-winlogbeat.bat -accepteula";
+        Foreach ($client in Get-Content $clients) {
+        Start-Process -FilePath $psexec "-h \\$client -u $domain\$domainuser -p $pass c:\SoftwareTools\uninstall-winlogbeat.bat -accepteula";
         sleep 20
+        }
     }
     '7' {
         
@@ -263,12 +271,16 @@ do {
     '8' {
         ##psexec to install Velociraptor on client machines
         Write-Host "Installing Velociraptor Clients"
-        Start-Process -filepath $psexec "-h @$dir\ips.txt -u $domain\$domainuser -p $pass c:\SoftwareTools\install-velociraptor.bat";
+        Foreach ($client in Get-Content $clients) {
+        Start-Process -filepath $psexec "-h \\$client -u $domain\$domainuser -p $pass c:\SoftwareTools\install-velociraptor.bat";
+        }
     }
     '9' {
         ##psexec to run gpupdate /force
         Write-Host "running GP Update"
-        Start-Process -filepath $psexec "-h @$dir\ips.txt -u $domain\$domainuser -p $pass gpupdate /force";
+        Foreach ($client in Get-Content $clients) {
+        Start-Process -filepath $psexec "-h \\$client -u $domain\$domainuser -p $pass gpupdate /force";
+        }
     }
     '10' {
         ##psexec to check windows computers for sysmon service
