@@ -167,13 +167,14 @@ $psexec = "$dir\PsExec.exe" #(Note: Ensure psexec.exe is Unblocked)
 
 Write-Host
 do { 
+    Clear-Host
     Write-Host "If you already have a list of IPs, you can skip option 1.  Ensure a file with name ips.txt exists in the working directory of this script" -ForegroundColor Yellow
     Write-Host ""
     Write-Host "Welcome, Please select an option"
     Write-host "Press 1 to scan subnets for windows systems" -ForegroundColor Green
     write-host "Press 2 to copy files to remote systems" -ForegroundColor Green
     write-host "Press 3 to install sysmon" -ForegroundColor Green
-	write-host "press 4 to install winlogbeat" -ForegroundColor Green
+    write-host "press 4 to install winlogbeat" -ForegroundColor Green
     write-host "Press 5 to uninstall sysmon (under construction)" -ForegroundColor Green
     write-host "Press 6 to uninstall winlogbeat agents" -ForegroundColor Green
     write-host "Press 7 to push modified winlogbeat configuration file" -ForegroundColor Green
