@@ -198,7 +198,7 @@ $ git push
 ```
 ### 7. create a pull request  
 Now, the branch with your change is available remote.
-when you go to git repo: https://github.com/cmdcnd/IncidentResponse,
+when you go to git repo: https://github.com/cmdcndexternal/IncidentResponse,
 you can create a pull request.
 
 git should show a banner in the main repo as a short cut asking
