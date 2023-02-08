@@ -82,16 +82,16 @@ Once your account has MFA enforced you will need to use an API key.  Make sure y
 
 ```bash
 # copy url of this git repo and replace APIKEY with yours generated above
-$ git clone https://APIKEY@github.com/cybersurfers/Battle-Drills.git
+$ git clone https://APIKEY@github.com/cmdcndexternal/IncidentResponse.git
 ```
 
-once you clone, at this point, you should only have local copy of `master` branch.
+once you clone, at this point, you should only have local copy of `main` branch.
 you can check all local branches using
 
 ```bash
 $ git branch
 (output should look)
-* master
+* main
 ```
 
 ### 2. create a local branch  
@@ -99,17 +99,17 @@ create a local branch with name that is related to changes that are being made.
 ```bash
 $ git checkout -b $YOUR_LOCAL_BRANCH_NAME
 
-# if you're working on battle drill ID.TO.3.3, you can do something like.
+# if you're working on task 2.04, you can do something like.
 
-$ git checkout -b id-to-3-3
+$ git checkout -b task-2.04
 ```
 
 You can check all local branches again.
 ```bash
 $ git branch
 (output should look)
-  master
-* id-to-3-3
+  main
+* task-2.04
 ```
 
 you can also jump back and forth different branch using
@@ -117,12 +117,12 @@ you can also jump back and forth different branch using
 $ git checkout $(branch_name)
 ```
 
-This allows avoiding making changes directly on master which is usually the official branch
+This allows avoiding making changes directly on main which is usually the official branch
 where we only want to keep changes that are validated and reviewed.
 
 ### 3. complete tasks documenations  
 - complete README.md: you can get the template and the example from ./template
-- add any scripts if you have one under $(your_battle_drill_folder)/scripts
+- add any scripts if you have one under $(your_tasks_folder)/scripts
 - make sure to include detailed steps for running the script.
 
 ### 4. add your changes  
@@ -178,15 +178,15 @@ When you push the local branch for the first time,
 in git, the paired remote branch of the local branch is called the upstream.
 
 ```
-fatal: The current branch id-to-3-3 has no upstream branch.
+fatal: The current branch task-2.04 has no upstream branch.
 To push the current branch and set the remote as upstream, use
 
-    git push --set-upstream origin id-to-3-3
+    git push --set-upstream origin task-2.04
 ```
 
 Run the command the git suggests.
 ```bash
-$ git push --set-upstream origin id-to-3-3
+$ git push --set-upstream origin task-2.04
 ```
 
 Setting the upstream is required only once for the very first time,
@@ -205,4 +205,4 @@ git should show a banner in the main repo as a short cut asking
 if you want to make a pull request out of the recent push.
 
 Or, you can click on `create a pull request` button.
-choose `master` on the left, and `your branch` on the right.
+choose `main` on the left, and `your branch` on the right.
