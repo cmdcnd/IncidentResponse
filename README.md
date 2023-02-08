@@ -6,7 +6,7 @@
 - [Git Workflow](#git-workflow)  
     + [1. clone the repo](#1-clone-the-repo)  
     + [2. create a local branch](#2-create-a-local-branch)  
-    + [3. complete battle drill documenations.](#3-complete-battle-drill-documenations)  
+    + [3. complete tasks documenations.](#3-complete-tasks-documenations)  
     + [4. add your changes](#4-add-your-changes)  
     + [5. commit your changes.](#5-commit-your-changes)  
     + [6. push your local branch to remote.](#6-push-your-local-branch-to-remote)  
