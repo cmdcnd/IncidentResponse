@@ -168,8 +168,9 @@ Malware almost always has to connect back to a C2 system for follow on instructi
 	StartModule: -
 	StartFunction: -
 	```  
-
-The next section will provide some basic queries that can be used in Security Onion  
+### Security Onion Hunt  
+The next section will provide some basic queries that can be used in Security Onion Hunt  
+----------------------------------------------------------------------------------------  
 
 * Filter for all sysmon events  
 	```
@@ -190,6 +191,10 @@ The next section will provide some basic queries that can be used in Security On
 	```
 	AND event.module: "sysmon" AND agent.ip:"x.x.x.x" | groupby event.module event.dataset
 	```  
+
+### Security Onion Elastic  
+The next section will provide some basic queries that can be used in Security Onion Elastic  
+----------------------------------------------------------------------------------------  
 
 * Credential dumping  
 Note: You are looking for processes that do not normally touch lsass.exe  
