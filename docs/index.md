@@ -13,7 +13,7 @@
     + [7. create a pull request](#7-create-a-pull-request)  
 
 ## Concept	
-![IR Concept Design](/img/IR-Concept-Design.png)  
+![IR Concept Design](img/IR-Concept-Design.png)  
 * IR Phase - Example: (2.Identification)  
   * README.md Table of Contents for phase tasks  
   * IR Phase Task - Example: (2.02_Create_Active_IP_List)  

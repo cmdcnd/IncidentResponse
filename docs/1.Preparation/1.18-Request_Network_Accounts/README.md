@@ -48,7 +48,7 @@ N/A
 
 
 ## References  
-[DD Form 2875.pdf](/1.Preparation/Preparation_References/DDForm2875.pdf)  
+[DD Form 2875.pdf](./dd2875.pdf)  
 [NIST.SP.800-53r4.pdf](https://nvlpubs.nist.gov/nistpubs/SpecialPublications/NIST.SP.800-53r4.pdf)  
 
 
