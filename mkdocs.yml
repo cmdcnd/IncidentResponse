@@ -246,3 +246,10 @@ nav:
     - 5.12-Creating Clean Backups: 5.Recovery/5.12_Creating_Clean_Backups/README.md
     - 5.13-Conduct Outbriefing: 5.Recovery/5.13-Conduct_Outbriefing/README.md
     - 5.14-Conduct AAR: 5.Recovery/5.14-Conduct_AAR/README.md
+  - 6.Lessons Learned:
+    - 6.Lessons Learned: 6.LessonsLearned/README.md
+    - 6.01-After Action Review(AAR): 6.LessonsLearned/6.01-After_Action_Review/README.md
+    - 6.01Files: https://github.com/cmdcndexternal/IncidentResponse/tree/main/docs/6.LessonsLearned/6.01-After_Action_Review
+  - Reference Documents: 
+    - Reference Documents: ReferenceDocuments/README.md
+    - PowerShell Commands: ReferenceDocuments/PowerShell_Commands.md
