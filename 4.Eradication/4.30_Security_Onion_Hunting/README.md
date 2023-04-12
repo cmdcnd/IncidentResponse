@@ -307,6 +307,7 @@ N/A
 
 
 ## References  
+[Windows Event Log Examples](https://github.com/sbousseaden/EVTX-ATTACK-SAMPLES)  
 [RUNDLL32 Connection to the Internet](https://www.cobaltstrike.com/blog/why-is-rundll32-exe-connecting-to-the-internet/)  
 [Quick Malware Analysis with Security Onion](https://www.youtube.com/watch?v=KBjr1fdb3jY)  
 [Quick Malware Analysis: malware-traffic-analysis.net pcap from 2021-06-18](https://blog.securityonion.net/2021/07/quick-malware-analysis-malware-traffic.html)  
