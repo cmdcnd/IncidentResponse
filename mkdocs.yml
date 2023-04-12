@@ -1,7 +1,7 @@
 site_name: Incident Response
 site_url: https://cmdcndexternal.github.io/IncidentResponse/
 repo_url: https://github.com/cmdcndexternal/IncidentResponse
-edit_uri: edit/main/
+edit_uri: edit/main/docs
 theme:
   name: material
 

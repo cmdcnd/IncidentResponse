@@ -1,0 +1,303 @@
+"Message","Id","Version","Qualifiers","Level","Task","Opcode","Keywords","RecordId","ProviderName","ProviderId","LogName","ProcessId","ThreadId","MachineName","UserId","TimeCreated","ActivityId","RelatedActivityId","MatchedQueryIds","Bookmark","LevelDisplayName","OpcodeDisplayName","TaskDisplayName","KeywordsDisplayNames","Properties"
+"A new process has been created.
+
+Creator Subject:
+	Security ID:		S-1-5-18
+	Account Name:		MSEDGEWIN10$
+	Account Domain:		WORKGROUP
+	Logon ID:		0x3E7
+
+Target Subject:
+	Security ID:		S-1-5-19
+	Account Name:		LOCAL SERVICE
+	Account Domain:		NT AUTHORITY
+	Logon ID:		0x3E5
+
+Process Information:
+	New Process ID:		0x24e0
+	New Process Name:	C:\Windows\System32\svchost.exe
+	Token Elevation Type:	%%1936
+	Mandatory Label:		S-1-16-16384
+	Creator Process ID:	0x274
+	Creator Process Name:	C:\Windows\System32\services.exe
+	Process Command Line:	
+
+Token Elevation Type indicates the type of token that was assigned to the new process in accordance with User Account Control policy.
+
+Type 1 is a full token with no privileges removed or groups disabled.  A full token is only used if User Account Control is disabled or if the user is the built-in Administrator account or a service account.
+
+Type 2 is an elevated token with no privileges removed or groups disabled.  An elevated token is used when User Account Control is enabled and the user chooses to start the program using Run as administrator.  An elevated token is also used when an application is configured to always require administrative privilege or to always require maximum privilege, and the user is a member of the Administrators group.
+
+Type 3 is a limited token with administrative privileges removed and administrative groups disabled.  The limited token is used when User Account Control is enabled, the application does not require administrative privilege, and the user does not choose to start the program using Run as administrator.","4688","2",,"0","13312","0","-9214364837600034816","329925","Microsoft-Windows-Security-Auditing","54849625-5478-4994-a5ba-3e3b0328c30d","Security","4","868","MSEDGEWIN10",,"12/7/2021 9:33:08 AM",,,"System.UInt32[]","System.Diagnostics.Eventing.Reader.EventBookmark","Information","Info","Process Creation","System.Collections.ObjectModel.ReadOnlyCollection`1[System.String]","System.Collections.Generic.List`1[System.Diagnostics.Eventing.Reader.EventProperty]"
+"A token right was adjusted.
+
+Subject:
+	Security ID:		S-1-5-18
+	Account Name:		MSEDGEWIN10$
+	Account Domain:		WORKGROUP
+	Logon ID:		0x3E7
+
+Target Account:
+	Security ID:		S-1-5-18
+	Account Name:		MSEDGEWIN10$
+	Account Domain:		WORKGROUP
+	Logon ID:		0x3E7
+
+Process Information:
+	Process ID:		0x9a0
+	Process Name:		C:\Windows\System32\svchost.exe
+
+Enabled Privileges:
+			SeAssignPrimaryTokenPrivilege
+			SeIncreaseQuotaPrivilege
+			SeSecurityPrivilege
+			SeTakeOwnershipPrivilege
+			SeLoadDriverPrivilege
+			SeSystemtimePrivilege
+			SeBackupPrivilege
+			SeRestorePrivilege
+			SeShutdownPrivilege
+			SeSystemEnvironmentPrivilege
+			SeUndockPrivilege
+			SeManageVolumePrivilege
+
+Disabled Privileges:
+			-","4703","0",,"0","13317","0","-9214364837600034816","329923","Microsoft-Windows-Security-Auditing","54849625-5478-4994-a5ba-3e3b0328c30d","Security","4","868","MSEDGEWIN10",,"12/7/2021 9:33:08 AM",,,"System.UInt32[]","System.Diagnostics.Eventing.Reader.EventBookmark","Information","Info","Token Right Adjusted Events","System.Collections.ObjectModel.ReadOnlyCollection`1[System.String]","System.Collections.Generic.List`1[System.Diagnostics.Eventing.Reader.EventProperty]"
+,"10","3",,"4","10","0","-9223372036854775808","619520","Microsoft-Windows-Sysmon","5770385f-c22a-43e0-bf4c-06f5698ffbd9","Microsoft-Windows-Sysmon/Operational","3436","4320","MSEDGEWIN10","S-1-5-18","12/7/2021 9:33:01 AM",,,"System.UInt32[]","System.Diagnostics.Eventing.Reader.EventBookmark",,,,,"System.Collections.Generic.List`1[System.Diagnostics.Eventing.Reader.EventProperty]"
+"A new process has been created.
+
+Creator Subject:
+	Security ID:		S-1-5-21-3461203602-4096304019-2269080069-1000
+	Account Name:		IEUser
+	Account Domain:		MSEDGEWIN10
+	Logon ID:		0x16E3DB3
+
+Target Subject:
+	Security ID:		S-1-5-18
+	Account Name:		MSEDGEWIN10$
+	Account Domain:		WORKGROUP
+	Logon ID:		0x3E7
+
+Process Information:
+	New Process ID:		0x1494
+	New Process Name:	C:\Windows\System32\lsass.exe
+	Token Elevation Type:	%%1936
+	Mandatory Label:		S-1-16-16384
+	Creator Process ID:	0x27c
+	Creator Process Name:	C:\Windows\System32\lsass.exe
+	Process Command Line:	
+
+Token Elevation Type indicates the type of token that was assigned to the new process in accordance with User Account Control policy.
+
+Type 1 is a full token with no privileges removed or groups disabled.  A full token is only used if User Account Control is disabled or if the user is the built-in Administrator account or a service account.
+
+Type 2 is an elevated token with no privileges removed or groups disabled.  An elevated token is used when User Account Control is enabled and the user chooses to start the program using Run as administrator.  An elevated token is also used when an application is configured to always require administrative privilege or to always require maximum privilege, and the user is a member of the Administrators group.
+
+Type 3 is a limited token with administrative privileges removed and administrative groups disabled.  The limited token is used when User Account Control is enabled, the application does not require administrative privilege, and the user does not choose to start the program using Run as administrator.","4688","2",,"0","13312","0","-9214364837600034816","329921","Microsoft-Windows-Security-Auditing","54849625-5478-4994-a5ba-3e3b0328c30d","Security","4","8692","MSEDGEWIN10",,"12/7/2021 9:33:01 AM",,,"System.UInt32[]","System.Diagnostics.Eventing.Reader.EventBookmark","Information","Info","Process Creation","System.Collections.ObjectModel.ReadOnlyCollection`1[System.String]","System.Collections.Generic.List`1[System.Diagnostics.Eventing.Reader.EventProperty]"
+"A new process has been created.
+
+Creator Subject:
+	Security ID:		S-1-5-21-3461203602-4096304019-2269080069-1000
+	Account Name:		IEUser
+	Account Domain:		MSEDGEWIN10
+	Logon ID:		0x16E3DB3
+
+Target Subject:
+	Security ID:		S-1-0-0
+	Account Name:		-
+	Account Domain:		-
+	Logon ID:		0x0
+
+Process Information:
+	New Process ID:		0x11e4
+	New Process Name:	C:\Windows\System32\conhost.exe
+	Token Elevation Type:	%%1936
+	Mandatory Label:		S-1-16-12288
+	Creator Process ID:	0x17b8
+	Creator Process Name:	\Device\Mup\VBoxSvr\Users\bouss\Downloads\MalSeclogon-master\x64\Debug\MalSeclogon.exe
+	Process Command Line:	
+
+Token Elevation Type indicates the type of token that was assigned to the new process in accordance with User Account Control policy.
+
+Type 1 is a full token with no privileges removed or groups disabled.  A full token is only used if User Account Control is disabled or if the user is the built-in Administrator account or a service account.
+
+Type 2 is an elevated token with no privileges removed or groups disabled.  An elevated token is used when User Account Control is enabled and the user chooses to start the program using Run as administrator.  An elevated token is also used when an application is configured to always require administrative privilege or to always require maximum privilege, and the user is a member of the Administrators group.
+
+Type 3 is a limited token with administrative privileges removed and administrative groups disabled.  The limited token is used when User Account Control is enabled, the application does not require administrative privilege, and the user does not choose to start the program using Run as administrator.","4688","2",,"0","13312","0","-9214364837600034816","329920","Microsoft-Windows-Security-Auditing","54849625-5478-4994-a5ba-3e3b0328c30d","Security","4","7648","MSEDGEWIN10",,"12/7/2021 9:33:01 AM",,,"System.UInt32[]","System.Diagnostics.Eventing.Reader.EventBookmark","Information","Info","Process Creation","System.Collections.ObjectModel.ReadOnlyCollection`1[System.String]","System.Collections.Generic.List`1[System.Diagnostics.Eventing.Reader.EventProperty]"
+,"10","3",,"4","10","0","-9223372036854775808","619519","Microsoft-Windows-Sysmon","5770385f-c22a-43e0-bf4c-06f5698ffbd9","Microsoft-Windows-Sysmon/Operational","3436","4320","MSEDGEWIN10","S-1-5-18","12/7/2021 9:33:01 AM",,,"System.UInt32[]","System.Diagnostics.Eventing.Reader.EventBookmark",,,,,"System.Collections.Generic.List`1[System.Diagnostics.Eventing.Reader.EventProperty]"
+,"1","5",,"4","1","0","-9223372036854775808","619518","Microsoft-Windows-Sysmon","5770385f-c22a-43e0-bf4c-06f5698ffbd9","Microsoft-Windows-Sysmon/Operational","3436","4320","MSEDGEWIN10","S-1-5-18","12/7/2021 9:33:01 AM",,,"System.UInt32[]","System.Diagnostics.Eventing.Reader.EventBookmark",,,,,"System.Collections.Generic.List`1[System.Diagnostics.Eventing.Reader.EventProperty]"
+"A new process has been created.
+
+Creator Subject:
+	Security ID:		S-1-5-18
+	Account Name:		MSEDGEWIN10$
+	Account Domain:		WORKGROUP
+	Logon ID:		0x3E7
+
+Target Subject:
+	Security ID:		S-1-0-0
+	Account Name:		IEUser
+	Account Domain:		MSEDGEWIN10
+	Logon ID:		0x16E3DB3
+
+Process Information:
+	New Process ID:		0x17b8
+	New Process Name:	\Device\Mup\VBoxSvr\Users\bouss\Downloads\MalSeclogon-master\x64\Debug\MalSeclogon.exe
+	Token Elevation Type:	%%1936
+	Mandatory Label:		S-1-16-12288
+	Creator Process ID:	0x27c
+	Creator Process Name:	C:\Windows\System32\lsass.exe
+	Process Command Line:	
+
+Token Elevation Type indicates the type of token that was assigned to the new process in accordance with User Account Control policy.
+
+Type 1 is a full token with no privileges removed or groups disabled.  A full token is only used if User Account Control is disabled or if the user is the built-in Administrator account or a service account.
+
+Type 2 is an elevated token with no privileges removed or groups disabled.  An elevated token is used when User Account Control is enabled and the user chooses to start the program using Run as administrator.  An elevated token is also used when an application is configured to always require administrative privilege or to always require maximum privilege, and the user is a member of the Administrators group.
+
+Type 3 is a limited token with administrative privileges removed and administrative groups disabled.  The limited token is used when User Account Control is enabled, the application does not require administrative privilege, and the user does not choose to start the program using Run as administrator.","4688","2",,"0","13312","0","-9214364837600034816","329919","Microsoft-Windows-Security-Auditing","54849625-5478-4994-a5ba-3e3b0328c30d","Security","4","7648","MSEDGEWIN10",,"12/7/2021 9:33:01 AM",,,"System.UInt32[]","System.Diagnostics.Eventing.Reader.EventBookmark","Information","Info","Process Creation","System.Collections.ObjectModel.ReadOnlyCollection`1[System.String]","System.Collections.Generic.List`1[System.Diagnostics.Eventing.Reader.EventProperty]"
+"An account was successfully logged on.
+
+Subject:
+	Security ID:		S-1-5-21-3461203602-4096304019-2269080069-1000
+	Account Name:		IEUser
+	Account Domain:		MSEDGEWIN10
+	Logon ID:		0x53CA2
+
+Logon Information:
+	Logon Type:		9
+	Restricted Admin Mode:	-
+	Virtual Account:		No
+	Elevated Token:		Yes
+
+Impersonation Level:		Impersonation
+
+New Logon:
+	Security ID:		S-1-5-21-3461203602-4096304019-2269080069-1000
+	Account Name:		IEUser
+	Account Domain:		MSEDGEWIN10
+	Logon ID:		0x16E3DB3
+	Linked Logon ID:		0x0
+	Network Account Name:	MalseclogonUser
+	Network Account Domain:	MalseclogonDomain
+	Logon GUID:		{00000000-0000-0000-0000-000000000000}
+
+Process Information:
+	Process ID:		0x1bc4
+	Process Name:		C:\Windows\System32\svchost.exe
+
+Network Information:
+	Workstation Name:	-
+	Source Network Address:	::1
+	Source Port:		0
+
+Detailed Authentication Information:
+	Logon Process:		seclogo
+	Authentication Package:	Negotiate
+	Transited Services:	-
+	Package Name (NTLM only):	-
+	Key Length:		0
+
+This event is generated when a logon session is created. It is generated on the computer that was accessed.
+
+The subject fields indicate the account on the local system which requested the logon. This is most commonly a service such as the Server service, or a local process such as Winlogon.exe or Services.exe.
+
+The logon type field indicates the kind of logon that occurred. The most common types are 2 (interactive) and 3 (network).
+
+The New Logon fields indicate the account for whom the new logon was created, i.e. the account that was logged on.
+
+The network fields indicate where a remote logon request originated. Workstation name is not always available and may be left blank in some cases.
+
+The impersonation level field indicates the extent to which a process in the logon session can impersonate.
+
+The authentication information fields provide detailed information about this specific logon request.
+	- Logon GUID is a unique identifier that can be used to correlate this event with a KDC event.
+	- Transited services indicate which intermediate services have participated in this logon request.
+	- Package name indicates which sub-protocol was used among the NTLM protocols.
+	- Key length indicates the length of the generated session key. This will be 0 if no session key was requested.","4624","2",,"0","12544","0","-9214364837600034816","329918","Microsoft-Windows-Security-Auditing","54849625-5478-4994-a5ba-3e3b0328c30d","Security","636","7156","MSEDGEWIN10",,"12/7/2021 9:33:01 AM","b04cb785-ebd3-0000-16b8-4cb0d3ebd701",,"System.UInt32[]","System.Diagnostics.Eventing.Reader.EventBookmark","Information","Info","Logon","System.Collections.ObjectModel.ReadOnlyCollection`1[System.String]","System.Collections.Generic.List`1[System.Diagnostics.Eventing.Reader.EventProperty]"
+,"10","3",,"4","10","0","-9223372036854775808","619517","Microsoft-Windows-Sysmon","5770385f-c22a-43e0-bf4c-06f5698ffbd9","Microsoft-Windows-Sysmon/Operational","3436","4320","MSEDGEWIN10","S-1-5-18","12/7/2021 9:33:01 AM",,,"System.UInt32[]","System.Diagnostics.Eventing.Reader.EventBookmark",,,,,"System.Collections.Generic.List`1[System.Diagnostics.Eventing.Reader.EventProperty]"
+,"1","5",,"4","1","0","-9223372036854775808","619516","Microsoft-Windows-Sysmon","5770385f-c22a-43e0-bf4c-06f5698ffbd9","Microsoft-Windows-Sysmon/Operational","3436","4320","MSEDGEWIN10","S-1-5-18","12/7/2021 9:33:01 AM",,,"System.UInt32[]","System.Diagnostics.Eventing.Reader.EventBookmark",,,,,"System.Collections.Generic.List`1[System.Diagnostics.Eventing.Reader.EventProperty]"
+"A new process has been created.
+
+Creator Subject:
+	Security ID:		S-1-5-18
+	Account Name:		MSEDGEWIN10$
+	Account Domain:		WORKGROUP
+	Logon ID:		0x3E7
+
+Target Subject:
+	Security ID:		S-1-0-0
+	Account Name:		-
+	Account Domain:		-
+	Logon ID:		0x0
+
+Process Information:
+	New Process ID:		0x1bc4
+	New Process Name:	C:\Windows\System32\svchost.exe
+	Token Elevation Type:	%%1936
+	Mandatory Label:		S-1-16-16384
+	Creator Process ID:	0x274
+	Creator Process Name:	C:\Windows\System32\services.exe
+	Process Command Line:	
+
+Token Elevation Type indicates the type of token that was assigned to the new process in accordance with User Account Control policy.
+
+Type 1 is a full token with no privileges removed or groups disabled.  A full token is only used if User Account Control is disabled or if the user is the built-in Administrator account or a service account.
+
+Type 2 is an elevated token with no privileges removed or groups disabled.  An elevated token is used when User Account Control is enabled and the user chooses to start the program using Run as administrator.  An elevated token is also used when an application is configured to always require administrative privilege or to always require maximum privilege, and the user is a member of the Administrators group.
+
+Type 3 is a limited token with administrative privileges removed and administrative groups disabled.  The limited token is used when User Account Control is enabled, the application does not require administrative privilege, and the user does not choose to start the program using Run as administrator.","4688","2",,"0","13312","0","-9214364837600034816","329916","Microsoft-Windows-Security-Auditing","54849625-5478-4994-a5ba-3e3b0328c30d","Security","4","8692","MSEDGEWIN10",,"12/7/2021 9:33:01 AM",,,"System.UInt32[]","System.Diagnostics.Eventing.Reader.EventBookmark","Information","Info","Process Creation","System.Collections.ObjectModel.ReadOnlyCollection`1[System.String]","System.Collections.Generic.List`1[System.Diagnostics.Eventing.Reader.EventProperty]"
+"A token right was adjusted.
+
+Subject:
+	Security ID:		S-1-5-21-3461203602-4096304019-2269080069-1000
+	Account Name:		IEUser
+	Account Domain:		MSEDGEWIN10
+	Logon ID:		0x53CA2
+
+Target Account:
+	Security ID:		S-1-5-21-3461203602-4096304019-2269080069-1000
+	Account Name:		IEUser
+	Account Domain:		MSEDGEWIN10
+	Logon ID:		0x53CA2
+
+Process Information:
+	Process ID:		0x21a4
+	Process Name:		\Device\Mup\VBoxSvr\Users\bouss\Downloads\MalSeclogon-master\x64\Debug\MalSeclogon.exe
+
+Enabled Privileges:
+			SeDebugPrivilege
+
+Disabled Privileges:
+			-","4703","0",,"0","13317","0","-9214364837600034816","329915","Microsoft-Windows-Security-Auditing","54849625-5478-4994-a5ba-3e3b0328c30d","Security","4","8692","MSEDGEWIN10",,"12/7/2021 9:33:01 AM",,,"System.UInt32[]","System.Diagnostics.Eventing.Reader.EventBookmark","Information","Info","Token Right Adjusted Events","System.Collections.ObjectModel.ReadOnlyCollection`1[System.String]","System.Collections.Generic.List`1[System.Diagnostics.Eventing.Reader.EventProperty]"
+,"1","5",,"4","1","0","-9223372036854775808","619515","Microsoft-Windows-Sysmon","5770385f-c22a-43e0-bf4c-06f5698ffbd9","Microsoft-Windows-Sysmon/Operational","3436","4320","MSEDGEWIN10","S-1-5-18","12/7/2021 9:33:01 AM",,,"System.UInt32[]","System.Diagnostics.Eventing.Reader.EventBookmark",,,,,"System.Collections.Generic.List`1[System.Diagnostics.Eventing.Reader.EventProperty]"
+"A new process has been created.
+
+Creator Subject:
+	Security ID:		S-1-5-21-3461203602-4096304019-2269080069-1000
+	Account Name:		IEUser
+	Account Domain:		MSEDGEWIN10
+	Logon ID:		0x53CA2
+
+Target Subject:
+	Security ID:		S-1-0-0
+	Account Name:		-
+	Account Domain:		-
+	Logon ID:		0x0
+
+Process Information:
+	New Process ID:		0x21a4
+	New Process Name:	\Device\Mup\VBoxSvr\Users\bouss\Downloads\MalSeclogon-master\x64\Debug\MalSeclogon.exe
+	Token Elevation Type:	%%1937
+	Mandatory Label:		S-1-16-12288
+	Creator Process ID:	0x2480
+	Creator Process Name:	C:\Windows\System32\cmd.exe
+	Process Command Line:	
+
+Token Elevation Type indicates the type of token that was assigned to the new process in accordance with User Account Control policy.
+
+Type 1 is a full token with no privileges removed or groups disabled.  A full token is only used if User Account Control is disabled or if the user is the built-in Administrator account or a service account.
+
+Type 2 is an elevated token with no privileges removed or groups disabled.  An elevated token is used when User Account Control is enabled and the user chooses to start the program using Run as administrator.  An elevated token is also used when an application is configured to always require administrative privilege or to always require maximum privilege, and the user is a member of the Administrators group.
+
+Type 3 is a limited token with administrative privileges removed and administrative groups disabled.  The limited token is used when User Account Control is enabled, the application does not require administrative privilege, and the user does not choose to start the program using Run as administrator.","4688","2",,"0","13312","0","-9214364837600034816","329914","Microsoft-Windows-Security-Auditing","54849625-5478-4994-a5ba-3e3b0328c30d","Security","4","8692","MSEDGEWIN10",,"12/7/2021 9:33:01 AM",,,"System.UInt32[]","System.Diagnostics.Eventing.Reader.EventBookmark","Information","Info","Process Creation","System.Collections.ObjectModel.ReadOnlyCollection`1[System.String]","System.Collections.Generic.List`1[System.Diagnostics.Eventing.Reader.EventProperty]"
