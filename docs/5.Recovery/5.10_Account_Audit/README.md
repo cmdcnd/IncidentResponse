@@ -8,8 +8,8 @@ Review standard and privilege accounts to identify and remediate users with acce
 ## Standards  
 In accordance with Principle of Least Permissions, privileged roles and standard roles must to reviewed on regular basis.    
 
-Privileged and Stanrdard roles(accounts) should have minimum permissions to allow daily operations.  
-All prvilege accounts should be separate per roles.  (i.e.  Domain Admins - DA-username, Servers - svc-username,   DNS - dns-username)  
+Privileged and Standard roles(accounts) should have minimum permissions to allow daily operations.  
+All privilege accounts should be separate per roles.  (i.e.  Domain Admins - DA-username, Servers - svc-username,   DNS - dns-username)  
 
 * Privilege roles (100% Check monthly)  
 	* Enterprise administrators  

@@ -7,6 +7,7 @@ The agency will generate and retain audit logs for a period of 6 months or longe
 
 ## Standards  
 Must provide logs for the following for 6 months:  
+
 * Firewall Events  
 * DNS ingress and egress logs  
 * Domain Controller Events  

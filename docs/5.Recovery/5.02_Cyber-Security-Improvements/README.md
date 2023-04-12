@@ -7,6 +7,7 @@ Given an IR Team deployed supporting a designated MP in Cyber Incident Recovery.
 
 ## Standards  
 Upon moving into the Recovery Phase, the DCO-E should review their documentation and findings (from previous port, network, service, and vulnerability scans) to provide improvement recommendations to the MP.  These recommendations may include the following areas:  
+
 * Unauthorized Devices  
 * Unauthorized Software  
 * Hardware and Software Configurations  

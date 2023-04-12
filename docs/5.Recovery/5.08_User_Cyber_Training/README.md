@@ -3,6 +3,7 @@
 
 ## Conditions  
 Provide users monthly and yearly training  
+
 * Cyber Security Awareness Training  
 * Phishing Security Training  
 

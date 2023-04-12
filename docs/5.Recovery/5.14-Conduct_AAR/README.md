@@ -7,6 +7,7 @@ Given an IR Team deployed supporting a designated MP in Cyber Incident Recovery.
 
 ## Standards  
 Upon moving into the redeployment Phase, the IR Team should develop an AAR containing the following elements:  
+
 * List of Participants  
 * Review key actions/event that occurred during mission  
 * Analysis of Lessons Learned  

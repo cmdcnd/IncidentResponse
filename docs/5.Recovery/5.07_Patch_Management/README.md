@@ -14,6 +14,7 @@ Create task(s) to continuously perform vulnerability scans of all assets.  Ident
 
 ## End State  
 Must produce proof of recurring patch management and continuous monitoring.  
+
 * Vulnerability scan history of 2 months  
 * Patch management history of 2 months  
 * No critical and high risk vulnerabilities detected over 30 days of detection  

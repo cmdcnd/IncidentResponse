@@ -7,6 +7,7 @@ Given a IR Team deployed supporting a designated MP in a completed Cyber Inciden
 
 ## Standards  
 A mission out briefing should be conducted to inform MP of the completed cyber incident recovery mission. During this briefing, the following items should be included in briefing:  
+
 * After Action Review (containing follow up report and lessons learned)  
 * Lessons Learned  
 * Question and Answer Session  

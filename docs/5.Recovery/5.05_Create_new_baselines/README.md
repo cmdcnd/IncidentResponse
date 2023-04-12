@@ -3,6 +3,7 @@
 
 ## Conditions  
 Create baseline image(s) for the following(s) to meet the compliance against the NIST Moderate standards  
+
 * Hosts  
 * Servers  
 * Domain Controller(s)  
