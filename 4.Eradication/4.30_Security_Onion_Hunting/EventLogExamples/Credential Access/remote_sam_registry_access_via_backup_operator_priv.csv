@@ -1,0 +1,1032 @@
+"Message","Id","Version","Qualifiers","Level","Task","Opcode","Keywords","RecordId","ProviderName","ProviderId","LogName","ProcessId","ThreadId","MachineName","UserId","TimeCreated","ActivityId","RelatedActivityId","MatchedQueryIds","Bookmark","LevelDisplayName","OpcodeDisplayName","TaskDisplayName","KeywordsDisplayNames","Properties"
+"Group membership information.
+
+Subject:
+	Security ID:		S-1-0-0
+	Account Name:		-
+	Account Domain:		-
+	Logon ID:		0x0
+
+Logon Type:			3
+
+New Logon:
+	Security ID:		S-1-5-18
+	Account Name:		01566S-WIN16-IR$
+	Account Domain:		THREEBEESCO.COM
+	Logon ID:		0x568D99
+
+Event in sequence:		1 of 1
+
+Group Membership:			
+		%{S-1-5-32-544}
+		%{S-1-1-0}
+		%{S-1-5-32-545}
+		%{S-1-5-32-554}
+		%{S-1-5-32-560}
+		%{S-1-5-2}
+		%{S-1-5-11}
+		%{S-1-5-15}
+		%{S-1-5-21-308926384-506822093-3341789130-35103}
+		%{S-1-5-21-308926384-506822093-3341789130-516}
+		%{S-1-5-9}
+		%{S-1-18-1}
+		%{S-1-5-21-308926384-506822093-3341789130-572}
+		%{S-1-16-16384}
+
+The subject fields indicate the account on the local system which requested the logon. This is most commonly a service such as the Server service, or a local process such as Winlogon.exe or Services.exe.
+
+The logon type field indicates the kind of logon that occurred. The most common types are 2 (interactive) and 3 (network).
+
+The New Logon fields indicate the account for whom the new logon was created, i.e. the account that was logged on.
+
+This event is generated when the Audit Group Membership subcategory is configured.  The Logon ID field can be used to correlate this event with the corresponding user logon event as well as to any other security audit events generated during this logon session.","4627","0",,"0","12554","0","-9214364837600034816","2988551","Microsoft-Windows-Security-Auditing","54849625-5478-4994-a5ba-3e3b0328c30d","Security","624","3868","01566s-win16-ir.threebeesco.com",,"2/16/2022 2:37:25 AM",,,"System.UInt32[]","System.Diagnostics.Eventing.Reader.EventBookmark","Information","Info","Group Membership","System.Collections.ObjectModel.ReadOnlyCollection`1[System.String]","System.Collections.Generic.List`1[System.Diagnostics.Eventing.Reader.EventProperty]"
+"An account was successfully logged on.
+
+Subject:
+	Security ID:		S-1-0-0
+	Account Name:		-
+	Account Domain:		-
+	Logon ID:		0x0
+
+Logon Information:
+	Logon Type:		3
+	Restricted Admin Mode:	-
+	Virtual Account:		No
+	Elevated Token:		Yes
+
+Impersonation Level:		Impersonation
+
+New Logon:
+	Security ID:		S-1-5-18
+	Account Name:		01566S-WIN16-IR$
+	Account Domain:		THREEBEESCO.COM
+	Logon ID:		0x568D99
+	Linked Logon ID:		0x0
+	Network Account Name:	-
+	Network Account Domain:	-
+	Logon GUID:		{b683bafb-5884-30e1-12da-31368f04511d}
+
+Process Information:
+	Process ID:		0x0
+	Process Name:		-
+
+Network Information:
+	Workstation Name:	-
+	Source Network Address:	::1
+	Source Port:		64229
+
+Detailed Authentication Information:
+	Logon Process:		Kerberos
+	Authentication Package:	Kerberos
+	Transited Services:	-
+	Package Name (NTLM only):	-
+	Key Length:		0
+
+This event is generated when a logon session is created. It is generated on the computer that was accessed.
+
+The subject fields indicate the account on the local system which requested the logon. This is most commonly a service such as the Server service, or a local process such as Winlogon.exe or Services.exe.
+
+The logon type field indicates the kind of logon that occurred. The most common types are 2 (interactive) and 3 (network).
+
+The New Logon fields indicate the account for whom the new logon was created, i.e. the account that was logged on.
+
+The network fields indicate where a remote logon request originated. Workstation name is not always available and may be left blank in some cases.
+
+The impersonation level field indicates the extent to which a process in the logon session can impersonate.
+
+The authentication information fields provide detailed information about this specific logon request.
+	- Logon GUID is a unique identifier that can be used to correlate this event with a KDC event.
+	- Transited services indicate which intermediate services have participated in this logon request.
+	- Package name indicates which sub-protocol was used among the NTLM protocols.
+	- Key length indicates the length of the generated session key. This will be 0 if no session key was requested.","4624","2",,"0","12544","0","-9214364837600034816","2988550","Microsoft-Windows-Security-Auditing","54849625-5478-4994-a5ba-3e3b0328c30d","Security","624","3868","01566s-win16-ir.threebeesco.com",,"2/16/2022 2:37:25 AM",,,"System.UInt32[]","System.Diagnostics.Eventing.Reader.EventBookmark","Information","Info","Logon","System.Collections.ObjectModel.ReadOnlyCollection`1[System.String]","System.Collections.Generic.List`1[System.Diagnostics.Eventing.Reader.EventProperty]"
+"Special privileges assigned to new logon.
+
+Subject:
+	Security ID:		S-1-5-18
+	Account Name:		01566S-WIN16-IR$
+	Account Domain:		3B
+	Logon ID:		0x568D99
+
+Privileges:		SeSecurityPrivilege
+			SeBackupPrivilege
+			SeRestorePrivilege
+			SeTakeOwnershipPrivilege
+			SeDebugPrivilege
+			SeSystemEnvironmentPrivilege
+			SeLoadDriverPrivilege
+			SeImpersonatePrivilege
+			SeDelegateSessionUserImpersonatePrivilege
+			SeEnableDelegationPrivilege","4672","0",,"0","12548","0","-9214364837600034816","2988549","Microsoft-Windows-Security-Auditing","54849625-5478-4994-a5ba-3e3b0328c30d","Security","624","3868","01566s-win16-ir.threebeesco.com",,"2/16/2022 2:37:25 AM",,,"System.UInt32[]","System.Diagnostics.Eventing.Reader.EventBookmark","Information","Info","Special Logon","System.Collections.ObjectModel.ReadOnlyCollection`1[System.String]","System.Collections.Generic.List`1[System.Diagnostics.Eventing.Reader.EventProperty]"
+"Group membership information.
+
+Subject:
+	Security ID:		S-1-0-0
+	Account Name:		-
+	Account Domain:		-
+	Logon ID:		0x0
+
+Logon Type:			3
+
+New Logon:
+	Security ID:		S-1-5-18
+	Account Name:		01566S-WIN16-IR$
+	Account Domain:		THREEBEESCO.COM
+	Logon ID:		0x56874B
+
+Event in sequence:		1 of 1
+
+Group Membership:			
+		%{S-1-5-32-544}
+		%{S-1-1-0}
+		%{S-1-5-32-545}
+		%{S-1-5-32-554}
+		%{S-1-5-32-560}
+		%{S-1-5-2}
+		%{S-1-5-11}
+		%{S-1-5-15}
+		%{S-1-5-21-308926384-506822093-3341789130-35103}
+		%{S-1-5-21-308926384-506822093-3341789130-516}
+		%{S-1-5-9}
+		%{S-1-18-1}
+		%{S-1-5-21-308926384-506822093-3341789130-572}
+		%{S-1-16-16384}
+
+The subject fields indicate the account on the local system which requested the logon. This is most commonly a service such as the Server service, or a local process such as Winlogon.exe or Services.exe.
+
+The logon type field indicates the kind of logon that occurred. The most common types are 2 (interactive) and 3 (network).
+
+The New Logon fields indicate the account for whom the new logon was created, i.e. the account that was logged on.
+
+This event is generated when the Audit Group Membership subcategory is configured.  The Logon ID field can be used to correlate this event with the corresponding user logon event as well as to any other security audit events generated during this logon session.","4627","0",,"0","12554","0","-9214364837600034816","2988548","Microsoft-Windows-Security-Auditing","54849625-5478-4994-a5ba-3e3b0328c30d","Security","624","4528","01566s-win16-ir.threebeesco.com",,"2/16/2022 2:37:22 AM",,,"System.UInt32[]","System.Diagnostics.Eventing.Reader.EventBookmark","Information","Info","Group Membership","System.Collections.ObjectModel.ReadOnlyCollection`1[System.String]","System.Collections.Generic.List`1[System.Diagnostics.Eventing.Reader.EventProperty]"
+"An account was successfully logged on.
+
+Subject:
+	Security ID:		S-1-0-0
+	Account Name:		-
+	Account Domain:		-
+	Logon ID:		0x0
+
+Logon Information:
+	Logon Type:		3
+	Restricted Admin Mode:	-
+	Virtual Account:		No
+	Elevated Token:		Yes
+
+Impersonation Level:		Impersonation
+
+New Logon:
+	Security ID:		S-1-5-18
+	Account Name:		01566S-WIN16-IR$
+	Account Domain:		THREEBEESCO.COM
+	Logon ID:		0x56874B
+	Linked Logon ID:		0x0
+	Network Account Name:	-
+	Network Account Domain:	-
+	Logon GUID:		{b683bafb-5884-30e1-12da-31368f04511d}
+
+Process Information:
+	Process ID:		0x0
+	Process Name:		-
+
+Network Information:
+	Workstation Name:	-
+	Source Network Address:	::1
+	Source Port:		64227
+
+Detailed Authentication Information:
+	Logon Process:		Kerberos
+	Authentication Package:	Kerberos
+	Transited Services:	-
+	Package Name (NTLM only):	-
+	Key Length:		0
+
+This event is generated when a logon session is created. It is generated on the computer that was accessed.
+
+The subject fields indicate the account on the local system which requested the logon. This is most commonly a service such as the Server service, or a local process such as Winlogon.exe or Services.exe.
+
+The logon type field indicates the kind of logon that occurred. The most common types are 2 (interactive) and 3 (network).
+
+The New Logon fields indicate the account for whom the new logon was created, i.e. the account that was logged on.
+
+The network fields indicate where a remote logon request originated. Workstation name is not always available and may be left blank in some cases.
+
+The impersonation level field indicates the extent to which a process in the logon session can impersonate.
+
+The authentication information fields provide detailed information about this specific logon request.
+	- Logon GUID is a unique identifier that can be used to correlate this event with a KDC event.
+	- Transited services indicate which intermediate services have participated in this logon request.
+	- Package name indicates which sub-protocol was used among the NTLM protocols.
+	- Key length indicates the length of the generated session key. This will be 0 if no session key was requested.","4624","2",,"0","12544","0","-9214364837600034816","2988547","Microsoft-Windows-Security-Auditing","54849625-5478-4994-a5ba-3e3b0328c30d","Security","624","4528","01566s-win16-ir.threebeesco.com",,"2/16/2022 2:37:22 AM",,,"System.UInt32[]","System.Diagnostics.Eventing.Reader.EventBookmark","Information","Info","Logon","System.Collections.ObjectModel.ReadOnlyCollection`1[System.String]","System.Collections.Generic.List`1[System.Diagnostics.Eventing.Reader.EventProperty]"
+"Special privileges assigned to new logon.
+
+Subject:
+	Security ID:		S-1-5-18
+	Account Name:		01566S-WIN16-IR$
+	Account Domain:		3B
+	Logon ID:		0x56874B
+
+Privileges:		SeSecurityPrivilege
+			SeBackupPrivilege
+			SeRestorePrivilege
+			SeTakeOwnershipPrivilege
+			SeDebugPrivilege
+			SeSystemEnvironmentPrivilege
+			SeLoadDriverPrivilege
+			SeImpersonatePrivilege
+			SeDelegateSessionUserImpersonatePrivilege
+			SeEnableDelegationPrivilege","4672","0",,"0","12548","0","-9214364837600034816","2988546","Microsoft-Windows-Security-Auditing","54849625-5478-4994-a5ba-3e3b0328c30d","Security","624","4528","01566s-win16-ir.threebeesco.com",,"2/16/2022 2:37:22 AM",,,"System.UInt32[]","System.Diagnostics.Eventing.Reader.EventBookmark","Information","Info","Special Logon","System.Collections.ObjectModel.ReadOnlyCollection`1[System.String]","System.Collections.Generic.List`1[System.Diagnostics.Eventing.Reader.EventProperty]"
+"Group membership information.
+
+Subject:
+	Security ID:		S-1-0-0
+	Account Name:		-
+	Account Domain:		-
+	Logon ID:		0x0
+
+Logon Type:			3
+
+New Logon:
+	Security ID:		S-1-5-18
+	Account Name:		01566S-WIN16-IR$
+	Account Domain:		THREEBEESCO.COM
+	Logon ID:		0x5686D9
+
+Event in sequence:		1 of 1
+
+Group Membership:			
+		%{S-1-5-32-544}
+		%{S-1-1-0}
+		%{S-1-5-32-545}
+		%{S-1-5-32-554}
+		%{S-1-5-32-560}
+		%{S-1-5-2}
+		%{S-1-5-11}
+		%{S-1-5-15}
+		%{S-1-5-21-308926384-506822093-3341789130-35103}
+		%{S-1-5-21-308926384-506822093-3341789130-516}
+		%{S-1-5-9}
+		%{S-1-18-1}
+		%{S-1-5-21-308926384-506822093-3341789130-572}
+		%{S-1-16-16384}
+
+The subject fields indicate the account on the local system which requested the logon. This is most commonly a service such as the Server service, or a local process such as Winlogon.exe or Services.exe.
+
+The logon type field indicates the kind of logon that occurred. The most common types are 2 (interactive) and 3 (network).
+
+The New Logon fields indicate the account for whom the new logon was created, i.e. the account that was logged on.
+
+This event is generated when the Audit Group Membership subcategory is configured.  The Logon ID field can be used to correlate this event with the corresponding user logon event as well as to any other security audit events generated during this logon session.","4627","0",,"0","12554","0","-9214364837600034816","2988545","Microsoft-Windows-Security-Auditing","54849625-5478-4994-a5ba-3e3b0328c30d","Security","624","4524","01566s-win16-ir.threebeesco.com",,"2/16/2022 2:37:22 AM",,,"System.UInt32[]","System.Diagnostics.Eventing.Reader.EventBookmark","Information","Info","Group Membership","System.Collections.ObjectModel.ReadOnlyCollection`1[System.String]","System.Collections.Generic.List`1[System.Diagnostics.Eventing.Reader.EventProperty]"
+"An account was successfully logged on.
+
+Subject:
+	Security ID:		S-1-0-0
+	Account Name:		-
+	Account Domain:		-
+	Logon ID:		0x0
+
+Logon Information:
+	Logon Type:		3
+	Restricted Admin Mode:	-
+	Virtual Account:		No
+	Elevated Token:		Yes
+
+Impersonation Level:		Impersonation
+
+New Logon:
+	Security ID:		S-1-5-18
+	Account Name:		01566S-WIN16-IR$
+	Account Domain:		THREEBEESCO.COM
+	Logon ID:		0x5686D9
+	Linked Logon ID:		0x0
+	Network Account Name:	-
+	Network Account Domain:	-
+	Logon GUID:		{b683bafb-5884-30e1-12da-31368f04511d}
+
+Process Information:
+	Process ID:		0x0
+	Process Name:		-
+
+Network Information:
+	Workstation Name:	-
+	Source Network Address:	::1
+	Source Port:		64226
+
+Detailed Authentication Information:
+	Logon Process:		Kerberos
+	Authentication Package:	Kerberos
+	Transited Services:	-
+	Package Name (NTLM only):	-
+	Key Length:		0
+
+This event is generated when a logon session is created. It is generated on the computer that was accessed.
+
+The subject fields indicate the account on the local system which requested the logon. This is most commonly a service such as the Server service, or a local process such as Winlogon.exe or Services.exe.
+
+The logon type field indicates the kind of logon that occurred. The most common types are 2 (interactive) and 3 (network).
+
+The New Logon fields indicate the account for whom the new logon was created, i.e. the account that was logged on.
+
+The network fields indicate where a remote logon request originated. Workstation name is not always available and may be left blank in some cases.
+
+The impersonation level field indicates the extent to which a process in the logon session can impersonate.
+
+The authentication information fields provide detailed information about this specific logon request.
+	- Logon GUID is a unique identifier that can be used to correlate this event with a KDC event.
+	- Transited services indicate which intermediate services have participated in this logon request.
+	- Package name indicates which sub-protocol was used among the NTLM protocols.
+	- Key length indicates the length of the generated session key. This will be 0 if no session key was requested.","4624","2",,"0","12544","0","-9214364837600034816","2988544","Microsoft-Windows-Security-Auditing","54849625-5478-4994-a5ba-3e3b0328c30d","Security","624","4524","01566s-win16-ir.threebeesco.com",,"2/16/2022 2:37:22 AM",,,"System.UInt32[]","System.Diagnostics.Eventing.Reader.EventBookmark","Information","Info","Logon","System.Collections.ObjectModel.ReadOnlyCollection`1[System.String]","System.Collections.Generic.List`1[System.Diagnostics.Eventing.Reader.EventProperty]"
+"Special privileges assigned to new logon.
+
+Subject:
+	Security ID:		S-1-5-18
+	Account Name:		01566S-WIN16-IR$
+	Account Domain:		3B
+	Logon ID:		0x5686D9
+
+Privileges:		SeSecurityPrivilege
+			SeBackupPrivilege
+			SeRestorePrivilege
+			SeTakeOwnershipPrivilege
+			SeDebugPrivilege
+			SeSystemEnvironmentPrivilege
+			SeLoadDriverPrivilege
+			SeImpersonatePrivilege
+			SeDelegateSessionUserImpersonatePrivilege
+			SeEnableDelegationPrivilege","4672","0",,"0","12548","0","-9214364837600034816","2988543","Microsoft-Windows-Security-Auditing","54849625-5478-4994-a5ba-3e3b0328c30d","Security","624","4524","01566s-win16-ir.threebeesco.com",,"2/16/2022 2:37:22 AM",,,"System.UInt32[]","System.Diagnostics.Eventing.Reader.EventBookmark","Information","Info","Special Logon","System.Collections.ObjectModel.ReadOnlyCollection`1[System.String]","System.Collections.Generic.List`1[System.Diagnostics.Eventing.Reader.EventProperty]"
+"A network share object was checked to see whether client can be granted desired access.
+	
+Subject:
+	Security ID:		S-1-5-21-308926384-506822093-3341789130-220106
+	Account Name:		samir
+	Account Domain:		3B
+	Logon ID:		0x567758
+
+Network Information:	
+	Object Type:		File
+	Source Address:		172.16.66.36
+	Source Port:		64224
+	
+Share Information:
+	Share Name:		\\*\C$
+	Share Path:		\??\C:\
+	Relative Target Name:	Users\PSECURITY
+
+Access Request Information:
+	Access Mask:		0x2
+	Accesses:		WriteData (or AddFile)
+				
+Access Check Results:
+	-
+","5145","0",,"0","12811","0","-9214364837600034816","2988542","Microsoft-Windows-Security-Auditing","54849625-5478-4994-a5ba-3e3b0328c30d","Security","4","7720","01566s-win16-ir.threebeesco.com",,"2/16/2022 2:37:20 AM",,,"System.UInt32[]","System.Diagnostics.Eventing.Reader.EventBookmark","Information","Info","Detailed File Share","System.Collections.ObjectModel.ReadOnlyCollection`1[System.String]","System.Collections.Generic.List`1[System.Diagnostics.Eventing.Reader.EventProperty]"
+"A network share object was checked to see whether client can be granted desired access.
+	
+Subject:
+	Security ID:		S-1-5-21-308926384-506822093-3341789130-220106
+	Account Name:		samir
+	Account Domain:		3B
+	Logon ID:		0x567758
+
+Network Information:	
+	Object Type:		File
+	Source Address:		172.16.66.36
+	Source Port:		64224
+	
+Share Information:
+	Share Name:		\\*\C$
+	Share Path:		\??\C:\
+	Relative Target Name:	Users\PSECURITY
+
+Access Request Information:
+	Access Mask:		0x120196
+	Accesses:		READ_CONTROL
+				SYNCHRONIZE
+				WriteData (or AddFile)
+				AppendData (or AddSubdirectory or CreatePipeInstance)
+				WriteEA
+				ReadAttributes
+				WriteAttributes
+				
+Access Check Results:
+	-
+","5145","0",,"0","12811","0","-9214364837600034816","2988541","Microsoft-Windows-Security-Auditing","54849625-5478-4994-a5ba-3e3b0328c30d","Security","4","7720","01566s-win16-ir.threebeesco.com",,"2/16/2022 2:37:20 AM",,,"System.UInt32[]","System.Diagnostics.Eventing.Reader.EventBookmark","Information","Info","Detailed File Share","System.Collections.ObjectModel.ReadOnlyCollection`1[System.String]","System.Collections.Generic.List`1[System.Diagnostics.Eventing.Reader.EventProperty]"
+"A network share object was checked to see whether client can be granted desired access.
+	
+Subject:
+	Security ID:		S-1-5-21-308926384-506822093-3341789130-220106
+	Account Name:		samir
+	Account Domain:		3B
+	Logon ID:		0x567758
+
+Network Information:	
+	Object Type:		File
+	Source Address:		172.16.66.36
+	Source Port:		64224
+	
+Share Information:
+	Share Name:		\\*\C$
+	Share Path:		\??\C:\
+	Relative Target Name:	Users\PSYSTEM
+
+Access Request Information:
+	Access Mask:		0x2
+	Accesses:		WriteData (or AddFile)
+				
+Access Check Results:
+	-
+","5145","0",,"0","12811","0","-9214364837600034816","2988540","Microsoft-Windows-Security-Auditing","54849625-5478-4994-a5ba-3e3b0328c30d","Security","4","7720","01566s-win16-ir.threebeesco.com",,"2/16/2022 2:37:20 AM",,,"System.UInt32[]","System.Diagnostics.Eventing.Reader.EventBookmark","Information","Info","Detailed File Share","System.Collections.ObjectModel.ReadOnlyCollection`1[System.String]","System.Collections.Generic.List`1[System.Diagnostics.Eventing.Reader.EventProperty]"
+"A network share object was checked to see whether client can be granted desired access.
+	
+Subject:
+	Security ID:		S-1-5-21-308926384-506822093-3341789130-220106
+	Account Name:		samir
+	Account Domain:		3B
+	Logon ID:		0x567758
+
+Network Information:	
+	Object Type:		File
+	Source Address:		172.16.66.36
+	Source Port:		64224
+	
+Share Information:
+	Share Name:		\\*\C$
+	Share Path:		\??\C:\
+	Relative Target Name:	Users\PSYSTEM
+
+Access Request Information:
+	Access Mask:		0x120196
+	Accesses:		READ_CONTROL
+				SYNCHRONIZE
+				WriteData (or AddFile)
+				AppendData (or AddSubdirectory or CreatePipeInstance)
+				WriteEA
+				ReadAttributes
+				WriteAttributes
+				
+Access Check Results:
+	-
+","5145","0",,"0","12811","0","-9214364837600034816","2988539","Microsoft-Windows-Security-Auditing","54849625-5478-4994-a5ba-3e3b0328c30d","Security","4","7720","01566s-win16-ir.threebeesco.com",,"2/16/2022 2:37:20 AM",,,"System.UInt32[]","System.Diagnostics.Eventing.Reader.EventBookmark","Information","Info","Detailed File Share","System.Collections.ObjectModel.ReadOnlyCollection`1[System.String]","System.Collections.Generic.List`1[System.Diagnostics.Eventing.Reader.EventProperty]"
+"A network share object was checked to see whether client can be granted desired access.
+	
+Subject:
+	Security ID:		S-1-5-21-308926384-506822093-3341789130-220106
+	Account Name:		samir
+	Account Domain:		3B
+	Logon ID:		0x567758
+
+Network Information:	
+	Object Type:		File
+	Source Address:		172.16.66.36
+	Source Port:		64224
+	
+Share Information:
+	Share Name:		\\*\C$
+	Share Path:		\??\C:\
+	Relative Target Name:	Users\PSAM
+
+Access Request Information:
+	Access Mask:		0x2
+	Accesses:		WriteData (or AddFile)
+				
+Access Check Results:
+	-
+","5145","0",,"0","12811","0","-9214364837600034816","2988538","Microsoft-Windows-Security-Auditing","54849625-5478-4994-a5ba-3e3b0328c30d","Security","4","7720","01566s-win16-ir.threebeesco.com",,"2/16/2022 2:37:20 AM",,,"System.UInt32[]","System.Diagnostics.Eventing.Reader.EventBookmark","Information","Info","Detailed File Share","System.Collections.ObjectModel.ReadOnlyCollection`1[System.String]","System.Collections.Generic.List`1[System.Diagnostics.Eventing.Reader.EventProperty]"
+"A network share object was checked to see whether client can be granted desired access.
+	
+Subject:
+	Security ID:		S-1-5-21-308926384-506822093-3341789130-220106
+	Account Name:		samir
+	Account Domain:		3B
+	Logon ID:		0x567758
+
+Network Information:	
+	Object Type:		File
+	Source Address:		172.16.66.36
+	Source Port:		64224
+	
+Share Information:
+	Share Name:		\\*\C$
+	Share Path:		\??\C:\
+	Relative Target Name:	Users\PSAM
+
+Access Request Information:
+	Access Mask:		0x120196
+	Accesses:		READ_CONTROL
+				SYNCHRONIZE
+				WriteData (or AddFile)
+				AppendData (or AddSubdirectory or CreatePipeInstance)
+				WriteEA
+				ReadAttributes
+				WriteAttributes
+				
+Access Check Results:
+	-
+","5145","0",,"0","12811","0","-9214364837600034816","2988537","Microsoft-Windows-Security-Auditing","54849625-5478-4994-a5ba-3e3b0328c30d","Security","4","7720","01566s-win16-ir.threebeesco.com",,"2/16/2022 2:37:20 AM",,,"System.UInt32[]","System.Diagnostics.Eventing.Reader.EventBookmark","Information","Info","Detailed File Share","System.Collections.ObjectModel.ReadOnlyCollection`1[System.String]","System.Collections.Generic.List`1[System.Diagnostics.Eventing.Reader.EventProperty]"
+"Group membership information.
+
+Subject:
+	Security ID:		S-1-0-0
+	Account Name:		-
+	Account Domain:		-
+	Logon ID:		0x0
+
+Logon Type:			3
+
+New Logon:
+	Security ID:		S-1-5-21-308926384-506822093-3341789130-220106
+	Account Name:		samir
+	Account Domain:		3B
+	Logon ID:		0x567758
+
+Event in sequence:		1 of 1
+
+Group Membership:			
+		%{S-1-5-21-308926384-506822093-3341789130-513}
+		%{S-1-1-0}
+		%{S-1-5-32-551}
+		%{S-1-5-32-545}
+		%{S-1-5-32-554}
+		%{S-1-5-2}
+		%{S-1-5-11}
+		%{S-1-5-15}
+		%{S-1-5-64-10}
+		%{S-1-16-12288}
+
+The subject fields indicate the account on the local system which requested the logon. This is most commonly a service such as the Server service, or a local process such as Winlogon.exe or Services.exe.
+
+The logon type field indicates the kind of logon that occurred. The most common types are 2 (interactive) and 3 (network).
+
+The New Logon fields indicate the account for whom the new logon was created, i.e. the account that was logged on.
+
+This event is generated when the Audit Group Membership subcategory is configured.  The Logon ID field can be used to correlate this event with the corresponding user logon event as well as to any other security audit events generated during this logon session.","4627","0",,"0","12554","0","-9214364837600034816","2988536","Microsoft-Windows-Security-Auditing","54849625-5478-4994-a5ba-3e3b0328c30d","Security","624","2908","01566s-win16-ir.threebeesco.com",,"2/16/2022 2:37:20 AM",,,"System.UInt32[]","System.Diagnostics.Eventing.Reader.EventBookmark","Information","Info","Group Membership","System.Collections.ObjectModel.ReadOnlyCollection`1[System.String]","System.Collections.Generic.List`1[System.Diagnostics.Eventing.Reader.EventProperty]"
+"An account was successfully logged on.
+
+Subject:
+	Security ID:		S-1-0-0
+	Account Name:		-
+	Account Domain:		-
+	Logon ID:		0x0
+
+Logon Information:
+	Logon Type:		3
+	Restricted Admin Mode:	-
+	Virtual Account:		No
+	Elevated Token:		Yes
+
+Impersonation Level:		Impersonation
+
+New Logon:
+	Security ID:		S-1-5-21-308926384-506822093-3341789130-220106
+	Account Name:		samir
+	Account Domain:		3B
+	Logon ID:		0x567758
+	Linked Logon ID:		0x0
+	Network Account Name:	-
+	Network Account Domain:	-
+	Logon GUID:		{00000000-0000-0000-0000-000000000000}
+
+Process Information:
+	Process ID:		0x0
+	Process Name:		-
+
+Network Information:
+	Workstation Name:	02694W-WIN10
+	Source Network Address:	-
+	Source Port:		-
+
+Detailed Authentication Information:
+	Logon Process:		NtLmSsp 
+	Authentication Package:	NTLM
+	Transited Services:	-
+	Package Name (NTLM only):	NTLM V2
+	Key Length:		128
+
+This event is generated when a logon session is created. It is generated on the computer that was accessed.
+
+The subject fields indicate the account on the local system which requested the logon. This is most commonly a service such as the Server service, or a local process such as Winlogon.exe or Services.exe.
+
+The logon type field indicates the kind of logon that occurred. The most common types are 2 (interactive) and 3 (network).
+
+The New Logon fields indicate the account for whom the new logon was created, i.e. the account that was logged on.
+
+The network fields indicate where a remote logon request originated. Workstation name is not always available and may be left blank in some cases.
+
+The impersonation level field indicates the extent to which a process in the logon session can impersonate.
+
+The authentication information fields provide detailed information about this specific logon request.
+	- Logon GUID is a unique identifier that can be used to correlate this event with a KDC event.
+	- Transited services indicate which intermediate services have participated in this logon request.
+	- Package name indicates which sub-protocol was used among the NTLM protocols.
+	- Key length indicates the length of the generated session key. This will be 0 if no session key was requested.","4624","2",,"0","12544","0","-9214364837600034816","2988535","Microsoft-Windows-Security-Auditing","54849625-5478-4994-a5ba-3e3b0328c30d","Security","624","2908","01566s-win16-ir.threebeesco.com",,"2/16/2022 2:37:20 AM",,,"System.UInt32[]","System.Diagnostics.Eventing.Reader.EventBookmark","Information","Info","Logon","System.Collections.ObjectModel.ReadOnlyCollection`1[System.String]","System.Collections.Generic.List`1[System.Diagnostics.Eventing.Reader.EventProperty]"
+"Special privileges assigned to new logon.
+
+Subject:
+	Security ID:		S-1-5-21-308926384-506822093-3341789130-220106
+	Account Name:		samir
+	Account Domain:		3B
+	Logon ID:		0x567758
+
+Privileges:		SeBackupPrivilege
+			SeRestorePrivilege","4672","0",,"0","12548","0","-9214364837600034816","2988534","Microsoft-Windows-Security-Auditing","54849625-5478-4994-a5ba-3e3b0328c30d","Security","624","2908","01566s-win16-ir.threebeesco.com",,"2/16/2022 2:37:20 AM",,,"System.UInt32[]","System.Diagnostics.Eventing.Reader.EventBookmark","Information","Info","Special Logon","System.Collections.ObjectModel.ReadOnlyCollection`1[System.String]","System.Collections.Generic.List`1[System.Diagnostics.Eventing.Reader.EventProperty]"
+"The computer attempted to validate the credentials for an account.
+
+Authentication Package:	MICROSOFT_AUTHENTICATION_PACKAGE_V1_0
+Logon Account:	samir
+Source Workstation:	02694W-WIN10
+Error Code:	0x0","4776","0",,"0","14336","0","-9214364837600034816","2988533","Microsoft-Windows-Security-Auditing","54849625-5478-4994-a5ba-3e3b0328c30d","Security","624","2908","01566s-win16-ir.threebeesco.com",,"2/16/2022 2:37:20 AM",,,"System.UInt32[]","System.Diagnostics.Eventing.Reader.EventBookmark","Information","Info","Credential Validation","System.Collections.ObjectModel.ReadOnlyCollection`1[System.String]","System.Collections.Generic.List`1[System.Diagnostics.Eventing.Reader.EventProperty]"
+"A network share object was checked to see whether client can be granted desired access.
+	
+Subject:
+	Security ID:		S-1-5-21-308926384-506822093-3341789130-220106
+	Account Name:		samir
+	Account Domain:		3B
+	Logon ID:		0x567515
+
+Network Information:	
+	Object Type:		File
+	Source Address:		172.16.66.25
+	Source Port:		50251
+	
+Share Information:
+	Share Name:		\\*\IPC$
+	Share Path:		
+	Relative Target Name:	winreg
+
+Access Request Information:
+	Access Mask:		0x12019F
+	Accesses:		READ_CONTROL
+				SYNCHRONIZE
+				ReadData (or ListDirectory)
+				WriteData (or AddFile)
+				AppendData (or AddSubdirectory or CreatePipeInstance)
+				ReadEA
+				WriteEA
+				ReadAttributes
+				WriteAttributes
+				
+Access Check Results:
+	-
+","5145","0",,"0","12811","0","-9214364837600034816","2988532","Microsoft-Windows-Security-Auditing","54849625-5478-4994-a5ba-3e3b0328c30d","Security","4","7208","01566s-win16-ir.threebeesco.com",,"2/16/2022 2:37:20 AM",,,"System.UInt32[]","System.Diagnostics.Eventing.Reader.EventBookmark","Information","Info","Detailed File Share","System.Collections.ObjectModel.ReadOnlyCollection`1[System.String]","System.Collections.Generic.List`1[System.Diagnostics.Eventing.Reader.EventProperty]"
+"A network share object was checked to see whether client can be granted desired access.
+	
+Subject:
+	Security ID:		S-1-5-21-308926384-506822093-3341789130-220106
+	Account Name:		samir
+	Account Domain:		3B
+	Logon ID:		0x567515
+
+Network Information:	
+	Object Type:		File
+	Source Address:		172.16.66.25
+	Source Port:		50251
+	
+Share Information:
+	Share Name:		\\*\IPC$
+	Share Path:		
+	Relative Target Name:	winreg
+
+Access Request Information:
+	Access Mask:		0x12019F
+	Accesses:		READ_CONTROL
+				SYNCHRONIZE
+				ReadData (or ListDirectory)
+				WriteData (or AddFile)
+				AppendData (or AddSubdirectory or CreatePipeInstance)
+				ReadEA
+				WriteEA
+				ReadAttributes
+				WriteAttributes
+				
+Access Check Results:
+	-
+","5145","0",,"0","12811","0","-9214364837600034816","2988531","Microsoft-Windows-Security-Auditing","54849625-5478-4994-a5ba-3e3b0328c30d","Security","4","7720","01566s-win16-ir.threebeesco.com",,"2/16/2022 2:37:20 AM",,,"System.UInt32[]","System.Diagnostics.Eventing.Reader.EventBookmark","Information","Info","Detailed File Share","System.Collections.ObjectModel.ReadOnlyCollection`1[System.String]","System.Collections.Generic.List`1[System.Diagnostics.Eventing.Reader.EventProperty]"
+"Group membership information.
+
+Subject:
+	Security ID:		S-1-0-0
+	Account Name:		-
+	Account Domain:		-
+	Logon ID:		0x0
+
+Logon Type:			3
+
+New Logon:
+	Security ID:		S-1-5-21-308926384-506822093-3341789130-220106
+	Account Name:		samir
+	Account Domain:		3B
+	Logon ID:		0x567515
+
+Event in sequence:		1 of 1
+
+Group Membership:			
+		%{S-1-5-21-308926384-506822093-3341789130-513}
+		%{S-1-1-0}
+		%{S-1-5-32-551}
+		%{S-1-5-32-545}
+		%{S-1-5-32-554}
+		%{S-1-5-2}
+		%{S-1-5-11}
+		%{S-1-5-15}
+		%{S-1-5-64-10}
+		%{S-1-16-12288}
+
+The subject fields indicate the account on the local system which requested the logon. This is most commonly a service such as the Server service, or a local process such as Winlogon.exe or Services.exe.
+
+The logon type field indicates the kind of logon that occurred. The most common types are 2 (interactive) and 3 (network).
+
+The New Logon fields indicate the account for whom the new logon was created, i.e. the account that was logged on.
+
+This event is generated when the Audit Group Membership subcategory is configured.  The Logon ID field can be used to correlate this event with the corresponding user logon event as well as to any other security audit events generated during this logon session.","4627","0",,"0","12554","0","-9214364837600034816","2988530","Microsoft-Windows-Security-Auditing","54849625-5478-4994-a5ba-3e3b0328c30d","Security","624","2908","01566s-win16-ir.threebeesco.com",,"2/16/2022 2:37:20 AM",,,"System.UInt32[]","System.Diagnostics.Eventing.Reader.EventBookmark","Information","Info","Group Membership","System.Collections.ObjectModel.ReadOnlyCollection`1[System.String]","System.Collections.Generic.List`1[System.Diagnostics.Eventing.Reader.EventProperty]"
+"An account was successfully logged on.
+
+Subject:
+	Security ID:		S-1-0-0
+	Account Name:		-
+	Account Domain:		-
+	Logon ID:		0x0
+
+Logon Information:
+	Logon Type:		3
+	Restricted Admin Mode:	-
+	Virtual Account:		No
+	Elevated Token:		Yes
+
+Impersonation Level:		Impersonation
+
+New Logon:
+	Security ID:		S-1-5-21-308926384-506822093-3341789130-220106
+	Account Name:		samir
+	Account Domain:		3B
+	Logon ID:		0x567515
+	Linked Logon ID:		0x0
+	Network Account Name:	-
+	Network Account Domain:	-
+	Logon GUID:		{00000000-0000-0000-0000-000000000000}
+
+Process Information:
+	Process ID:		0x0
+	Process Name:		-
+
+Network Information:
+	Workstation Name:	02694W-WIN10
+	Source Network Address:	172.16.66.25
+	Source Port:		50251
+
+Detailed Authentication Information:
+	Logon Process:		NtLmSsp 
+	Authentication Package:	NTLM
+	Transited Services:	-
+	Package Name (NTLM only):	NTLM V2
+	Key Length:		128
+
+This event is generated when a logon session is created. It is generated on the computer that was accessed.
+
+The subject fields indicate the account on the local system which requested the logon. This is most commonly a service such as the Server service, or a local process such as Winlogon.exe or Services.exe.
+
+The logon type field indicates the kind of logon that occurred. The most common types are 2 (interactive) and 3 (network).
+
+The New Logon fields indicate the account for whom the new logon was created, i.e. the account that was logged on.
+
+The network fields indicate where a remote logon request originated. Workstation name is not always available and may be left blank in some cases.
+
+The impersonation level field indicates the extent to which a process in the logon session can impersonate.
+
+The authentication information fields provide detailed information about this specific logon request.
+	- Logon GUID is a unique identifier that can be used to correlate this event with a KDC event.
+	- Transited services indicate which intermediate services have participated in this logon request.
+	- Package name indicates which sub-protocol was used among the NTLM protocols.
+	- Key length indicates the length of the generated session key. This will be 0 if no session key was requested.","4624","2",,"0","12544","0","-9214364837600034816","2988529","Microsoft-Windows-Security-Auditing","54849625-5478-4994-a5ba-3e3b0328c30d","Security","624","2908","01566s-win16-ir.threebeesco.com",,"2/16/2022 2:37:20 AM",,,"System.UInt32[]","System.Diagnostics.Eventing.Reader.EventBookmark","Information","Info","Logon","System.Collections.ObjectModel.ReadOnlyCollection`1[System.String]","System.Collections.Generic.List`1[System.Diagnostics.Eventing.Reader.EventProperty]"
+"Special privileges assigned to new logon.
+
+Subject:
+	Security ID:		S-1-5-21-308926384-506822093-3341789130-220106
+	Account Name:		samir
+	Account Domain:		3B
+	Logon ID:		0x567515
+
+Privileges:		SeBackupPrivilege
+			SeRestorePrivilege","4672","0",,"0","12548","0","-9214364837600034816","2988528","Microsoft-Windows-Security-Auditing","54849625-5478-4994-a5ba-3e3b0328c30d","Security","624","2908","01566s-win16-ir.threebeesco.com",,"2/16/2022 2:37:20 AM",,,"System.UInt32[]","System.Diagnostics.Eventing.Reader.EventBookmark","Information","Info","Special Logon","System.Collections.ObjectModel.ReadOnlyCollection`1[System.String]","System.Collections.Generic.List`1[System.Diagnostics.Eventing.Reader.EventProperty]"
+"The computer attempted to validate the credentials for an account.
+
+Authentication Package:	MICROSOFT_AUTHENTICATION_PACKAGE_V1_0
+Logon Account:	samir
+Source Workstation:	02694W-WIN10
+Error Code:	0x0","4776","0",,"0","14336","0","-9214364837600034816","2988527","Microsoft-Windows-Security-Auditing","54849625-5478-4994-a5ba-3e3b0328c30d","Security","624","2908","01566s-win16-ir.threebeesco.com",,"2/16/2022 2:37:20 AM",,,"System.UInt32[]","System.Diagnostics.Eventing.Reader.EventBookmark","Information","Info","Credential Validation","System.Collections.ObjectModel.ReadOnlyCollection`1[System.String]","System.Collections.Generic.List`1[System.Diagnostics.Eventing.Reader.EventProperty]"
+"Group membership information.
+
+Subject:
+	Security ID:		S-1-0-0
+	Account Name:		-
+	Account Domain:		-
+	Logon ID:		0x0
+
+Logon Type:			3
+
+New Logon:
+	Security ID:		S-1-5-18
+	Account Name:		01566S-WIN16-IR$
+	Account Domain:		THREEBEESCO.COM
+	Logon ID:		0x56738F
+
+Event in sequence:		1 of 1
+
+Group Membership:			
+		%{S-1-5-32-544}
+		%{S-1-1-0}
+		%{S-1-5-32-545}
+		%{S-1-5-32-554}
+		%{S-1-5-32-560}
+		%{S-1-5-2}
+		%{S-1-5-11}
+		%{S-1-5-15}
+		%{S-1-5-21-308926384-506822093-3341789130-35103}
+		%{S-1-5-21-308926384-506822093-3341789130-516}
+		%{S-1-5-9}
+		%{S-1-18-1}
+		%{S-1-5-21-308926384-506822093-3341789130-572}
+		%{S-1-16-16384}
+
+The subject fields indicate the account on the local system which requested the logon. This is most commonly a service such as the Server service, or a local process such as Winlogon.exe or Services.exe.
+
+The logon type field indicates the kind of logon that occurred. The most common types are 2 (interactive) and 3 (network).
+
+The New Logon fields indicate the account for whom the new logon was created, i.e. the account that was logged on.
+
+This event is generated when the Audit Group Membership subcategory is configured.  The Logon ID field can be used to correlate this event with the corresponding user logon event as well as to any other security audit events generated during this logon session.","4627","0",,"0","12554","0","-9214364837600034816","2988526","Microsoft-Windows-Security-Auditing","54849625-5478-4994-a5ba-3e3b0328c30d","Security","624","4524","01566s-win16-ir.threebeesco.com",,"2/16/2022 2:37:19 AM",,,"System.UInt32[]","System.Diagnostics.Eventing.Reader.EventBookmark","Information","Info","Group Membership","System.Collections.ObjectModel.ReadOnlyCollection`1[System.String]","System.Collections.Generic.List`1[System.Diagnostics.Eventing.Reader.EventProperty]"
+"An account was successfully logged on.
+
+Subject:
+	Security ID:		S-1-0-0
+	Account Name:		-
+	Account Domain:		-
+	Logon ID:		0x0
+
+Logon Information:
+	Logon Type:		3
+	Restricted Admin Mode:	-
+	Virtual Account:		No
+	Elevated Token:		Yes
+
+Impersonation Level:		Impersonation
+
+New Logon:
+	Security ID:		S-1-5-18
+	Account Name:		01566S-WIN16-IR$
+	Account Domain:		THREEBEESCO.COM
+	Logon ID:		0x56738F
+	Linked Logon ID:		0x0
+	Network Account Name:	-
+	Network Account Domain:	-
+	Logon GUID:		{b683bafb-5884-30e1-12da-31368f04511d}
+
+Process Information:
+	Process ID:		0x0
+	Process Name:		-
+
+Network Information:
+	Workstation Name:	-
+	Source Network Address:	::1
+	Source Port:		64223
+
+Detailed Authentication Information:
+	Logon Process:		Kerberos
+	Authentication Package:	Kerberos
+	Transited Services:	-
+	Package Name (NTLM only):	-
+	Key Length:		0
+
+This event is generated when a logon session is created. It is generated on the computer that was accessed.
+
+The subject fields indicate the account on the local system which requested the logon. This is most commonly a service such as the Server service, or a local process such as Winlogon.exe or Services.exe.
+
+The logon type field indicates the kind of logon that occurred. The most common types are 2 (interactive) and 3 (network).
+
+The New Logon fields indicate the account for whom the new logon was created, i.e. the account that was logged on.
+
+The network fields indicate where a remote logon request originated. Workstation name is not always available and may be left blank in some cases.
+
+The impersonation level field indicates the extent to which a process in the logon session can impersonate.
+
+The authentication information fields provide detailed information about this specific logon request.
+	- Logon GUID is a unique identifier that can be used to correlate this event with a KDC event.
+	- Transited services indicate which intermediate services have participated in this logon request.
+	- Package name indicates which sub-protocol was used among the NTLM protocols.
+	- Key length indicates the length of the generated session key. This will be 0 if no session key was requested.","4624","2",,"0","12544","0","-9214364837600034816","2988525","Microsoft-Windows-Security-Auditing","54849625-5478-4994-a5ba-3e3b0328c30d","Security","624","4524","01566s-win16-ir.threebeesco.com",,"2/16/2022 2:37:19 AM",,,"System.UInt32[]","System.Diagnostics.Eventing.Reader.EventBookmark","Information","Info","Logon","System.Collections.ObjectModel.ReadOnlyCollection`1[System.String]","System.Collections.Generic.List`1[System.Diagnostics.Eventing.Reader.EventProperty]"
+"Special privileges assigned to new logon.
+
+Subject:
+	Security ID:		S-1-5-18
+	Account Name:		01566S-WIN16-IR$
+	Account Domain:		3B
+	Logon ID:		0x56738F
+
+Privileges:		SeSecurityPrivilege
+			SeBackupPrivilege
+			SeRestorePrivilege
+			SeTakeOwnershipPrivilege
+			SeDebugPrivilege
+			SeSystemEnvironmentPrivilege
+			SeLoadDriverPrivilege
+			SeImpersonatePrivilege
+			SeDelegateSessionUserImpersonatePrivilege
+			SeEnableDelegationPrivilege","4672","0",,"0","12548","0","-9214364837600034816","2988524","Microsoft-Windows-Security-Auditing","54849625-5478-4994-a5ba-3e3b0328c30d","Security","624","4524","01566s-win16-ir.threebeesco.com",,"2/16/2022 2:37:19 AM",,,"System.UInt32[]","System.Diagnostics.Eventing.Reader.EventBookmark","Information","Info","Special Logon","System.Collections.ObjectModel.ReadOnlyCollection`1[System.String]","System.Collections.Generic.List`1[System.Diagnostics.Eventing.Reader.EventProperty]"
+"Group membership information.
+
+Subject:
+	Security ID:		S-1-0-0
+	Account Name:		-
+	Account Domain:		-
+	Logon ID:		0x0
+
+Logon Type:			3
+
+New Logon:
+	Security ID:		S-1-5-21-308926384-506822093-3341789130-84104
+	Account Name:		02694W-WIN10$
+	Account Domain:		THREEBEESCO.COM
+	Logon ID:		0x567343
+
+Event in sequence:		1 of 1
+
+Group Membership:			
+		%{S-1-5-21-308926384-506822093-3341789130-515}
+		%{S-1-1-0}
+		%{S-1-5-32-545}
+		%{S-1-5-32-554}
+		%{S-1-5-2}
+		%{S-1-5-11}
+		%{S-1-5-15}
+		%{S-1-18-1}
+		%{S-1-16-8448}
+
+The subject fields indicate the account on the local system which requested the logon. This is most commonly a service such as the Server service, or a local process such as Winlogon.exe or Services.exe.
+
+The logon type field indicates the kind of logon that occurred. The most common types are 2 (interactive) and 3 (network).
+
+The New Logon fields indicate the account for whom the new logon was created, i.e. the account that was logged on.
+
+This event is generated when the Audit Group Membership subcategory is configured.  The Logon ID field can be used to correlate this event with the corresponding user logon event as well as to any other security audit events generated during this logon session.","4627","0",,"0","12554","0","-9214364837600034816","2988523","Microsoft-Windows-Security-Auditing","54849625-5478-4994-a5ba-3e3b0328c30d","Security","624","3868","01566s-win16-ir.threebeesco.com",,"2/16/2022 2:37:19 AM","2654c2a7-231c-0002-bac2-54261c23d801",,"System.UInt32[]","System.Diagnostics.Eventing.Reader.EventBookmark","Information","Info","Group Membership","System.Collections.ObjectModel.ReadOnlyCollection`1[System.String]","System.Collections.Generic.List`1[System.Diagnostics.Eventing.Reader.EventProperty]"
+"An account was successfully logged on.
+
+Subject:
+	Security ID:		S-1-0-0
+	Account Name:		-
+	Account Domain:		-
+	Logon ID:		0x0
+
+Logon Information:
+	Logon Type:		3
+	Restricted Admin Mode:	-
+	Virtual Account:		No
+	Elevated Token:		Yes
+
+Impersonation Level:		Delegation
+
+New Logon:
+	Security ID:		S-1-5-21-308926384-506822093-3341789130-84104
+	Account Name:		02694W-WIN10$
+	Account Domain:		THREEBEESCO.COM
+	Logon ID:		0x567343
+	Linked Logon ID:		0x0
+	Network Account Name:	-
+	Network Account Domain:	-
+	Logon GUID:		{429ca5a3-edfc-5657-17c3-c050c7b047f4}
+
+Process Information:
+	Process ID:		0x0
+	Process Name:		-
+
+Network Information:
+	Workstation Name:	-
+	Source Network Address:	172.16.66.25
+	Source Port:		50250
+
+Detailed Authentication Information:
+	Logon Process:		Kerberos
+	Authentication Package:	Kerberos
+	Transited Services:	-
+	Package Name (NTLM only):	-
+	Key Length:		0
+
+This event is generated when a logon session is created. It is generated on the computer that was accessed.
+
+The subject fields indicate the account on the local system which requested the logon. This is most commonly a service such as the Server service, or a local process such as Winlogon.exe or Services.exe.
+
+The logon type field indicates the kind of logon that occurred. The most common types are 2 (interactive) and 3 (network).
+
+The New Logon fields indicate the account for whom the new logon was created, i.e. the account that was logged on.
+
+The network fields indicate where a remote logon request originated. Workstation name is not always available and may be left blank in some cases.
+
+The impersonation level field indicates the extent to which a process in the logon session can impersonate.
+
+The authentication information fields provide detailed information about this specific logon request.
+	- Logon GUID is a unique identifier that can be used to correlate this event with a KDC event.
+	- Transited services indicate which intermediate services have participated in this logon request.
+	- Package name indicates which sub-protocol was used among the NTLM protocols.
+	- Key length indicates the length of the generated session key. This will be 0 if no session key was requested.","4624","2",,"0","12544","0","-9214364837600034816","2988522","Microsoft-Windows-Security-Auditing","54849625-5478-4994-a5ba-3e3b0328c30d","Security","624","3868","01566s-win16-ir.threebeesco.com",,"2/16/2022 2:37:19 AM","2654c2a7-231c-0002-bac2-54261c23d801",,"System.UInt32[]","System.Diagnostics.Eventing.Reader.EventBookmark","Information","Info","Logon","System.Collections.ObjectModel.ReadOnlyCollection`1[System.String]","System.Collections.Generic.List`1[System.Diagnostics.Eventing.Reader.EventProperty]"
+"The audit log was cleared.
+Subject:
+	Security ID:	S-1-5-21-308926384-506822093-3341789130-1105
+	Account Name:	jbrown
+	Domain Name:	3B
+	Logon ID:	0x1717B6","1102","0",,"4","104","0","4620693217682128896","2988521","Microsoft-Windows-Eventlog","fc65ddd8-d6ef-4962-83d5-6e5cfe9ce148","Security","604","3848","01566s-win16-ir.threebeesco.com",,"2/16/2022 2:37:07 AM",,,"System.UInt32[]","System.Diagnostics.Eventing.Reader.EventBookmark","Information","Info","Log clear","System.Collections.ObjectModel.ReadOnlyCollection`1[System.String]","System.Collections.Generic.List`1[System.Diagnostics.Eventing.Reader.EventProperty]"

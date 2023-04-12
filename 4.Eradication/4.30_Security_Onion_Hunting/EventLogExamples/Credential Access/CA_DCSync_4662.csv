@@ -1,0 +1,82 @@
+"Message","Id","Version","Qualifiers","Level","Task","Opcode","Keywords","RecordId","ProviderName","ProviderId","LogName","ProcessId","ThreadId","MachineName","UserId","TimeCreated","ActivityId","RelatedActivityId","MatchedQueryIds","Bookmark","LevelDisplayName","OpcodeDisplayName","TaskDisplayName","KeywordsDisplayNames","Properties"
+"An operation was performed on an object.
+
+Subject :
+	Security ID:		S-1-5-21-738609754-2819869699-4189121830-500
+	Account Name:		Administrator
+	Account Domain:		insecurebank
+	Logon ID:		0x40C6511
+
+Object:
+	Object Server:		DS
+	Object Type:		%{19195a5b-6da0-11d0-afd3-00c04fd930c9}
+	Object Name:		%{c6faf700-bfe4-452a-a766-424f84c29583}
+	Handle ID:		0x0
+
+Operation:
+	Operation Type:		Object Access
+	Accesses:		Control Access
+				
+	Access Mask:		0x100
+	Properties:		Control Access
+		{1131f6ad-9c07-11d1-f79f-00c04fc2dcd2}
+	{19195a5b-6da0-11d0-afd3-00c04fd930c9}
+
+
+Additional Information:
+	Parameter 1:		-
+	Parameter 2:		","4662","0",,"0","14080","0","-9214364837600034816","202793","Microsoft-Windows-Security-Auditing","54849625-5478-4994-a5ba-3e3b0328c30d","Security","444","4632","DC1.insecurebank.local",,"5/7/2019 7:10:43 PM",,,"System.UInt32[]","System.Diagnostics.Eventing.Reader.EventBookmark","Information","Info","Directory Service Access","System.Collections.ObjectModel.ReadOnlyCollection`1[System.String]","System.Collections.Generic.List`1[System.Diagnostics.Eventing.Reader.EventProperty]"
+"An operation was performed on an object.
+
+Subject :
+	Security ID:		S-1-5-21-738609754-2819869699-4189121830-500
+	Account Name:		Administrator
+	Account Domain:		insecurebank
+	Logon ID:		0x40C6511
+
+Object:
+	Object Server:		DS
+	Object Type:		%{19195a5b-6da0-11d0-afd3-00c04fd930c9}
+	Object Name:		%{c6faf700-bfe4-452a-a766-424f84c29583}
+	Handle ID:		0x0
+
+Operation:
+	Operation Type:		Object Access
+	Accesses:		Control Access
+				
+	Access Mask:		0x100
+	Properties:		Control Access
+		{1131f6aa-9c07-11d1-f79f-00c04fc2dcd2}
+	{19195a5b-6da0-11d0-afd3-00c04fd930c9}
+
+
+Additional Information:
+	Parameter 1:		-
+	Parameter 2:		","4662","0",,"0","14080","0","-9214364837600034816","202792","Microsoft-Windows-Security-Auditing","54849625-5478-4994-a5ba-3e3b0328c30d","Security","444","4632","DC1.insecurebank.local",,"5/7/2019 7:10:43 PM",,,"System.UInt32[]","System.Diagnostics.Eventing.Reader.EventBookmark","Information","Info","Directory Service Access","System.Collections.ObjectModel.ReadOnlyCollection`1[System.String]","System.Collections.Generic.List`1[System.Diagnostics.Eventing.Reader.EventProperty]"
+"An operation was performed on an object.
+
+Subject :
+	Security ID:		S-1-5-21-738609754-2819869699-4189121830-500
+	Account Name:		Administrator
+	Account Domain:		insecurebank
+	Logon ID:		0x40C6511
+
+Object:
+	Object Server:		DS
+	Object Type:		%{19195a5b-6da0-11d0-afd3-00c04fd930c9}
+	Object Name:		%{c6faf700-bfe4-452a-a766-424f84c29583}
+	Handle ID:		0x0
+
+Operation:
+	Operation Type:		Object Access
+	Accesses:		Control Access
+				
+	Access Mask:		0x100
+	Properties:		Control Access
+		{1131f6aa-9c07-11d1-f79f-00c04fc2dcd2}
+	{19195a5b-6da0-11d0-afd3-00c04fd930c9}
+
+
+Additional Information:
+	Parameter 1:		-
+	Parameter 2:		","4662","0",,"0","14080","0","-9214364837600034816","202791","Microsoft-Windows-Security-Auditing","54849625-5478-4994-a5ba-3e3b0328c30d","Security","444","4632","DC1.insecurebank.local",,"5/7/2019 7:10:43 PM",,,"System.UInt32[]","System.Diagnostics.Eventing.Reader.EventBookmark","Information","Info","Directory Service Access","System.Collections.ObjectModel.ReadOnlyCollection`1[System.String]","System.Collections.Generic.List`1[System.Diagnostics.Eventing.Reader.EventProperty]"

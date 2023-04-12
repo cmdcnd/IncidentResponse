@@ -1,0 +1,324 @@
+"Message","Id","Version","Qualifiers","Level","Task","Opcode","Keywords","RecordId","ProviderName","ProviderId","LogName","ProcessId","ThreadId","MachineName","UserId","TimeCreated","ActivityId","RelatedActivityId","MatchedQueryIds","Bookmark","LevelDisplayName","OpcodeDisplayName","TaskDisplayName","KeywordsDisplayNames","Properties"
+"A Kerberos authentication ticket (TGT) was requested.
+
+Account Information:
+	Account Name:		normal
+	Supplied Realm Name:	THREEBEESCO.COM
+	User ID:			S-1-5-21-308926384-506822093-3341789130-109603
+
+Service Information:
+	Service Name:		krbtgt
+	Service ID:		S-1-5-21-308926384-506822093-3341789130-502
+
+Network Information:
+	Client Address:		::ffff:172.16.66.1
+	Client Port:		52559
+
+Additional Information:
+	Ticket Options:		0x10
+	Result Code:		0x0
+	Ticket Encryption Type:	0x12
+	Pre-Authentication Type:	2
+
+Certificate Information:
+	Certificate Issuer Name:		
+	Certificate Serial Number:	
+	Certificate Thumbprint:		
+
+Certificate information is only provided if a certificate was used for pre-authentication.
+
+Pre-authentication types, ticket options, encryption types and result codes are defined in RFC 4120.","4768","0",,"0","14339","0","-9214364837600034816","887117","Microsoft-Windows-Security-Auditing","54849625-5478-4994-a5ba-3e3b0328c30d","Security","568","2356","01566s-win16-ir.threebeesco.com",,"7/22/2020 1:29:36 PM",,,"System.UInt32[]","System.Diagnostics.Eventing.Reader.EventBookmark","Information","Info","Kerberos Authentication Service","System.Collections.ObjectModel.ReadOnlyCollection`1[System.String]","System.Collections.Generic.List`1[System.Diagnostics.Eventing.Reader.EventProperty]"
+"A Kerberos authentication ticket (TGT) was requested.
+
+Account Information:
+	Account Name:		normal
+	Supplied Realm Name:	THREEBEESCO.COM
+	User ID:			S-1-5-21-308926384-506822093-3341789130-109603
+
+Service Information:
+	Service Name:		krbtgt
+	Service ID:		S-1-5-21-308926384-506822093-3341789130-502
+
+Network Information:
+	Client Address:		172.16.66.1
+	Client Port:		55969
+
+Additional Information:
+	Ticket Options:		0x10
+	Result Code:		0x0
+	Ticket Encryption Type:	0x12
+	Pre-Authentication Type:	2
+
+Certificate Information:
+	Certificate Issuer Name:		
+	Certificate Serial Number:	
+	Certificate Thumbprint:		
+
+Certificate information is only provided if a certificate was used for pre-authentication.
+
+Pre-authentication types, ticket options, encryption types and result codes are defined in RFC 4120.","4768","0",,"0","14339","0","-9214364837600034816","887116","Microsoft-Windows-Security-Auditing","54849625-5478-4994-a5ba-3e3b0328c30d","Security","568","3384","01566s-win16-ir.threebeesco.com",,"7/22/2020 1:29:36 PM",,,"System.UInt32[]","System.Diagnostics.Eventing.Reader.EventBookmark","Information","Info","Kerberos Authentication Service","System.Collections.ObjectModel.ReadOnlyCollection`1[System.String]","System.Collections.Generic.List`1[System.Diagnostics.Eventing.Reader.EventProperty]"
+"Kerberos pre-authentication failed.
+
+Account Information:
+	Security ID:		S-1-5-21-308926384-506822093-3341789130-107103
+	Account Name:		backdoor
+
+Service Information:
+	Service Name:		krbtgt/THREEBEESCO.COM
+
+Network Information:
+	Client Address:		172.16.66.1
+	Client Port:		55968
+
+Additional Information:
+	Ticket Options:		0x10
+	Failure Code:		0x18
+	Pre-Authentication Type:	2
+
+Certificate Information:
+	Certificate Issuer Name:		
+	Certificate Serial Number: 	
+	Certificate Thumbprint:		
+
+Certificate information is only provided if a certificate was used for pre-authentication.
+
+Pre-authentication types, ticket options and failure codes are defined in RFC 4120.
+
+If the ticket was malformed or damaged during transit and could not be decrypted, then many fields in this event might not be present.","4771","0",,"0","14339","0","-9218868437227405312","887115","Microsoft-Windows-Security-Auditing","54849625-5478-4994-a5ba-3e3b0328c30d","Security","568","4856","01566s-win16-ir.threebeesco.com",,"7/22/2020 1:29:36 PM",,,"System.UInt32[]","System.Diagnostics.Eventing.Reader.EventBookmark","Information","Info","Kerberos Authentication Service","System.Collections.ObjectModel.ReadOnlyCollection`1[System.String]","System.Collections.Generic.List`1[System.Diagnostics.Eventing.Reader.EventProperty]"
+"Kerberos pre-authentication failed.
+
+Account Information:
+	Security ID:		S-1-5-21-308926384-506822093-3341789130-500
+	Account Name:		Administrator
+
+Service Information:
+	Service Name:		krbtgt/THREEBEESCO.COM
+
+Network Information:
+	Client Address:		172.16.66.1
+	Client Port:		55967
+
+Additional Information:
+	Ticket Options:		0x10
+	Failure Code:		0x18
+	Pre-Authentication Type:	2
+
+Certificate Information:
+	Certificate Issuer Name:		
+	Certificate Serial Number: 	
+	Certificate Thumbprint:		
+
+Certificate information is only provided if a certificate was used for pre-authentication.
+
+Pre-authentication types, ticket options and failure codes are defined in RFC 4120.
+
+If the ticket was malformed or damaged during transit and could not be decrypted, then many fields in this event might not be present.","4771","0",,"0","14339","0","-9218868437227405312","887114","Microsoft-Windows-Security-Auditing","54849625-5478-4994-a5ba-3e3b0328c30d","Security","568","2356","01566s-win16-ir.threebeesco.com",,"7/22/2020 1:29:36 PM",,,"System.UInt32[]","System.Diagnostics.Eventing.Reader.EventBookmark","Information","Info","Kerberos Authentication Service","System.Collections.ObjectModel.ReadOnlyCollection`1[System.String]","System.Collections.Generic.List`1[System.Diagnostics.Eventing.Reader.EventProperty]"
+"A Kerberos authentication ticket (TGT) was requested.
+
+Account Information:
+	Account Name:		admin02
+	Supplied Realm Name:	THREEBEESCO.COM
+	User ID:			S-1-0-0
+
+Service Information:
+	Service Name:		krbtgt/THREEBEESCO.COM
+	Service ID:		S-1-0-0
+
+Network Information:
+	Client Address:		172.16.66.1
+	Client Port:		55966
+
+Additional Information:
+	Ticket Options:		0x10
+	Result Code:		0x6
+	Ticket Encryption Type:	0xFFFFFFFF
+	Pre-Authentication Type:	-
+
+Certificate Information:
+	Certificate Issuer Name:		
+	Certificate Serial Number:	
+	Certificate Thumbprint:		
+
+Certificate information is only provided if a certificate was used for pre-authentication.
+
+Pre-authentication types, ticket options, encryption types and result codes are defined in RFC 4120.","4768","0",,"0","14339","0","-9218868437227405312","887113","Microsoft-Windows-Security-Auditing","54849625-5478-4994-a5ba-3e3b0328c30d","Security","568","3384","01566s-win16-ir.threebeesco.com",,"7/22/2020 1:29:36 PM",,,"System.UInt32[]","System.Diagnostics.Eventing.Reader.EventBookmark","Information","Info","Kerberos Authentication Service","System.Collections.ObjectModel.ReadOnlyCollection`1[System.String]","System.Collections.Generic.List`1[System.Diagnostics.Eventing.Reader.EventProperty]"
+"A Kerberos authentication ticket (TGT) was requested.
+
+Account Information:
+	Account Name:		bob
+	Supplied Realm Name:	THREEBEESCO.COM
+	User ID:			S-1-0-0
+
+Service Information:
+	Service Name:		krbtgt/THREEBEESCO.COM
+	Service ID:		S-1-0-0
+
+Network Information:
+	Client Address:		172.16.66.1
+	Client Port:		55957
+
+Additional Information:
+	Ticket Options:		0x10
+	Result Code:		0x6
+	Ticket Encryption Type:	0xFFFFFFFF
+	Pre-Authentication Type:	-
+
+Certificate Information:
+	Certificate Issuer Name:		
+	Certificate Serial Number:	
+	Certificate Thumbprint:		
+
+Certificate information is only provided if a certificate was used for pre-authentication.
+
+Pre-authentication types, ticket options, encryption types and result codes are defined in RFC 4120.","4768","0",,"0","14339","0","-9218868437227405312","887112","Microsoft-Windows-Security-Auditing","54849625-5478-4994-a5ba-3e3b0328c30d","Security","568","7012","01566s-win16-ir.threebeesco.com",,"7/22/2020 1:29:36 PM",,,"System.UInt32[]","System.Diagnostics.Eventing.Reader.EventBookmark","Information","Info","Kerberos Authentication Service","System.Collections.ObjectModel.ReadOnlyCollection`1[System.String]","System.Collections.Generic.List`1[System.Diagnostics.Eventing.Reader.EventProperty]"
+"A Kerberos authentication ticket (TGT) was requested.
+
+Account Information:
+	Account Name:		svc-01
+	Supplied Realm Name:	THREEBEESCO.COM
+	User ID:			S-1-0-0
+
+Service Information:
+	Service Name:		krbtgt/THREEBEESCO.COM
+	Service ID:		S-1-0-0
+
+Network Information:
+	Client Address:		172.16.66.1
+	Client Port:		55960
+
+Additional Information:
+	Ticket Options:		0x10
+	Result Code:		0x6
+	Ticket Encryption Type:	0xFFFFFFFF
+	Pre-Authentication Type:	-
+
+Certificate Information:
+	Certificate Issuer Name:		
+	Certificate Serial Number:	
+	Certificate Thumbprint:		
+
+Certificate information is only provided if a certificate was used for pre-authentication.
+
+Pre-authentication types, ticket options, encryption types and result codes are defined in RFC 4120.","4768","0",,"0","14339","0","-9218868437227405312","887111","Microsoft-Windows-Security-Auditing","54849625-5478-4994-a5ba-3e3b0328c30d","Security","568","3384","01566s-win16-ir.threebeesco.com",,"7/22/2020 1:29:36 PM",,,"System.UInt32[]","System.Diagnostics.Eventing.Reader.EventBookmark","Information","Info","Kerberos Authentication Service","System.Collections.ObjectModel.ReadOnlyCollection`1[System.String]","System.Collections.Generic.List`1[System.Diagnostics.Eventing.Reader.EventProperty]"
+"A Kerberos authentication ticket (TGT) was requested.
+
+Account Information:
+	Account Name:		HD02
+	Supplied Realm Name:	THREEBEESCO.COM
+	User ID:			S-1-0-0
+
+Service Information:
+	Service Name:		krbtgt/THREEBEESCO.COM
+	Service ID:		S-1-0-0
+
+Network Information:
+	Client Address:		172.16.66.1
+	Client Port:		55962
+
+Additional Information:
+	Ticket Options:		0x10
+	Result Code:		0x6
+	Ticket Encryption Type:	0xFFFFFFFF
+	Pre-Authentication Type:	-
+
+Certificate Information:
+	Certificate Issuer Name:		
+	Certificate Serial Number:	
+	Certificate Thumbprint:		
+
+Certificate information is only provided if a certificate was used for pre-authentication.
+
+Pre-authentication types, ticket options, encryption types and result codes are defined in RFC 4120.","4768","0",,"0","14339","0","-9218868437227405312","887110","Microsoft-Windows-Security-Auditing","54849625-5478-4994-a5ba-3e3b0328c30d","Security","568","2320","01566s-win16-ir.threebeesco.com",,"7/22/2020 1:29:36 PM",,,"System.UInt32[]","System.Diagnostics.Eventing.Reader.EventBookmark","Information","Info","Kerberos Authentication Service","System.Collections.ObjectModel.ReadOnlyCollection`1[System.String]","System.Collections.Generic.List`1[System.Diagnostics.Eventing.Reader.EventProperty]"
+"A Kerberos authentication ticket (TGT) was requested.
+
+Account Information:
+	Account Name:		svc-02
+	Supplied Realm Name:	THREEBEESCO.COM
+	User ID:			S-1-0-0
+
+Service Information:
+	Service Name:		krbtgt/THREEBEESCO.COM
+	Service ID:		S-1-0-0
+
+Network Information:
+	Client Address:		172.16.66.1
+	Client Port:		55963
+
+Additional Information:
+	Ticket Options:		0x10
+	Result Code:		0x6
+	Ticket Encryption Type:	0xFFFFFFFF
+	Pre-Authentication Type:	-
+
+Certificate Information:
+	Certificate Issuer Name:		
+	Certificate Serial Number:	
+	Certificate Thumbprint:		
+
+Certificate information is only provided if a certificate was used for pre-authentication.
+
+Pre-authentication types, ticket options, encryption types and result codes are defined in RFC 4120.","4768","0",,"0","14339","0","-9218868437227405312","887109","Microsoft-Windows-Security-Auditing","54849625-5478-4994-a5ba-3e3b0328c30d","Security","568","6916","01566s-win16-ir.threebeesco.com",,"7/22/2020 1:29:36 PM",,,"System.UInt32[]","System.Diagnostics.Eventing.Reader.EventBookmark","Information","Info","Kerberos Authentication Service","System.Collections.ObjectModel.ReadOnlyCollection`1[System.String]","System.Collections.Generic.List`1[System.Diagnostics.Eventing.Reader.EventProperty]"
+"A Kerberos authentication ticket (TGT) was requested.
+
+Account Information:
+	Account Name:		admin
+	Supplied Realm Name:	THREEBEESCO.COM
+	User ID:			S-1-0-0
+
+Service Information:
+	Service Name:		krbtgt/THREEBEESCO.COM
+	Service ID:		S-1-0-0
+
+Network Information:
+	Client Address:		172.16.66.1
+	Client Port:		55958
+
+Additional Information:
+	Ticket Options:		0x10
+	Result Code:		0x6
+	Ticket Encryption Type:	0xFFFFFFFF
+	Pre-Authentication Type:	-
+
+Certificate Information:
+	Certificate Issuer Name:		
+	Certificate Serial Number:	
+	Certificate Thumbprint:		
+
+Certificate information is only provided if a certificate was used for pre-authentication.
+
+Pre-authentication types, ticket options, encryption types and result codes are defined in RFC 4120.","4768","0",,"0","14339","0","-9218868437227405312","887108","Microsoft-Windows-Security-Auditing","54849625-5478-4994-a5ba-3e3b0328c30d","Security","568","1680","01566s-win16-ir.threebeesco.com",,"7/22/2020 1:29:36 PM",,,"System.UInt32[]","System.Diagnostics.Eventing.Reader.EventBookmark","Information","Info","Kerberos Authentication Service","System.Collections.ObjectModel.ReadOnlyCollection`1[System.String]","System.Collections.Generic.List`1[System.Diagnostics.Eventing.Reader.EventProperty]"
+"A Kerberos authentication ticket (TGT) was requested.
+
+Account Information:
+	Account Name:		HD01
+	Supplied Realm Name:	THREEBEESCO.COM
+	User ID:			S-1-0-0
+
+Service Information:
+	Service Name:		krbtgt/THREEBEESCO.COM
+	Service ID:		S-1-0-0
+
+Network Information:
+	Client Address:		172.16.66.1
+	Client Port:		55961
+
+Additional Information:
+	Ticket Options:		0x10
+	Result Code:		0x6
+	Ticket Encryption Type:	0xFFFFFFFF
+	Pre-Authentication Type:	-
+
+Certificate Information:
+	Certificate Issuer Name:		
+	Certificate Serial Number:	
+	Certificate Thumbprint:		
+
+Certificate information is only provided if a certificate was used for pre-authentication.
+
+Pre-authentication types, ticket options, encryption types and result codes are defined in RFC 4120.","4768","0",,"0","14339","0","-9218868437227405312","887107","Microsoft-Windows-Security-Auditing","54849625-5478-4994-a5ba-3e3b0328c30d","Security","568","2476","01566s-win16-ir.threebeesco.com",,"7/22/2020 1:29:36 PM",,,"System.UInt32[]","System.Diagnostics.Eventing.Reader.EventBookmark","Information","Info","Kerberos Authentication Service","System.Collections.ObjectModel.ReadOnlyCollection`1[System.String]","System.Collections.Generic.List`1[System.Diagnostics.Eventing.Reader.EventProperty]"
+"The audit log was cleared.
+Subject:
+	Security ID:	S-1-5-21-308926384-506822093-3341789130-1106
+	Account Name:	a-jbrown
+	Domain Name:	3B
+	Logon ID:	0x3A17A","1102","0",,"4","104","0","4620693217682128896","887106","Microsoft-Windows-Eventlog","fc65ddd8-d6ef-4962-83d5-6e5cfe9ce148","Security","8","6640","01566s-win16-ir.threebeesco.com",,"7/22/2020 1:29:27 PM",,,"System.UInt32[]","System.Diagnostics.Eventing.Reader.EventBookmark","Information","Info","Log clear","System.Collections.ObjectModel.ReadOnlyCollection`1[System.String]","System.Collections.Generic.List`1[System.Diagnostics.Eventing.Reader.EventProperty]"
