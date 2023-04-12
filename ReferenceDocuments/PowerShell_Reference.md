@@ -50,6 +50,22 @@ Pull all errors (level=2) from application.evtx and count the number of lines ('
 ```powershell
 Get-WinEvent -FilterHashtable @{Path="application.evtx"; level=2} | Measure-Object -Line
 ```  
+Export Event Logs to CSV format  
+```powershell
+# Define the path to the directory where your event log files are stored
+$logDirectory = "patch to log files"
+
+# Loop through each event log file in the directory
+Get-ChildItem $logDirectory -Filter *.evtx | ForEach-Object {
+    $logPath = $_.FullName
+
+    # Define the output path for the CSV file
+    $csvPath = "$logDirectory\$($_.BaseName).csv"
+
+    # Export the event log to a CSV file
+    Get-WinEvent -Path $logPath | Select-Object * -ExcludeProperty ContainerLog | Export-Csv $csvPath -NoTypeInformation
+}
+```  
 
 #### AppLocker  
 Pull all AppLocker logs from the live AppLocker event log (requires Applocker):  
