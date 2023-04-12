@@ -1,5 +1,5 @@
 site_name: Incident Response
-#site_url: https://docs.cnd.ca.gov/
+site_url: https://cmdcndexternal.github.io/IncidentResponse/
 repo_url: https://github.com/cmdcndexternal/IncidentResponse
 edit_uri: edit/main/
 theme:
