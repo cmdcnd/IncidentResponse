@@ -10,13 +10,13 @@
 ## Standards  
 <details><summary>INCIDENT ID</summary>  
   
-- `Question text:` Incident or case ID</br>  
-- `User notes:` N/A</br>  
-- `Question type:` text field</br>  
-- `Variable name:` incident_id (string)</br>  
-- `Purpose: To uniquely identify incidents for storage and tracking over time.</br>  
-- `Developer notes:` We recommend auto-generating IDs rather than prompting the user to create/submit one. If you plan to share incident with others, we suggest not making your org's name part of the incident ID (e.g., verizonBreach_00001).</br>  
-- `Miscellaneous:` N/A</br>  
+* `Question text:` Incident or case ID</br>  
+* `User notes:` N/A</br>  
+* `Question type:` text field</br>  
+* `Variable name:` incident_id (string)</br>  
+* `Purpose: To uniquely identify incidents for storage and tracking over time.</br>  
+* `Developer notes:` We recommend auto-generating IDs rather than prompting the user to create/submit one. If you plan to share incident with others, we suggest not making your org's name part of the incident ID (e.g., verizonBreach_00001).</br>  
+* `Miscellaneous:` N/A</br>  
   
 </details>
 
@@ -35,7 +35,7 @@
 <details><summary>INCIDENT CONFIRMATION</summary></br>
 
 * `Question text:` Was this a confirmed security incident?</br>
-* `User notes:` "Security incident" refers to any incident/event/occurrence/issue (or whatever) that compromises (or negatively affects) a security attribute (C-I-A) of an information asset in any form. This is an intentionally broad definition. In the case of false positives or “near misses” (unsuccessful attacks), the schema allows you to record the actor, action, and asset involved while leaving the attribute blank (since ascribing an attribute would imply the asset was negatively affected…which would mean it qualifies as an incident).</br>
+* `User notes:` "Security incident" refers to any incident/event/occurrence/issue (or whatever) that compromises (or negatively affects) a security attribute (C*I-A) of an information asset in any form. This is an intentionally broad definition. In the case of false positives or “near misses” (unsuccessful attacks), the schema allows you to record the actor, action, and asset involved while leaving the attribute blank (since ascribing an attribute would imply the asset was negatively affected…which would mean it qualifies as an incident).</br>
 * `Question type:` [enumerated list](http://veriscommunity.net/enums.html#section-incident_desc) (single-select)</br>
 * `Variable name:` security_incident (string; enumeration)</br>
 * `Purpose:` N/A</br>
