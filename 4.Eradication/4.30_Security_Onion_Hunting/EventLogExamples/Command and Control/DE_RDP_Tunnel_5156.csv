@@ -1,0 +1,2029 @@
+"Message","Id","Version","Qualifiers","Level","Task","Opcode","Keywords","RecordId","ProviderName","ProviderId","LogName","ProcessId","ThreadId","MachineName","UserId","TimeCreated","ActivityId","RelatedActivityId","MatchedQueryIds","Bookmark","LevelDisplayName","OpcodeDisplayName","TaskDisplayName","KeywordsDisplayNames","Properties"
+"The Windows Filtering Platform has permitted a connection.
+
+Application Information:
+	Process ID:		1588
+	Application Name:	\device\harddiskvolume1\windows\system32\svchost.exe
+
+Network Information:
+	Direction:		Inbound
+	Source Address:		239.255.255.250
+	Source Port:		1900
+	Destination Address:	127.0.0.1
+	Destination Port:		55141
+	Protocol:		17
+
+Filter Information:
+	Filter Run-Time ID:	0
+	Layer Name:		Receive/Accept
+	Layer Run-Time ID:	44","5156","1",,"0","12810","0","-9214364837600034816","227960","Microsoft-Windows-Security-Auditing","54849625-5478-4994-a5ba-3e3b0328c30d","Security","4","56","PC01.example.corp",,"2/13/2019 10:05:24 AM",,,"System.UInt32[]","System.Diagnostics.Eventing.Reader.EventBookmark","Information","Info","Filtering Platform Connection","System.Collections.ObjectModel.ReadOnlyCollection`1[System.String]","System.Collections.Generic.List`1[System.Diagnostics.Eventing.Reader.EventProperty]"
+"The Windows Filtering Platform has permitted a connection.
+
+Application Information:
+	Process ID:		1588
+	Application Name:	\device\harddiskvolume1\windows\system32\svchost.exe
+
+Network Information:
+	Direction:		Inbound
+	Source Address:		ff02::c
+	Source Port:		1900
+	Destination Address:	::1
+	Destination Port:		55139
+	Protocol:		17
+
+Filter Information:
+	Filter Run-Time ID:	0
+	Layer Name:		Receive/Accept
+	Layer Run-Time ID:	46","5156","1",,"0","12810","0","-9214364837600034816","227959","Microsoft-Windows-Security-Auditing","54849625-5478-4994-a5ba-3e3b0328c30d","Security","4","56","PC01.example.corp",,"2/13/2019 10:05:24 AM",,,"System.UInt32[]","System.Diagnostics.Eventing.Reader.EventBookmark","Information","Info","Filtering Platform Connection","System.Collections.ObjectModel.ReadOnlyCollection`1[System.String]","System.Collections.Generic.List`1[System.Diagnostics.Eventing.Reader.EventProperty]"
+"The Windows Filtering Platform has permitted a connection.
+
+Application Information:
+	Process ID:		1588
+	Application Name:	\device\harddiskvolume1\windows\system32\svchost.exe
+
+Network Information:
+	Direction:		Inbound
+	Source Address:		239.255.255.250
+	Source Port:		1900
+	Destination Address:	127.0.0.1
+	Destination Port:		55141
+	Protocol:		17
+
+Filter Information:
+	Filter Run-Time ID:	0
+	Layer Name:		Receive/Accept
+	Layer Run-Time ID:	44","5156","1",,"0","12810","0","-9214364837600034816","227958","Microsoft-Windows-Security-Auditing","54849625-5478-4994-a5ba-3e3b0328c30d","Security","4","56","PC01.example.corp",,"2/13/2019 10:05:24 AM",,,"System.UInt32[]","System.Diagnostics.Eventing.Reader.EventBookmark","Information","Info","Filtering Platform Connection","System.Collections.ObjectModel.ReadOnlyCollection`1[System.String]","System.Collections.Generic.List`1[System.Diagnostics.Eventing.Reader.EventProperty]"
+"The Windows Filtering Platform has permitted a connection.
+
+Application Information:
+	Process ID:		1588
+	Application Name:	\device\harddiskvolume1\windows\system32\svchost.exe
+
+Network Information:
+	Direction:		Inbound
+	Source Address:		ff02::c
+	Source Port:		1900
+	Destination Address:	::1
+	Destination Port:		55139
+	Protocol:		17
+
+Filter Information:
+	Filter Run-Time ID:	0
+	Layer Name:		Receive/Accept
+	Layer Run-Time ID:	46","5156","1",,"0","12810","0","-9214364837600034816","227957","Microsoft-Windows-Security-Auditing","54849625-5478-4994-a5ba-3e3b0328c30d","Security","4","56","PC01.example.corp",,"2/13/2019 10:05:24 AM",,,"System.UInt32[]","System.Diagnostics.Eventing.Reader.EventBookmark","Information","Info","Filtering Platform Connection","System.Collections.ObjectModel.ReadOnlyCollection`1[System.String]","System.Collections.Generic.List`1[System.Diagnostics.Eventing.Reader.EventProperty]"
+"The Windows Filtering Platform has permitted a connection.
+
+Application Information:
+	Process ID:		1588
+	Application Name:	\device\harddiskvolume1\windows\system32\svchost.exe
+
+Network Information:
+	Direction:		Inbound
+	Source Address:		239.255.255.250
+	Source Port:		1900
+	Destination Address:	127.0.0.1
+	Destination Port:		55141
+	Protocol:		17
+
+Filter Information:
+	Filter Run-Time ID:	0
+	Layer Name:		Receive/Accept
+	Layer Run-Time ID:	44","5156","1",,"0","12810","0","-9214364837600034816","227956","Microsoft-Windows-Security-Auditing","54849625-5478-4994-a5ba-3e3b0328c30d","Security","4","56","PC01.example.corp",,"2/13/2019 10:05:21 AM",,,"System.UInt32[]","System.Diagnostics.Eventing.Reader.EventBookmark","Information","Info","Filtering Platform Connection","System.Collections.ObjectModel.ReadOnlyCollection`1[System.String]","System.Collections.Generic.List`1[System.Diagnostics.Eventing.Reader.EventProperty]"
+"The Windows Filtering Platform has permitted a connection.
+
+Application Information:
+	Process ID:		1588
+	Application Name:	\device\harddiskvolume1\windows\system32\svchost.exe
+
+Network Information:
+	Direction:		Inbound
+	Source Address:		ff02::c
+	Source Port:		1900
+	Destination Address:	::1
+	Destination Port:		55139
+	Protocol:		17
+
+Filter Information:
+	Filter Run-Time ID:	0
+	Layer Name:		Receive/Accept
+	Layer Run-Time ID:	46","5156","1",,"0","12810","0","-9214364837600034816","227955","Microsoft-Windows-Security-Auditing","54849625-5478-4994-a5ba-3e3b0328c30d","Security","4","56","PC01.example.corp",,"2/13/2019 10:05:21 AM",,,"System.UInt32[]","System.Diagnostics.Eventing.Reader.EventBookmark","Information","Info","Filtering Platform Connection","System.Collections.ObjectModel.ReadOnlyCollection`1[System.String]","System.Collections.Generic.List`1[System.Diagnostics.Eventing.Reader.EventProperty]"
+"The Windows Filtering Platform has permitted a connection.
+
+Application Information:
+	Process ID:		1588
+	Application Name:	\device\harddiskvolume1\windows\system32\svchost.exe
+
+Network Information:
+	Direction:		Inbound
+	Source Address:		239.255.255.250
+	Source Port:		1900
+	Destination Address:	127.0.0.1
+	Destination Port:		55141
+	Protocol:		17
+
+Filter Information:
+	Filter Run-Time ID:	0
+	Layer Name:		Receive/Accept
+	Layer Run-Time ID:	44","5156","1",,"0","12810","0","-9214364837600034816","227954","Microsoft-Windows-Security-Auditing","54849625-5478-4994-a5ba-3e3b0328c30d","Security","4","56","PC01.example.corp",,"2/13/2019 10:05:21 AM",,,"System.UInt32[]","System.Diagnostics.Eventing.Reader.EventBookmark","Information","Info","Filtering Platform Connection","System.Collections.ObjectModel.ReadOnlyCollection`1[System.String]","System.Collections.Generic.List`1[System.Diagnostics.Eventing.Reader.EventProperty]"
+"The Windows Filtering Platform has permitted a connection.
+
+Application Information:
+	Process ID:		1588
+	Application Name:	\device\harddiskvolume1\windows\system32\svchost.exe
+
+Network Information:
+	Direction:		Inbound
+	Source Address:		ff02::c
+	Source Port:		1900
+	Destination Address:	::1
+	Destination Port:		55139
+	Protocol:		17
+
+Filter Information:
+	Filter Run-Time ID:	0
+	Layer Name:		Receive/Accept
+	Layer Run-Time ID:	46","5156","1",,"0","12810","0","-9214364837600034816","227953","Microsoft-Windows-Security-Auditing","54849625-5478-4994-a5ba-3e3b0328c30d","Security","4","56","PC01.example.corp",,"2/13/2019 10:05:21 AM",,,"System.UInt32[]","System.Diagnostics.Eventing.Reader.EventBookmark","Information","Info","Filtering Platform Connection","System.Collections.ObjectModel.ReadOnlyCollection`1[System.String]","System.Collections.Generic.List`1[System.Diagnostics.Eventing.Reader.EventProperty]"
+"The Windows Filtering Platform has permitted a connection.
+
+Application Information:
+	Process ID:		4
+	Application Name:	System
+
+Network Information:
+	Direction:		Inbound
+	Source Address:		127.0.0.1
+	Source Port:		5357
+	Destination Address:	127.0.0.1
+	Destination Port:		49284
+	Protocol:		6
+
+Filter Information:
+	Filter Run-Time ID:	0
+	Layer Name:		Receive/Accept
+	Layer Run-Time ID:	44","5156","1",,"0","12810","0","-9214364837600034816","227952","Microsoft-Windows-Security-Auditing","54849625-5478-4994-a5ba-3e3b0328c30d","Security","4","56","PC01.example.corp",,"2/13/2019 10:05:19 AM",,,"System.UInt32[]","System.Diagnostics.Eventing.Reader.EventBookmark","Information","Info","Filtering Platform Connection","System.Collections.ObjectModel.ReadOnlyCollection`1[System.String]","System.Collections.Generic.List`1[System.Diagnostics.Eventing.Reader.EventProperty]"
+"The Windows Filtering Platform has permitted a connection.
+
+Application Information:
+	Process ID:		984
+	Application Name:	\device\harddiskvolume1\windows\system32\svchost.exe
+
+Network Information:
+	Direction:		Outbound
+	Source Address:		127.0.0.1
+	Source Port:		49284
+	Destination Address:	127.0.0.1
+	Destination Port:		5357
+	Protocol:		6
+
+Filter Information:
+	Filter Run-Time ID:	0
+	Layer Name:		Connect
+	Layer Run-Time ID:	48","5156","1",,"0","12810","0","-9214364837600034816","227951","Microsoft-Windows-Security-Auditing","54849625-5478-4994-a5ba-3e3b0328c30d","Security","4","56","PC01.example.corp",,"2/13/2019 10:05:19 AM",,,"System.UInt32[]","System.Diagnostics.Eventing.Reader.EventBookmark","Information","Info","Filtering Platform Connection","System.Collections.ObjectModel.ReadOnlyCollection`1[System.String]","System.Collections.Generic.List`1[System.Diagnostics.Eventing.Reader.EventProperty]"
+"The Windows Filtering Platform has permitted a connection.
+
+Application Information:
+	Process ID:		1588
+	Application Name:	\device\harddiskvolume1\windows\system32\svchost.exe
+
+Network Information:
+	Direction:		Outbound
+	Source Address:		127.0.0.1
+	Source Port:		3702
+	Destination Address:	127.0.0.1
+	Destination Port:		53614
+	Protocol:		17
+
+Filter Information:
+	Filter Run-Time ID:	0
+	Layer Name:		Connect
+	Layer Run-Time ID:	48","5156","1",,"0","12810","0","-9214364837600034816","227950","Microsoft-Windows-Security-Auditing","54849625-5478-4994-a5ba-3e3b0328c30d","Security","4","56","PC01.example.corp",,"2/13/2019 10:05:19 AM",,,"System.UInt32[]","System.Diagnostics.Eventing.Reader.EventBookmark","Information","Info","Filtering Platform Connection","System.Collections.ObjectModel.ReadOnlyCollection`1[System.String]","System.Collections.Generic.List`1[System.Diagnostics.Eventing.Reader.EventProperty]"
+"The Windows Filtering Platform has permitted a connection.
+
+Application Information:
+	Process ID:		984
+	Application Name:	\device\harddiskvolume1\windows\system32\svchost.exe
+
+Network Information:
+	Direction:		Inbound
+	Source Address:		239.255.255.250
+	Source Port:		3702
+	Destination Address:	127.0.0.1
+	Destination Port:		53614
+	Protocol:		17
+
+Filter Information:
+	Filter Run-Time ID:	0
+	Layer Name:		Receive/Accept
+	Layer Run-Time ID:	44","5156","1",,"0","12810","0","-9214364837600034816","227949","Microsoft-Windows-Security-Auditing","54849625-5478-4994-a5ba-3e3b0328c30d","Security","4","56","PC01.example.corp",,"2/13/2019 10:05:18 AM",,,"System.UInt32[]","System.Diagnostics.Eventing.Reader.EventBookmark","Information","Info","Filtering Platform Connection","System.Collections.ObjectModel.ReadOnlyCollection`1[System.String]","System.Collections.Generic.List`1[System.Diagnostics.Eventing.Reader.EventProperty]"
+"The Windows Filtering Platform has permitted a connection.
+
+Application Information:
+	Process ID:		1588
+	Application Name:	\device\harddiskvolume1\windows\system32\svchost.exe
+
+Network Information:
+	Direction:		Inbound
+	Source Address:		239.255.255.250
+	Source Port:		3702
+	Destination Address:	127.0.0.1
+	Destination Port:		53614
+	Protocol:		17
+
+Filter Information:
+	Filter Run-Time ID:	0
+	Layer Name:		Receive/Accept
+	Layer Run-Time ID:	44","5156","1",,"0","12810","0","-9214364837600034816","227948","Microsoft-Windows-Security-Auditing","54849625-5478-4994-a5ba-3e3b0328c30d","Security","4","56","PC01.example.corp",,"2/13/2019 10:05:18 AM",,,"System.UInt32[]","System.Diagnostics.Eventing.Reader.EventBookmark","Information","Info","Filtering Platform Connection","System.Collections.ObjectModel.ReadOnlyCollection`1[System.String]","System.Collections.Generic.List`1[System.Diagnostics.Eventing.Reader.EventProperty]"
+"The Windows Filtering Platform has permitted a connection.
+
+Application Information:
+	Process ID:		984
+	Application Name:	\device\harddiskvolume1\windows\system32\svchost.exe
+
+Network Information:
+	Direction:		Inbound
+	Source Address:		ff02::c
+	Source Port:		3702
+	Destination Address:	::1
+	Destination Port:		53615
+	Protocol:		17
+
+Filter Information:
+	Filter Run-Time ID:	0
+	Layer Name:		Receive/Accept
+	Layer Run-Time ID:	46","5156","1",,"0","12810","0","-9214364837600034816","227947","Microsoft-Windows-Security-Auditing","54849625-5478-4994-a5ba-3e3b0328c30d","Security","4","56","PC01.example.corp",,"2/13/2019 10:05:18 AM",,,"System.UInt32[]","System.Diagnostics.Eventing.Reader.EventBookmark","Information","Info","Filtering Platform Connection","System.Collections.ObjectModel.ReadOnlyCollection`1[System.String]","System.Collections.Generic.List`1[System.Diagnostics.Eventing.Reader.EventProperty]"
+"The Windows Filtering Platform has permitted a connection.
+
+Application Information:
+	Process ID:		1588
+	Application Name:	\device\harddiskvolume1\windows\system32\svchost.exe
+
+Network Information:
+	Direction:		Inbound
+	Source Address:		ff02::c
+	Source Port:		3702
+	Destination Address:	::1
+	Destination Port:		53615
+	Protocol:		17
+
+Filter Information:
+	Filter Run-Time ID:	0
+	Layer Name:		Receive/Accept
+	Layer Run-Time ID:	46","5156","1",,"0","12810","0","-9214364837600034816","227946","Microsoft-Windows-Security-Auditing","54849625-5478-4994-a5ba-3e3b0328c30d","Security","4","56","PC01.example.corp",,"2/13/2019 10:05:18 AM",,,"System.UInt32[]","System.Diagnostics.Eventing.Reader.EventBookmark","Information","Info","Filtering Platform Connection","System.Collections.ObjectModel.ReadOnlyCollection`1[System.String]","System.Collections.Generic.List`1[System.Diagnostics.Eventing.Reader.EventProperty]"
+"The Windows Filtering Platform has permitted a connection.
+
+Application Information:
+	Process ID:		984
+	Application Name:	\device\harddiskvolume1\windows\system32\svchost.exe
+
+Network Information:
+	Direction:		Inbound
+	Source Address:		ff02::c
+	Source Port:		3702
+	Destination Address:	::1
+	Destination Port:		53615
+	Protocol:		17
+
+Filter Information:
+	Filter Run-Time ID:	0
+	Layer Name:		Receive/Accept
+	Layer Run-Time ID:	46","5156","1",,"0","12810","0","-9214364837600034816","227875","Microsoft-Windows-Security-Auditing","54849625-5478-4994-a5ba-3e3b0328c30d","Security","4","56","PC01.example.corp",,"2/13/2019 10:05:18 AM",,,"System.UInt32[]","System.Diagnostics.Eventing.Reader.EventBookmark","Information","Info","Filtering Platform Connection","System.Collections.ObjectModel.ReadOnlyCollection`1[System.String]","System.Collections.Generic.List`1[System.Diagnostics.Eventing.Reader.EventProperty]"
+"The Windows Filtering Platform has permitted a connection.
+
+Application Information:
+	Process ID:		1588
+	Application Name:	\device\harddiskvolume1\windows\system32\svchost.exe
+
+Network Information:
+	Direction:		Inbound
+	Source Address:		ff02::c
+	Source Port:		3702
+	Destination Address:	::1
+	Destination Port:		53615
+	Protocol:		17
+
+Filter Information:
+	Filter Run-Time ID:	0
+	Layer Name:		Receive/Accept
+	Layer Run-Time ID:	46","5156","1",,"0","12810","0","-9214364837600034816","227874","Microsoft-Windows-Security-Auditing","54849625-5478-4994-a5ba-3e3b0328c30d","Security","4","56","PC01.example.corp",,"2/13/2019 10:05:18 AM",,,"System.UInt32[]","System.Diagnostics.Eventing.Reader.EventBookmark","Information","Info","Filtering Platform Connection","System.Collections.ObjectModel.ReadOnlyCollection`1[System.String]","System.Collections.Generic.List`1[System.Diagnostics.Eventing.Reader.EventProperty]"
+"The Windows Filtering Platform has permitted a connection.
+
+Application Information:
+	Process ID:		984
+	Application Name:	\device\harddiskvolume1\windows\system32\svchost.exe
+
+Network Information:
+	Direction:		Outbound
+	Source Address:		::1
+	Source Port:		53615
+	Destination Address:	ff02::c
+	Destination Port:		3702
+	Protocol:		17
+
+Filter Information:
+	Filter Run-Time ID:	0
+	Layer Name:		Connect
+	Layer Run-Time ID:	50","5156","1",,"0","12810","0","-9214364837600034816","227873","Microsoft-Windows-Security-Auditing","54849625-5478-4994-a5ba-3e3b0328c30d","Security","4","56","PC01.example.corp",,"2/13/2019 10:05:18 AM",,,"System.UInt32[]","System.Diagnostics.Eventing.Reader.EventBookmark","Information","Info","Filtering Platform Connection","System.Collections.ObjectModel.ReadOnlyCollection`1[System.String]","System.Collections.Generic.List`1[System.Diagnostics.Eventing.Reader.EventProperty]"
+"The Windows Filtering Platform has permitted a connection.
+
+Application Information:
+	Process ID:		984
+	Application Name:	\device\harddiskvolume1\windows\system32\svchost.exe
+
+Network Information:
+	Direction:		Outbound
+	Source Address:		fe80::80ac:4126:fa58:1b81
+	Source Port:		53615
+	Destination Address:	ff02::c
+	Destination Port:		3702
+	Protocol:		17
+
+Filter Information:
+	Filter Run-Time ID:	0
+	Layer Name:		Connect
+	Layer Run-Time ID:	50","5156","1",,"0","12810","0","-9214364837600034816","227872","Microsoft-Windows-Security-Auditing","54849625-5478-4994-a5ba-3e3b0328c30d","Security","4","56","PC01.example.corp",,"2/13/2019 10:05:18 AM",,,"System.UInt32[]","System.Diagnostics.Eventing.Reader.EventBookmark","Information","Info","Filtering Platform Connection","System.Collections.ObjectModel.ReadOnlyCollection`1[System.String]","System.Collections.Generic.List`1[System.Diagnostics.Eventing.Reader.EventProperty]"
+"The Windows Filtering Platform has permitted a connection.
+
+Application Information:
+	Process ID:		984
+	Application Name:	\device\harddiskvolume1\windows\system32\svchost.exe
+
+Network Information:
+	Direction:		Inbound
+	Source Address:		239.255.255.250
+	Source Port:		3702
+	Destination Address:	127.0.0.1
+	Destination Port:		53614
+	Protocol:		17
+
+Filter Information:
+	Filter Run-Time ID:	0
+	Layer Name:		Receive/Accept
+	Layer Run-Time ID:	44","5156","1",,"0","12810","0","-9214364837600034816","227871","Microsoft-Windows-Security-Auditing","54849625-5478-4994-a5ba-3e3b0328c30d","Security","4","56","PC01.example.corp",,"2/13/2019 10:05:18 AM",,,"System.UInt32[]","System.Diagnostics.Eventing.Reader.EventBookmark","Information","Info","Filtering Platform Connection","System.Collections.ObjectModel.ReadOnlyCollection`1[System.String]","System.Collections.Generic.List`1[System.Diagnostics.Eventing.Reader.EventProperty]"
+"The Windows Filtering Platform has permitted a connection.
+
+Application Information:
+	Process ID:		1588
+	Application Name:	\device\harddiskvolume1\windows\system32\svchost.exe
+
+Network Information:
+	Direction:		Inbound
+	Source Address:		239.255.255.250
+	Source Port:		3702
+	Destination Address:	127.0.0.1
+	Destination Port:		53614
+	Protocol:		17
+
+Filter Information:
+	Filter Run-Time ID:	0
+	Layer Name:		Receive/Accept
+	Layer Run-Time ID:	44","5156","1",,"0","12810","0","-9214364837600034816","227870","Microsoft-Windows-Security-Auditing","54849625-5478-4994-a5ba-3e3b0328c30d","Security","4","56","PC01.example.corp",,"2/13/2019 10:05:18 AM",,,"System.UInt32[]","System.Diagnostics.Eventing.Reader.EventBookmark","Information","Info","Filtering Platform Connection","System.Collections.ObjectModel.ReadOnlyCollection`1[System.String]","System.Collections.Generic.List`1[System.Diagnostics.Eventing.Reader.EventProperty]"
+"The Windows Filtering Platform has permitted a connection.
+
+Application Information:
+	Process ID:		984
+	Application Name:	\device\harddiskvolume1\windows\system32\svchost.exe
+
+Network Information:
+	Direction:		Outbound
+	Source Address:		127.0.0.1
+	Source Port:		53614
+	Destination Address:	239.255.255.250
+	Destination Port:		3702
+	Protocol:		17
+
+Filter Information:
+	Filter Run-Time ID:	0
+	Layer Name:		Connect
+	Layer Run-Time ID:	48","5156","1",,"0","12810","0","-9214364837600034816","227869","Microsoft-Windows-Security-Auditing","54849625-5478-4994-a5ba-3e3b0328c30d","Security","4","56","PC01.example.corp",,"2/13/2019 10:05:18 AM",,,"System.UInt32[]","System.Diagnostics.Eventing.Reader.EventBookmark","Information","Info","Filtering Platform Connection","System.Collections.ObjectModel.ReadOnlyCollection`1[System.String]","System.Collections.Generic.List`1[System.Diagnostics.Eventing.Reader.EventProperty]"
+"The Windows Filtering Platform has permitted a connection.
+
+Application Information:
+	Process ID:		984
+	Application Name:	\device\harddiskvolume1\windows\system32\svchost.exe
+
+Network Information:
+	Direction:		Outbound
+	Source Address:		10.0.2.17
+	Source Port:		53614
+	Destination Address:	239.255.255.250
+	Destination Port:		3702
+	Protocol:		17
+
+Filter Information:
+	Filter Run-Time ID:	0
+	Layer Name:		Connect
+	Layer Run-Time ID:	48","5156","1",,"0","12810","0","-9214364837600034816","227868","Microsoft-Windows-Security-Auditing","54849625-5478-4994-a5ba-3e3b0328c30d","Security","4","56","PC01.example.corp",,"2/13/2019 10:05:18 AM",,,"System.UInt32[]","System.Diagnostics.Eventing.Reader.EventBookmark","Information","Info","Filtering Platform Connection","System.Collections.ObjectModel.ReadOnlyCollection`1[System.String]","System.Collections.Generic.List`1[System.Diagnostics.Eventing.Reader.EventProperty]"
+"The Windows Filtering Platform has permitted a bind to a local port.
+
+Application Information:
+	Process ID:		984
+	Application Name:	\device\harddiskvolume1\windows\system32\svchost.exe
+
+Network Information:
+	Source Address:		::
+	Source Port:		53615
+	Protocol:		17
+
+Filter Information:
+	Filter Run-Time ID:	0
+	Layer Name:		Resource Assignment
+	Layer Run-Time ID:	38","5158","0",,"0","12810","0","-9214364837600034816","227867","Microsoft-Windows-Security-Auditing","54849625-5478-4994-a5ba-3e3b0328c30d","Security","4","56","PC01.example.corp",,"2/13/2019 10:05:18 AM",,,"System.UInt32[]","System.Diagnostics.Eventing.Reader.EventBookmark","Information","Info","Filtering Platform Connection","System.Collections.ObjectModel.ReadOnlyCollection`1[System.String]","System.Collections.Generic.List`1[System.Diagnostics.Eventing.Reader.EventProperty]"
+"The Windows Filtering Platform has permitted a bind to a local port.
+
+Application Information:
+	Process ID:		984
+	Application Name:	\device\harddiskvolume1\windows\system32\svchost.exe
+
+Network Information:
+	Source Address:		0.0.0.0
+	Source Port:		53614
+	Protocol:		17
+
+Filter Information:
+	Filter Run-Time ID:	0
+	Layer Name:		Resource Assignment
+	Layer Run-Time ID:	36","5158","0",,"0","12810","0","-9214364837600034816","227866","Microsoft-Windows-Security-Auditing","54849625-5478-4994-a5ba-3e3b0328c30d","Security","4","56","PC01.example.corp",,"2/13/2019 10:05:18 AM",,,"System.UInt32[]","System.Diagnostics.Eventing.Reader.EventBookmark","Information","Info","Filtering Platform Connection","System.Collections.ObjectModel.ReadOnlyCollection`1[System.String]","System.Collections.Generic.List`1[System.Diagnostics.Eventing.Reader.EventProperty]"
+"The Windows Filtering Platform has permitted a bind to a local port.
+
+Application Information:
+	Process ID:		984
+	Application Name:	\device\harddiskvolume1\windows\system32\svchost.exe
+
+Network Information:
+	Source Address:		::
+	Source Port:		3702
+	Protocol:		17
+
+Filter Information:
+	Filter Run-Time ID:	0
+	Layer Name:		Resource Assignment
+	Layer Run-Time ID:	38","5158","0",,"0","12810","0","-9214364837600034816","227865","Microsoft-Windows-Security-Auditing","54849625-5478-4994-a5ba-3e3b0328c30d","Security","4","56","PC01.example.corp",,"2/13/2019 10:05:18 AM",,,"System.UInt32[]","System.Diagnostics.Eventing.Reader.EventBookmark","Information","Info","Filtering Platform Connection","System.Collections.ObjectModel.ReadOnlyCollection`1[System.String]","System.Collections.Generic.List`1[System.Diagnostics.Eventing.Reader.EventProperty]"
+"The Windows Filtering Platform has permitted a bind to a local port.
+
+Application Information:
+	Process ID:		984
+	Application Name:	\device\harddiskvolume1\windows\system32\svchost.exe
+
+Network Information:
+	Source Address:		::
+	Source Port:		3702
+	Protocol:		17
+
+Filter Information:
+	Filter Run-Time ID:	0
+	Layer Name:		Resource Assignment
+	Layer Run-Time ID:	38","5158","0",,"0","12810","0","-9214364837600034816","227864","Microsoft-Windows-Security-Auditing","54849625-5478-4994-a5ba-3e3b0328c30d","Security","4","56","PC01.example.corp",,"2/13/2019 10:05:18 AM",,,"System.UInt32[]","System.Diagnostics.Eventing.Reader.EventBookmark","Information","Info","Filtering Platform Connection","System.Collections.ObjectModel.ReadOnlyCollection`1[System.String]","System.Collections.Generic.List`1[System.Diagnostics.Eventing.Reader.EventProperty]"
+"The Windows Filtering Platform has permitted a bind to a local port.
+
+Application Information:
+	Process ID:		984
+	Application Name:	\device\harddiskvolume1\windows\system32\svchost.exe
+
+Network Information:
+	Source Address:		0.0.0.0
+	Source Port:		3702
+	Protocol:		17
+
+Filter Information:
+	Filter Run-Time ID:	0
+	Layer Name:		Resource Assignment
+	Layer Run-Time ID:	36","5158","0",,"0","12810","0","-9214364837600034816","227863","Microsoft-Windows-Security-Auditing","54849625-5478-4994-a5ba-3e3b0328c30d","Security","4","56","PC01.example.corp",,"2/13/2019 10:05:18 AM",,,"System.UInt32[]","System.Diagnostics.Eventing.Reader.EventBookmark","Information","Info","Filtering Platform Connection","System.Collections.ObjectModel.ReadOnlyCollection`1[System.String]","System.Collections.Generic.List`1[System.Diagnostics.Eventing.Reader.EventProperty]"
+"The Windows Filtering Platform has permitted a bind to a local port.
+
+Application Information:
+	Process ID:		984
+	Application Name:	\device\harddiskvolume1\windows\system32\svchost.exe
+
+Network Information:
+	Source Address:		0.0.0.0
+	Source Port:		3702
+	Protocol:		17
+
+Filter Information:
+	Filter Run-Time ID:	0
+	Layer Name:		Resource Assignment
+	Layer Run-Time ID:	36","5158","0",,"0","12810","0","-9214364837600034816","227862","Microsoft-Windows-Security-Auditing","54849625-5478-4994-a5ba-3e3b0328c30d","Security","4","56","PC01.example.corp",,"2/13/2019 10:05:18 AM",,,"System.UInt32[]","System.Diagnostics.Eventing.Reader.EventBookmark","Information","Info","Filtering Platform Connection","System.Collections.ObjectModel.ReadOnlyCollection`1[System.String]","System.Collections.Generic.List`1[System.Diagnostics.Eventing.Reader.EventProperty]"
+"The Windows Filtering Platform has permitted a connection.
+
+Application Information:
+	Process ID:		1588
+	Application Name:	\device\harddiskvolume1\windows\system32\svchost.exe
+
+Network Information:
+	Direction:		Inbound
+	Source Address:		239.255.255.250
+	Source Port:		1900
+	Destination Address:	127.0.0.1
+	Destination Port:		55141
+	Protocol:		17
+
+Filter Information:
+	Filter Run-Time ID:	0
+	Layer Name:		Receive/Accept
+	Layer Run-Time ID:	44","5156","1",,"0","12810","0","-9214364837600034816","227833","Microsoft-Windows-Security-Auditing","54849625-5478-4994-a5ba-3e3b0328c30d","Security","4","56","PC01.example.corp",,"2/13/2019 10:05:18 AM",,,"System.UInt32[]","System.Diagnostics.Eventing.Reader.EventBookmark","Information","Info","Filtering Platform Connection","System.Collections.ObjectModel.ReadOnlyCollection`1[System.String]","System.Collections.Generic.List`1[System.Diagnostics.Eventing.Reader.EventProperty]"
+"The Windows Filtering Platform has permitted a connection.
+
+Application Information:
+	Process ID:		1588
+	Application Name:	\device\harddiskvolume1\windows\system32\svchost.exe
+
+Network Information:
+	Direction:		Inbound
+	Source Address:		ff02::c
+	Source Port:		1900
+	Destination Address:	::1
+	Destination Port:		55139
+	Protocol:		17
+
+Filter Information:
+	Filter Run-Time ID:	0
+	Layer Name:		Receive/Accept
+	Layer Run-Time ID:	46","5156","1",,"0","12810","0","-9214364837600034816","227832","Microsoft-Windows-Security-Auditing","54849625-5478-4994-a5ba-3e3b0328c30d","Security","4","56","PC01.example.corp",,"2/13/2019 10:05:18 AM",,,"System.UInt32[]","System.Diagnostics.Eventing.Reader.EventBookmark","Information","Info","Filtering Platform Connection","System.Collections.ObjectModel.ReadOnlyCollection`1[System.String]","System.Collections.Generic.List`1[System.Diagnostics.Eventing.Reader.EventProperty]"
+"The Windows Filtering Platform has permitted a connection.
+
+Application Information:
+	Process ID:		1588
+	Application Name:	\device\harddiskvolume1\windows\system32\svchost.exe
+
+Network Information:
+	Direction:		Inbound
+	Source Address:		239.255.255.250
+	Source Port:		1900
+	Destination Address:	127.0.0.1
+	Destination Port:		55141
+	Protocol:		17
+
+Filter Information:
+	Filter Run-Time ID:	0
+	Layer Name:		Receive/Accept
+	Layer Run-Time ID:	44","5156","1",,"0","12810","0","-9214364837600034816","227831","Microsoft-Windows-Security-Auditing","54849625-5478-4994-a5ba-3e3b0328c30d","Security","4","56","PC01.example.corp",,"2/13/2019 10:05:18 AM",,,"System.UInt32[]","System.Diagnostics.Eventing.Reader.EventBookmark","Information","Info","Filtering Platform Connection","System.Collections.ObjectModel.ReadOnlyCollection`1[System.String]","System.Collections.Generic.List`1[System.Diagnostics.Eventing.Reader.EventProperty]"
+"The Windows Filtering Platform has permitted a connection.
+
+Application Information:
+	Process ID:		1588
+	Application Name:	\device\harddiskvolume1\windows\system32\svchost.exe
+
+Network Information:
+	Direction:		Outbound
+	Source Address:		127.0.0.1
+	Source Port:		55141
+	Destination Address:	239.255.255.250
+	Destination Port:		1900
+	Protocol:		17
+
+Filter Information:
+	Filter Run-Time ID:	0
+	Layer Name:		Connect
+	Layer Run-Time ID:	48","5156","1",,"0","12810","0","-9214364837600034816","227830","Microsoft-Windows-Security-Auditing","54849625-5478-4994-a5ba-3e3b0328c30d","Security","4","56","PC01.example.corp",,"2/13/2019 10:05:18 AM",,,"System.UInt32[]","System.Diagnostics.Eventing.Reader.EventBookmark","Information","Info","Filtering Platform Connection","System.Collections.ObjectModel.ReadOnlyCollection`1[System.String]","System.Collections.Generic.List`1[System.Diagnostics.Eventing.Reader.EventProperty]"
+"The Windows Filtering Platform has permitted a connection.
+
+Application Information:
+	Process ID:		1588
+	Application Name:	\device\harddiskvolume1\windows\system32\svchost.exe
+
+Network Information:
+	Direction:		Outbound
+	Source Address:		10.0.2.17
+	Source Port:		55140
+	Destination Address:	239.255.255.250
+	Destination Port:		1900
+	Protocol:		17
+
+Filter Information:
+	Filter Run-Time ID:	0
+	Layer Name:		Connect
+	Layer Run-Time ID:	48","5156","1",,"0","12810","0","-9214364837600034816","227829","Microsoft-Windows-Security-Auditing","54849625-5478-4994-a5ba-3e3b0328c30d","Security","4","56","PC01.example.corp",,"2/13/2019 10:05:18 AM",,,"System.UInt32[]","System.Diagnostics.Eventing.Reader.EventBookmark","Information","Info","Filtering Platform Connection","System.Collections.ObjectModel.ReadOnlyCollection`1[System.String]","System.Collections.Generic.List`1[System.Diagnostics.Eventing.Reader.EventProperty]"
+"The Windows Filtering Platform has permitted a connection.
+
+Application Information:
+	Process ID:		1588
+	Application Name:	\device\harddiskvolume1\windows\system32\svchost.exe
+
+Network Information:
+	Direction:		Inbound
+	Source Address:		ff02::c
+	Source Port:		1900
+	Destination Address:	::1
+	Destination Port:		55139
+	Protocol:		17
+
+Filter Information:
+	Filter Run-Time ID:	0
+	Layer Name:		Receive/Accept
+	Layer Run-Time ID:	46","5156","1",,"0","12810","0","-9214364837600034816","227828","Microsoft-Windows-Security-Auditing","54849625-5478-4994-a5ba-3e3b0328c30d","Security","4","56","PC01.example.corp",,"2/13/2019 10:05:18 AM",,,"System.UInt32[]","System.Diagnostics.Eventing.Reader.EventBookmark","Information","Info","Filtering Platform Connection","System.Collections.ObjectModel.ReadOnlyCollection`1[System.String]","System.Collections.Generic.List`1[System.Diagnostics.Eventing.Reader.EventProperty]"
+"The Windows Filtering Platform has permitted a connection.
+
+Application Information:
+	Process ID:		1588
+	Application Name:	\device\harddiskvolume1\windows\system32\svchost.exe
+
+Network Information:
+	Direction:		Outbound
+	Source Address:		::1
+	Source Port:		55139
+	Destination Address:	ff02::c
+	Destination Port:		1900
+	Protocol:		17
+
+Filter Information:
+	Filter Run-Time ID:	0
+	Layer Name:		Connect
+	Layer Run-Time ID:	50","5156","1",,"0","12810","0","-9214364837600034816","227827","Microsoft-Windows-Security-Auditing","54849625-5478-4994-a5ba-3e3b0328c30d","Security","4","56","PC01.example.corp",,"2/13/2019 10:05:18 AM",,,"System.UInt32[]","System.Diagnostics.Eventing.Reader.EventBookmark","Information","Info","Filtering Platform Connection","System.Collections.ObjectModel.ReadOnlyCollection`1[System.String]","System.Collections.Generic.List`1[System.Diagnostics.Eventing.Reader.EventProperty]"
+"The Windows Filtering Platform has permitted a connection.
+
+Application Information:
+	Process ID:		1588
+	Application Name:	\device\harddiskvolume1\windows\system32\svchost.exe
+
+Network Information:
+	Direction:		Outbound
+	Source Address:		fe80::80ac:4126:fa58:1b81
+	Source Port:		55138
+	Destination Address:	ff02::c
+	Destination Port:		1900
+	Protocol:		17
+
+Filter Information:
+	Filter Run-Time ID:	0
+	Layer Name:		Connect
+	Layer Run-Time ID:	50","5156","1",,"0","12810","0","-9214364837600034816","227826","Microsoft-Windows-Security-Auditing","54849625-5478-4994-a5ba-3e3b0328c30d","Security","4","56","PC01.example.corp",,"2/13/2019 10:05:18 AM",,,"System.UInt32[]","System.Diagnostics.Eventing.Reader.EventBookmark","Information","Info","Filtering Platform Connection","System.Collections.ObjectModel.ReadOnlyCollection`1[System.String]","System.Collections.Generic.List`1[System.Diagnostics.Eventing.Reader.EventProperty]"
+"A new process has been created.
+
+Subject:
+	Security ID:		S-1-5-18
+	Account Name:		PC01$
+	Account Domain:		EXAMPLE
+	Logon ID:		0x3E7
+
+Process Information:
+	New Process ID:		0x7f0
+	New Process Name:	C:\Windows\System32\AtBroker.exe
+	Token Elevation Type:	TokenElevationTypeDefault (1)
+	Creator Process ID:	0xdec
+	Process Command Line:	
+
+Token Elevation Type indicates the type of token that was assigned to the new process in accordance with User Account Control policy.
+
+Type 1 is a full token with no privileges removed or groups disabled.  A full token is only used if User Account Control is disabled or if the user is the built-in Administrator account or a service account.
+
+Type 2 is an elevated token with no privileges removed or groups disabled.  An elevated token is used when User Account Control is enabled and the user chooses to start the program using Run as administrator.  An elevated token is also used when an application is configured to always require administrative privilege or to always require maximum privilege, and the user is a member of the Administrators group.
+
+Type 3 is a limited token with administrative privileges removed and administrative groups disabled.  The limited token is used when User Account Control is enabled, the application does not require administrative privilege, and the user does not choose to start the program using Run as administrator.","4688","1",,"0","13312","0","-9214364837600034816","227784","Microsoft-Windows-Security-Auditing","54849625-5478-4994-a5ba-3e3b0328c30d","Security","4","56","PC01.example.corp",,"2/13/2019 10:05:06 AM",,,"System.UInt32[]","System.Diagnostics.Eventing.Reader.EventBookmark","Information","Info","Process Creation","System.Collections.ObjectModel.ReadOnlyCollection`1[System.String]","System.Collections.Generic.List`1[System.Diagnostics.Eventing.Reader.EventProperty]"
+"A new process has been created.
+
+Subject:
+	Security ID:		S-1-5-20
+	Account Name:		PC01$
+	Account Domain:		EXAMPLE
+	Logon ID:		0x3E4
+
+Process Information:
+	New Process ID:		0xa1c
+	New Process Name:	C:\Windows\System32\rdpclip.exe
+	Token Elevation Type:	TokenElevationTypeDefault (1)
+	Creator Process ID:	0x500
+	Process Command Line:	
+
+Token Elevation Type indicates the type of token that was assigned to the new process in accordance with User Account Control policy.
+
+Type 1 is a full token with no privileges removed or groups disabled.  A full token is only used if User Account Control is disabled or if the user is the built-in Administrator account or a service account.
+
+Type 2 is an elevated token with no privileges removed or groups disabled.  An elevated token is used when User Account Control is enabled and the user chooses to start the program using Run as administrator.  An elevated token is also used when an application is configured to always require administrative privilege or to always require maximum privilege, and the user is a member of the Administrators group.
+
+Type 3 is a limited token with administrative privileges removed and administrative groups disabled.  The limited token is used when User Account Control is enabled, the application does not require administrative privilege, and the user does not choose to start the program using Run as administrator.","4688","1",,"0","13312","0","-9214364837600034816","227783","Microsoft-Windows-Security-Auditing","54849625-5478-4994-a5ba-3e3b0328c30d","Security","4","56","PC01.example.corp",,"2/13/2019 10:05:06 AM",,,"System.UInt32[]","System.Diagnostics.Eventing.Reader.EventBookmark","Information","Info","Process Creation","System.Collections.ObjectModel.ReadOnlyCollection`1[System.String]","System.Collections.Generic.List`1[System.Diagnostics.Eventing.Reader.EventProperty]"
+"A new process has been created.
+
+Subject:
+	Security ID:		S-1-5-18
+	Account Name:		PC01$
+	Account Domain:		EXAMPLE
+	Logon ID:		0x3E7
+
+Process Information:
+	New Process ID:		0x9fc
+	New Process Name:	C:\Windows\System32\TSTheme.exe
+	Token Elevation Type:	TokenElevationTypeDefault (1)
+	Creator Process ID:	0x278
+	Process Command Line:	
+
+Token Elevation Type indicates the type of token that was assigned to the new process in accordance with User Account Control policy.
+
+Type 1 is a full token with no privileges removed or groups disabled.  A full token is only used if User Account Control is disabled or if the user is the built-in Administrator account or a service account.
+
+Type 2 is an elevated token with no privileges removed or groups disabled.  An elevated token is used when User Account Control is enabled and the user chooses to start the program using Run as administrator.  An elevated token is also used when an application is configured to always require administrative privilege or to always require maximum privilege, and the user is a member of the Administrators group.
+
+Type 3 is a limited token with administrative privileges removed and administrative groups disabled.  The limited token is used when User Account Control is enabled, the application does not require administrative privilege, and the user does not choose to start the program using Run as administrator.","4688","1",,"0","13312","0","-9214364837600034816","227776","Microsoft-Windows-Security-Auditing","54849625-5478-4994-a5ba-3e3b0328c30d","Security","4","56","PC01.example.corp",,"2/13/2019 10:05:05 AM",,,"System.UInt32[]","System.Diagnostics.Eventing.Reader.EventBookmark","Information","Info","Process Creation","System.Collections.ObjectModel.ReadOnlyCollection`1[System.String]","System.Collections.Generic.List`1[System.Diagnostics.Eventing.Reader.EventProperty]"
+"A new process has been created.
+
+Subject:
+	Security ID:		S-1-5-18
+	Account Name:		PC01$
+	Account Domain:		EXAMPLE
+	Logon ID:		0x3E7
+
+Process Information:
+	New Process ID:		0xce0
+	New Process Name:	C:\Windows\System32\LogonUI.exe
+	Token Elevation Type:	TokenElevationTypeDefault (1)
+	Creator Process ID:	0x768
+	Process Command Line:	
+
+Token Elevation Type indicates the type of token that was assigned to the new process in accordance with User Account Control policy.
+
+Type 1 is a full token with no privileges removed or groups disabled.  A full token is only used if User Account Control is disabled or if the user is the built-in Administrator account or a service account.
+
+Type 2 is an elevated token with no privileges removed or groups disabled.  An elevated token is used when User Account Control is enabled and the user chooses to start the program using Run as administrator.  An elevated token is also used when an application is configured to always require administrative privilege or to always require maximum privilege, and the user is a member of the Administrators group.
+
+Type 3 is a limited token with administrative privileges removed and administrative groups disabled.  The limited token is used when User Account Control is enabled, the application does not require administrative privilege, and the user does not choose to start the program using Run as administrator.","4688","1",,"0","13312","0","-9214364837600034816","227775","Microsoft-Windows-Security-Auditing","54849625-5478-4994-a5ba-3e3b0328c30d","Security","4","56","PC01.example.corp",,"2/13/2019 10:05:05 AM",,,"System.UInt32[]","System.Diagnostics.Eventing.Reader.EventBookmark","Information","Info","Process Creation","System.Collections.ObjectModel.ReadOnlyCollection`1[System.String]","System.Collections.Generic.List`1[System.Diagnostics.Eventing.Reader.EventProperty]"
+"A new process has been created.
+
+Subject:
+	Security ID:		S-1-5-18
+	Account Name:		PC01$
+	Account Domain:		EXAMPLE
+	Logon ID:		0x3E7
+
+Process Information:
+	New Process ID:		0x768
+	New Process Name:	C:\Windows\System32\winlogon.exe
+	Token Elevation Type:	TokenElevationTypeDefault (1)
+	Creator Process ID:	0x62c
+	Process Command Line:	
+
+Token Elevation Type indicates the type of token that was assigned to the new process in accordance with User Account Control policy.
+
+Type 1 is a full token with no privileges removed or groups disabled.  A full token is only used if User Account Control is disabled or if the user is the built-in Administrator account or a service account.
+
+Type 2 is an elevated token with no privileges removed or groups disabled.  An elevated token is used when User Account Control is enabled and the user chooses to start the program using Run as administrator.  An elevated token is also used when an application is configured to always require administrative privilege or to always require maximum privilege, and the user is a member of the Administrators group.
+
+Type 3 is a limited token with administrative privileges removed and administrative groups disabled.  The limited token is used when User Account Control is enabled, the application does not require administrative privilege, and the user does not choose to start the program using Run as administrator.","4688","1",,"0","13312","0","-9214364837600034816","227774","Microsoft-Windows-Security-Auditing","54849625-5478-4994-a5ba-3e3b0328c30d","Security","4","56","PC01.example.corp",,"2/13/2019 10:05:04 AM",,,"System.UInt32[]","System.Diagnostics.Eventing.Reader.EventBookmark","Information","Info","Process Creation","System.Collections.ObjectModel.ReadOnlyCollection`1[System.String]","System.Collections.Generic.List`1[System.Diagnostics.Eventing.Reader.EventProperty]"
+"A new process has been created.
+
+Subject:
+	Security ID:		S-1-5-18
+	Account Name:		PC01$
+	Account Domain:		EXAMPLE
+	Logon ID:		0x3E7
+
+Process Information:
+	New Process ID:		0xadc
+	New Process Name:	C:\Windows\System32\csrss.exe
+	Token Elevation Type:	TokenElevationTypeDefault (1)
+	Creator Process ID:	0x62c
+	Process Command Line:	
+
+Token Elevation Type indicates the type of token that was assigned to the new process in accordance with User Account Control policy.
+
+Type 1 is a full token with no privileges removed or groups disabled.  A full token is only used if User Account Control is disabled or if the user is the built-in Administrator account or a service account.
+
+Type 2 is an elevated token with no privileges removed or groups disabled.  An elevated token is used when User Account Control is enabled and the user chooses to start the program using Run as administrator.  An elevated token is also used when an application is configured to always require administrative privilege or to always require maximum privilege, and the user is a member of the Administrators group.
+
+Type 3 is a limited token with administrative privileges removed and administrative groups disabled.  The limited token is used when User Account Control is enabled, the application does not require administrative privilege, and the user does not choose to start the program using Run as administrator.","4688","1",,"0","13312","0","-9214364837600034816","227773","Microsoft-Windows-Security-Auditing","54849625-5478-4994-a5ba-3e3b0328c30d","Security","4","56","PC01.example.corp",,"2/13/2019 10:05:04 AM",,,"System.UInt32[]","System.Diagnostics.Eventing.Reader.EventBookmark","Information","Info","Process Creation","System.Collections.ObjectModel.ReadOnlyCollection`1[System.String]","System.Collections.Generic.List`1[System.Diagnostics.Eventing.Reader.EventProperty]"
+"A new process has been created.
+
+Subject:
+	Security ID:		S-1-5-18
+	Account Name:		PC01$
+	Account Domain:		EXAMPLE
+	Logon ID:		0x3E7
+
+Process Information:
+	New Process ID:		0x62c
+	New Process Name:	C:\Windows\System32\smss.exe
+	Token Elevation Type:	TokenElevationTypeDefault (1)
+	Creator Process ID:	0x124
+	Process Command Line:	
+
+Token Elevation Type indicates the type of token that was assigned to the new process in accordance with User Account Control policy.
+
+Type 1 is a full token with no privileges removed or groups disabled.  A full token is only used if User Account Control is disabled or if the user is the built-in Administrator account or a service account.
+
+Type 2 is an elevated token with no privileges removed or groups disabled.  An elevated token is used when User Account Control is enabled and the user chooses to start the program using Run as administrator.  An elevated token is also used when an application is configured to always require administrative privilege or to always require maximum privilege, and the user is a member of the Administrators group.
+
+Type 3 is a limited token with administrative privileges removed and administrative groups disabled.  The limited token is used when User Account Control is enabled, the application does not require administrative privilege, and the user does not choose to start the program using Run as administrator.","4688","1",,"0","13312","0","-9214364837600034816","227772","Microsoft-Windows-Security-Auditing","54849625-5478-4994-a5ba-3e3b0328c30d","Security","4","56","PC01.example.corp",,"2/13/2019 10:05:04 AM",,,"System.UInt32[]","System.Diagnostics.Eventing.Reader.EventBookmark","Information","Info","Process Creation","System.Collections.ObjectModel.ReadOnlyCollection`1[System.String]","System.Collections.Generic.List`1[System.Diagnostics.Eventing.Reader.EventProperty]"
+"A new process has been created.
+
+Subject:
+	Security ID:		S-1-5-18
+	Account Name:		PC01$
+	Account Domain:		EXAMPLE
+	Logon ID:		0x3E7
+
+Process Information:
+	New Process ID:		0x410
+	New Process Name:	C:\Windows\System32\rundll32.exe
+	Token Elevation Type:	TokenElevationTypeDefault (1)
+	Creator Process ID:	0x278
+	Process Command Line:	
+
+Token Elevation Type indicates the type of token that was assigned to the new process in accordance with User Account Control policy.
+
+Type 1 is a full token with no privileges removed or groups disabled.  A full token is only used if User Account Control is disabled or if the user is the built-in Administrator account or a service account.
+
+Type 2 is an elevated token with no privileges removed or groups disabled.  An elevated token is used when User Account Control is enabled and the user chooses to start the program using Run as administrator.  An elevated token is also used when an application is configured to always require administrative privilege or to always require maximum privilege, and the user is a member of the Administrators group.
+
+Type 3 is a limited token with administrative privileges removed and administrative groups disabled.  The limited token is used when User Account Control is enabled, the application does not require administrative privilege, and the user does not choose to start the program using Run as administrator.","4688","1",,"0","13312","0","-9214364837600034816","227769","Microsoft-Windows-Security-Auditing","54849625-5478-4994-a5ba-3e3b0328c30d","Security","4","56","PC01.example.corp",,"2/13/2019 10:05:00 AM",,,"System.UInt32[]","System.Diagnostics.Eventing.Reader.EventBookmark","Information","Info","Process Creation","System.Collections.ObjectModel.ReadOnlyCollection`1[System.String]","System.Collections.Generic.List`1[System.Diagnostics.Eventing.Reader.EventProperty]"
+"The Windows Filtering Platform has permitted a connection.
+
+Application Information:
+	Process ID:		520
+	Application Name:	\device\harddiskvolume1\windows\system32\lsass.exe
+
+Network Information:
+	Direction:		Outbound
+	Source Address:		10.0.2.17
+	Source Port:		49283
+	Destination Address:	10.0.2.15
+	Destination Port:		88
+	Protocol:		6
+
+Filter Information:
+	Filter Run-Time ID:	0
+	Layer Name:		Connect
+	Layer Run-Time ID:	48","5156","1",,"0","12810","0","-9214364837600034816","227768","Microsoft-Windows-Security-Auditing","54849625-5478-4994-a5ba-3e3b0328c30d","Security","4","56","PC01.example.corp",,"2/13/2019 10:04:58 AM",,,"System.UInt32[]","System.Diagnostics.Eventing.Reader.EventBookmark","Information","Info","Filtering Platform Connection","System.Collections.ObjectModel.ReadOnlyCollection`1[System.String]","System.Collections.Generic.List`1[System.Diagnostics.Eventing.Reader.EventProperty]"
+"The Windows Filtering Platform has permitted a connection.
+
+Application Information:
+	Process ID:		520
+	Application Name:	\device\harddiskvolume1\windows\system32\lsass.exe
+
+Network Information:
+	Direction:		Outbound
+	Source Address:		10.0.2.17
+	Source Port:		49282
+	Destination Address:	10.0.2.15
+	Destination Port:		88
+	Protocol:		6
+
+Filter Information:
+	Filter Run-Time ID:	0
+	Layer Name:		Connect
+	Layer Run-Time ID:	48","5156","1",,"0","12810","0","-9214364837600034816","227767","Microsoft-Windows-Security-Auditing","54849625-5478-4994-a5ba-3e3b0328c30d","Security","4","56","PC01.example.corp",,"2/13/2019 10:04:58 AM",,,"System.UInt32[]","System.Diagnostics.Eventing.Reader.EventBookmark","Information","Info","Filtering Platform Connection","System.Collections.ObjectModel.ReadOnlyCollection`1[System.String]","System.Collections.Generic.List`1[System.Diagnostics.Eventing.Reader.EventProperty]"
+"The Windows Filtering Platform has permitted a connection.
+
+Application Information:
+	Process ID:		520
+	Application Name:	\device\harddiskvolume1\windows\system32\lsass.exe
+
+Network Information:
+	Direction:		Outbound
+	Source Address:		10.0.2.17
+	Source Port:		49281
+	Destination Address:	10.0.2.15
+	Destination Port:		88
+	Protocol:		6
+
+Filter Information:
+	Filter Run-Time ID:	0
+	Layer Name:		Connect
+	Layer Run-Time ID:	48","5156","1",,"0","12810","0","-9214364837600034816","227766","Microsoft-Windows-Security-Auditing","54849625-5478-4994-a5ba-3e3b0328c30d","Security","4","56","PC01.example.corp",,"2/13/2019 10:04:58 AM",,,"System.UInt32[]","System.Diagnostics.Eventing.Reader.EventBookmark","Information","Info","Filtering Platform Connection","System.Collections.ObjectModel.ReadOnlyCollection`1[System.String]","System.Collections.Generic.List`1[System.Diagnostics.Eventing.Reader.EventProperty]"
+"The Windows Filtering Platform has permitted a connection.
+
+Application Information:
+	Process ID:		4
+	Application Name:	System
+
+Network Information:
+	Direction:		Outbound
+	Source Address:		10.0.2.17
+	Source Port:		49280
+	Destination Address:	10.0.2.15
+	Destination Port:		445
+	Protocol:		6
+
+Filter Information:
+	Filter Run-Time ID:	0
+	Layer Name:		Connect
+	Layer Run-Time ID:	48","5156","1",,"0","12810","0","-9214364837600034816","227765","Microsoft-Windows-Security-Auditing","54849625-5478-4994-a5ba-3e3b0328c30d","Security","4","56","PC01.example.corp",,"2/13/2019 10:04:58 AM",,,"System.UInt32[]","System.Diagnostics.Eventing.Reader.EventBookmark","Information","Info","Filtering Platform Connection","System.Collections.ObjectModel.ReadOnlyCollection`1[System.String]","System.Collections.Generic.List`1[System.Diagnostics.Eventing.Reader.EventProperty]"
+"Special privileges assigned to new logon.
+
+Subject:
+	Security ID:		S-1-5-21-1587066498-1489273250-1035260531-1108
+	Account Name:		admin01
+	Account Domain:		EXAMPLE
+	Logon ID:		0x14A321
+
+Privileges:		SeSecurityPrivilege
+			SeTakeOwnershipPrivilege
+			SeLoadDriverPrivilege
+			SeBackupPrivilege
+			SeRestorePrivilege
+			SeDebugPrivilege
+			SeSystemEnvironmentPrivilege
+			SeImpersonatePrivilege","4672","0",,"0","12548","0","-9214364837600034816","227763","Microsoft-Windows-Security-Auditing","54849625-5478-4994-a5ba-3e3b0328c30d","Security","520","3980","PC01.example.corp",,"2/13/2019 10:04:58 AM","94862aea-0c0c-4b98-88b1-a269075a77e2",,"System.UInt32[]","System.Diagnostics.Eventing.Reader.EventBookmark","Information","Info","Special Logon","System.Collections.ObjectModel.ReadOnlyCollection`1[System.String]","System.Collections.Generic.List`1[System.Diagnostics.Eventing.Reader.EventProperty]"
+"An account was successfully logged on.
+
+Subject:
+	Security ID:		S-1-5-18
+	Account Name:		PC01$
+	Account Domain:		EXAMPLE
+	Logon ID:		0x3E7
+
+Logon Type:			10
+
+New Logon:
+	Security ID:		S-1-5-21-1587066498-1489273250-1035260531-1108
+	Account Name:		admin01
+	Account Domain:		EXAMPLE
+	Logon ID:		0x14A321
+	Logon GUID:		{af83a89c-c68a-5397-5ac6-24a0c4d2baf6}
+
+Process Information:
+	Process ID:		0x4b8
+	Process Name:		C:\Windows\System32\winlogon.exe
+
+Network Information:
+	Workstation Name:	PC01
+	Source Network Address:	127.0.0.1
+	Source Port:		49274
+
+Detailed Authentication Information:
+	Logon Process:		User32 
+	Authentication Package:	Negotiate
+	Transited Services:	-
+	Package Name (NTLM only):	-
+	Key Length:		0
+
+This event is generated when a logon session is created. It is generated on the computer that was accessed.
+
+The subject fields indicate the account on the local system which requested the logon. This is most commonly a service such as the Server service, or a local process such as Winlogon.exe or Services.exe.
+
+The logon type field indicates the kind of logon that occurred. The most common types are 2 (interactive) and 3 (network).
+
+The New Logon fields indicate the account for whom the new logon was created, i.e. the account that was logged on.
+
+The network fields indicate where a remote logon request originated. Workstation name is not always available and may be left blank in some cases.
+
+The impersonation level field indicates the extent to which a process in the logon session can impersonate.
+
+The authentication information fields provide detailed information about this specific logon request.
+	- Logon GUID is a unique identifier that can be used to correlate this event with a KDC event.
+	- Transited services indicate which intermediate services have participated in this logon request.
+	- Package name indicates which sub-protocol was used among the NTLM protocols.
+	- Key length indicates the length of the generated session key. This will be 0 if no session key was requested.","4624","0",,"0","12544","0","-9214364837600034816","227762","Microsoft-Windows-Security-Auditing","54849625-5478-4994-a5ba-3e3b0328c30d","Security","520","3980","PC01.example.corp",,"2/13/2019 10:04:58 AM","94862aea-0c0c-4b98-88b1-a269075a77e2",,"System.UInt32[]","System.Diagnostics.Eventing.Reader.EventBookmark","Information","Info","Logon","System.Collections.ObjectModel.ReadOnlyCollection`1[System.String]","System.Collections.Generic.List`1[System.Diagnostics.Eventing.Reader.EventProperty]"
+"A logon was attempted using explicit credentials.
+
+Subject:
+	Security ID:		S-1-5-18
+	Account Name:		PC01$
+	Account Domain:		EXAMPLE
+	Logon ID:		0x3E7
+	Logon GUID:		{00000000-0000-0000-0000-000000000000}
+
+Account Whose Credentials Were Used:
+	Account Name:		admin01
+	Account Domain:		EXAMPLE
+	Logon GUID:		{af83a89c-c68a-5397-5ac6-24a0c4d2baf6}
+
+Target Server:
+	Target Server Name:	localhost
+	Additional Information:	localhost
+
+Process Information:
+	Process ID:		0x4b8
+	Process Name:		C:\Windows\System32\winlogon.exe
+
+Network Information:
+	Network Address:	127.0.0.1
+	Port:			49274
+
+This event is generated when a process attempts to log on an account by explicitly specifying that account?s credentials.  This most commonly occurs in batch-type configurations such as scheduled tasks, or when using the RUNAS command.","4648","0",,"0","12544","0","-9214364837600034816","227761","Microsoft-Windows-Security-Auditing","54849625-5478-4994-a5ba-3e3b0328c30d","Security","520","3980","PC01.example.corp",,"2/13/2019 10:04:58 AM","94862aea-0c0c-4b98-88b1-a269075a77e2",,"System.UInt32[]","System.Diagnostics.Eventing.Reader.EventBookmark","Information","Info","Logon","System.Collections.ObjectModel.ReadOnlyCollection`1[System.String]","System.Collections.Generic.List`1[System.Diagnostics.Eventing.Reader.EventProperty]"
+"The Windows Filtering Platform has permitted a connection.
+
+Application Information:
+	Process ID:		520
+	Application Name:	\device\harddiskvolume1\windows\system32\lsass.exe
+
+Network Information:
+	Direction:		Outbound
+	Source Address:		10.0.2.17
+	Source Port:		49279
+	Destination Address:	10.0.2.15
+	Destination Port:		88
+	Protocol:		6
+
+Filter Information:
+	Filter Run-Time ID:	0
+	Layer Name:		Connect
+	Layer Run-Time ID:	48","5156","1",,"0","12810","0","-9214364837600034816","227759","Microsoft-Windows-Security-Auditing","54849625-5478-4994-a5ba-3e3b0328c30d","Security","4","56","PC01.example.corp",,"2/13/2019 10:04:58 AM",,,"System.UInt32[]","System.Diagnostics.Eventing.Reader.EventBookmark","Information","Info","Filtering Platform Connection","System.Collections.ObjectModel.ReadOnlyCollection`1[System.String]","System.Collections.Generic.List`1[System.Diagnostics.Eventing.Reader.EventProperty]"
+"The Windows Filtering Platform has permitted a connection.
+
+Application Information:
+	Process ID:		520
+	Application Name:	\device\harddiskvolume1\windows\system32\lsass.exe
+
+Network Information:
+	Direction:		Outbound
+	Source Address:		10.0.2.17
+	Source Port:		49278
+	Destination Address:	10.0.2.15
+	Destination Port:		88
+	Protocol:		6
+
+Filter Information:
+	Filter Run-Time ID:	0
+	Layer Name:		Connect
+	Layer Run-Time ID:	48","5156","1",,"0","12810","0","-9214364837600034816","227758","Microsoft-Windows-Security-Auditing","54849625-5478-4994-a5ba-3e3b0328c30d","Security","4","56","PC01.example.corp",,"2/13/2019 10:04:58 AM",,,"System.UInt32[]","System.Diagnostics.Eventing.Reader.EventBookmark","Information","Info","Filtering Platform Connection","System.Collections.ObjectModel.ReadOnlyCollection`1[System.String]","System.Collections.Generic.List`1[System.Diagnostics.Eventing.Reader.EventProperty]"
+"The Windows Filtering Platform has permitted a connection.
+
+Application Information:
+	Process ID:		520
+	Application Name:	\device\harddiskvolume1\windows\system32\lsass.exe
+
+Network Information:
+	Direction:		Outbound
+	Source Address:		10.0.2.17
+	Source Port:		49277
+	Destination Address:	10.0.2.15
+	Destination Port:		88
+	Protocol:		6
+
+Filter Information:
+	Filter Run-Time ID:	0
+	Layer Name:		Connect
+	Layer Run-Time ID:	48","5156","1",,"0","12810","0","-9214364837600034816","227757","Microsoft-Windows-Security-Auditing","54849625-5478-4994-a5ba-3e3b0328c30d","Security","4","56","PC01.example.corp",,"2/13/2019 10:04:58 AM",,,"System.UInt32[]","System.Diagnostics.Eventing.Reader.EventBookmark","Information","Info","Filtering Platform Connection","System.Collections.ObjectModel.ReadOnlyCollection`1[System.String]","System.Collections.Generic.List`1[System.Diagnostics.Eventing.Reader.EventProperty]"
+"The Windows Filtering Platform has permitted a connection.
+
+Application Information:
+	Process ID:		520
+	Application Name:	\device\harddiskvolume1\windows\system32\lsass.exe
+
+Network Information:
+	Direction:		Outbound
+	Source Address:		10.0.2.17
+	Source Port:		49276
+	Destination Address:	10.0.2.15
+	Destination Port:		88
+	Protocol:		6
+
+Filter Information:
+	Filter Run-Time ID:	0
+	Layer Name:		Connect
+	Layer Run-Time ID:	48","5156","1",,"0","12810","0","-9214364837600034816","227756","Microsoft-Windows-Security-Auditing","54849625-5478-4994-a5ba-3e3b0328c30d","Security","4","56","PC01.example.corp",,"2/13/2019 10:04:58 AM",,,"System.UInt32[]","System.Diagnostics.Eventing.Reader.EventBookmark","Information","Info","Filtering Platform Connection","System.Collections.ObjectModel.ReadOnlyCollection`1[System.String]","System.Collections.Generic.List`1[System.Diagnostics.Eventing.Reader.EventProperty]"
+"A new process has been created.
+
+Subject:
+	Security ID:		S-1-5-18
+	Account Name:		PC01$
+	Account Domain:		EXAMPLE
+	Logon ID:		0x3E7
+
+Process Information:
+	New Process ID:		0xc70
+	New Process Name:	C:\Windows\System32\LogonUI.exe
+	Token Elevation Type:	TokenElevationTypeDefault (1)
+	Creator Process ID:	0x4b8
+	Process Command Line:	
+
+Token Elevation Type indicates the type of token that was assigned to the new process in accordance with User Account Control policy.
+
+Type 1 is a full token with no privileges removed or groups disabled.  A full token is only used if User Account Control is disabled or if the user is the built-in Administrator account or a service account.
+
+Type 2 is an elevated token with no privileges removed or groups disabled.  An elevated token is used when User Account Control is enabled and the user chooses to start the program using Run as administrator.  An elevated token is also used when an application is configured to always require administrative privilege or to always require maximum privilege, and the user is a member of the Administrators group.
+
+Type 3 is a limited token with administrative privileges removed and administrative groups disabled.  The limited token is used when User Account Control is enabled, the application does not require administrative privilege, and the user does not choose to start the program using Run as administrator.","4688","1",,"0","13312","0","-9214364837600034816","227751","Microsoft-Windows-Security-Auditing","54849625-5478-4994-a5ba-3e3b0328c30d","Security","4","56","PC01.example.corp",,"2/13/2019 10:04:57 AM",,,"System.UInt32[]","System.Diagnostics.Eventing.Reader.EventBookmark","Information","Info","Process Creation","System.Collections.ObjectModel.ReadOnlyCollection`1[System.String]","System.Collections.Generic.List`1[System.Diagnostics.Eventing.Reader.EventProperty]"
+"A new process has been created.
+
+Subject:
+	Security ID:		S-1-5-18
+	Account Name:		PC01$
+	Account Domain:		EXAMPLE
+	Logon ID:		0x3E7
+
+Process Information:
+	New Process ID:		0x4b8
+	New Process Name:	C:\Windows\System32\winlogon.exe
+	Token Elevation Type:	TokenElevationTypeDefault (1)
+	Creator Process ID:	0x38c
+	Process Command Line:	
+
+Token Elevation Type indicates the type of token that was assigned to the new process in accordance with User Account Control policy.
+
+Type 1 is a full token with no privileges removed or groups disabled.  A full token is only used if User Account Control is disabled or if the user is the built-in Administrator account or a service account.
+
+Type 2 is an elevated token with no privileges removed or groups disabled.  An elevated token is used when User Account Control is enabled and the user chooses to start the program using Run as administrator.  An elevated token is also used when an application is configured to always require administrative privilege or to always require maximum privilege, and the user is a member of the Administrators group.
+
+Type 3 is a limited token with administrative privileges removed and administrative groups disabled.  The limited token is used when User Account Control is enabled, the application does not require administrative privilege, and the user does not choose to start the program using Run as administrator.","4688","1",,"0","13312","0","-9214364837600034816","227750","Microsoft-Windows-Security-Auditing","54849625-5478-4994-a5ba-3e3b0328c30d","Security","4","56","PC01.example.corp",,"2/13/2019 10:04:57 AM",,,"System.UInt32[]","System.Diagnostics.Eventing.Reader.EventBookmark","Information","Info","Process Creation","System.Collections.ObjectModel.ReadOnlyCollection`1[System.String]","System.Collections.Generic.List`1[System.Diagnostics.Eventing.Reader.EventProperty]"
+"A new process has been created.
+
+Subject:
+	Security ID:		S-1-5-18
+	Account Name:		PC01$
+	Account Domain:		EXAMPLE
+	Logon ID:		0x3E7
+
+Process Information:
+	New Process ID:		0x9d4
+	New Process Name:	C:\Windows\System32\csrss.exe
+	Token Elevation Type:	TokenElevationTypeDefault (1)
+	Creator Process ID:	0x38c
+	Process Command Line:	
+
+Token Elevation Type indicates the type of token that was assigned to the new process in accordance with User Account Control policy.
+
+Type 1 is a full token with no privileges removed or groups disabled.  A full token is only used if User Account Control is disabled or if the user is the built-in Administrator account or a service account.
+
+Type 2 is an elevated token with no privileges removed or groups disabled.  An elevated token is used when User Account Control is enabled and the user chooses to start the program using Run as administrator.  An elevated token is also used when an application is configured to always require administrative privilege or to always require maximum privilege, and the user is a member of the Administrators group.
+
+Type 3 is a limited token with administrative privileges removed and administrative groups disabled.  The limited token is used when User Account Control is enabled, the application does not require administrative privilege, and the user does not choose to start the program using Run as administrator.","4688","1",,"0","13312","0","-9214364837600034816","227749","Microsoft-Windows-Security-Auditing","54849625-5478-4994-a5ba-3e3b0328c30d","Security","4","56","PC01.example.corp",,"2/13/2019 10:04:57 AM",,,"System.UInt32[]","System.Diagnostics.Eventing.Reader.EventBookmark","Information","Info","Process Creation","System.Collections.ObjectModel.ReadOnlyCollection`1[System.String]","System.Collections.Generic.List`1[System.Diagnostics.Eventing.Reader.EventProperty]"
+"A new process has been created.
+
+Subject:
+	Security ID:		S-1-5-18
+	Account Name:		PC01$
+	Account Domain:		EXAMPLE
+	Logon ID:		0x3E7
+
+Process Information:
+	New Process ID:		0x38c
+	New Process Name:	C:\Windows\System32\smss.exe
+	Token Elevation Type:	TokenElevationTypeDefault (1)
+	Creator Process ID:	0x124
+	Process Command Line:	
+
+Token Elevation Type indicates the type of token that was assigned to the new process in accordance with User Account Control policy.
+
+Type 1 is a full token with no privileges removed or groups disabled.  A full token is only used if User Account Control is disabled or if the user is the built-in Administrator account or a service account.
+
+Type 2 is an elevated token with no privileges removed or groups disabled.  An elevated token is used when User Account Control is enabled and the user chooses to start the program using Run as administrator.  An elevated token is also used when an application is configured to always require administrative privilege or to always require maximum privilege, and the user is a member of the Administrators group.
+
+Type 3 is a limited token with administrative privileges removed and administrative groups disabled.  The limited token is used when User Account Control is enabled, the application does not require administrative privilege, and the user does not choose to start the program using Run as administrator.","4688","1",,"0","13312","0","-9214364837600034816","227748","Microsoft-Windows-Security-Auditing","54849625-5478-4994-a5ba-3e3b0328c30d","Security","4","56","PC01.example.corp",,"2/13/2019 10:04:57 AM",,,"System.UInt32[]","System.Diagnostics.Eventing.Reader.EventBookmark","Information","Info","Process Creation","System.Collections.ObjectModel.ReadOnlyCollection`1[System.String]","System.Collections.Generic.List`1[System.Diagnostics.Eventing.Reader.EventProperty]"
+"An account was successfully logged on.
+
+Subject:
+	Security ID:		S-1-0-0
+	Account Name:		-
+	Account Domain:		-
+	Logon ID:		0x0
+
+Logon Type:			3
+
+New Logon:
+	Security ID:		S-1-5-21-1587066498-1489273250-1035260531-1108
+	Account Name:		admin01
+	Account Domain:		EXAMPLE
+	Logon ID:		0x148F5D
+	Logon GUID:		{00000000-0000-0000-0000-000000000000}
+
+Process Information:
+	Process ID:		0x0
+	Process Name:		-
+
+Network Information:
+	Workstation Name:	PC02
+	Source Network Address:	-
+	Source Port:		-
+
+Detailed Authentication Information:
+	Logon Process:		NtLmSsp 
+	Authentication Package:	NTLM
+	Transited Services:	-
+	Package Name (NTLM only):	NTLM V2
+	Key Length:		128
+
+This event is generated when a logon session is created. It is generated on the computer that was accessed.
+
+The subject fields indicate the account on the local system which requested the logon. This is most commonly a service such as the Server service, or a local process such as Winlogon.exe or Services.exe.
+
+The logon type field indicates the kind of logon that occurred. The most common types are 2 (interactive) and 3 (network).
+
+The New Logon fields indicate the account for whom the new logon was created, i.e. the account that was logged on.
+
+The network fields indicate where a remote logon request originated. Workstation name is not always available and may be left blank in some cases.
+
+The impersonation level field indicates the extent to which a process in the logon session can impersonate.
+
+The authentication information fields provide detailed information about this specific logon request.
+	- Logon GUID is a unique identifier that can be used to correlate this event with a KDC event.
+	- Transited services indicate which intermediate services have participated in this logon request.
+	- Package name indicates which sub-protocol was used among the NTLM protocols.
+	- Key length indicates the length of the generated session key. This will be 0 if no session key was requested.","4624","0",,"0","12544","0","-9214364837600034816","227747","Microsoft-Windows-Security-Auditing","54849625-5478-4994-a5ba-3e3b0328c30d","Security","520","3980","PC01.example.corp",,"2/13/2019 10:04:57 AM","ff684e42-4c42-4957-a95f-f8957cf3a4b8",,"System.UInt32[]","System.Diagnostics.Eventing.Reader.EventBookmark","Information","Info","Logon","System.Collections.ObjectModel.ReadOnlyCollection`1[System.String]","System.Collections.Generic.List`1[System.Diagnostics.Eventing.Reader.EventProperty]"
+"Special privileges assigned to new logon.
+
+Subject:
+	Security ID:		S-1-5-21-1587066498-1489273250-1035260531-1108
+	Account Name:		admin01
+	Account Domain:		EXAMPLE
+	Logon ID:		0x148F5D
+
+Privileges:		SeSecurityPrivilege
+			SeBackupPrivilege
+			SeRestorePrivilege
+			SeTakeOwnershipPrivilege
+			SeDebugPrivilege
+			SeSystemEnvironmentPrivilege
+			SeLoadDriverPrivilege
+			SeImpersonatePrivilege","4672","0",,"0","12548","0","-9214364837600034816","227746","Microsoft-Windows-Security-Auditing","54849625-5478-4994-a5ba-3e3b0328c30d","Security","520","3980","PC01.example.corp",,"2/13/2019 10:04:57 AM","ff684e42-4c42-4957-a95f-f8957cf3a4b8",,"System.UInt32[]","System.Diagnostics.Eventing.Reader.EventBookmark","Information","Info","Special Logon","System.Collections.ObjectModel.ReadOnlyCollection`1[System.String]","System.Collections.Generic.List`1[System.Diagnostics.Eventing.Reader.EventProperty]"
+"The Windows Filtering Platform has permitted a connection.
+
+Application Information:
+	Process ID:		520
+	Application Name:	\device\harddiskvolume1\windows\system32\lsass.exe
+
+Network Information:
+	Direction:		Outbound
+	Source Address:		10.0.2.17
+	Source Port:		49275
+	Destination Address:	10.0.2.15
+	Destination Port:		49158
+	Protocol:		6
+
+Filter Information:
+	Filter Run-Time ID:	0
+	Layer Name:		Connect
+	Layer Run-Time ID:	48","5156","1",,"0","12810","0","-9214364837600034816","227745","Microsoft-Windows-Security-Auditing","54849625-5478-4994-a5ba-3e3b0328c30d","Security","4","56","PC01.example.corp",,"2/13/2019 10:04:57 AM",,,"System.UInt32[]","System.Diagnostics.Eventing.Reader.EventBookmark","Information","Info","Filtering Platform Connection","System.Collections.ObjectModel.ReadOnlyCollection`1[System.String]","System.Collections.Generic.List`1[System.Diagnostics.Eventing.Reader.EventProperty]"
+"The Windows Filtering Platform has permitted a connection.
+
+Application Information:
+	Process ID:		4
+	Application Name:	System
+
+Network Information:
+	Direction:		Inbound
+	Source Address:		127.0.0.2
+	Source Port:		3389
+	Destination Address:	127.0.0.1
+	Destination Port:		49274
+	Protocol:		6
+
+Filter Information:
+	Filter Run-Time ID:	0
+	Layer Name:		Receive/Accept
+	Layer Run-Time ID:	44","5156","1",,"0","12810","0","-9214364837600034816","227742","Microsoft-Windows-Security-Auditing","54849625-5478-4994-a5ba-3e3b0328c30d","Security","4","56","PC01.example.corp",,"2/13/2019 10:04:45 AM",,,"System.UInt32[]","System.Diagnostics.Eventing.Reader.EventBookmark","Information","Info","Filtering Platform Connection","System.Collections.ObjectModel.ReadOnlyCollection`1[System.String]","System.Collections.Generic.List`1[System.Diagnostics.Eventing.Reader.EventProperty]"
+"The Windows Filtering Platform has permitted a connection.
+
+Application Information:
+	Process ID:		3324
+	Application Name:	\device\harddiskvolume1\users\user01\desktop\plink.exe
+
+Network Information:
+	Direction:		Outbound
+	Source Address:		127.0.0.1
+	Source Port:		49274
+	Destination Address:	127.0.0.2
+	Destination Port:		3389
+	Protocol:		6
+
+Filter Information:
+	Filter Run-Time ID:	0
+	Layer Name:		Connect
+	Layer Run-Time ID:	48","5156","1",,"0","12810","0","-9214364837600034816","227741","Microsoft-Windows-Security-Auditing","54849625-5478-4994-a5ba-3e3b0328c30d","Security","4","56","PC01.example.corp",,"2/13/2019 10:04:45 AM",,,"System.UInt32[]","System.Diagnostics.Eventing.Reader.EventBookmark","Information","Info","Filtering Platform Connection","System.Collections.ObjectModel.ReadOnlyCollection`1[System.String]","System.Collections.Generic.List`1[System.Diagnostics.Eventing.Reader.EventProperty]"
+"An account was successfully logged on.
+
+Subject:
+	Security ID:		S-1-0-0
+	Account Name:		-
+	Account Domain:		-
+	Logon ID:		0x0
+
+Logon Type:			3
+
+New Logon:
+	Security ID:		S-1-5-21-1587066498-1489273250-1035260531-1108
+	Account Name:		admin01
+	Account Domain:		EXAMPLE
+	Logon ID:		0x14871D
+	Logon GUID:		{00000000-0000-0000-0000-000000000000}
+
+Process Information:
+	Process ID:		0x0
+	Process Name:		-
+
+Network Information:
+	Workstation Name:	PC02
+	Source Network Address:	-
+	Source Port:		-
+
+Detailed Authentication Information:
+	Logon Process:		NtLmSsp 
+	Authentication Package:	NTLM
+	Transited Services:	-
+	Package Name (NTLM only):	NTLM V2
+	Key Length:		128
+
+This event is generated when a logon session is created. It is generated on the computer that was accessed.
+
+The subject fields indicate the account on the local system which requested the logon. This is most commonly a service such as the Server service, or a local process such as Winlogon.exe or Services.exe.
+
+The logon type field indicates the kind of logon that occurred. The most common types are 2 (interactive) and 3 (network).
+
+The New Logon fields indicate the account for whom the new logon was created, i.e. the account that was logged on.
+
+The network fields indicate where a remote logon request originated. Workstation name is not always available and may be left blank in some cases.
+
+The impersonation level field indicates the extent to which a process in the logon session can impersonate.
+
+The authentication information fields provide detailed information about this specific logon request.
+	- Logon GUID is a unique identifier that can be used to correlate this event with a KDC event.
+	- Transited services indicate which intermediate services have participated in this logon request.
+	- Package name indicates which sub-protocol was used among the NTLM protocols.
+	- Key length indicates the length of the generated session key. This will be 0 if no session key was requested.","4624","0",,"0","12544","0","-9214364837600034816","227740","Microsoft-Windows-Security-Auditing","54849625-5478-4994-a5ba-3e3b0328c30d","Security","520","3980","PC01.example.corp",,"2/13/2019 10:04:43 AM","44f141eb-b63a-462b-9dee-3998c9913055",,"System.UInt32[]","System.Diagnostics.Eventing.Reader.EventBookmark","Information","Info","Logon","System.Collections.ObjectModel.ReadOnlyCollection`1[System.String]","System.Collections.Generic.List`1[System.Diagnostics.Eventing.Reader.EventProperty]"
+"Special privileges assigned to new logon.
+
+Subject:
+	Security ID:		S-1-5-21-1587066498-1489273250-1035260531-1108
+	Account Name:		admin01
+	Account Domain:		EXAMPLE
+	Logon ID:		0x14871D
+
+Privileges:		SeSecurityPrivilege
+			SeBackupPrivilege
+			SeRestorePrivilege
+			SeTakeOwnershipPrivilege
+			SeDebugPrivilege
+			SeSystemEnvironmentPrivilege
+			SeLoadDriverPrivilege
+			SeImpersonatePrivilege","4672","0",,"0","12548","0","-9214364837600034816","227739","Microsoft-Windows-Security-Auditing","54849625-5478-4994-a5ba-3e3b0328c30d","Security","520","3980","PC01.example.corp",,"2/13/2019 10:04:43 AM","44f141eb-b63a-462b-9dee-3998c9913055",,"System.UInt32[]","System.Diagnostics.Eventing.Reader.EventBookmark","Information","Info","Special Logon","System.Collections.ObjectModel.ReadOnlyCollection`1[System.String]","System.Collections.Generic.List`1[System.Diagnostics.Eventing.Reader.EventProperty]"
+"The Windows Filtering Platform has permitted a connection.
+
+Application Information:
+	Process ID:		520
+	Application Name:	\device\harddiskvolume1\windows\system32\lsass.exe
+
+Network Information:
+	Direction:		Outbound
+	Source Address:		10.0.2.17
+	Source Port:		49273
+	Destination Address:	10.0.2.15
+	Destination Port:		49158
+	Protocol:		6
+
+Filter Information:
+	Filter Run-Time ID:	0
+	Layer Name:		Connect
+	Layer Run-Time ID:	48","5156","1",,"0","12810","0","-9214364837600034816","227738","Microsoft-Windows-Security-Auditing","54849625-5478-4994-a5ba-3e3b0328c30d","Security","4","56","PC01.example.corp",,"2/13/2019 10:04:43 AM",,,"System.UInt32[]","System.Diagnostics.Eventing.Reader.EventBookmark","Information","Info","Filtering Platform Connection","System.Collections.ObjectModel.ReadOnlyCollection`1[System.String]","System.Collections.Generic.List`1[System.Diagnostics.Eventing.Reader.EventProperty]"
+"The Windows Filtering Platform has permitted a connection.
+
+Application Information:
+	Process ID:		520
+	Application Name:	\device\harddiskvolume1\windows\system32\lsass.exe
+
+Network Information:
+	Direction:		Outbound
+	Source Address:		10.0.2.17
+	Source Port:		49272
+	Destination Address:	10.0.2.15
+	Destination Port:		135
+	Protocol:		6
+
+Filter Information:
+	Filter Run-Time ID:	0
+	Layer Name:		Connect
+	Layer Run-Time ID:	48","5156","1",,"0","12810","0","-9214364837600034816","227737","Microsoft-Windows-Security-Auditing","54849625-5478-4994-a5ba-3e3b0328c30d","Security","4","56","PC01.example.corp",,"2/13/2019 10:04:43 AM",,,"System.UInt32[]","System.Diagnostics.Eventing.Reader.EventBookmark","Information","Info","Filtering Platform Connection","System.Collections.ObjectModel.ReadOnlyCollection`1[System.String]","System.Collections.Generic.List`1[System.Diagnostics.Eventing.Reader.EventProperty]"
+"The Windows Filtering Platform has permitted a connection.
+
+Application Information:
+	Process ID:		1280
+	Application Name:	\device\harddiskvolume1\windows\system32\svchost.exe
+
+Network Information:
+	Direction:		Outbound
+	Source Address:		10.0.2.17
+	Source Port:		53613
+	Destination Address:	224.0.0.252
+	Destination Port:		5355
+	Protocol:		17
+
+Filter Information:
+	Filter Run-Time ID:	0
+	Layer Name:		Connect
+	Layer Run-Time ID:	48","5156","1",,"0","12810","0","-9214364837600034816","227736","Microsoft-Windows-Security-Auditing","54849625-5478-4994-a5ba-3e3b0328c30d","Security","4","56","PC01.example.corp",,"2/13/2019 10:04:01 AM",,,"System.UInt32[]","System.Diagnostics.Eventing.Reader.EventBookmark","Information","Info","Filtering Platform Connection","System.Collections.ObjectModel.ReadOnlyCollection`1[System.String]","System.Collections.Generic.List`1[System.Diagnostics.Eventing.Reader.EventProperty]"
+"The Windows Filtering Platform has permitted a bind to a local port.
+
+Application Information:
+	Process ID:		1280
+	Application Name:	\device\harddiskvolume1\windows\system32\svchost.exe
+
+Network Information:
+	Source Address:		0.0.0.0
+	Source Port:		53613
+	Protocol:		17
+
+Filter Information:
+	Filter Run-Time ID:	0
+	Layer Name:		Resource Assignment
+	Layer Run-Time ID:	36","5158","0",,"0","12810","0","-9214364837600034816","227735","Microsoft-Windows-Security-Auditing","54849625-5478-4994-a5ba-3e3b0328c30d","Security","4","56","PC01.example.corp",,"2/13/2019 10:04:01 AM",,,"System.UInt32[]","System.Diagnostics.Eventing.Reader.EventBookmark","Information","Info","Filtering Platform Connection","System.Collections.ObjectModel.ReadOnlyCollection`1[System.String]","System.Collections.Generic.List`1[System.Diagnostics.Eventing.Reader.EventProperty]"
+"The Windows Filtering Platform has permitted a connection.
+
+Application Information:
+	Process ID:		1280
+	Application Name:	\device\harddiskvolume1\windows\system32\svchost.exe
+
+Network Information:
+	Direction:		Outbound
+	Source Address:		fe80::80ac:4126:fa58:1b81
+	Source Port:		50448
+	Destination Address:	ff02::1:3
+	Destination Port:		5355
+	Protocol:		17
+
+Filter Information:
+	Filter Run-Time ID:	0
+	Layer Name:		Connect
+	Layer Run-Time ID:	50","5156","1",,"0","12810","0","-9214364837600034816","227734","Microsoft-Windows-Security-Auditing","54849625-5478-4994-a5ba-3e3b0328c30d","Security","4","56","PC01.example.corp",,"2/13/2019 10:04:01 AM",,,"System.UInt32[]","System.Diagnostics.Eventing.Reader.EventBookmark","Information","Info","Filtering Platform Connection","System.Collections.ObjectModel.ReadOnlyCollection`1[System.String]","System.Collections.Generic.List`1[System.Diagnostics.Eventing.Reader.EventProperty]"
+"The Windows Filtering Platform has permitted a bind to a local port.
+
+Application Information:
+	Process ID:		1280
+	Application Name:	\device\harddiskvolume1\windows\system32\svchost.exe
+
+Network Information:
+	Source Address:		::
+	Source Port:		50448
+	Protocol:		17
+
+Filter Information:
+	Filter Run-Time ID:	0
+	Layer Name:		Resource Assignment
+	Layer Run-Time ID:	38","5158","0",,"0","12810","0","-9214364837600034816","227733","Microsoft-Windows-Security-Auditing","54849625-5478-4994-a5ba-3e3b0328c30d","Security","4","56","PC01.example.corp",,"2/13/2019 10:04:01 AM",,,"System.UInt32[]","System.Diagnostics.Eventing.Reader.EventBookmark","Information","Info","Filtering Platform Connection","System.Collections.ObjectModel.ReadOnlyCollection`1[System.String]","System.Collections.Generic.List`1[System.Diagnostics.Eventing.Reader.EventProperty]"
+"The Windows Filtering Platform has permitted a connection.
+
+Application Information:
+	Process ID:		1280
+	Application Name:	\device\harddiskvolume1\windows\system32\svchost.exe
+
+Network Information:
+	Direction:		Outbound
+	Source Address:		10.0.2.17
+	Source Port:		55355
+	Destination Address:	10.0.2.15
+	Destination Port:		53
+	Protocol:		17
+
+Filter Information:
+	Filter Run-Time ID:	0
+	Layer Name:		Connect
+	Layer Run-Time ID:	48","5156","1",,"0","12810","0","-9214364837600034816","227732","Microsoft-Windows-Security-Auditing","54849625-5478-4994-a5ba-3e3b0328c30d","Security","4","56","PC01.example.corp",,"2/13/2019 10:04:01 AM",,,"System.UInt32[]","System.Diagnostics.Eventing.Reader.EventBookmark","Information","Info","Filtering Platform Connection","System.Collections.ObjectModel.ReadOnlyCollection`1[System.String]","System.Collections.Generic.List`1[System.Diagnostics.Eventing.Reader.EventProperty]"
+"The Windows Filtering Platform has permitted a bind to a local port.
+
+Application Information:
+	Process ID:		1280
+	Application Name:	\device\harddiskvolume1\windows\system32\svchost.exe
+
+Network Information:
+	Source Address:		0.0.0.0
+	Source Port:		55355
+	Protocol:		17
+
+Filter Information:
+	Filter Run-Time ID:	0
+	Layer Name:		Resource Assignment
+	Layer Run-Time ID:	36","5158","0",,"0","12810","0","-9214364837600034816","227731","Microsoft-Windows-Security-Auditing","54849625-5478-4994-a5ba-3e3b0328c30d","Security","4","56","PC01.example.corp",,"2/13/2019 10:04:01 AM",,,"System.UInt32[]","System.Diagnostics.Eventing.Reader.EventBookmark","Information","Info","Filtering Platform Connection","System.Collections.ObjectModel.ReadOnlyCollection`1[System.String]","System.Collections.Generic.List`1[System.Diagnostics.Eventing.Reader.EventProperty]"
+"The Windows Filtering Platform has permitted a connection.
+
+Application Information:
+	Process ID:		4
+	Application Name:	System
+
+Network Information:
+	Direction:		Inbound
+	Source Address:		127.0.0.2
+	Source Port:		3389
+	Destination Address:	127.0.0.1
+	Destination Port:		49271
+	Protocol:		6
+
+Filter Information:
+	Filter Run-Time ID:	0
+	Layer Name:		Receive/Accept
+	Layer Run-Time ID:	44","5156","1",,"0","12810","0","-9214364837600034816","227728","Microsoft-Windows-Security-Auditing","54849625-5478-4994-a5ba-3e3b0328c30d","Security","4","56","PC01.example.corp",,"2/13/2019 10:04:01 AM",,,"System.UInt32[]","System.Diagnostics.Eventing.Reader.EventBookmark","Information","Info","Filtering Platform Connection","System.Collections.ObjectModel.ReadOnlyCollection`1[System.String]","System.Collections.Generic.List`1[System.Diagnostics.Eventing.Reader.EventProperty]"
+"The Windows Filtering Platform has permitted a connection.
+
+Application Information:
+	Process ID:		3324
+	Application Name:	\device\harddiskvolume1\users\user01\desktop\plink.exe
+
+Network Information:
+	Direction:		Outbound
+	Source Address:		127.0.0.1
+	Source Port:		49271
+	Destination Address:	127.0.0.2
+	Destination Port:		3389
+	Protocol:		6
+
+Filter Information:
+	Filter Run-Time ID:	0
+	Layer Name:		Connect
+	Layer Run-Time ID:	48","5156","1",,"0","12810","0","-9214364837600034816","227727","Microsoft-Windows-Security-Auditing","54849625-5478-4994-a5ba-3e3b0328c30d","Security","4","56","PC01.example.corp",,"2/13/2019 10:04:01 AM",,,"System.UInt32[]","System.Diagnostics.Eventing.Reader.EventBookmark","Information","Info","Filtering Platform Connection","System.Collections.ObjectModel.ReadOnlyCollection`1[System.String]","System.Collections.Generic.List`1[System.Diagnostics.Eventing.Reader.EventProperty]"
+"A new process has been created.
+
+Subject:
+	Security ID:		S-1-5-18
+	Account Name:		PC01$
+	Account Domain:		EXAMPLE
+	Logon ID:		0x3E7
+
+Process Information:
+	New Process ID:		0x934
+	New Process Name:	C:\Windows\System32\UI0Detect.exe
+	Token Elevation Type:	TokenElevationTypeDefault (1)
+	Creator Process ID:	0x990
+	Process Command Line:	
+
+Token Elevation Type indicates the type of token that was assigned to the new process in accordance with User Account Control policy.
+
+Type 1 is a full token with no privileges removed or groups disabled.  A full token is only used if User Account Control is disabled or if the user is the built-in Administrator account or a service account.
+
+Type 2 is an elevated token with no privileges removed or groups disabled.  An elevated token is used when User Account Control is enabled and the user chooses to start the program using Run as administrator.  An elevated token is also used when an application is configured to always require administrative privilege or to always require maximum privilege, and the user is a member of the Administrators group.
+
+Type 3 is a limited token with administrative privileges removed and administrative groups disabled.  The limited token is used when User Account Control is enabled, the application does not require administrative privilege, and the user does not choose to start the program using Run as administrator.","4688","1",,"0","13312","0","-9214364837600034816","227726","Microsoft-Windows-Security-Auditing","54849625-5478-4994-a5ba-3e3b0328c30d","Security","4","56","PC01.example.corp",,"2/13/2019 10:03:42 AM",,,"System.UInt32[]","System.Diagnostics.Eventing.Reader.EventBookmark","Information","Info","Process Creation","System.Collections.ObjectModel.ReadOnlyCollection`1[System.String]","System.Collections.Generic.List`1[System.Diagnostics.Eventing.Reader.EventProperty]"
+"The Windows Filtering Platform has permitted a connection.
+
+Application Information:
+	Process ID:		4
+	Application Name:	System
+
+Network Information:
+	Direction:		Inbound
+	Source Address:		10.255.255.255
+	Source Port:		138
+	Destination Address:	10.0.2.18
+	Destination Port:		138
+	Protocol:		17
+
+Filter Information:
+	Filter Run-Time ID:	0
+	Layer Name:		Receive/Accept
+	Layer Run-Time ID:	44","5156","1",,"0","12810","0","-9214364837600034816","227725","Microsoft-Windows-Security-Auditing","54849625-5478-4994-a5ba-3e3b0328c30d","Security","4","56","PC01.example.corp",,"2/13/2019 10:03:36 AM",,,"System.UInt32[]","System.Diagnostics.Eventing.Reader.EventBookmark","Information","Info","Filtering Platform Connection","System.Collections.ObjectModel.ReadOnlyCollection`1[System.String]","System.Collections.Generic.List`1[System.Diagnostics.Eventing.Reader.EventProperty]"
+"The Windows Filtering Platform has permitted a connection.
+
+Application Information:
+	Process ID:		4
+	Application Name:	System
+
+Network Information:
+	Direction:		Inbound
+	Source Address:		10.255.255.255
+	Source Port:		137
+	Destination Address:	10.0.2.18
+	Destination Port:		137
+	Protocol:		17
+
+Filter Information:
+	Filter Run-Time ID:	0
+	Layer Name:		Receive/Accept
+	Layer Run-Time ID:	44","5156","1",,"0","12810","0","-9214364837600034816","227724","Microsoft-Windows-Security-Auditing","54849625-5478-4994-a5ba-3e3b0328c30d","Security","4","56","PC01.example.corp",,"2/13/2019 10:03:36 AM",,,"System.UInt32[]","System.Diagnostics.Eventing.Reader.EventBookmark","Information","Info","Filtering Platform Connection","System.Collections.ObjectModel.ReadOnlyCollection`1[System.String]","System.Collections.Generic.List`1[System.Diagnostics.Eventing.Reader.EventProperty]"
+"A new process has been created.
+
+Subject:
+	Security ID:		S-1-5-18
+	Account Name:		PC01$
+	Account Domain:		EXAMPLE
+	Logon ID:		0x3E7
+
+Process Information:
+	New Process ID:		0xa38
+	New Process Name:	C:\Windows\System32\slui.exe
+	Token Elevation Type:	TokenElevationTypeDefault (1)
+	Creator Process ID:	0x278
+	Process Command Line:	
+
+Token Elevation Type indicates the type of token that was assigned to the new process in accordance with User Account Control policy.
+
+Type 1 is a full token with no privileges removed or groups disabled.  A full token is only used if User Account Control is disabled or if the user is the built-in Administrator account or a service account.
+
+Type 2 is an elevated token with no privileges removed or groups disabled.  An elevated token is used when User Account Control is enabled and the user chooses to start the program using Run as administrator.  An elevated token is also used when an application is configured to always require administrative privilege or to always require maximum privilege, and the user is a member of the Administrators group.
+
+Type 3 is a limited token with administrative privileges removed and administrative groups disabled.  The limited token is used when User Account Control is enabled, the application does not require administrative privilege, and the user does not choose to start the program using Run as administrator.","4688","1",,"0","13312","0","-9214364837600034816","227721","Microsoft-Windows-Security-Auditing","54849625-5478-4994-a5ba-3e3b0328c30d","Security","4","56","PC01.example.corp",,"2/13/2019 10:03:35 AM",,,"System.UInt32[]","System.Diagnostics.Eventing.Reader.EventBookmark","Information","Info","Process Creation","System.Collections.ObjectModel.ReadOnlyCollection`1[System.String]","System.Collections.Generic.List`1[System.Diagnostics.Eventing.Reader.EventProperty]"
+"The Windows Filtering Platform has permitted a connection.
+
+Application Information:
+	Process ID:		4
+	Application Name:	System
+
+Network Information:
+	Direction:		Outbound
+	Source Address:		10.0.2.17
+	Source Port:		49270
+	Destination Address:	10.0.2.15
+	Destination Port:		445
+	Protocol:		6
+
+Filter Information:
+	Filter Run-Time ID:	0
+	Layer Name:		Connect
+	Layer Run-Time ID:	48","5156","1",,"0","12810","0","-9214364837600034816","227720","Microsoft-Windows-Security-Auditing","54849625-5478-4994-a5ba-3e3b0328c30d","Security","4","56","PC01.example.corp",,"2/13/2019 10:03:32 AM",,,"System.UInt32[]","System.Diagnostics.Eventing.Reader.EventBookmark","Information","Info","Filtering Platform Connection","System.Collections.ObjectModel.ReadOnlyCollection`1[System.String]","System.Collections.Generic.List`1[System.Diagnostics.Eventing.Reader.EventProperty]"
+"The Windows Filtering Platform has permitted a connection.
+
+Application Information:
+	Process ID:		4
+	Application Name:	System
+
+Network Information:
+	Direction:		Inbound
+	Source Address:		10.255.255.255
+	Source Port:		138
+	Destination Address:	10.0.2.18
+	Destination Port:		138
+	Protocol:		17
+
+Filter Information:
+	Filter Run-Time ID:	0
+	Layer Name:		Receive/Accept
+	Layer Run-Time ID:	44","5156","1",,"0","12810","0","-9214364837600034816","227719","Microsoft-Windows-Security-Auditing","54849625-5478-4994-a5ba-3e3b0328c30d","Security","4","56","PC01.example.corp",,"2/13/2019 10:03:29 AM",,,"System.UInt32[]","System.Diagnostics.Eventing.Reader.EventBookmark","Information","Info","Filtering Platform Connection","System.Collections.ObjectModel.ReadOnlyCollection`1[System.String]","System.Collections.Generic.List`1[System.Diagnostics.Eventing.Reader.EventProperty]"
+"The Windows Filtering Platform has permitted a connection.
+
+Application Information:
+	Process ID:		4
+	Application Name:	System
+
+Network Information:
+	Direction:		Inbound
+	Source Address:		10.255.255.255
+	Source Port:		137
+	Destination Address:	10.0.2.18
+	Destination Port:		137
+	Protocol:		17
+
+Filter Information:
+	Filter Run-Time ID:	0
+	Layer Name:		Receive/Accept
+	Layer Run-Time ID:	44","5156","1",,"0","12810","0","-9214364837600034816","227718","Microsoft-Windows-Security-Auditing","54849625-5478-4994-a5ba-3e3b0328c30d","Security","4","56","PC01.example.corp",,"2/13/2019 10:03:29 AM",,,"System.UInt32[]","System.Diagnostics.Eventing.Reader.EventBookmark","Information","Info","Filtering Platform Connection","System.Collections.ObjectModel.ReadOnlyCollection`1[System.String]","System.Collections.Generic.List`1[System.Diagnostics.Eventing.Reader.EventProperty]"
+"The Windows Filtering Platform has permitted a connection.
+
+Application Information:
+	Process ID:		3324
+	Application Name:	\device\harddiskvolume1\users\user01\desktop\plink.exe
+
+Network Information:
+	Direction:		Outbound
+	Source Address:		10.0.2.17
+	Source Port:		49269
+	Destination Address:	10.0.2.18
+	Destination Port:		80
+	Protocol:		6
+
+Filter Information:
+	Filter Run-Time ID:	0
+	Layer Name:		Connect
+	Layer Run-Time ID:	48","5156","1",,"0","12810","0","-9214364837600034816","227717","Microsoft-Windows-Security-Auditing","54849625-5478-4994-a5ba-3e3b0328c30d","Security","4","56","PC01.example.corp",,"2/13/2019 10:03:28 AM",,,"System.UInt32[]","System.Diagnostics.Eventing.Reader.EventBookmark","Information","Info","Filtering Platform Connection","System.Collections.ObjectModel.ReadOnlyCollection`1[System.String]","System.Collections.Generic.List`1[System.Diagnostics.Eventing.Reader.EventProperty]"
+"A new process has been created.
+
+Subject:
+	Security ID:		S-1-5-21-1587066498-1489273250-1035260531-1106
+	Account Name:		user01
+	Account Domain:		EXAMPLE
+	Logon ID:		0x2ED80
+
+Process Information:
+	New Process ID:		0xcfc
+	New Process Name:	C:\Users\user01\Desktop\plink.exe
+	Token Elevation Type:	TokenElevationTypeDefault (1)
+	Creator Process ID:	0xe60
+	Process Command Line:	
+
+Token Elevation Type indicates the type of token that was assigned to the new process in accordance with User Account Control policy.
+
+Type 1 is a full token with no privileges removed or groups disabled.  A full token is only used if User Account Control is disabled or if the user is the built-in Administrator account or a service account.
+
+Type 2 is an elevated token with no privileges removed or groups disabled.  An elevated token is used when User Account Control is enabled and the user chooses to start the program using Run as administrator.  An elevated token is also used when an application is configured to always require administrative privilege or to always require maximum privilege, and the user is a member of the Administrators group.
+
+Type 3 is a limited token with administrative privileges removed and administrative groups disabled.  The limited token is used when User Account Control is enabled, the application does not require administrative privilege, and the user does not choose to start the program using Run as administrator.","4688","1",,"0","13312","0","-9214364837600034816","227714","Microsoft-Windows-Security-Auditing","54849625-5478-4994-a5ba-3e3b0328c30d","Security","4","56","PC01.example.corp",,"2/13/2019 10:03:28 AM",,,"System.UInt32[]","System.Diagnostics.Eventing.Reader.EventBookmark","Information","Info","Process Creation","System.Collections.ObjectModel.ReadOnlyCollection`1[System.String]","System.Collections.Generic.List`1[System.Diagnostics.Eventing.Reader.EventProperty]"
+"The Windows Filtering Platform has permitted a connection.
+
+Application Information:
+	Process ID:		820
+	Application Name:	\device\harddiskvolume1\windows\system32\svchost.exe
+
+Network Information:
+	Direction:		Outbound
+	Source Address:		fe80::80ac:4126:fa58:1b81
+	Source Port:		546
+	Destination Address:	ff02::1:2
+	Destination Port:		547
+	Protocol:		17
+
+Filter Information:
+	Filter Run-Time ID:	65865
+	Layer Name:		Connect
+	Layer Run-Time ID:	50","5156","1",,"0","12810","0","-9214364837600034816","227713","Microsoft-Windows-Security-Auditing","54849625-5478-4994-a5ba-3e3b0328c30d","Security","4","56","PC01.example.corp",,"2/13/2019 10:02:19 AM",,,"System.UInt32[]","System.Diagnostics.Eventing.Reader.EventBookmark","Information","Info","Filtering Platform Connection","System.Collections.ObjectModel.ReadOnlyCollection`1[System.String]","System.Collections.Generic.List`1[System.Diagnostics.Eventing.Reader.EventProperty]"
+"A new process has been created.
+
+Subject:
+	Security ID:		S-1-5-18
+	Account Name:		PC01$
+	Account Domain:		EXAMPLE
+	Logon ID:		0x3E7
+
+Process Information:
+	New Process ID:		0x250
+	New Process Name:	C:\Windows\System32\AtBroker.exe
+	Token Elevation Type:	TokenElevationTypeDefault (1)
+	Creator Process ID:	0x1d0
+	Process Command Line:	
+
+Token Elevation Type indicates the type of token that was assigned to the new process in accordance with User Account Control policy.
+
+Type 1 is a full token with no privileges removed or groups disabled.  A full token is only used if User Account Control is disabled or if the user is the built-in Administrator account or a service account.
+
+Type 2 is an elevated token with no privileges removed or groups disabled.  An elevated token is used when User Account Control is enabled and the user chooses to start the program using Run as administrator.  An elevated token is also used when an application is configured to always require administrative privilege or to always require maximum privilege, and the user is a member of the Administrators group.
+
+Type 3 is a limited token with administrative privileges removed and administrative groups disabled.  The limited token is used when User Account Control is enabled, the application does not require administrative privilege, and the user does not choose to start the program using Run as administrator.","4688","1",,"0","13312","0","-9214364837600034816","227712","Microsoft-Windows-Security-Auditing","54849625-5478-4994-a5ba-3e3b0328c30d","Security","4","56","PC01.example.corp",,"2/13/2019 10:02:05 AM",,,"System.UInt32[]","System.Diagnostics.Eventing.Reader.EventBookmark","Information","Info","Process Creation","System.Collections.ObjectModel.ReadOnlyCollection`1[System.String]","System.Collections.Generic.List`1[System.Diagnostics.Eventing.Reader.EventProperty]"
+"The Windows Filtering Platform has permitted a connection.
+
+Application Information:
+	Process ID:		520
+	Application Name:	\device\harddiskvolume1\windows\system32\lsass.exe
+
+Network Information:
+	Direction:		Outbound
+	Source Address:		10.0.2.17
+	Source Port:		49268
+	Destination Address:	10.0.2.15
+	Destination Port:		49155
+	Protocol:		6
+
+Filter Information:
+	Filter Run-Time ID:	0
+	Layer Name:		Connect
+	Layer Run-Time ID:	48","5156","1",,"0","12810","0","-9214364837600034816","227710","Microsoft-Windows-Security-Auditing","54849625-5478-4994-a5ba-3e3b0328c30d","Security","4","56","PC01.example.corp",,"2/13/2019 10:02:05 AM",,,"System.UInt32[]","System.Diagnostics.Eventing.Reader.EventBookmark","Information","Info","Filtering Platform Connection","System.Collections.ObjectModel.ReadOnlyCollection`1[System.String]","System.Collections.Generic.List`1[System.Diagnostics.Eventing.Reader.EventProperty]"
+"The Windows Filtering Platform has permitted a connection.
+
+Application Information:
+	Process ID:		520
+	Application Name:	\device\harddiskvolume1\windows\system32\lsass.exe
+
+Network Information:
+	Direction:		Outbound
+	Source Address:		10.0.2.17
+	Source Port:		49267
+	Destination Address:	10.0.2.15
+	Destination Port:		135
+	Protocol:		6
+
+Filter Information:
+	Filter Run-Time ID:	0
+	Layer Name:		Connect
+	Layer Run-Time ID:	48","5156","1",,"0","12810","0","-9214364837600034816","227709","Microsoft-Windows-Security-Auditing","54849625-5478-4994-a5ba-3e3b0328c30d","Security","4","56","PC01.example.corp",,"2/13/2019 10:02:05 AM",,,"System.UInt32[]","System.Diagnostics.Eventing.Reader.EventBookmark","Information","Info","Filtering Platform Connection","System.Collections.ObjectModel.ReadOnlyCollection`1[System.String]","System.Collections.Generic.List`1[System.Diagnostics.Eventing.Reader.EventProperty]"
+"An account was successfully logged on.
+
+Subject:
+	Security ID:		S-1-5-18
+	Account Name:		PC01$
+	Account Domain:		EXAMPLE
+	Logon ID:		0x3E7
+
+Logon Type:			7
+
+New Logon:
+	Security ID:		S-1-5-21-1587066498-1489273250-1035260531-1106
+	Account Name:		user01
+	Account Domain:		EXAMPLE
+	Logon ID:		0x1414D9
+	Logon GUID:		{42daf7a9-f185-f292-0ebd-b86a26624d31}
+
+Process Information:
+	Process ID:		0x208
+	Process Name:		C:\Windows\System32\lsass.exe
+
+Network Information:
+	Workstation Name:	PC01
+	Source Network Address:	-
+	Source Port:		-
+
+Detailed Authentication Information:
+	Logon Process:		Negotiat
+	Authentication Package:	Negotiate
+	Transited Services:	-
+	Package Name (NTLM only):	-
+	Key Length:		0
+
+This event is generated when a logon session is created. It is generated on the computer that was accessed.
+
+The subject fields indicate the account on the local system which requested the logon. This is most commonly a service such as the Server service, or a local process such as Winlogon.exe or Services.exe.
+
+The logon type field indicates the kind of logon that occurred. The most common types are 2 (interactive) and 3 (network).
+
+The New Logon fields indicate the account for whom the new logon was created, i.e. the account that was logged on.
+
+The network fields indicate where a remote logon request originated. Workstation name is not always available and may be left blank in some cases.
+
+The impersonation level field indicates the extent to which a process in the logon session can impersonate.
+
+The authentication information fields provide detailed information about this specific logon request.
+	- Logon GUID is a unique identifier that can be used to correlate this event with a KDC event.
+	- Transited services indicate which intermediate services have participated in this logon request.
+	- Package name indicates which sub-protocol was used among the NTLM protocols.
+	- Key length indicates the length of the generated session key. This will be 0 if no session key was requested.","4624","0",,"0","12544","0","-9214364837600034816","227708","Microsoft-Windows-Security-Auditing","54849625-5478-4994-a5ba-3e3b0328c30d","Security","520","3420","PC01.example.corp",,"2/13/2019 10:02:04 AM",,,"System.UInt32[]","System.Diagnostics.Eventing.Reader.EventBookmark","Information","Info","Logon","System.Collections.ObjectModel.ReadOnlyCollection`1[System.String]","System.Collections.Generic.List`1[System.Diagnostics.Eventing.Reader.EventProperty]"
+"A logon was attempted using explicit credentials.
+
+Subject:
+	Security ID:		S-1-5-18
+	Account Name:		PC01$
+	Account Domain:		EXAMPLE
+	Logon ID:		0x3E7
+	Logon GUID:		{00000000-0000-0000-0000-000000000000}
+
+Account Whose Credentials Were Used:
+	Account Name:		user01
+	Account Domain:		EXAMPLE
+	Logon GUID:		{42daf7a9-f185-f292-0ebd-b86a26624d31}
+
+Target Server:
+	Target Server Name:	localhost
+	Additional Information:	localhost
+
+Process Information:
+	Process ID:		0x208
+	Process Name:		C:\Windows\System32\lsass.exe
+
+Network Information:
+	Network Address:	-
+	Port:			-
+
+This event is generated when a process attempts to log on an account by explicitly specifying that account?s credentials.  This most commonly occurs in batch-type configurations such as scheduled tasks, or when using the RUNAS command.","4648","0",,"0","12544","0","-9214364837600034816","227707","Microsoft-Windows-Security-Auditing","54849625-5478-4994-a5ba-3e3b0328c30d","Security","520","3420","PC01.example.corp",,"2/13/2019 10:02:04 AM",,,"System.UInt32[]","System.Diagnostics.Eventing.Reader.EventBookmark","Information","Info","Logon","System.Collections.ObjectModel.ReadOnlyCollection`1[System.String]","System.Collections.Generic.List`1[System.Diagnostics.Eventing.Reader.EventProperty]"
+"The Windows Filtering Platform has permitted a connection.
+
+Application Information:
+	Process ID:		520
+	Application Name:	\device\harddiskvolume1\windows\system32\lsass.exe
+
+Network Information:
+	Direction:		Outbound
+	Source Address:		10.0.2.17
+	Source Port:		49266
+	Destination Address:	10.0.2.15
+	Destination Port:		88
+	Protocol:		6
+
+Filter Information:
+	Filter Run-Time ID:	0
+	Layer Name:		Connect
+	Layer Run-Time ID:	48","5156","1",,"0","12810","0","-9214364837600034816","227705","Microsoft-Windows-Security-Auditing","54849625-5478-4994-a5ba-3e3b0328c30d","Security","4","56","PC01.example.corp",,"2/13/2019 10:02:04 AM",,,"System.UInt32[]","System.Diagnostics.Eventing.Reader.EventBookmark","Information","Info","Filtering Platform Connection","System.Collections.ObjectModel.ReadOnlyCollection`1[System.String]","System.Collections.Generic.List`1[System.Diagnostics.Eventing.Reader.EventProperty]"
+"The Windows Filtering Platform has permitted a connection.
+
+Application Information:
+	Process ID:		520
+	Application Name:	\device\harddiskvolume1\windows\system32\lsass.exe
+
+Network Information:
+	Direction:		Outbound
+	Source Address:		10.0.2.17
+	Source Port:		49265
+	Destination Address:	10.0.2.15
+	Destination Port:		88
+	Protocol:		6
+
+Filter Information:
+	Filter Run-Time ID:	0
+	Layer Name:		Connect
+	Layer Run-Time ID:	48","5156","1",,"0","12810","0","-9214364837600034816","227704","Microsoft-Windows-Security-Auditing","54849625-5478-4994-a5ba-3e3b0328c30d","Security","4","56","PC01.example.corp",,"2/13/2019 10:02:04 AM",,,"System.UInt32[]","System.Diagnostics.Eventing.Reader.EventBookmark","Information","Info","Filtering Platform Connection","System.Collections.ObjectModel.ReadOnlyCollection`1[System.String]","System.Collections.Generic.List`1[System.Diagnostics.Eventing.Reader.EventProperty]"
+"The Windows Filtering Platform has permitted a connection.
+
+Application Information:
+	Process ID:		520
+	Application Name:	\device\harddiskvolume1\windows\system32\lsass.exe
+
+Network Information:
+	Direction:		Outbound
+	Source Address:		10.0.2.17
+	Source Port:		49264
+	Destination Address:	10.0.2.15
+	Destination Port:		88
+	Protocol:		6
+
+Filter Information:
+	Filter Run-Time ID:	0
+	Layer Name:		Connect
+	Layer Run-Time ID:	48","5156","1",,"0","12810","0","-9214364837600034816","227703","Microsoft-Windows-Security-Auditing","54849625-5478-4994-a5ba-3e3b0328c30d","Security","4","56","PC01.example.corp",,"2/13/2019 10:02:04 AM",,,"System.UInt32[]","System.Diagnostics.Eventing.Reader.EventBookmark","Information","Info","Filtering Platform Connection","System.Collections.ObjectModel.ReadOnlyCollection`1[System.String]","System.Collections.Generic.List`1[System.Diagnostics.Eventing.Reader.EventProperty]"
+"An account was successfully logged on.
+
+Subject:
+	Security ID:		S-1-5-18
+	Account Name:		PC01$
+	Account Domain:		EXAMPLE
+	Logon ID:		0x3E7
+
+Logon Type:			11
+
+New Logon:
+	Security ID:		S-1-5-21-1587066498-1489273250-1035260531-1106
+	Account Name:		user01
+	Account Domain:		EXAMPLE
+	Logon ID:		0x1414C8
+	Logon GUID:		{00000000-0000-0000-0000-000000000000}
+
+Process Information:
+	Process ID:		0x704
+	Process Name:		C:\Windows\System32\winlogon.exe
+
+Network Information:
+	Workstation Name:	PC01
+	Source Network Address:	127.0.0.1
+	Source Port:		0
+
+Detailed Authentication Information:
+	Logon Process:		User32 
+	Authentication Package:	Negotiate
+	Transited Services:	-
+	Package Name (NTLM only):	-
+	Key Length:		0
+
+This event is generated when a logon session is created. It is generated on the computer that was accessed.
+
+The subject fields indicate the account on the local system which requested the logon. This is most commonly a service such as the Server service, or a local process such as Winlogon.exe or Services.exe.
+
+The logon type field indicates the kind of logon that occurred. The most common types are 2 (interactive) and 3 (network).
+
+The New Logon fields indicate the account for whom the new logon was created, i.e. the account that was logged on.
+
+The network fields indicate where a remote logon request originated. Workstation name is not always available and may be left blank in some cases.
+
+The impersonation level field indicates the extent to which a process in the logon session can impersonate.
+
+The authentication information fields provide detailed information about this specific logon request.
+	- Logon GUID is a unique identifier that can be used to correlate this event with a KDC event.
+	- Transited services indicate which intermediate services have participated in this logon request.
+	- Package name indicates which sub-protocol was used among the NTLM protocols.
+	- Key length indicates the length of the generated session key. This will be 0 if no session key was requested.","4624","0",,"0","12544","0","-9214364837600034816","227701","Microsoft-Windows-Security-Auditing","54849625-5478-4994-a5ba-3e3b0328c30d","Security","520","1920","PC01.example.corp",,"2/13/2019 10:02:04 AM","ad38ff07-bc05-4620-a79a-51e18f454768",,"System.UInt32[]","System.Diagnostics.Eventing.Reader.EventBookmark","Information","Info","Logon","System.Collections.ObjectModel.ReadOnlyCollection`1[System.String]","System.Collections.Generic.List`1[System.Diagnostics.Eventing.Reader.EventProperty]"
+"A logon was attempted using explicit credentials.
+
+Subject:
+	Security ID:		S-1-5-18
+	Account Name:		PC01$
+	Account Domain:		EXAMPLE
+	Logon ID:		0x3E7
+	Logon GUID:		{00000000-0000-0000-0000-000000000000}
+
+Account Whose Credentials Were Used:
+	Account Name:		user01
+	Account Domain:		EXAMPLE
+	Logon GUID:		{00000000-0000-0000-0000-000000000000}
+
+Target Server:
+	Target Server Name:	localhost
+	Additional Information:	localhost
+
+Process Information:
+	Process ID:		0x704
+	Process Name:		C:\Windows\System32\winlogon.exe
+
+Network Information:
+	Network Address:	127.0.0.1
+	Port:			0
+
+This event is generated when a process attempts to log on an account by explicitly specifying that account?s credentials.  This most commonly occurs in batch-type configurations such as scheduled tasks, or when using the RUNAS command.","4648","0",,"0","12544","0","-9214364837600034816","227700","Microsoft-Windows-Security-Auditing","54849625-5478-4994-a5ba-3e3b0328c30d","Security","520","1920","PC01.example.corp",,"2/13/2019 10:02:04 AM","ad38ff07-bc05-4620-a79a-51e18f454768",,"System.UInt32[]","System.Diagnostics.Eventing.Reader.EventBookmark","Information","Info","Logon","System.Collections.ObjectModel.ReadOnlyCollection`1[System.String]","System.Collections.Generic.List`1[System.Diagnostics.Eventing.Reader.EventProperty]"
+"The Windows Filtering Platform has permitted a connection.
+
+Application Information:
+	Process ID:		520
+	Application Name:	\device\harddiskvolume1\windows\system32\lsass.exe
+
+Network Information:
+	Direction:		Outbound
+	Source Address:		10.0.2.17
+	Source Port:		49263
+	Destination Address:	10.0.2.15
+	Destination Port:		88
+	Protocol:		6
+
+Filter Information:
+	Filter Run-Time ID:	0
+	Layer Name:		Connect
+	Layer Run-Time ID:	48","5156","1",,"0","12810","0","-9214364837600034816","227698","Microsoft-Windows-Security-Auditing","54849625-5478-4994-a5ba-3e3b0328c30d","Security","4","56","PC01.example.corp",,"2/13/2019 10:02:04 AM",,,"System.UInt32[]","System.Diagnostics.Eventing.Reader.EventBookmark","Information","Info","Filtering Platform Connection","System.Collections.ObjectModel.ReadOnlyCollection`1[System.String]","System.Collections.Generic.List`1[System.Diagnostics.Eventing.Reader.EventProperty]"
+"A new process has been created.
+
+Subject:
+	Security ID:		S-1-5-18
+	Account Name:		PC01$
+	Account Domain:		EXAMPLE
+	Logon ID:		0x3E7
+
+Process Information:
+	New Process ID:		0x1fc
+	New Process Name:	C:\Windows\System32\TSTheme.exe
+	Token Elevation Type:	TokenElevationTypeDefault (1)
+	Creator Process ID:	0x278
+	Process Command Line:	
+
+Token Elevation Type indicates the type of token that was assigned to the new process in accordance with User Account Control policy.
+
+Type 1 is a full token with no privileges removed or groups disabled.  A full token is only used if User Account Control is disabled or if the user is the built-in Administrator account or a service account.
+
+Type 2 is an elevated token with no privileges removed or groups disabled.  An elevated token is used when User Account Control is enabled and the user chooses to start the program using Run as administrator.  An elevated token is also used when an application is configured to always require administrative privilege or to always require maximum privilege, and the user is a member of the Administrators group.
+
+Type 3 is a limited token with administrative privileges removed and administrative groups disabled.  The limited token is used when User Account Control is enabled, the application does not require administrative privilege, and the user does not choose to start the program using Run as administrator.","4688","1",,"0","13312","0","-9214364837600034816","227695","Microsoft-Windows-Security-Auditing","54849625-5478-4994-a5ba-3e3b0328c30d","Security","4","56","PC01.example.corp",,"2/13/2019 10:01:47 AM",,,"System.UInt32[]","System.Diagnostics.Eventing.Reader.EventBookmark","Information","Info","Process Creation","System.Collections.ObjectModel.ReadOnlyCollection`1[System.String]","System.Collections.Generic.List`1[System.Diagnostics.Eventing.Reader.EventProperty]"
+"The Windows Filtering Platform has permitted a connection.
+
+Application Information:
+	Process ID:		820
+	Application Name:	\device\harddiskvolume1\windows\system32\svchost.exe
+
+Network Information:
+	Direction:		Outbound
+	Source Address:		fe80::80ac:4126:fa58:1b81
+	Source Port:		546
+	Destination Address:	ff02::1:2
+	Destination Port:		547
+	Protocol:		17
+
+Filter Information:
+	Filter Run-Time ID:	65865
+	Layer Name:		Connect
+	Layer Run-Time ID:	50","5156","1",,"0","12810","0","-9214364837600034816","227694","Microsoft-Windows-Security-Auditing","54849625-5478-4994-a5ba-3e3b0328c30d","Security","4","56","PC01.example.corp",,"2/13/2019 10:01:47 AM",,,"System.UInt32[]","System.Diagnostics.Eventing.Reader.EventBookmark","Information","Info","Filtering Platform Connection","System.Collections.ObjectModel.ReadOnlyCollection`1[System.String]","System.Collections.Generic.List`1[System.Diagnostics.Eventing.Reader.EventProperty]"
+"The audit log was cleared.
+Subject:
+	Security ID:	S-1-5-21-1587066498-1489273250-1035260531-1108
+	Account Name:	admin01
+	Domain Name:	EXAMPLE
+	Logon ID:	0xAF855","1102","0",,"4","104","0","4620693217682128896","227693","Microsoft-Windows-Eventlog","fc65ddd8-d6ef-4962-83d5-6e5cfe9ce148","Security","820","608","PC01.example.corp",,"2/13/2019 10:01:41 AM",,,"System.UInt32[]","System.Diagnostics.Eventing.Reader.EventBookmark","Information","Info","Log clear","System.Collections.ObjectModel.ReadOnlyCollection`1[System.String]","System.Collections.Generic.List`1[System.Diagnostics.Eventing.Reader.EventProperty]"
