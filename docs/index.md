@@ -1,18 +1,3 @@
-## [Concept](#concept)   
-## [Script Style Guide](#script-style-guide)  
-* [1. Bash](#1-bash)  
-* [2. Powershell](#2-powershell)  
-* [3. Python](#3-python)  
-
-## [Git Workflow](#git-workflow)  
-* [1. clone the repo](#1-clone-the-repo)  
-* [2. create a local branch](#2-create-a-local-branch)  
-* [3. complete tasks documenations.](#3-complete-tasks-documenations)  
-* [4. add your changes](#4-add-your-changes)  
-* [5. commit your changes.](#5-commit-your-changes)  
-* [6. push your local branch to remote.](#6-push-your-local-branch-to-remote)  
-* [7. create a pull request](#7-create-a-pull-request)  
-
 ## Concept	
 ![IR Concept Design](img/IR-Concept-Design.png)  
 
@@ -21,22 +6,6 @@
   * IR Phase Task - Example: (2.02_Create_Active_IP_List)  
     * Scripts  
     * README.md IR Phase Task  
-
-
-## Line of Effort (LOE) Index  
-* [Preparation](1.Preparation)   
-* [Identification](2.Identification)  
-* [Containment](3.Containment)  
-* [Eradication](4.Eradication)  
-* [Recovery](5.Recovery)  
-* [Lessons Learned](6.LessonsLearned)  
-
-
-
-## References  
-Tasks are based on the NIST Framework for Improving Critical Infrastructure Cybersecurity.  
-
-[NIST Framework for Improving Critical Infrastructure Cybersecurity](https://nvlpubs.nist.gov/nistpubs/CSWP/NIST.CSWP.04162018.pdf)  
 
 ## Script Style Guide  
 Name the script the following way.
@@ -208,3 +177,7 @@ if you want to make a pull request out of the recent push.
 
 Or, you can click on `create a pull request` button.
 choose `main` on the left, and `your branch` on the right.
+
+### References  
+Tasks are based on the NIST Framework for Improving Critical Infrastructure Cybersecurity.  
+[NIST Framework for Improving Critical Infrastructure Cybersecurity](https://nvlpubs.nist.gov/nistpubs/CSWP/NIST.CSWP.04162018.pdf)  
