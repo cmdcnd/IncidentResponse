@@ -191,42 +191,58 @@ nav:
     - 3.10-Change or Disable Workstation Local Administrators: 3.Containment/3.10_Change_or_disable_Workstation_local_Administrators/README.md
     - 3.11-Verify Patch Compliance on all hosts: 3.Containment/3.11_Verify_patch_compliance_on_all_hosts/README.md
   - 4.Eradication:
-    - 4.Eradication: docs\4.Eradication\README.md
-    - 4.01-Synchronize Time on all hosts: docs\4.Eradication\4.01_Synchronize_all_host_clocks\README.md
-    - 4.02-Enable Account Usage Auditing: docs\4.Eradication\4.02_Enable_Account_Usage_Auditing\README.md
+    - 4.Eradication: 4.Eradication/README.md
+    - 4.01-Synchronize Time on all hosts: 4.Eradication/4.01_Synchronize_all_host_clocks/README.md
+    - 4.02-Enable Account Usage Auditing: 4.Eradication/4.02_Enable_Account_Usage_Auditing/README.md
     - 4.02Files: https://github.com/cmdcndexternal/IncidentResponse/tree/main/docs/4.Eradication/4.02_Enable_Account_Usage_Auditing
-    - 4.03-Deploy Network Intrusion Detection System: docs\4.Eradication\4.03_Deploy_network_intrusion_detection_system\README.md
+    - 4.03-Deploy Network Intrusion Detection System: 4.Eradication/4.03_Deploy_network_intrusion_detection_system/README.md
     - 4.03Files: https://github.com/cmdcndexternal/IncidentResponse/tree/main/docs/4.Eradication/4.03_Deploy_network_intrusion_detection_system
-    - 4.04-Monitor NIDS and Report Threats: docs\4.Eradication\4.04_Monitor_NIDS_and_Report_Threats\README.md
-    - 4.05-SIEM Events to IDS and Network Logs: docs\4.Eradication\4.05_SIEM_Events_to_IDS_and_network_logs\README.md
-    - 4.06-Evaluate Host Kernel to check for Rootkits: docs\4.Eradication\4.06_Evaluate_Host_Kernel_to_Check_for_Rootkits\README.md
-    - 4.07-Use Host Log Data to Evaluate System Processes: docs\4.Eradication\4.07_Use_Host_Log_Data_to_Evaluate_System_Processes\ReadMe.md
+    - 4.04-Monitor NIDS and Report Threats: 4.Eradication/4.04_Monitor_NIDS_and_Report_Threats/README.md
+    - 4.05-SIEM Events to IDS and Network Logs: 4.Eradication/4.05_SIEM_Events_to_IDS_and_network_logs/README.md
+    - 4.06-Evaluate Host Kernel to check for Rootkits: 4.Eradication/4.06_Evaluate_Host_Kernel_to_Check_for_Rootkits/README.md
+    - 4.07-Use Host Log Data to Evaluate System Processes: 4.Eradication/4.07_Use_Host_Log_Data_to_Evaluate_System_Processes/ReadMe.md
     - 4.07Files: https://github.com/cmdcndexternal/IncidentResponse/tree/main/docs/4.Eradication/4.07_Use_Host_Log_Data_to_Evaluate_System_Processes
-    - 4.08-Deploy or Evaluate Host Sensors: docs\4.Eradication\4.08_Deploy_or_evaluate_host_sensors\README.md
+    - 4.08-Deploy or Evaluate Host Sensors: 4.Eradication/4.08_Deploy_or_evaluate_host_sensors/README.md
     - 4.08Files: https://github.com/cmdcndexternal/IncidentResponse/tree/main/docs/4.Eradication/4.08_Deploy_or_evaluate_host_sensors
-    - 4.09-Install and Deploy Security Onion: docs\4.Eradication\4.09_Install_and_Deploy_Security_Onion\README.md
-    - 4.10-PAN Forward Syslog to SecurityOnion: docs\4.Eradication\4.10_PAN_Forward_Syslog_SO\README.md
-    - 4.11-Monitoring Account Creation using SecurityOnion: docs\4.Eradication\4.11_Monitoring_account_creation_SO\readme.md
-    - 4.12-Detect Network Vulnerability Scans using SecurityOnion: docs\4.Eradication\4.12_Detect_network_vulnerability_scans_SO\README.md
-    - 4.13-Detect SMB using SecurityOnion: docs\4.Eradication\4.13_Detect_SMB_using_SO\README.md
-    - 4.14-Monitor Active Directory New Account Creation: docs\4.Eradication\4.14_Monitor_AD_New_Account_Creation\README.md
-    - 4.15-Monitor DHCP for New Reservations: docs\4.Eradication\4.15_Monitor_DHCP_for_new_reservations\README.md
-    - 4.16-Monitor Active Directory for New DNS Names: docs\4.Eradication\4.16_Monitor_AD_for_new_DNS_names\README.md
-    - 4.17-Respond to Alerts about unauthorized users: docs\4.Eradication\4.17_Respond_to_alerts_about_unauthorized_users\README.md
-    - 4.18-Compare Hashes of suspected malware: docs\4.Eradication\4.18_Compare_hashes_of_suspected_malware\README.md
-    - 4.19-Perform Manual Host Analysis: docs\4.Eradication\4.19_Perform_manual_host_analysis\README.md
-    - 4.19.1-Perform Manual Host Analysis Live Physical Host Windows: docs\4.Eradication\4.19_Perform_manual_host_analysis\4.19.1_Perform_Manual_Host_Analysis_Live_Physical_Host_Windows\README.md
-    - 4.19.2-Perform Manual Host Analysis Memory Image File: docs\4.Eradication\4.19_Perform_manual_host_analysis\4.19.2_Perform_Manual_Host_Analysis_Memory_Image_File\README.md
-    - 4.19.3-Create Hard Disk Image: docs\4.Eradication\4.19_Perform_manual_host_analysis\4.19.3_Create_Hard_Disk_Image\README.md
-    - 4.20-Investigate Alerts from Host Sensors: docs\4.Eradication\4.20_Investigate_Alerts_From_Host_Sensors\README.md
-    - 4.21-Find and Contain Rogue Workstation: docs\4.Eradication\4.21_Find_and_contain_rogue_workstations\README.md
-    - 4.22-Block Unauthorized Software: docs\4.Eradication\4.22_Block_unauthorized_software\README.md
-    - 4.23-Stop Credential Reuse Attack: docs\4.Eradication\4.23_Stop_Credential_reuse_Hack\README.md
-    - 4.24-Stop Brute Force Attack: docs\4.Eradication\4.24_Stop_brute_force_attack\README.md
-    - 4.25-Stop Malware Rootkit: docs\4.Eradication\4.25_Stop_malware_rootkit\README.md
-    - 4.26-Stop Data Exfiltration: docs\4.Eradication\4.26_Stop_data_exfiltration\README.md
-    - 4.27-Stop Malware Backdoor: docs\4.Eradication\4.27_Stop_malware_backdoor\README.md
+    - 4.09-Install and Deploy Security Onion: 4.Eradication/4.09_Install_and_Deploy_Security_Onion/README.md
+    - 4.10-PAN Forward Syslog to SecurityOnion: 4.Eradication/4.10_PAN_Forward_Syslog_SO/README.md
+    - 4.11-Monitoring Account Creation using SecurityOnion: 4.Eradication/4.11_Monitoring_account_creation_SO/readme.md
+    - 4.12-Detect Network Vulnerability Scans using SecurityOnion: 4.Eradication/4.12_Detect_network_vulnerability_scans_SO/README.md
+    - 4.13-Detect SMB using SecurityOnion: 4.Eradication/4.13_Detect_SMB_using_SO/README.md
+    - 4.14-Monitor Active Directory New Account Creation: 4.Eradication/4.14_Monitor_AD_New_Account_Creation/README.md
+    - 4.15-Monitor DHCP for New Reservations: 4.Eradication/4.15_Monitor_DHCP_for_new_reservations/README.md
+    - 4.16-Monitor Active Directory for New DNS Names: 4.Eradication/4.16_Monitor_AD_for_new_DNS_names/README.md
+    - 4.17-Respond to Alerts about unauthorized users: 4.Eradication/4.17_Respond_to_alerts_about_unauthorized_users/README.md
+    - 4.18-Compare Hashes of suspected malware: 4.Eradication/4.18_Compare_hashes_of_suspected_malware/README.md
+    - 4.19-Perform Manual Host Analysis: 4.Eradication/4.19_Perform_manual_host_analysis/README.md
+    - 4.19.1-Perform Manual Host Analysis Live Physical Host Windows: 4.Eradication/4.19_Perform_manual_host_analysis/4.19.1_Perform_Manual_Host_Analysis_Live_Physical_Host_Windows/README.md
+    - 4.19.2-Perform Manual Host Analysis Memory Image File: 4.Eradication/4.19_Perform_manual_host_analysis/4.19.2_Perform_Manual_Host_Analysis_Memory_Image_File/README.md
+    - 4.19.3-Create Hard Disk Image: 4.Eradication/4.19_Perform_manual_host_analysis/4.19.3_Create_Hard_Disk_Image/README.md
+    - 4.20-Investigate Alerts from Host Sensors: 4.Eradication/4.20_Investigate_Alerts_From_Host_Sensors/README.md
+    - 4.21-Find and Contain Rogue Workstation: 4.Eradication/4.21_Find_and_contain_rogue_workstations/README.md
+    - 4.22-Block Unauthorized Software: 4.Eradication/4.22_Block_unauthorized_software/README.md
+    - 4.23-Stop Credential Reuse Attack: 4.Eradication/4.23_Stop_Credential_reuse_Hack/README.md
+    - 4.24-Stop Brute Force Attack: 4.Eradication/4.24_Stop_brute_force_attack/README.md
+    - 4.25-Stop Malware Rootkit: 4.Eradication/4.25_Stop_malware_rootkit/README.md
+    - 4.26-Stop Data Exfiltration: 4.Eradication/4.26_Stop_data_exfiltration/README.md
+    - 4.27-Stop Malware Backdoor: 4.Eradication/4.27_Stop_malware_backdoor/README.md
     - 4.27Files: https://github.com/cmdcndexternal/IncidentResponse/tree/main/docs/4.Eradication/4.27_Stop_malware_backdoor
-    - 4.28-Stop C@ Beaconing: docs\4.Eradication\4.28_Stop_C2_Beaconing\README.md
-    - 4.30-SecurityOnion Hunting: docs\4.Eradication\4.30_Security_Onion_Hunting\README.md
+    - 4.28-Stop C@ Beaconing: 4.Eradication/4.28_Stop_C2_Beaconing/README.md
+    - 4.30-SecurityOnion Hunting: 4.Eradication/4.30_Security_Onion_Hunting/README.md
     - 4.30Files: https://github.com/cmdcndexternal/IncidentResponse/tree/main/docs/4.Eradication/4.30_Security_Onion_Hunting
+  - 5.Recovery:
+    - 5.Recovery: 5.Recovery/README.md
+    - 5.01-Vulnerability Scans: 5.Recovery/5.01_Vulnerability_Scans/README.md
+    - 5.02-Cyber Security Improvements: 5.Recovery/5.02_Cyber-Security-Improvements/README.md
+    - 5.03-Firewall Analysis: 5.Recovery/5.03_Firewall_Analysis/README.md
+    - 5.04-Password Requirements: 5.Recovery/5.04_Password_Requirements/README.md
+    - 5.05-Create New Baselines: 5.Recovery/5.05_Create_new_baselines/README.md
+    - 5.06-Syslog Retention: 5.Recovery/5.06_Syslog_Retention/README.md
+    - 5.07-Patch Management: 5.Recovery/5.07_Patch_Management/README.md
+    - 5.08-User Cyber Training: 5.Recovery/5.08_User_Cyber_Training/README.md
+    - 5.09-System Restoration: 5.Recovery/5.09_System_Restoration/README.md
+    - 5.10-Account Audit: 5.Recovery/5.10_Account_Audit/README.md
+    - 5.11-Turn over Mission related Documents: 5.Recovery/5.11_Turn_Over_Mission_Related_Documents/README.md
+    - 5.12-Creating Clean Backups: 5.Recovery/5.12_Creating_Clean_Backups/README.md
+    - 5.13-Conduct Outbriefing: 5.Recovery/5.13-Conduct_Outbriefing/README.md
+    - 5.14-Conduct AAR: 5.Recovery/5.14-Conduct_AAR/README.md
