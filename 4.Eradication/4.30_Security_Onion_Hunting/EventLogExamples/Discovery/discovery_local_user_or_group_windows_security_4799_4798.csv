@@ -1,0 +1,49 @@
+"Message","Id","Version","Qualifiers","Level","Task","Opcode","Keywords","RecordId","ProviderName","ProviderId","LogName","ProcessId","ThreadId","MachineName","UserId","TimeCreated","ActivityId","RelatedActivityId","MatchedQueryIds","Bookmark","LevelDisplayName","OpcodeDisplayName","TaskDisplayName","KeywordsDisplayNames","Properties"
+"A security-enabled local group membership was enumerated.
+
+Subject:
+	Security ID:		S-1-5-21-3461203602-4096304019-2269080069-1000
+	Account Name:		IEUser
+	Account Domain:		MSEDGEWIN10
+	Logon ID:		0x2E47A
+
+Group:
+	Security ID:		S-1-5-32-544
+	Group Name:		Administrators
+	Group Domain:		Builtin
+
+Process Information:
+	Process ID:		0x5c0
+	Process Name:		C:\Windows\System32\net1.exe","4799","0",,"0","13826","0","-9214364837600034816","10091","Microsoft-Windows-Security-Auditing","54849625-5478-4994-a5ba-3e3b0328c30d","Security","620","1948","MSEDGEWIN10",,"8/5/2019 2:25:03 AM","fdc063de-4b69-0000-5564-c0fd694bd501",,"System.UInt32[]","System.Diagnostics.Eventing.Reader.EventBookmark","Information","Info","Security Group Management","System.Collections.ObjectModel.ReadOnlyCollection`1[System.String]","System.Collections.Generic.List`1[System.Diagnostics.Eventing.Reader.EventProperty]"
+"A user's local group membership was enumerated.
+
+Subject:
+	Security ID:		S-1-5-21-3461203602-4096304019-2269080069-1000
+	Account Name:		IEUser
+	Account Domain:		MSEDGEWIN10
+	Logon ID:		0x2E47A
+
+User:
+	Security ID:		S-1-5-21-3461203602-4096304019-2269080069-500
+	Account Name:		Administrator
+	Account Domain:		MSEDGEWIN10
+
+Process Information:
+	Process ID:		0x10b4
+	Process Name:		C:\Windows\System32\net1.exe","4798","0",,"0","13824","0","-9214364837600034816","10090","Microsoft-Windows-Security-Auditing","54849625-5478-4994-a5ba-3e3b0328c30d","Security","620","1948","MSEDGEWIN10",,"8/5/2019 2:24:56 AM","fdc063de-4b69-0000-5564-c0fd694bd501",,"System.UInt32[]","System.Diagnostics.Eventing.Reader.EventBookmark","Information","Info","User Account Management","System.Collections.ObjectModel.ReadOnlyCollection`1[System.String]","System.Collections.Generic.List`1[System.Diagnostics.Eventing.Reader.EventProperty]"
+"A user's local group membership was enumerated.
+
+Subject:
+	Security ID:		S-1-5-21-3461203602-4096304019-2269080069-1000
+	Account Name:		IEUser
+	Account Domain:		MSEDGEWIN10
+	Logon ID:		0x2E47A
+
+User:
+	Security ID:		S-1-5-21-3461203602-4096304019-2269080069-500
+	Account Name:		Administrator
+	Account Domain:		MSEDGEWIN10
+
+Process Information:
+	Process ID:		0x10b4
+	Process Name:		C:\Windows\System32\net1.exe","4798","0",,"0","13824","0","-9214364837600034816","10089","Microsoft-Windows-Security-Auditing","54849625-5478-4994-a5ba-3e3b0328c30d","Security","620","1948","MSEDGEWIN10",,"8/5/2019 2:24:56 AM","fdc063de-4b69-0000-5564-c0fd694bd501",,"System.UInt32[]","System.Diagnostics.Eventing.Reader.EventBookmark","Information","Info","User Account Management","System.Collections.ObjectModel.ReadOnlyCollection`1[System.String]","System.Collections.Generic.List`1[System.Diagnostics.Eventing.Reader.EventProperty]"
