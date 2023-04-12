@@ -1,0 +1,107 @@
+"Message","Id","Version","Qualifiers","Level","Task","Opcode","Keywords","RecordId","ProviderName","ProviderId","LogName","ProcessId","ThreadId","MachineName","UserId","TimeCreated","ActivityId","RelatedActivityId","MatchedQueryIds","Bookmark","LevelDisplayName","OpcodeDisplayName","TaskDisplayName","KeywordsDisplayNames","Properties"
+"The handle to an object was closed.
+
+Subject :
+	Security ID:		S-1-5-21-2634088540-571122920-1382659128-500
+	Account Name:		Administrator
+	Account Domain:		MAINCORP
+	Logon ID:		0x432C8
+
+Object:
+	Object Server:		Security Account Manager
+	Handle ID:		0xc9774b43b0
+
+Process Information:
+	Process ID:		0x1f0
+	Process Name:		C:\Windows\System32\lsass.exe","4658","0",,"0","12804","0","-9214364837600034816","8076","Microsoft-Windows-Security-Auditing","54849625-5478-4994-a5ba-3e3b0328c30d","Security","4","252","2012r2srv.maincorp.local",,"6/12/2017 4:39:43 PM",,,"System.UInt32[]","System.Diagnostics.Eventing.Reader.EventBookmark","Information","Info","Other Object Access Events","System.Collections.ObjectModel.ReadOnlyCollection`1[System.String]","System.Collections.Generic.List`1[System.Diagnostics.Eventing.Reader.EventProperty]"
+"SID History was added to an account.
+
+Subject:
+	Security ID:		S-1-5-21-2634088540-571122920-1382659128-500
+	Account Name:		Administrator
+	Account Domain:		MAINCORP
+	Logon ID:		0x432C8
+
+Target Account:
+	Security ID:		S-1-5-21-2634088540-571122920-1382659128-1104
+	Account Name:		Andrei
+	Account Domain:		MAINCORP
+
+Source Account:
+	Security ID:		S-1-5-21-2634088540-571122920-1382659128-512
+	Account Name:		maincorp.local\Domain Admins
+
+Additional Information:
+	Privileges:		-
+	SID List:			-","4765","0",,"0","13824","0","-9214364837600034816","8075","Microsoft-Windows-Security-Auditing","54849625-5478-4994-a5ba-3e3b0328c30d","Security","496","1696","2012r2srv.maincorp.local",,"6/12/2017 4:39:43 PM",,,"System.UInt32[]","System.Diagnostics.Eventing.Reader.EventBookmark","Information","Info","User Account Management","System.Collections.ObjectModel.ReadOnlyCollection`1[System.String]","System.Collections.Generic.List`1[System.Diagnostics.Eventing.Reader.EventProperty]"
+"A handle to an object was requested.
+
+Subject :
+	Security ID:		S-1-5-21-2634088540-571122920-1382659128-500
+	Account Name:		Administrator
+	Account Domain:		MAINCORP
+	Logon ID:		0x432C8
+
+Object:
+	Object Server:	Security Account Manager
+	Object Type:	SAM_DOMAIN
+	Object Name:	DC=maincorp,DC=local
+	Handle ID:	0xc9774b43b0
+
+Process Information:
+	Process ID:	0x1f0
+	Process Name:	C:\Windows\System32\lsass.exe
+
+Access Request Information:
+	Transaction ID:	{00000000-0000-0000-0000-000000000000}
+	Accesses:	DELETE
+				READ_CONTROL
+				WRITE_DAC
+				WRITE_OWNER
+				ReadPasswordParameters
+				WritePasswordParameters
+				ReadOtherParameters
+				WriteOtherParameters
+				CreateUser
+				CreateGlobalGroup
+				CreateLocalGroup
+				GetLocalGroupMembership
+				ListAccounts
+				
+	Access Mask:	0x2D
+	Privileges Used for Access Check:	?-
+	Properties:	---
+	{19195a5a-6da0-11d0-afd3-00c04fd930c9}
+DELETE
+READ_CONTROL
+WRITE_DAC
+WRITE_OWNER
+ReadPasswordParameters
+WritePasswordParameters
+ReadOtherParameters
+WriteOtherParameters
+CreateUser
+CreateGlobalGroup
+CreateLocalGroup
+GetLocalGroupMembership
+ListAccounts
+		{c7407360-20bf-11d0-a768-00aa006e0529}
+			{bf9679a4-0de6-11d0-a285-00aa003049e2}
+			{bf9679a5-0de6-11d0-a285-00aa003049e2}
+			{bf9679a6-0de6-11d0-a285-00aa003049e2}
+			{bf9679bb-0de6-11d0-a285-00aa003049e2}
+			{bf9679c2-0de6-11d0-a285-00aa003049e2}
+			{bf9679c3-0de6-11d0-a285-00aa003049e2}
+			{bf967a09-0de6-11d0-a285-00aa003049e2}
+			{bf967a0b-0de6-11d0-a285-00aa003049e2}
+		{b8119fd0-04f6-4762-ab7a-4986c76b3f9a}
+			{bf967a34-0de6-11d0-a285-00aa003049e2}
+			{bf967a33-0de6-11d0-a285-00aa003049e2}
+			{bf9679c5-0de6-11d0-a285-00aa003049e2}
+			{bf967a61-0de6-11d0-a285-00aa003049e2}
+			{bf967977-0de6-11d0-a285-00aa003049e2}
+			{bf96795e-0de6-11d0-a285-00aa003049e2}
+			{bf9679ea-0de6-11d0-a285-00aa003049e2}
+		{ab721a52-1e2f-11d0-9819-00aa0040529b}
+
+	Restricted SID Count:	0","4661","0",,"0","12803","0","-9214364837600034816","8068","Microsoft-Windows-Security-Auditing","54849625-5478-4994-a5ba-3e3b0328c30d","Security","496","504","2012r2srv.maincorp.local",,"6/12/2017 4:39:43 PM",,,"System.UInt32[]","System.Diagnostics.Eventing.Reader.EventBookmark","Information","Info","SAM","System.Collections.ObjectModel.ReadOnlyCollection`1[System.String]","System.Collections.Generic.List`1[System.Diagnostics.Eventing.Reader.EventProperty]"
