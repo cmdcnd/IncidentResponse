@@ -9,7 +9,11 @@
 
 ## Standards  
 <details>
-<summary>INCIDENT ID</summary>  
+<summary>
+
+#### INCIDENT ID  
+
+</summary>  
 
 * Question text: Incident or case ID</br>  
 * User notes: N/A</br>  
