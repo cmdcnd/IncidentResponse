@@ -125,7 +125,7 @@ markdown_extensions:
 
 # Page tree
 nav:
-  - 1.Preparation: 1.Preparation/README.md
+  - 1.Preparation:
     - 1.01-Troop Leading Procedures: 1.Preparation/1.01-Troop_Leading_Procedures/README.md
     - 1.02-Receive Mission: 1.Preparation/1.02-Receive_Mission/README.md
     - 1.03-Personnel Status: 1.Preparation/1.03-Personnel_Status/README.md
