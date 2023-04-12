@@ -1,4 +1,4 @@
-## Task Export Organizational Unit (OU) structure from Domain Controller  
+## Task Export Organizational Unit (OU) structure from Active Directory  
 
 
 ## Conditions  

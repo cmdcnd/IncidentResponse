@@ -1,4 +1,4 @@
-## Task Export Trust Relationships from Domain Controller  
+## Task Export Trust Relationships from Active Directory  
 
 
 ## Conditions  

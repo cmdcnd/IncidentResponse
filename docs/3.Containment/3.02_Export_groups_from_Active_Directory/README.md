@@ -1,4 +1,4 @@
-## Task Export List of Groups from Domain Controller  
+## Task Export List of Groups from Active Directory    
 
 
 ## Conditions  

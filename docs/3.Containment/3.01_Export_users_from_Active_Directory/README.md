@@ -1,4 +1,4 @@
-## Task Export List of Users from Domain Controller  
+## Task Export List of Users from Active Directory  
 
 
 ## Conditions  

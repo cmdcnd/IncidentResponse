@@ -1,4 +1,4 @@
-## Task Export Group Policy Objects (GPOs) from Domain Controller  
+## Task Export Group Policy Objects (GPOs) from Active Directory   
 
 
 ## Conditions  
