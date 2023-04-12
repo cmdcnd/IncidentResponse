@@ -1,4 +1,4 @@
-## Task Stop Credential Re-use Hack  
+## Task Stop Credential Re-use Attack   
 
 
 ## Conditions  

@@ -219,4 +219,14 @@ nav:
     - 4.19.2-Perform Manual Host Analysis Memory Image File: docs\4.Eradication\4.19_Perform_manual_host_analysis\4.19.2_Perform_Manual_Host_Analysis_Memory_Image_File\README.md
     - 4.19.3-Create Hard Disk Image: docs\4.Eradication\4.19_Perform_manual_host_analysis\4.19.3_Create_Hard_Disk_Image\README.md
     - 4.20-Investigate Alerts from Host Sensors: docs\4.Eradication\4.20_Investigate_Alerts_From_Host_Sensors\README.md
-
+    - 4.21-Find and Contain Rogue Workstation: docs\4.Eradication\4.21_Find_and_contain_rogue_workstations\README.md
+    - 4.22-Block Unauthorized Software: docs\4.Eradication\4.22_Block_unauthorized_software\README.md
+    - 4.23-Stop Credential Reuse Attack: docs\4.Eradication\4.23_Stop_Credential_reuse_Hack\README.md
+    - 4.24-Stop Brute Force Attack: docs\4.Eradication\4.24_Stop_brute_force_attack\README.md
+    - 4.25-Stop Malware Rootkit: docs\4.Eradication\4.25_Stop_malware_rootkit\README.md
+    - 4.26-Stop Data Exfiltration: docs\4.Eradication\4.26_Stop_data_exfiltration\README.md
+    - 4.27-Stop Malware Backdoor: docs\4.Eradication\4.27_Stop_malware_backdoor\README.md
+    - 4.27Files: https://github.com/cmdcndexternal/IncidentResponse/tree/main/docs/4.Eradication/4.27_Stop_malware_backdoor
+    - 4.28-Stop C@ Beaconing: docs\4.Eradication\4.28_Stop_C2_Beaconing\README.md
+    - 4.30-SecurityOnion Hunting: docs\4.Eradication\4.30_Security_Onion_Hunting\README.md
+    - 4.30Files: https://github.com/cmdcndexternal/IncidentResponse/tree/main/docs/4.Eradication/4.30_Security_Onion_Hunting
