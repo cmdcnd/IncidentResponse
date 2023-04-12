@@ -3,12 +3,14 @@
 
 ## Conditions  
 Given an IR Team
+
 * IR Team is given a mission to deploy a IR Team in support of Guardnet, State IT systems, orother organization as directed by the Governor  
 * Response effort if localized and a Type I / II Federal Disaster Response has not been declared  
 
 
 ## Standards  
 Successfully understand guidance from higher and deploys the appropriate resources to complete the mission.  
+
 * Received Mission  
 * Issued WARNO  
 * Conducts Mission Analysis  

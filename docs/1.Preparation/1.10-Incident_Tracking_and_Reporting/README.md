@@ -8,15 +8,15 @@
 
 
 ## Standards  
-<details><summary>INCIDENT ID</summary></br>
+<details><summary>INCIDENT ID</summary>  
 
-* `Question text:` Incident or case ID</br>
-* `User notes:` N/A</br>
-* `Question type:` text field</br>
-* `Variable name:` incident_id (string)</br>
-* `Purpose:` To uniquely identify incidents for storage and tracking over time.</br>
-* `Developer notes:` We recommend auto-generating IDs rather than prompting the user to create/submit one. If you plan to share incident with others, we suggest not making your org's name part of the incident ID (e.g., verizonBreach_00001).</br>
-* `Miscellaneous:` N/A</br>
+* `Question text:` Incident or case ID  
+* `User notes:` N/A  
+* `Question type:` text field  
+* `Variable name:` incident_id (string)  
+* `Purpose:` To uniquely identify incidents for storage and tracking over time.  
+* `Developer notes:` We recommend auto-generating IDs rather than prompting the user to create/submit one. If you plan to share incident with others, we suggest not making your org's name part of the incident ID (e.g., verizonBreach_00001).  
+* `Miscellaneous:` N/A  
 
 </details>
 

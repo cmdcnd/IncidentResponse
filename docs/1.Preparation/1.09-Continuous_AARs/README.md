@@ -8,6 +8,7 @@
 
 ## Standards  
 Throughout operations, the IR Team should develop AAR containing the following elements:  
+
 * List of Participants  
 * Review key actions/event that occurred during mission  
 * Analysis of Lessons Learned  

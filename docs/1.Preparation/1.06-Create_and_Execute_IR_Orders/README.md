@@ -7,6 +7,7 @@ Given an OPORD for IR Team Operations
 
 ## Standards  
 Create and execute DCO Orders:  
+
 * Enter Request for orders  
 * Establish Rules of Engagement  
 * Execute supporting documents  

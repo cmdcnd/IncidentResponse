@@ -8,6 +8,7 @@ IR Team is requested to support mission partner's critical information systems.
 ## Standards  
 Using MDMP, determine appropriate COA and communicate to team members.  
 Non-standard Considerations:  
+
 * Duty Status (SAD, Title 10/32)  
 * Cyber tool requirement vs. availability team / mission partner. (i.e. - mission partner may not permit tools that theIR Team is familiar with, or competent in)  
 * Escalation procedure(s) (i.e. - if beyond capability, where / when to hand off request augmentation)  
