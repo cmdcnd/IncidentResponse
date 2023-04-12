@@ -1,0 +1,139 @@
+"Message","Id","Version","Qualifiers","Level","Task","Opcode","Keywords","RecordId","ProviderName","ProviderId","LogName","ProcessId","ThreadId","MachineName","UserId","TimeCreated","ActivityId","RelatedActivityId","MatchedQueryIds","Bookmark","LevelDisplayName","OpcodeDisplayName","TaskDisplayName","KeywordsDisplayNames","Properties"
+"A new process has been created.
+
+Subject:
+	Security ID:		S-1-5-18
+	Account Name:		PC01$
+	Account Domain:		EXAMPLE
+	Logon ID:		0x3E7
+
+Process Information:
+	New Process ID:		0xf6c
+	New Process Name:	C:\Windows\System32\dllhost.exe
+	Token Elevation Type:	TokenElevationTypeDefault (1)
+	Creator Process ID:	0x278
+	Process Command Line:	
+
+Token Elevation Type indicates the type of token that was assigned to the new process in accordance with User Account Control policy.
+
+Type 1 is a full token with no privileges removed or groups disabled.  A full token is only used if User Account Control is disabled or if the user is the built-in Administrator account or a service account.
+
+Type 2 is an elevated token with no privileges removed or groups disabled.  An elevated token is used when User Account Control is enabled and the user chooses to start the program using Run as administrator.  An elevated token is also used when an application is configured to always require administrative privilege or to always require maximum privilege, and the user is a member of the Administrators group.
+
+Type 3 is a limited token with administrative privileges removed and administrative groups disabled.  The limited token is used when User Account Control is enabled, the application does not require administrative privilege, and the user does not choose to start the program using Run as administrator.","4688","1",,"0","13312","0","-9214364837600034816","433078","Microsoft-Windows-Security-Auditing","54849625-5478-4994-a5ba-3e3b0328c30d","Security","4","48","PC01.example.corp",,"3/18/2019 4:06:46 AM",,,"System.UInt32[]","System.Diagnostics.Eventing.Reader.EventBookmark","Information","Info","Process Creation","System.Collections.ObjectModel.ReadOnlyCollection`1[System.String]","System.Collections.Generic.List`1[System.Diagnostics.Eventing.Reader.EventProperty]"
+"A new process has been created.
+
+Subject:
+	Security ID:		S-1-5-18
+	Account Name:		PC01$
+	Account Domain:		EXAMPLE
+	Logon ID:		0x3E7
+
+Process Information:
+	New Process ID:		0x370
+	New Process Name:	C:\Windows\System32\conhost.exe
+	Token Elevation Type:	TokenElevationTypeDefault (1)
+	Creator Process ID:	0x764
+	Process Command Line:	
+
+Token Elevation Type indicates the type of token that was assigned to the new process in accordance with User Account Control policy.
+
+Type 1 is a full token with no privileges removed or groups disabled.  A full token is only used if User Account Control is disabled or if the user is the built-in Administrator account or a service account.
+
+Type 2 is an elevated token with no privileges removed or groups disabled.  An elevated token is used when User Account Control is enabled and the user chooses to start the program using Run as administrator.  An elevated token is also used when an application is configured to always require administrative privilege or to always require maximum privilege, and the user is a member of the Administrators group.
+
+Type 3 is a limited token with administrative privileges removed and administrative groups disabled.  The limited token is used when User Account Control is enabled, the application does not require administrative privilege, and the user does not choose to start the program using Run as administrator.","4688","1",,"0","13312","0","-9214364837600034816","432906","Microsoft-Windows-Security-Auditing","54849625-5478-4994-a5ba-3e3b0328c30d","Security","4","48","PC01.example.corp",,"3/18/2019 4:06:29 AM",,,"System.UInt32[]","System.Diagnostics.Eventing.Reader.EventBookmark","Information","Info","Process Creation","System.Collections.ObjectModel.ReadOnlyCollection`1[System.String]","System.Collections.Generic.List`1[System.Diagnostics.Eventing.Reader.EventProperty]"
+"A new process has been created.
+
+Subject:
+	Security ID:		S-1-5-18
+	Account Name:		PC01$
+	Account Domain:		EXAMPLE
+	Logon ID:		0x3E7
+
+Process Information:
+	New Process ID:		0x440
+	New Process Name:	C:\Windows\System32\cmd.exe
+	Token Elevation Type:	TokenElevationTypeDefault (1)
+	Creator Process ID:	0x448
+	Process Command Line:	
+
+Token Elevation Type indicates the type of token that was assigned to the new process in accordance with User Account Control policy.
+
+Type 1 is a full token with no privileges removed or groups disabled.  A full token is only used if User Account Control is disabled or if the user is the built-in Administrator account or a service account.
+
+Type 2 is an elevated token with no privileges removed or groups disabled.  An elevated token is used when User Account Control is enabled and the user chooses to start the program using Run as administrator.  An elevated token is also used when an application is configured to always require administrative privilege or to always require maximum privilege, and the user is a member of the Administrators group.
+
+Type 3 is a limited token with administrative privileges removed and administrative groups disabled.  The limited token is used when User Account Control is enabled, the application does not require administrative privilege, and the user does not choose to start the program using Run as administrator.","4688","1",,"0","13312","0","-9214364837600034816","432905","Microsoft-Windows-Security-Auditing","54849625-5478-4994-a5ba-3e3b0328c30d","Security","4","48","PC01.example.corp",,"3/18/2019 4:06:29 AM",,,"System.UInt32[]","System.Diagnostics.Eventing.Reader.EventBookmark","Information","Info","Process Creation","System.Collections.ObjectModel.ReadOnlyCollection`1[System.String]","System.Collections.Generic.List`1[System.Diagnostics.Eventing.Reader.EventProperty]"
+"Special privileges assigned to new logon.
+
+Subject:
+	Security ID:		S-1-5-21-1587066498-1489273250-1035260531-1106
+	Account Name:		user01
+	Account Domain:		EXAMPLE
+	Logon ID:		0x4530F0F
+
+Privileges:		SeSecurityPrivilege
+			SeTakeOwnershipPrivilege
+			SeLoadDriverPrivilege
+			SeBackupPrivilege
+			SeRestorePrivilege
+			SeDebugPrivilege
+			SeSystemEnvironmentPrivilege
+			SeImpersonatePrivilege","4672","0",,"0","12548","0","-9214364837600034816","432904","Microsoft-Windows-Security-Auditing","54849625-5478-4994-a5ba-3e3b0328c30d","Security","524","2884","PC01.example.corp",,"3/18/2019 4:06:29 AM","661f2d37-d535-43f5-bae0-06be7e6614d7",,"System.UInt32[]","System.Diagnostics.Eventing.Reader.EventBookmark","Information","Info","Special Logon","System.Collections.ObjectModel.ReadOnlyCollection`1[System.String]","System.Collections.Generic.List`1[System.Diagnostics.Eventing.Reader.EventProperty]"
+"An account was successfully logged on.
+
+Subject:
+	Security ID:		S-1-5-21-1587066498-1489273250-1035260531-1106
+	Account Name:		user01
+	Account Domain:		EXAMPLE
+	Logon ID:		0x18A7875
+
+Logon Type:			9
+
+New Logon:
+	Security ID:		S-1-5-21-1587066498-1489273250-1035260531-1106
+	Account Name:		user01
+	Account Domain:		EXAMPLE
+	Logon ID:		0x4530F0F
+	Logon GUID:		{00000000-0000-0000-0000-000000000000}
+
+Process Information:
+	Process ID:		0x3ec
+	Process Name:		C:\Windows\System32\svchost.exe
+
+Network Information:
+	Workstation Name:	
+	Source Network Address:	::1
+	Source Port:		0
+
+Detailed Authentication Information:
+	Logon Process:		seclogo
+	Authentication Package:	Negotiate
+	Transited Services:	-
+	Package Name (NTLM only):	-
+	Key Length:		0
+
+This event is generated when a logon session is created. It is generated on the computer that was accessed.
+
+The subject fields indicate the account on the local system which requested the logon. This is most commonly a service such as the Server service, or a local process such as Winlogon.exe or Services.exe.
+
+The logon type field indicates the kind of logon that occurred. The most common types are 2 (interactive) and 3 (network).
+
+The New Logon fields indicate the account for whom the new logon was created, i.e. the account that was logged on.
+
+The network fields indicate where a remote logon request originated. Workstation name is not always available and may be left blank in some cases.
+
+The impersonation level field indicates the extent to which a process in the logon session can impersonate.
+
+The authentication information fields provide detailed information about this specific logon request.
+	- Logon GUID is a unique identifier that can be used to correlate this event with a KDC event.
+	- Transited services indicate which intermediate services have participated in this logon request.
+	- Package name indicates which sub-protocol was used among the NTLM protocols.
+	- Key length indicates the length of the generated session key. This will be 0 if no session key was requested.","4624","0",,"0","12544","0","-9214364837600034816","432903","Microsoft-Windows-Security-Auditing","54849625-5478-4994-a5ba-3e3b0328c30d","Security","524","2884","PC01.example.corp",,"3/18/2019 4:06:29 AM","661f2d37-d535-43f5-bae0-06be7e6614d7",,"System.UInt32[]","System.Diagnostics.Eventing.Reader.EventBookmark","Information","Info","Logon","System.Collections.ObjectModel.ReadOnlyCollection`1[System.String]","System.Collections.Generic.List`1[System.Diagnostics.Eventing.Reader.EventProperty]"
+"The audit log was cleared.
+Subject:
+	Security ID:	S-1-5-21-1587066498-1489273250-1035260531-1106
+	Account Name:	user01
+	Domain Name:	EXAMPLE
+	Logon ID:	0x18A7875","1102","0",,"4","104","0","4620693217682128896","432901","Microsoft-Windows-Eventlog","fc65ddd8-d6ef-4962-83d5-6e5cfe9ce148","Security","856","2200","PC01.example.corp",,"3/18/2019 4:06:25 AM",,,"System.UInt32[]","System.Diagnostics.Eventing.Reader.EventBookmark","Information","Info","Log clear","System.Collections.ObjectModel.ReadOnlyCollection`1[System.String]","System.Collections.Generic.List`1[System.Diagnostics.Eventing.Reader.EventProperty]"

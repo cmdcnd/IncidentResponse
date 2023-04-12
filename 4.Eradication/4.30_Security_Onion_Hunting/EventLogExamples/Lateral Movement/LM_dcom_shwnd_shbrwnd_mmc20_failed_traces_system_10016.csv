@@ -1,0 +1,21 @@
+"Message","Id","Version","Qualifiers","Level","Task","Opcode","Keywords","RecordId","ProviderName","ProviderId","LogName","ProcessId","ThreadId","MachineName","UserId","TimeCreated","ActivityId","RelatedActivityId","MatchedQueryIds","Bookmark","LevelDisplayName","OpcodeDisplayName","TaskDisplayName","KeywordsDisplayNames","Properties"
+"The application-specific permission settings do not grant Remote Launch permission for the COM Server application with CLSID 
+{49B2791A-B1AE-4C90-9B8E-E860BA07F889}
+ and APPID 
+{7E0423CD-1119-0928-900C-E6D4A52A0715}
+ to the user MSEDGEWIN10\IEUser SID (S-1-5-21-3461203602-4096304019-2269080069-1000) from address 10.0.2.17 running in the application container Unavailable SID (Unavailable). This security permission can be modified using the Component Services administrative tool.","10016","0","0","2","0","0","-9187343239835811840","4454","Microsoft-Windows-DistributedCOM","1b562e86-b7aa-4131-badc-b6f3a001407e","System","848","888","MSEDGEWIN10","S-1-5-21-3461203602-4096304019-2269080069-1000","2/28/2020 2:36:08 PM",,,"System.UInt32[]","System.Diagnostics.Eventing.Reader.EventBookmark","Error","Info",,"System.Collections.ObjectModel.ReadOnlyCollection`1[System.String]","System.Collections.Generic.List`1[System.Diagnostics.Eventing.Reader.EventProperty]"
+"The application-specific permission settings do not grant Local Launch permission for the COM Server application with CLSID 
+Windows.SecurityCenter.SecurityAppBroker
+ and APPID 
+Unavailable
+ to the user NT AUTHORITY\SYSTEM SID (S-1-5-18) from address LocalHost (Using LRPC) running in the application container Unavailable SID (Unavailable). This security permission can be modified using the Component Services administrative tool.","10016","0","0","2","0","0","-9187343239835811840","4453","Microsoft-Windows-DistributedCOM","1b562e86-b7aa-4131-badc-b6f3a001407e","System","848","884","MSEDGEWIN10","S-1-5-18","2/28/2020 2:35:57 PM",,,"System.UInt32[]","System.Diagnostics.Eventing.Reader.EventBookmark","Error","Info",,"System.Collections.ObjectModel.ReadOnlyCollection`1[System.String]","System.Collections.Generic.List`1[System.Diagnostics.Eventing.Reader.EventProperty]"
+"The application-specific permission settings do not grant Local Launch permission for the COM Server application with CLSID 
+Windows.SecurityCenter.WscBrokerManager
+ and APPID 
+Unavailable
+ to the user NT AUTHORITY\SYSTEM SID (S-1-5-18) from address LocalHost (Using LRPC) running in the application container Unavailable SID (Unavailable). This security permission can be modified using the Component Services administrative tool.","10016","0","0","2","0","0","-9187343239835811840","4452","Microsoft-Windows-DistributedCOM","1b562e86-b7aa-4131-badc-b6f3a001407e","System","848","924","MSEDGEWIN10","S-1-5-18","2/28/2020 2:35:57 PM",,,"System.UInt32[]","System.Diagnostics.Eventing.Reader.EventBookmark","Error","Info",,"System.Collections.ObjectModel.ReadOnlyCollection`1[System.String]","System.Collections.Generic.List`1[System.Diagnostics.Eventing.Reader.EventProperty]"
+"The application-specific permission settings do not grant Remote Launch permission for the COM Server application with CLSID 
+{C08AFD90-F2A1-11D1-8455-00A0C91F3880}
+ and APPID 
+{C08AFD90-F2A1-11D1-8455-00A0C91F3880}
+ to the user MSEDGEWIN10\IEUser SID (S-1-5-21-3461203602-4096304019-2269080069-1000) from address 10.0.2.17 running in the application container Unavailable SID (Unavailable). This security permission can be modified using the Component Services administrative tool.","10016","0","0","2","0","0","-9187343239835811840","4451","Microsoft-Windows-DistributedCOM","1b562e86-b7aa-4131-badc-b6f3a001407e","System","848","888","MSEDGEWIN10","S-1-5-21-3461203602-4096304019-2269080069-1000","2/28/2020 2:35:55 PM",,,"System.UInt32[]","System.Diagnostics.Eventing.Reader.EventBookmark","Error","Info",,"System.Collections.ObjectModel.ReadOnlyCollection`1[System.String]","System.Collections.Generic.List`1[System.Diagnostics.Eventing.Reader.EventProperty]"

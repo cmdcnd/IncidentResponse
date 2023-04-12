@@ -1,0 +1,834 @@
+"Message","Id","Version","Qualifiers","Level","Task","Opcode","Keywords","RecordId","ProviderName","ProviderId","LogName","ProcessId","ThreadId","MachineName","UserId","TimeCreated","ActivityId","RelatedActivityId","MatchedQueryIds","Bookmark","LevelDisplayName","OpcodeDisplayName","TaskDisplayName","KeywordsDisplayNames","Properties"
+"A network share object was checked to see whether client can be granted desired access.
+	
+Subject:
+	Security ID:		S-1-5-21-3583694148-1414552638-2922671848-1000
+	Account Name:		IEUser
+	Account Domain:		PC01
+	Logon ID:		0x27DF8
+
+Network Information:	
+	Object Type:		File
+	Source Address:		::1
+	Source Port:		49160
+	
+Share Information:
+	Share Name:		\\*\C$
+	Share Path:		\??\C:\
+	Relative Target Name:	Windows\System32\RemComSvc.exe
+
+Access Request Information:
+	Access Mask:		0x80
+	Accesses:		ReadAttributes
+				
+Access Check Results:
+	-
+","5145","0",,"0","12811","0","-9214364837600034816","237989","Microsoft-Windows-Security-Auditing","54849625-5478-4994-a5ba-3e3b0328c30d","Security","528","548","PC01.example.corp",,"2/16/2019 10:19:18 AM",,,"System.UInt32[]","System.Diagnostics.Eventing.Reader.EventBookmark","Information","Info","Detailed File Share","System.Collections.ObjectModel.ReadOnlyCollection`1[System.String]","System.Collections.Generic.List`1[System.Diagnostics.Eventing.Reader.EventProperty]"
+"A network share object was checked to see whether client can be granted desired access.
+	
+Subject:
+	Security ID:		S-1-5-21-3583694148-1414552638-2922671848-1000
+	Account Name:		IEUser
+	Account Domain:		PC01
+	Logon ID:		0x27DF8
+
+Network Information:	
+	Object Type:		File
+	Source Address:		::1
+	Source Port:		49160
+	
+Share Information:
+	Share Name:		\\*\C$
+	Share Path:		\??\C:\
+	Relative Target Name:	Windows\System32\RemComSvc.exe
+
+Access Request Information:
+	Access Mask:		0x80
+	Accesses:		ReadAttributes
+				
+Access Check Results:
+	-
+","5145","0",,"0","12811","0","-9214364837600034816","237988","Microsoft-Windows-Security-Auditing","54849625-5478-4994-a5ba-3e3b0328c30d","Security","528","548","PC01.example.corp",,"2/16/2019 10:19:18 AM",,,"System.UInt32[]","System.Diagnostics.Eventing.Reader.EventBookmark","Information","Info","Detailed File Share","System.Collections.ObjectModel.ReadOnlyCollection`1[System.String]","System.Collections.Generic.List`1[System.Diagnostics.Eventing.Reader.EventProperty]"
+"A network share object was checked to see whether client can be granted desired access.
+	
+Subject:
+	Security ID:		S-1-5-21-3583694148-1414552638-2922671848-1000
+	Account Name:		IEUser
+	Account Domain:		PC01
+	Logon ID:		0x27DF8
+
+Network Information:	
+	Object Type:		File
+	Source Address:		::1
+	Source Port:		49160
+	
+Share Information:
+	Share Name:		\\*\C$
+	Share Path:		\??\C:\
+	Relative Target Name:	\
+
+Access Request Information:
+	Access Mask:		0x100080
+	Accesses:		SYNCHRONIZE
+				ReadAttributes
+				
+Access Check Results:
+	-
+","5145","0",,"0","12811","0","-9214364837600034816","237987","Microsoft-Windows-Security-Auditing","54849625-5478-4994-a5ba-3e3b0328c30d","Security","528","548","PC01.example.corp",,"2/16/2019 10:19:18 AM",,,"System.UInt32[]","System.Diagnostics.Eventing.Reader.EventBookmark","Information","Info","Detailed File Share","System.Collections.ObjectModel.ReadOnlyCollection`1[System.String]","System.Collections.Generic.List`1[System.Diagnostics.Eventing.Reader.EventProperty]"
+"A network share object was checked to see whether client can be granted desired access.
+	
+Subject:
+	Security ID:		S-1-5-21-3583694148-1414552638-2922671848-1000
+	Account Name:		IEUser
+	Account Domain:		PC01
+	Logon ID:		0x27DF8
+
+Network Information:	
+	Object Type:		File
+	Source Address:		::1
+	Source Port:		49160
+	
+Share Information:
+	Share Name:		\\*\C$
+	Share Path:		\??\C:\
+	Relative Target Name:	\
+
+Access Request Information:
+	Access Mask:		0x100080
+	Accesses:		SYNCHRONIZE
+				ReadAttributes
+				
+Access Check Results:
+	-
+","5145","0",,"0","12811","0","-9214364837600034816","237986","Microsoft-Windows-Security-Auditing","54849625-5478-4994-a5ba-3e3b0328c30d","Security","528","548","PC01.example.corp",,"2/16/2019 10:19:18 AM",,,"System.UInt32[]","System.Diagnostics.Eventing.Reader.EventBookmark","Information","Info","Detailed File Share","System.Collections.ObjectModel.ReadOnlyCollection`1[System.String]","System.Collections.Generic.List`1[System.Diagnostics.Eventing.Reader.EventProperty]"
+"A network share object was checked to see whether client can be granted desired access.
+	
+Subject:
+	Security ID:		S-1-5-21-3583694148-1414552638-2922671848-1000
+	Account Name:		IEUser
+	Account Domain:		PC01
+	Logon ID:		0x27DF8
+
+Network Information:	
+	Object Type:		File
+	Source Address:		::1
+	Source Port:		49160
+	
+Share Information:
+	Share Name:		\\*\C$
+	Share Path:		\??\C:\
+	Relative Target Name:	\
+
+Access Request Information:
+	Access Mask:		0x100080
+	Accesses:		SYNCHRONIZE
+				ReadAttributes
+				
+Access Check Results:
+	-
+","5145","0",,"0","12811","0","-9214364837600034816","237985","Microsoft-Windows-Security-Auditing","54849625-5478-4994-a5ba-3e3b0328c30d","Security","528","548","PC01.example.corp",,"2/16/2019 10:19:18 AM",,,"System.UInt32[]","System.Diagnostics.Eventing.Reader.EventBookmark","Information","Info","Detailed File Share","System.Collections.ObjectModel.ReadOnlyCollection`1[System.String]","System.Collections.Generic.List`1[System.Diagnostics.Eventing.Reader.EventProperty]"
+"A network share object was checked to see whether client can be granted desired access.
+	
+Subject:
+	Security ID:		S-1-5-21-3583694148-1414552638-2922671848-1000
+	Account Name:		IEUser
+	Account Domain:		PC01
+	Logon ID:		0x27DF8
+
+Network Information:	
+	Object Type:		File
+	Source Address:		::1
+	Source Port:		49160
+	
+Share Information:
+	Share Name:		\\*\C$
+	Share Path:		\??\C:\
+	Relative Target Name:	\
+
+Access Request Information:
+	Access Mask:		0x100080
+	Accesses:		SYNCHRONIZE
+				ReadAttributes
+				
+Access Check Results:
+	-
+","5145","0",,"0","12811","0","-9214364837600034816","237984","Microsoft-Windows-Security-Auditing","54849625-5478-4994-a5ba-3e3b0328c30d","Security","528","548","PC01.example.corp",,"2/16/2019 10:19:18 AM",,,"System.UInt32[]","System.Diagnostics.Eventing.Reader.EventBookmark","Information","Info","Detailed File Share","System.Collections.ObjectModel.ReadOnlyCollection`1[System.String]","System.Collections.Generic.List`1[System.Diagnostics.Eventing.Reader.EventProperty]"
+"A network share object was checked to see whether client can be granted desired access.
+	
+Subject:
+	Security ID:		S-1-5-21-3583694148-1414552638-2922671848-1000
+	Account Name:		IEUser
+	Account Domain:		PC01
+	Logon ID:		0x27DF8
+
+Network Information:	
+	Object Type:		File
+	Source Address:		::1
+	Source Port:		49160
+	
+Share Information:
+	Share Name:		\\*\C$
+	Share Path:		\??\C:\
+	Relative Target Name:	Windows
+
+Access Request Information:
+	Access Mask:		0x100080
+	Accesses:		SYNCHRONIZE
+				ReadAttributes
+				
+Access Check Results:
+	-
+","5145","0",,"0","12811","0","-9214364837600034816","237983","Microsoft-Windows-Security-Auditing","54849625-5478-4994-a5ba-3e3b0328c30d","Security","528","548","PC01.example.corp",,"2/16/2019 10:19:18 AM",,,"System.UInt32[]","System.Diagnostics.Eventing.Reader.EventBookmark","Information","Info","Detailed File Share","System.Collections.ObjectModel.ReadOnlyCollection`1[System.String]","System.Collections.Generic.List`1[System.Diagnostics.Eventing.Reader.EventProperty]"
+"A network share object was checked to see whether client can be granted desired access.
+	
+Subject:
+	Security ID:		S-1-5-21-3583694148-1414552638-2922671848-1000
+	Account Name:		IEUser
+	Account Domain:		PC01
+	Logon ID:		0x27DF8
+
+Network Information:	
+	Object Type:		File
+	Source Address:		::1
+	Source Port:		49160
+	
+Share Information:
+	Share Name:		\\*\C$
+	Share Path:		\??\C:\
+	Relative Target Name:	Windows
+
+Access Request Information:
+	Access Mask:		0x100080
+	Accesses:		SYNCHRONIZE
+				ReadAttributes
+				
+Access Check Results:
+	-
+","5145","0",,"0","12811","0","-9214364837600034816","237982","Microsoft-Windows-Security-Auditing","54849625-5478-4994-a5ba-3e3b0328c30d","Security","528","548","PC01.example.corp",,"2/16/2019 10:19:18 AM",,,"System.UInt32[]","System.Diagnostics.Eventing.Reader.EventBookmark","Information","Info","Detailed File Share","System.Collections.ObjectModel.ReadOnlyCollection`1[System.String]","System.Collections.Generic.List`1[System.Diagnostics.Eventing.Reader.EventProperty]"
+"A network share object was checked to see whether client can be granted desired access.
+	
+Subject:
+	Security ID:		S-1-5-21-3583694148-1414552638-2922671848-1000
+	Account Name:		IEUser
+	Account Domain:		PC01
+	Logon ID:		0x27DF8
+
+Network Information:	
+	Object Type:		File
+	Source Address:		::1
+	Source Port:		49160
+	
+Share Information:
+	Share Name:		\\*\C$
+	Share Path:		\??\C:\
+	Relative Target Name:	Windows
+
+Access Request Information:
+	Access Mask:		0x100080
+	Accesses:		SYNCHRONIZE
+				ReadAttributes
+				
+Access Check Results:
+	-
+","5145","0",,"0","12811","0","-9214364837600034816","237981","Microsoft-Windows-Security-Auditing","54849625-5478-4994-a5ba-3e3b0328c30d","Security","528","548","PC01.example.corp",,"2/16/2019 10:19:18 AM",,,"System.UInt32[]","System.Diagnostics.Eventing.Reader.EventBookmark","Information","Info","Detailed File Share","System.Collections.ObjectModel.ReadOnlyCollection`1[System.String]","System.Collections.Generic.List`1[System.Diagnostics.Eventing.Reader.EventProperty]"
+"A network share object was checked to see whether client can be granted desired access.
+	
+Subject:
+	Security ID:		S-1-5-21-3583694148-1414552638-2922671848-1000
+	Account Name:		IEUser
+	Account Domain:		PC01
+	Logon ID:		0x27DF8
+
+Network Information:	
+	Object Type:		File
+	Source Address:		::1
+	Source Port:		49160
+	
+Share Information:
+	Share Name:		\\*\C$
+	Share Path:		\??\C:\
+	Relative Target Name:	Windows
+
+Access Request Information:
+	Access Mask:		0x100080
+	Accesses:		SYNCHRONIZE
+				ReadAttributes
+				
+Access Check Results:
+	-
+","5145","0",,"0","12811","0","-9214364837600034816","237980","Microsoft-Windows-Security-Auditing","54849625-5478-4994-a5ba-3e3b0328c30d","Security","528","548","PC01.example.corp",,"2/16/2019 10:19:18 AM",,,"System.UInt32[]","System.Diagnostics.Eventing.Reader.EventBookmark","Information","Info","Detailed File Share","System.Collections.ObjectModel.ReadOnlyCollection`1[System.String]","System.Collections.Generic.List`1[System.Diagnostics.Eventing.Reader.EventProperty]"
+"A network share object was checked to see whether client can be granted desired access.
+	
+Subject:
+	Security ID:		S-1-5-21-3583694148-1414552638-2922671848-1000
+	Account Name:		IEUser
+	Account Domain:		PC01
+	Logon ID:		0x27DF8
+
+Network Information:	
+	Object Type:		File
+	Source Address:		::1
+	Source Port:		49160
+	
+Share Information:
+	Share Name:		\\*\C$
+	Share Path:		\??\C:\
+	Relative Target Name:	Windows\System32
+
+Access Request Information:
+	Access Mask:		0x100080
+	Accesses:		SYNCHRONIZE
+				ReadAttributes
+				
+Access Check Results:
+	-
+","5145","0",,"0","12811","0","-9214364837600034816","237979","Microsoft-Windows-Security-Auditing","54849625-5478-4994-a5ba-3e3b0328c30d","Security","528","548","PC01.example.corp",,"2/16/2019 10:19:18 AM",,,"System.UInt32[]","System.Diagnostics.Eventing.Reader.EventBookmark","Information","Info","Detailed File Share","System.Collections.ObjectModel.ReadOnlyCollection`1[System.String]","System.Collections.Generic.List`1[System.Diagnostics.Eventing.Reader.EventProperty]"
+"A network share object was checked to see whether client can be granted desired access.
+	
+Subject:
+	Security ID:		S-1-5-21-3583694148-1414552638-2922671848-1000
+	Account Name:		IEUser
+	Account Domain:		PC01
+	Logon ID:		0x27DF8
+
+Network Information:	
+	Object Type:		File
+	Source Address:		::1
+	Source Port:		49160
+	
+Share Information:
+	Share Name:		\\*\C$
+	Share Path:		\??\C:\
+	Relative Target Name:	Windows\System32
+
+Access Request Information:
+	Access Mask:		0x100080
+	Accesses:		SYNCHRONIZE
+				ReadAttributes
+				
+Access Check Results:
+	-
+","5145","0",,"0","12811","0","-9214364837600034816","237978","Microsoft-Windows-Security-Auditing","54849625-5478-4994-a5ba-3e3b0328c30d","Security","528","548","PC01.example.corp",,"2/16/2019 10:19:18 AM",,,"System.UInt32[]","System.Diagnostics.Eventing.Reader.EventBookmark","Information","Info","Detailed File Share","System.Collections.ObjectModel.ReadOnlyCollection`1[System.String]","System.Collections.Generic.List`1[System.Diagnostics.Eventing.Reader.EventProperty]"
+"A network share object was checked to see whether client can be granted desired access.
+	
+Subject:
+	Security ID:		S-1-5-21-3583694148-1414552638-2922671848-1000
+	Account Name:		IEUser
+	Account Domain:		PC01
+	Logon ID:		0x27DF8
+
+Network Information:	
+	Object Type:		File
+	Source Address:		::1
+	Source Port:		49160
+	
+Share Information:
+	Share Name:		\\*\C$
+	Share Path:		\??\C:\
+	Relative Target Name:	Windows\System32
+
+Access Request Information:
+	Access Mask:		0x100080
+	Accesses:		SYNCHRONIZE
+				ReadAttributes
+				
+Access Check Results:
+	-
+","5145","0",,"0","12811","0","-9214364837600034816","237977","Microsoft-Windows-Security-Auditing","54849625-5478-4994-a5ba-3e3b0328c30d","Security","528","548","PC01.example.corp",,"2/16/2019 10:19:18 AM",,,"System.UInt32[]","System.Diagnostics.Eventing.Reader.EventBookmark","Information","Info","Detailed File Share","System.Collections.ObjectModel.ReadOnlyCollection`1[System.String]","System.Collections.Generic.List`1[System.Diagnostics.Eventing.Reader.EventProperty]"
+"A network share object was checked to see whether client can be granted desired access.
+	
+Subject:
+	Security ID:		S-1-5-21-3583694148-1414552638-2922671848-1000
+	Account Name:		IEUser
+	Account Domain:		PC01
+	Logon ID:		0x27DF8
+
+Network Information:	
+	Object Type:		File
+	Source Address:		::1
+	Source Port:		49160
+	
+Share Information:
+	Share Name:		\\*\C$
+	Share Path:		\??\C:\
+	Relative Target Name:	Windows\System32
+
+Access Request Information:
+	Access Mask:		0x100080
+	Accesses:		SYNCHRONIZE
+				ReadAttributes
+				
+Access Check Results:
+	-
+","5145","0",,"0","12811","0","-9214364837600034816","237976","Microsoft-Windows-Security-Auditing","54849625-5478-4994-a5ba-3e3b0328c30d","Security","528","548","PC01.example.corp",,"2/16/2019 10:19:18 AM",,,"System.UInt32[]","System.Diagnostics.Eventing.Reader.EventBookmark","Information","Info","Detailed File Share","System.Collections.ObjectModel.ReadOnlyCollection`1[System.String]","System.Collections.Generic.List`1[System.Diagnostics.Eventing.Reader.EventProperty]"
+"A network share object was checked to see whether client can be granted desired access.
+	
+Subject:
+	Security ID:		S-1-5-21-3583694148-1414552638-2922671848-1000
+	Account Name:		IEUser
+	Account Domain:		PC01
+	Logon ID:		0x27DF8
+
+Network Information:	
+	Object Type:		File
+	Source Address:		::1
+	Source Port:		49160
+	
+Share Information:
+	Share Name:		\\*\C$
+	Share Path:		\??\C:\
+	Relative Target Name:	Windows\System32\RemComSvc.exe
+
+Access Request Information:
+	Access Mask:		0x100080
+	Accesses:		SYNCHRONIZE
+				ReadAttributes
+				
+Access Check Results:
+	-
+","5145","0",,"0","12811","0","-9214364837600034816","237975","Microsoft-Windows-Security-Auditing","54849625-5478-4994-a5ba-3e3b0328c30d","Security","528","548","PC01.example.corp",,"2/16/2019 10:19:18 AM",,,"System.UInt32[]","System.Diagnostics.Eventing.Reader.EventBookmark","Information","Info","Detailed File Share","System.Collections.ObjectModel.ReadOnlyCollection`1[System.String]","System.Collections.Generic.List`1[System.Diagnostics.Eventing.Reader.EventProperty]"
+"A network share object was checked to see whether client can be granted desired access.
+	
+Subject:
+	Security ID:		S-1-5-21-3583694148-1414552638-2922671848-1000
+	Account Name:		IEUser
+	Account Domain:		PC01
+	Logon ID:		0x27DF8
+
+Network Information:	
+	Object Type:		File
+	Source Address:		::1
+	Source Port:		49160
+	
+Share Information:
+	Share Name:		\\*\C$
+	Share Path:		\??\C:\
+	Relative Target Name:	Windows\System32\RemComSvc.exe
+
+Access Request Information:
+	Access Mask:		0x100080
+	Accesses:		SYNCHRONIZE
+				ReadAttributes
+				
+Access Check Results:
+	-
+","5145","0",,"0","12811","0","-9214364837600034816","237974","Microsoft-Windows-Security-Auditing","54849625-5478-4994-a5ba-3e3b0328c30d","Security","528","548","PC01.example.corp",,"2/16/2019 10:19:18 AM",,,"System.UInt32[]","System.Diagnostics.Eventing.Reader.EventBookmark","Information","Info","Detailed File Share","System.Collections.ObjectModel.ReadOnlyCollection`1[System.String]","System.Collections.Generic.List`1[System.Diagnostics.Eventing.Reader.EventProperty]"
+"A network share object was checked to see whether client can be granted desired access.
+	
+Subject:
+	Security ID:		S-1-5-21-3583694148-1414552638-2922671848-1000
+	Account Name:		IEUser
+	Account Domain:		PC01
+	Logon ID:		0x27DF8
+
+Network Information:	
+	Object Type:		File
+	Source Address:		::1
+	Source Port:		49160
+	
+Share Information:
+	Share Name:		\\*\C$
+	Share Path:		\??\C:\
+	Relative Target Name:	Windows\System32\RemComSvc.exe
+
+Access Request Information:
+	Access Mask:		0x100080
+	Accesses:		SYNCHRONIZE
+				ReadAttributes
+				
+Access Check Results:
+	-
+","5145","0",,"0","12811","0","-9214364837600034816","237973","Microsoft-Windows-Security-Auditing","54849625-5478-4994-a5ba-3e3b0328c30d","Security","528","548","PC01.example.corp",,"2/16/2019 10:19:18 AM",,,"System.UInt32[]","System.Diagnostics.Eventing.Reader.EventBookmark","Information","Info","Detailed File Share","System.Collections.ObjectModel.ReadOnlyCollection`1[System.String]","System.Collections.Generic.List`1[System.Diagnostics.Eventing.Reader.EventProperty]"
+"A network share object was checked to see whether client can be granted desired access.
+	
+Subject:
+	Security ID:		S-1-5-21-3583694148-1414552638-2922671848-1000
+	Account Name:		IEUser
+	Account Domain:		PC01
+	Logon ID:		0x27DF8
+
+Network Information:	
+	Object Type:		File
+	Source Address:		::1
+	Source Port:		49160
+	
+Share Information:
+	Share Name:		\\*\C$
+	Share Path:		\??\C:\
+	Relative Target Name:	Windows\System32\RemComSvc.exe
+
+Access Request Information:
+	Access Mask:		0x100081
+	Accesses:		SYNCHRONIZE
+				ReadData (or ListDirectory)
+				ReadAttributes
+				
+Access Check Results:
+	-
+","5145","0",,"0","12811","0","-9214364837600034816","237972","Microsoft-Windows-Security-Auditing","54849625-5478-4994-a5ba-3e3b0328c30d","Security","528","548","PC01.example.corp",,"2/16/2019 10:19:18 AM",,,"System.UInt32[]","System.Diagnostics.Eventing.Reader.EventBookmark","Information","Info","Detailed File Share","System.Collections.ObjectModel.ReadOnlyCollection`1[System.String]","System.Collections.Generic.List`1[System.Diagnostics.Eventing.Reader.EventProperty]"
+"A network share object was checked to see whether client can be granted desired access.
+	
+Subject:
+	Security ID:		S-1-5-21-3583694148-1414552638-2922671848-1000
+	Account Name:		IEUser
+	Account Domain:		PC01
+	Logon ID:		0x7ACCB8
+
+Network Information:	
+	Object Type:		File
+	Source Address:		10.0.2.16
+	Source Port:		49456
+	
+Share Information:
+	Share Name:		\\*\IPC$
+	Share Path:		
+	Relative Target Name:	svcctl
+
+Access Request Information:
+	Access Mask:		0x12019F
+	Accesses:		READ_CONTROL
+				SYNCHRONIZE
+				ReadData (or ListDirectory)
+				WriteData (or AddFile)
+				AppendData (or AddSubdirectory or CreatePipeInstance)
+				ReadEA
+				WriteEA
+				ReadAttributes
+				WriteAttributes
+				
+Access Check Results:
+	-
+","5145","0",,"0","12811","0","-9214364837600034816","237415","Microsoft-Windows-Security-Auditing","54849625-5478-4994-a5ba-3e3b0328c30d","Security","528","548","PC01.example.corp",,"2/16/2019 9:57:55 AM",,,"System.UInt32[]","System.Diagnostics.Eventing.Reader.EventBookmark","Information","Info","Detailed File Share","System.Collections.ObjectModel.ReadOnlyCollection`1[System.String]","System.Collections.Generic.List`1[System.Diagnostics.Eventing.Reader.EventProperty]"
+"A network share object was checked to see whether client can be granted desired access.
+	
+Subject:
+	Security ID:		S-1-5-21-3583694148-1414552638-2922671848-1000
+	Account Name:		IEUser
+	Account Domain:		PC01
+	Logon ID:		0x7ACCB8
+
+Network Information:	
+	Object Type:		File
+	Source Address:		10.0.2.16
+	Source Port:		49456
+	
+Share Information:
+	Share Name:		\\*\ADMIN$
+	Share Path:		\??\C:\Windows
+	Relative Target Name:	System32\RemComSvc.exe
+
+Access Request Information:
+	Access Mask:		0x120196
+	Accesses:		READ_CONTROL
+				SYNCHRONIZE
+				WriteData (or AddFile)
+				AppendData (or AddSubdirectory or CreatePipeInstance)
+				WriteEA
+				ReadAttributes
+				WriteAttributes
+				
+Access Check Results:
+	-
+","5145","0",,"0","12811","0","-9214364837600034816","237401","Microsoft-Windows-Security-Auditing","54849625-5478-4994-a5ba-3e3b0328c30d","Security","528","548","PC01.example.corp",,"2/16/2019 9:57:41 AM",,,"System.UInt32[]","System.Diagnostics.Eventing.Reader.EventBookmark","Information","Info","Detailed File Share","System.Collections.ObjectModel.ReadOnlyCollection`1[System.String]","System.Collections.Generic.List`1[System.Diagnostics.Eventing.Reader.EventProperty]"
+"A network share object was checked to see whether client can be granted desired access.
+	
+Subject:
+	Security ID:		S-1-5-21-3583694148-1414552638-2922671848-1000
+	Account Name:		IEUser
+	Account Domain:		PC01
+	Logon ID:		0x7ACCB8
+
+Network Information:	
+	Object Type:		File
+	Source Address:		10.0.2.16
+	Source Port:		49456
+	
+Share Information:
+	Share Name:		\\*\ADMIN$
+	Share Path:		\??\C:\Windows
+	Relative Target Name:	System32\RemComSvc.exe
+
+Access Request Information:
+	Access Mask:		0x120196
+	Accesses:		READ_CONTROL
+				SYNCHRONIZE
+				WriteData (or AddFile)
+				AppendData (or AddSubdirectory or CreatePipeInstance)
+				WriteEA
+				ReadAttributes
+				WriteAttributes
+				
+Access Check Results:
+	-
+","5145","0",,"0","12811","0","-9214364837600034816","237400","Microsoft-Windows-Security-Auditing","54849625-5478-4994-a5ba-3e3b0328c30d","Security","528","548","PC01.example.corp",,"2/16/2019 9:57:41 AM",,,"System.UInt32[]","System.Diagnostics.Eventing.Reader.EventBookmark","Information","Info","Detailed File Share","System.Collections.ObjectModel.ReadOnlyCollection`1[System.String]","System.Collections.Generic.List`1[System.Diagnostics.Eventing.Reader.EventProperty]"
+"A network share object was checked to see whether client can be granted desired access.
+	
+Subject:
+	Security ID:		S-1-5-21-3583694148-1414552638-2922671848-1000
+	Account Name:		IEUser
+	Account Domain:		PC01
+	Logon ID:		0x7ACCB8
+
+Network Information:	
+	Object Type:		File
+	Source Address:		10.0.2.16
+	Source Port:		49456
+	
+Share Information:
+	Share Name:		\\*\ADMIN$
+	Share Path:		\??\C:\Windows
+	Relative Target Name:	\
+
+Access Request Information:
+	Access Mask:		0x100088
+	Accesses:		SYNCHRONIZE
+				ReadEA
+				ReadAttributes
+				
+Access Check Results:
+	-
+","5145","0",,"0","12811","0","-9214364837600034816","237399","Microsoft-Windows-Security-Auditing","54849625-5478-4994-a5ba-3e3b0328c30d","Security","528","548","PC01.example.corp",,"2/16/2019 9:57:41 AM",,,"System.UInt32[]","System.Diagnostics.Eventing.Reader.EventBookmark","Information","Info","Detailed File Share","System.Collections.ObjectModel.ReadOnlyCollection`1[System.String]","System.Collections.Generic.List`1[System.Diagnostics.Eventing.Reader.EventProperty]"
+"A network share object was checked to see whether client can be granted desired access.
+	
+Subject:
+	Security ID:		S-1-5-21-3583694148-1414552638-2922671848-1000
+	Account Name:		IEUser
+	Account Domain:		PC01
+	Logon ID:		0x311293
+
+Network Information:	
+	Object Type:		File
+	Source Address:		10.0.2.16
+	Source Port:		59528
+	
+Share Information:
+	Share Name:		\\*\IPC$
+	Share Path:		
+	Relative Target Name:	svcctl
+
+Access Request Information:
+	Access Mask:		0x12019F
+	Accesses:		READ_CONTROL
+				SYNCHRONIZE
+				ReadData (or ListDirectory)
+				WriteData (or AddFile)
+				AppendData (or AddSubdirectory or CreatePipeInstance)
+				ReadEA
+				WriteEA
+				ReadAttributes
+				WriteAttributes
+				
+Access Check Results:
+	-
+","5145","0",,"0","12811","0","-9214364837600034816","237384","Microsoft-Windows-Security-Auditing","54849625-5478-4994-a5ba-3e3b0328c30d","Security","528","548","PC01.example.corp",,"2/16/2019 9:56:01 AM",,,"System.UInt32[]","System.Diagnostics.Eventing.Reader.EventBookmark","Information","Info","Detailed File Share","System.Collections.ObjectModel.ReadOnlyCollection`1[System.String]","System.Collections.Generic.List`1[System.Diagnostics.Eventing.Reader.EventProperty]"
+"A network share object was checked to see whether client can be granted desired access.
+	
+Subject:
+	Security ID:		S-1-5-21-3583694148-1414552638-2922671848-1000
+	Account Name:		IEUser
+	Account Domain:		PC01
+	Logon ID:		0x311293
+
+Network Information:	
+	Object Type:		File
+	Source Address:		10.0.2.16
+	Source Port:		59528
+	
+Share Information:
+	Share Name:		\\*\ADMIN$
+	Share Path:		\??\C:\Windows
+	Relative Target Name:	System32\RemComSvc.exe
+
+Access Request Information:
+	Access Mask:		0x120196
+	Accesses:		READ_CONTROL
+				SYNCHRONIZE
+				WriteData (or AddFile)
+				AppendData (or AddSubdirectory or CreatePipeInstance)
+				WriteEA
+				ReadAttributes
+				WriteAttributes
+				
+Access Check Results:
+	-
+","5145","0",,"0","12811","0","-9214364837600034816","237372","Microsoft-Windows-Security-Auditing","54849625-5478-4994-a5ba-3e3b0328c30d","Security","528","548","PC01.example.corp",,"2/16/2019 9:55:47 AM",,,"System.UInt32[]","System.Diagnostics.Eventing.Reader.EventBookmark","Information","Info","Detailed File Share","System.Collections.ObjectModel.ReadOnlyCollection`1[System.String]","System.Collections.Generic.List`1[System.Diagnostics.Eventing.Reader.EventProperty]"
+"A network share object was checked to see whether client can be granted desired access.
+	
+Subject:
+	Security ID:		S-1-5-21-3583694148-1414552638-2922671848-1000
+	Account Name:		IEUser
+	Account Domain:		PC01
+	Logon ID:		0x311293
+
+Network Information:	
+	Object Type:		File
+	Source Address:		10.0.2.16
+	Source Port:		59528
+	
+Share Information:
+	Share Name:		\\*\ADMIN$
+	Share Path:		\??\C:\Windows
+	Relative Target Name:	System32\RemComSvc.exe
+
+Access Request Information:
+	Access Mask:		0x120196
+	Accesses:		READ_CONTROL
+				SYNCHRONIZE
+				WriteData (or AddFile)
+				AppendData (or AddSubdirectory or CreatePipeInstance)
+				WriteEA
+				ReadAttributes
+				WriteAttributes
+				
+Access Check Results:
+	-
+","5145","0",,"0","12811","0","-9214364837600034816","237371","Microsoft-Windows-Security-Auditing","54849625-5478-4994-a5ba-3e3b0328c30d","Security","528","548","PC01.example.corp",,"2/16/2019 9:55:47 AM",,,"System.UInt32[]","System.Diagnostics.Eventing.Reader.EventBookmark","Information","Info","Detailed File Share","System.Collections.ObjectModel.ReadOnlyCollection`1[System.String]","System.Collections.Generic.List`1[System.Diagnostics.Eventing.Reader.EventProperty]"
+"A network share object was checked to see whether client can be granted desired access.
+	
+Subject:
+	Security ID:		S-1-5-21-3583694148-1414552638-2922671848-1000
+	Account Name:		IEUser
+	Account Domain:		PC01
+	Logon ID:		0x311293
+
+Network Information:	
+	Object Type:		File
+	Source Address:		10.0.2.16
+	Source Port:		59528
+	
+Share Information:
+	Share Name:		\\*\ADMIN$
+	Share Path:		\??\C:\Windows
+	Relative Target Name:	\
+
+Access Request Information:
+	Access Mask:		0x100088
+	Accesses:		SYNCHRONIZE
+				ReadEA
+				ReadAttributes
+				
+Access Check Results:
+	-
+","5145","0",,"0","12811","0","-9214364837600034816","237370","Microsoft-Windows-Security-Auditing","54849625-5478-4994-a5ba-3e3b0328c30d","Security","528","548","PC01.example.corp",,"2/16/2019 9:55:47 AM",,,"System.UInt32[]","System.Diagnostics.Eventing.Reader.EventBookmark","Information","Info","Detailed File Share","System.Collections.ObjectModel.ReadOnlyCollection`1[System.String]","System.Collections.Generic.List`1[System.Diagnostics.Eventing.Reader.EventProperty]"
+"A network share object was checked to see whether client can be granted desired access.
+	
+Subject:
+	Security ID:		S-1-5-21-3583694148-1414552638-2922671848-1000
+	Account Name:		IEUser
+	Account Domain:		PC01
+	Logon ID:		0x95C2E
+
+Network Information:	
+	Object Type:		File
+	Source Address:		10.0.2.16
+	Source Port:		59492
+	
+Share Information:
+	Share Name:		\\*\IPC$
+	Share Path:		
+	Relative Target Name:	svcctl
+
+Access Request Information:
+	Access Mask:		0x12019F
+	Accesses:		READ_CONTROL
+				SYNCHRONIZE
+				ReadData (or ListDirectory)
+				WriteData (or AddFile)
+				AppendData (or AddSubdirectory or CreatePipeInstance)
+				ReadEA
+				WriteEA
+				ReadAttributes
+				WriteAttributes
+				
+Access Check Results:
+	-
+","5145","0",,"0","12811","0","-9214364837600034816","237343","Microsoft-Windows-Security-Auditing","54849625-5478-4994-a5ba-3e3b0328c30d","Security","528","548","PC01.example.corp",,"2/16/2019 9:54:41 AM",,,"System.UInt32[]","System.Diagnostics.Eventing.Reader.EventBookmark","Information","Info","Detailed File Share","System.Collections.ObjectModel.ReadOnlyCollection`1[System.String]","System.Collections.Generic.List`1[System.Diagnostics.Eventing.Reader.EventProperty]"
+"A network share object was checked to see whether client can be granted desired access.
+	
+Subject:
+	Security ID:		S-1-5-21-3583694148-1414552638-2922671848-1000
+	Account Name:		IEUser
+	Account Domain:		PC01
+	Logon ID:		0x95C2E
+
+Network Information:	
+	Object Type:		File
+	Source Address:		10.0.2.16
+	Source Port:		59492
+	
+Share Information:
+	Share Name:		\\*\ADMIN$
+	Share Path:		\??\C:\Windows
+	Relative Target Name:	System32\RemComSvc.exe
+
+Access Request Information:
+	Access Mask:		0x120196
+	Accesses:		READ_CONTROL
+				SYNCHRONIZE
+				WriteData (or AddFile)
+				AppendData (or AddSubdirectory or CreatePipeInstance)
+				WriteEA
+				ReadAttributes
+				WriteAttributes
+				
+Access Check Results:
+	-
+","5145","0",,"0","12811","0","-9214364837600034816","237287","Microsoft-Windows-Security-Auditing","54849625-5478-4994-a5ba-3e3b0328c30d","Security","528","548","PC01.example.corp",,"2/16/2019 9:54:26 AM",,,"System.UInt32[]","System.Diagnostics.Eventing.Reader.EventBookmark","Information","Info","Detailed File Share","System.Collections.ObjectModel.ReadOnlyCollection`1[System.String]","System.Collections.Generic.List`1[System.Diagnostics.Eventing.Reader.EventProperty]"
+"A network share object was checked to see whether client can be granted desired access.
+	
+Subject:
+	Security ID:		S-1-5-21-3583694148-1414552638-2922671848-1000
+	Account Name:		IEUser
+	Account Domain:		PC01
+	Logon ID:		0x95C2E
+
+Network Information:	
+	Object Type:		File
+	Source Address:		10.0.2.16
+	Source Port:		59492
+	
+Share Information:
+	Share Name:		\\*\ADMIN$
+	Share Path:		\??\C:\Windows
+	Relative Target Name:	System32\RemComSvc.exe
+
+Access Request Information:
+	Access Mask:		0x120196
+	Accesses:		READ_CONTROL
+				SYNCHRONIZE
+				WriteData (or AddFile)
+				AppendData (or AddSubdirectory or CreatePipeInstance)
+				WriteEA
+				ReadAttributes
+				WriteAttributes
+				
+Access Check Results:
+	-
+","5145","0",,"0","12811","0","-9214364837600034816","237286","Microsoft-Windows-Security-Auditing","54849625-5478-4994-a5ba-3e3b0328c30d","Security","528","548","PC01.example.corp",,"2/16/2019 9:54:26 AM",,,"System.UInt32[]","System.Diagnostics.Eventing.Reader.EventBookmark","Information","Info","Detailed File Share","System.Collections.ObjectModel.ReadOnlyCollection`1[System.String]","System.Collections.Generic.List`1[System.Diagnostics.Eventing.Reader.EventProperty]"
+"A network share object was checked to see whether client can be granted desired access.
+	
+Subject:
+	Security ID:		S-1-5-21-3583694148-1414552638-2922671848-1000
+	Account Name:		IEUser
+	Account Domain:		PC01
+	Logon ID:		0x95C2E
+
+Network Information:	
+	Object Type:		File
+	Source Address:		10.0.2.16
+	Source Port:		59492
+	
+Share Information:
+	Share Name:		\\*\ADMIN$
+	Share Path:		\??\C:\Windows
+	Relative Target Name:	\
+
+Access Request Information:
+	Access Mask:		0x100088
+	Accesses:		SYNCHRONIZE
+				ReadEA
+				ReadAttributes
+				
+Access Check Results:
+	-
+","5145","0",,"0","12811","0","-9214364837600034816","237285","Microsoft-Windows-Security-Auditing","54849625-5478-4994-a5ba-3e3b0328c30d","Security","528","548","PC01.example.corp",,"2/16/2019 9:54:26 AM",,,"System.UInt32[]","System.Diagnostics.Eventing.Reader.EventBookmark","Information","Info","Detailed File Share","System.Collections.ObjectModel.ReadOnlyCollection`1[System.String]","System.Collections.Generic.List`1[System.Diagnostics.Eventing.Reader.EventProperty]"

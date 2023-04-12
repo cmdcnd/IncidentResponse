@@ -1,0 +1,18 @@
+"Message","Id","Version","Qualifiers","Level","Task","Opcode","Keywords","RecordId","ProviderName","ProviderId","LogName","ProcessId","ThreadId","MachineName","UserId","TimeCreated","ActivityId","RelatedActivityId","MatchedQueryIds","Bookmark","LevelDisplayName","OpcodeDisplayName","TaskDisplayName","KeywordsDisplayNames","Properties"
+"A network share object was added.
+	
+Subject:
+	Security ID:		S-1-5-21-3583694148-1414552638-2922671848-1000
+	Account Name:		IEUser
+	Account Domain:		PC04
+	Logon ID:		0x128A9
+
+Share Information:	
+	Share Name:		\\*\PRINT
+	Share Path:		c:\windows\system32","5142","0",,"0","12808","0","-9214364837600034816","6273","Microsoft-Windows-Security-Auditing","54849625-5478-4994-a5ba-3e3b0328c30d","Security","4","64","PC04.example.corp",,"3/17/2019 12:30:30 PM",,,"System.UInt32[]","System.Diagnostics.Eventing.Reader.EventBookmark","Information","Info","File Share","System.Collections.ObjectModel.ReadOnlyCollection`1[System.String]","System.Collections.Generic.List`1[System.Diagnostics.Eventing.Reader.EventProperty]"
+"The audit log was cleared.
+Subject:
+	Security ID:	S-1-5-21-3583694148-1414552638-2922671848-1000
+	Account Name:	IEUser
+	Domain Name:	PC04
+	Logon ID:	0x128A9","1102","0",,"4","104","0","4620693217682128896","6272","Microsoft-Windows-Eventlog","fc65ddd8-d6ef-4962-83d5-6e5cfe9ce148","Security","792","3120","PC04.example.corp",,"3/17/2019 12:26:42 PM",,,"System.UInt32[]","System.Diagnostics.Eventing.Reader.EventBookmark","Information","Info","Log clear","System.Collections.ObjectModel.ReadOnlyCollection`1[System.String]","System.Collections.Generic.List`1[System.Diagnostics.Eventing.Reader.EventProperty]"
