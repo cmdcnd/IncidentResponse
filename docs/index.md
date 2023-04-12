@@ -1,19 +1,21 @@
-- [Concept](#concept)   
-- [Script Style Guide](#script-style-guide)  
-  * [1. Bash](#1-bash)  
-  * [2. Powershell](#2-powershell)  
-  * [3. Python](#3-python)  
-- [Git Workflow](#git-workflow)  
-    + [1. clone the repo](#1-clone-the-repo)  
-    + [2. create a local branch](#2-create-a-local-branch)  
-    + [3. complete tasks documenations.](#3-complete-tasks-documenations)  
-    + [4. add your changes](#4-add-your-changes)  
-    + [5. commit your changes.](#5-commit-your-changes)  
-    + [6. push your local branch to remote.](#6-push-your-local-branch-to-remote)  
-    + [7. create a pull request](#7-create-a-pull-request)  
+## [Concept](#concept)   
+## [Script Style Guide](#script-style-guide)  
+* [1. Bash](#1-bash)  
+* [2. Powershell](#2-powershell)  
+* [3. Python](#3-python)  
+
+## [Git Workflow](#git-workflow)  
+* [1. clone the repo](#1-clone-the-repo)  
+* [2. create a local branch](#2-create-a-local-branch)  
+* [3. complete tasks documenations.](#3-complete-tasks-documenations)  
+* [4. add your changes](#4-add-your-changes)  
+* [5. commit your changes.](#5-commit-your-changes)  
+* [6. push your local branch to remote.](#6-push-your-local-branch-to-remote)  
+* [7. create a pull request](#7-create-a-pull-request)  
 
 ## Concept	
 ![IR Concept Design](img/IR-Concept-Design.png)  
+
 * IR Phase - Example: (2.Identification)  
   * README.md Table of Contents for phase tasks  
   * IR Phase Task - Example: (2.02_Create_Active_IP_List)  
@@ -21,7 +23,7 @@
     * README.md IR Phase Task  
 
 
-# Line of Effort (LOE) Index  
+## Line of Effort (LOE) Index  
 * [Preparation](1.Preparation)   
 * [Identification](2.Identification)  
 * [Containment](3.Containment)  
@@ -31,19 +33,19 @@
 
 
 
-# References  
+## References  
 Tasks are based on the NIST Framework for Improving Critical Infrastructure Cybersecurity.  
 
 [NIST Framework for Improving Critical Infrastructure Cybersecurity](https://nvlpubs.nist.gov/nistpubs/CSWP/NIST.CSWP.04162018.pdf)  
 
-# Script Style Guide  
+## Script Style Guide  
 Name the script the following way.
 ```bash
 # {TaskID}-WhatScriptDoes.(sh/ps1)
 2.04-GatherADStructureInformation.ps1
 ```
 
-## 1. Bash  
+### 1. Bash  
 Use Camel Case for Variable and Function Names:
 
 ```bash
@@ -57,7 +59,7 @@ function myFunction {
 }
 ```
 
-## 2. Powershell  
+### 2. Powershell  
 Use Pascal Case for Variable. Function Names should be Verb-Action combination:
 ```powershell
 # variable: VarCaseFirstLetterofEachWord
@@ -70,10 +72,10 @@ function MyFunction {
 }
 ```
 
-## 3. Python  
+### 3. Python  
 Follow PEP 8 Guide Line: https://www.python.org/dev/peps/pep-0008/
 
-# Git Workflow  
+## Git Workflow  
 ### 1. clone the repo  
 
 Once your account has MFA enforced you will need to use an API key.  Make sure you store your API key in a safe place, I would suggest your password manager.
