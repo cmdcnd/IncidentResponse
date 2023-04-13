@@ -25,108 +25,109 @@ Windows domain member systems will automatically synchronize their time based on
 
 ## Manual Steps  
 Useful Commands:  
-* Windows  
-	* Check NTP Status:  
-		```bat
-		w32tm /query /status
-		```  
 
-	* Check NTP Configuration:  
-		```bat
-		w32tm /query /configuration
-		```  
+### Windows  
+* Check NTP Status:  
+	```bat
+	w32tm /query /status
+	```  
 
-	* Start NTP Windows:  
-		```bat
-		net start w32time
-		```  
+* Check NTP Configuration:  
+	```bat
+	w32tm /query /configuration
+	```  
 
-	* Check NTP sever settings in registry:  
-		```bat
-		reg QUERY HKLM\SYSTEM\CurrentControlSet\Services\W32Time\Parameters
-		```  
+* Start NTP Windows:  
+	```bat
+	net start w32time
+	```  
 
-	* Check NTP settings in registry:  
-		```bat
-		reg QUERY HKLM\SYSTEM\CurrentControlSet\Services\W32Time\Config
-		w32tm /dumpreg
-		```  
+* Check NTP sever settings in registry:  
+	```bat
+	reg QUERY HKLM\SYSTEM\CurrentControlSet\Services\W32Time\Parameters
+	```  
 
-	* Get Date and Time:
-		```powershell
-		Get-Date -F o
-		```  
+* Check NTP settings in registry:  
+	```bat
+	reg QUERY HKLM\SYSTEM\CurrentControlSet\Services\W32Time\Config
+	w32tm /dumpreg
+	```  
 
-	* Set NTP Server:  
-		```bat
-		w32tm /config /manualpeerlist:time.nist.gov /syncfromflags:manual /reliable:yes /update
-		```  
+* Get Date and Time:
+	```powershell
+	Get-Date -F o
+	```  
 
-	* Restore NTP settings back to default:  
-		```bat
-		net stop w32time
-		w32tm /unregister
-		w32tm /unregister (Yes run twice)
-		w32tm /register
-		net start w32time
-		```  
+* Set NTP Server:  
+	```bat
+	w32tm /config /manualpeerlist:time.nist.gov /syncfromflags:manual /reliable:yes /update
+	```  
 
-* Linux  
-	* Check synchronized clock status:  
-		```bash
-		systemctl status systemd-timesyncd.service
-		```  
+* Restore NTP settings back to default:  
+	```bat
+	net stop w32time
+	w32tm /unregister
+	w32tm /unregister (Yes run twice)
+	w32tm /register
+	net start w32time
+	```  
 
-	* Check NTP Status:  
-		```bash
-		timedatectl status
-		```  
+### Linux  
+* Check synchronized clock status:  
+	```bash
+	systemctl status systemd-timesyncd.service
+	```  
 
-	* Configure NTP Server selection options:  
-		```bash
-		/etc/systemd/timesyncd.conf
-		```  
+* Check NTP Status:  
+	```bash
+	timedatectl status
+	```  
 
-	* Current NTP settings:  
-		```bash
-		cat /etc/ntp.conf
-		```  
+* Configure NTP Server selection options:  
+	```bash
+	/etc/systemd/timesyncd.conf
+	```  
 
-	* Restart NTP service after configuration changes:  
-		```bash
-		/etc/init.d/ntp restart
-		```  
+* Current NTP settings:  
+	```bash
+	cat /etc/ntp.conf
+	```  
 
-	* Check NTP synchronized servers:  
-		```bash
-		ntpq -p
-		systemctl status systemd-timesyncd.service
-		```  
+* Restart NTP service after configuration changes:  
+	```bash
+	/etc/init.d/ntp restart
+	```  
 
-	* Check NTP Status:  
-		```bash
-		timedatectl status
-		```
+* Check NTP synchronized servers:  
+	```bash
+	ntpq -p
+	systemctl status systemd-timesyncd.service
+	```  
 
-	* Configure NTP Server selection options:  
-		```bash
-		/etc/systemd/timesyncd.conf
-		```  
+* Check NTP Status:  
+	```bash
+	timedatectl status
+	```
 
-	* Current NTP settings:  
-		```bash
-		cat /etc/ntp.conf
-		```  
+* Configure NTP Server selection options:  
+	```bash
+	/etc/systemd/timesyncd.conf
+	```  
 
-	* Restart NTP service after configuration changes:  
-		```bash
-		/etc/init.d/ntp restart
-		```  
+* Current NTP settings:  
+	```bash
+	cat /etc/ntp.conf
+	```  
 
-	* Check NTP synchronized servers:  
-		```bash
-		ntpq -p
-		```  
+* Restart NTP service after configuration changes:  
+	```bash
+	/etc/init.d/ntp restart
+	```  
+
+* Check NTP synchronized servers:  
+	```bash
+	ntpq -p
+	```  
 
 
 ## Running Script  
