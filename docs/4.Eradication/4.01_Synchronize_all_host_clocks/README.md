@@ -1,4 +1,4 @@
-## Task  Synchronize all host clocks  
+## Synchronize all host clocks  
 
 
 ## Conditions  
@@ -18,14 +18,10 @@ All host clocks in the environment are synchronized from a known good time sourc
 
 
 ## Notes  
-Mission Element lead ought to request this capability of the business owner in order to secure accounts and organizational units  
-
 Windows domain member systems will automatically synchronize their time based on the primary domain controller (PDC).  Best Practices for NTP configuration include filtering the NTP protocol at the firewall and blocking outbound NTP (to prevent being used in a Distributed Denial-of-Service (DDOS) attack).  
 
 
 ## Manual Steps  
-Useful Commands:  
-
 ### Windows  
 * Check NTP Status:  
 	```bat
