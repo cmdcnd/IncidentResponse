@@ -149,19 +149,19 @@ nav:
   - 2.Identification:
     - 2.Identification: 2.Identification/README.md
     - 2.01-Review Organizational Processes and Conduct a site survey: 2.Identification/2.01-Review_organizational_processes_and_conduct_a_site_survey/README.md
-    - 2.02-Create Active IP List: 2.Identification/2.02-Create_Active_IP_List
+    - 2.02-Create Active IP List: 2.Identification/2.02-Create_Active_IP_List/README.md
     - 2.02Files: https://github.com/cmdcndexternal/IncidentResponse/tree/main/docs/2.Identification/2.02-Create_Active_IP_List
     - 2.03-DNS Host Name Mapping: 2.Identification/2.03-DNS_Host_Name_Mapping/README.md
     - 2.03Files: https://github.com/cmdcndexternal/IncidentResponse/tree/main/docs/2.Identification/2.03-DNS_Host_Name_Mapping
-    - 2.04-Active Host and Service Enumeration: 2.Identification/2.04-Active_Host_and_Service_Enumeration/README.md
-    - 2.04Files: https://github.com/cmdcndexternal/IncidentResponse/tree/main/docs/2.Identification/2.04-Active_Host_and_Service_Enumeration
-    - 2.05-Active IP List on Key Ports: 2.Identification/2.05-Active_IP_List_on_Key_Ports
+    - 2.04-Active Host and Service Enumeration: 2.Identification/2.04-Active_Host_and_Service_Enumeration/README.md/README.md
+    - 2.04Files: https://github.com/cmdcndexternal/IncidentResponse/tree/main/docs/2.Identification/2.04-Active_Host_and_Service_Enumeration/README.md
+    - 2.05-Active IP List on Key Ports: 2.Identification/2.05-Active_IP_List_on_Key_Ports/README.md
     - 2.05Files: https://github.com/cmdcndexternal/IncidentResponse/tree/main/docs/2.Identification/2.05-Active_IP_List_on_Key_Ports
-    - 2.06-All Port Scan: 2.Identification/2.06-All_Port_Scan
+    - 2.06-All Port Scan: 2.Identification/2.06-All_Port_Scan/README.md
     - 2.06Files: https://github.com/cmdcndexternal/IncidentResponse/tree/main/docs/2.Identification/2.06-All_Port_Scan
     - 2.07-Scan ICS Equipment Ports: 2.Identification/2.07-Scan_ICS_Equipment_Ports/README.md
     - 2.07Files: https://github.com/cmdcndexternal/IncidentResponse/tree/main/docs/2.Identification/2.07-Scan_ICS_Equipment_Ports
-    - 2.08-Perform Vulnerability Scan: 2.Identification/2.08-Conduct_Vulnerability_Scan
+    - 2.08-Perform Vulnerability Scan: 2.Identification/2.08-Conduct_Vulnerability_Scan/README.md
     - 2.11-Determine Installed Software: 2.Identification/2.11-Determine_Installed_Software/README.md
     - 2.11Files: https://github.com/cmdcndexternal/IncidentResponse/tree/main/docs/2.Identification/2.11-Determine_Installed_Software
     - 2.12-Perform SCAP Configuration Scan: 2.Identification/2.12-Perform_SCAP_Configuration_Scan/README.md
