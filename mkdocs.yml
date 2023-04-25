@@ -56,9 +56,9 @@ theme:
 # Plugins
 plugins:
   - search:
-      separator: '[/s/-,:!=/[/]()"`/]+|/.(?!/d)|&[lg]t;|(?!/b)(?=[A-Z][a-z])'
-#  - minify:
-#      minify_html: true
+      separator: '[\s\-,:!=\[\]()"`/]+|\.(?!\d)|&[lg]t;|(?!\b)(?=[A-Z][a-z])'
+  - minify:
+      minify_html: true
 
 # Hooks
 hooks:
