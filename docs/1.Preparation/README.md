@@ -1,4 +1,4 @@
-### Preparation Tasks  
+### Preparation Tasks   
 
 The preparation phase of incident response is the phase where an organization takes proactive steps to prepare for potential security incidents or breaches. The goal of this phase is to establish an incident response plan that outlines the necessary procedures, roles and responsibilities, and tools and resources required to detect, respond to, and recover from security incidents.  
 
