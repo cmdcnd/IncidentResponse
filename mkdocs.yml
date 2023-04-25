@@ -153,7 +153,7 @@ nav:
     - 2.02Files: https://github.com/cmdcndexternal/IncidentResponse/tree/main/docs/2.Identification/2.02-Create_Active_IP_List
     - 2.03-DNS Host Name Mapping: 2.Identification/2.03-DNS_Host_Name_Mapping/README.md
     - 2.03Files: https://github.com/cmdcndexternal/IncidentResponse/tree/main/docs/2.Identification/2.03-DNS_Host_Name_Mapping
-    - 2.04-Active Host and Service Enumeration: 2.Identification/2.04-Active_Host_and_Service_Enumeration/README.md/README.md
+    - 2.04-Active Host and Service Enumeration: 2.Identification/2.04-Active_Host_and_Service_Enumeration/README.md
     - 2.04Files: https://github.com/cmdcndexternal/IncidentResponse/tree/main/docs/2.Identification/2.04-Active_Host_and_Service_Enumeration/README.md
     - 2.05-Active IP List on Key Ports: 2.Identification/2.05-Active_IP_List_on_Key_Ports/README.md
     - 2.05Files: https://github.com/cmdcndexternal/IncidentResponse/tree/main/docs/2.Identification/2.05-Active_IP_List_on_Key_Ports
