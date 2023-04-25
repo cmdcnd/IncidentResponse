@@ -112,7 +112,7 @@ The script will need to be marked executable before running:
 [NMAP Site](https://nmap.org)  
 [LAN Spy](http://lantricks.com/lanspy/)  
 [NMAP Man Pages Nmap Man page](http://linuxcommand.org/man_pages/nmap1.html)  
-[Nmap Network Scanning –online book](nmap.org/book/toc.html)  
+[Nmap Network Scanning –online book](http://nmap.org/book/toc.html)  
 
 
 ## Revision History  

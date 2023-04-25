@@ -200,13 +200,13 @@ nav:
     - 4.04-Monitor NIDS and Report Threats: 4.Eradication/4.04_Monitor_NIDS_and_Report_Threats/README.md
     - 4.05-SIEM Events to IDS and Network Logs: 4.Eradication/4.05_SIEM_Events_to_IDS_and_network_logs/README.md
     - 4.06-Evaluate Host Kernel to check for Rootkits: 4.Eradication/4.06_Evaluate_Host_Kernel_to_Check_for_Rootkits/README.md
-    - 4.07-Use Host Log Data to Evaluate System Processes: 4.Eradication/4.07_Use_Host_Log_Data_to_Evaluate_System_Processes/ReadMe.md
+    - 4.07-Use Host Log Data to Evaluate System Processes: 4.Eradication/4.07_Use_Host_Log_Data_to_Evaluate_System_Processes/README.md
     - 4.07Files: https://github.com/cmdcndexternal/IncidentResponse/tree/main/docs/4.Eradication/4.07_Use_Host_Log_Data_to_Evaluate_System_Processes
     - 4.08-Deploy or Evaluate Host Sensors: 4.Eradication/4.08_Deploy_or_evaluate_host_sensors/README.md
     - 4.08Files: https://github.com/cmdcndexternal/IncidentResponse/tree/main/docs/4.Eradication/4.08_Deploy_or_evaluate_host_sensors
     - 4.09-Install and Deploy Security Onion: 4.Eradication/4.09_Install_and_Deploy_Security_Onion/README.md
     - 4.10-PAN Forward Syslog to SecurityOnion: 4.Eradication/4.10_PAN_Forward_Syslog_SO/README.md
-    - 4.11-Monitoring Account Creation using SecurityOnion: 4.Eradication/4.11_Monitoring_account_creation_SO/readme.md
+    - 4.11-Monitoring Account Creation using SecurityOnion: 4.Eradication/4.11_Monitoring_account_creation_SO/README.md
     - 4.12-Detect Network Vulnerability Scans using SecurityOnion: 4.Eradication/4.12_Detect_network_vulnerability_scans_SO/README.md
     - 4.13-Detect SMB using SecurityOnion: 4.Eradication/4.13_Detect_SMB_using_SO/README.md
     - 4.14-Monitor Active Directory New Account Creation: 4.Eradication/4.14_Monitor_AD_New_Account_Creation/README.md
@@ -221,7 +221,7 @@ nav:
     - 4.20-Investigate Alerts from Host Sensors: 4.Eradication/4.20_Investigate_Alerts_From_Host_Sensors/README.md
     - 4.21-Find and Contain Rogue Workstation: 4.Eradication/4.21_Find_and_contain_rogue_workstations/README.md
     - 4.22-Block Unauthorized Software: 4.Eradication/4.22_Block_unauthorized_software/README.md
-    - 4.23-Stop Credential Reuse Attack: 4.Eradication/4.23_Stop_Credential_reuse_Hack/README.md
+    - 4.23-Stop Credential Reuse Attack: 4.Eradication/4.23_Stop_Credential_reuse_attack/README.md
     - 4.24-Stop Brute Force Attack: 4.Eradication/4.24_Stop_brute_force_attack/README.md
     - 4.25-Stop Malware Rootkit: 4.Eradication/4.25_Stop_malware_rootkit/README.md
     - 4.26-Stop Data Exfiltration: 4.Eradication/4.26_Stop_data_exfiltration/README.md

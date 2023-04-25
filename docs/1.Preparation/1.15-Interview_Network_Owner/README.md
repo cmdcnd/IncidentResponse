@@ -27,7 +27,7 @@ An IR Team deploys to an existing network that may or may not have adequate sens
 
 
 ## References  
-[Incident Respone Owner Interview Packet](Business_Owner_Interview_Packet/IncidentResponseVictimQuestionaire.docx)  
+[Incident Respone Owner Interview Packet](../Preparation_References/Business_Owner_Interview_Packet/IncidentResponseVictimQuestionaire.docx)  
 
 
 ## Revision History  

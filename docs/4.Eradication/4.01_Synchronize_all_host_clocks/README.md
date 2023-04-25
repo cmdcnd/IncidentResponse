@@ -138,7 +138,7 @@ Windows domain member systems will automatically synchronize their time based on
 ## References  
 [Good information on implementing NTP](http://Support.ntp.org/bin/view/Support/SelectingOffsiteNTPServers)  
 [VMWare info on NTP for Windows Guest operating systems](https://kb.vmware.com/kb/1318)  
-[Cisco Best Practices](www.cisco.com/c/en/us/support/docs/availability/high-availability/19643-ntpm.html)  
+[Cisco Best Practices](https://www.cisco.com/c/en/us/support/docs/availability/high-availability/19643-ntpm.html)  
 
 
 ## Revision History  
