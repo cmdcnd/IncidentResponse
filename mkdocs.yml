@@ -57,6 +57,7 @@ theme:
 plugins:
   - search:
       separator: '[\s\-,:!=\[\]()"`/]+|\.(?!\d)|&[lg]t;|(?!\b)(?=[A-Z][a-z])'
+  - table-reader
 #  - minify:
 #      minify_html: true
 
