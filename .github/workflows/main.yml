@@ -1,4 +1,4 @@
-name: buildirsite
+name: docsbuild
 on:
   push:
     branches: 
