@@ -53,7 +53,7 @@ Once your account has MFA enforced you will need to use an API key.  Make sure y
 
 ```bash
 # copy url of this git repo and replace APIKEY with yours generated above
-$ git clone https://APIKEY@github.com/cmdcndexternal/IncidentResponse.git
+$ git clone https://APIKEY@github.com/cmdcnd/IncidentResponse.git
 ```
 
 once you clone, at this point, you should only have local copy of `main` branch.
@@ -169,7 +169,7 @@ $ git push
 ```
 ### 7. create a pull request  
 Now, the branch with your change is available remote.
-when you go to git repo: https://github.com/cmdcndexternal/IncidentResponse,
+when you go to git repo: https://github.com/cmdcnd/IncidentResponse,
 you can create a pull request.
 
 git should show a banner in the main repo as a short cut asking
