@@ -228,7 +228,7 @@ nav:
     - 4.26-Stop Data Exfiltration: 4.Eradication/4.26_Stop_data_exfiltration/README.md
     - 4.27-Stop Malware Backdoor: 4.Eradication/4.27_Stop_malware_backdoor/README.md
     - 4.27Files: 4.Eradication/4.27_Stop_malware_backdoor
-    - 4.28-Stop C@ Beaconing: 4.Eradication/4.28_Stop_C2_Beaconing/README.md
+    - 4.28-Stop C2 Beaconing: 4.Eradication/4.28_Stop_C2_Beaconing/README.md
     - 4.30-SecurityOnion Hunting: 4.Eradication/4.30_Security_Onion_Hunting/README.md
     - 4.30Files: 4.Eradication/4.30_Security_Onion_Hunting
   - 5.Recovery:
