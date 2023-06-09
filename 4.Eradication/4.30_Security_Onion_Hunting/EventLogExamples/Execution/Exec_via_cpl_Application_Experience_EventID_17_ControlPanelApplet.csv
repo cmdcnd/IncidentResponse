@@ -1,0 +1,13 @@
+"Message","Id","Version","Qualifiers","Level","Task","Opcode","Keywords","RecordId","ProviderName","ProviderId","LogName","ProcessId","ThreadId","MachineName","UserId","TimeCreated","ActivityId","RelatedActivityId","MatchedQueryIds","Bookmark","LevelDisplayName","OpcodeDisplayName","TaskDisplayName","KeywordsDisplayNames","Properties"
+"Exe: C:\Users\IEUser\Desktop\procexp64.exe
+
+ResolverName: WrpKeyMitigation","17","0",,"4","0","0","4611686018427387904","4","Microsoft-Windows-Program-Compatibility-Assistant","4cb314df-c11f-47d7-9c04-65fb0051561b","Microsoft-Windows-Application-Experience/Program-Compatibility-Assistant","1404","1644","MSEDGEWIN10","S-1-5-18","8/23/2019 4:17:00 AM",,,"System.UInt32[]","System.Diagnostics.Eventing.Reader.EventBookmark","Information","Info",,"System.Collections.ObjectModel.ReadOnlyCollection`1[System.String]","System.Collections.Generic.List`1[System.Diagnostics.Eventing.Reader.EventProperty]"
+"Exe: C:\Users\IEUser\Desktop\procexp64.exe
+
+ResolverName: WrpKeyMitigation","17","0",,"4","0","0","4611686018427387904","3","Microsoft-Windows-Program-Compatibility-Assistant","4cb314df-c11f-47d7-9c04-65fb0051561b","Microsoft-Windows-Application-Experience/Program-Compatibility-Assistant","4396","3976","MSEDGEWIN10","S-1-5-18","7/29/2019 2:14:29 PM",,,"System.UInt32[]","System.Diagnostics.Eventing.Reader.EventBookmark","Information","Info",,"System.Collections.ObjectModel.ReadOnlyCollection`1[System.String]","System.Collections.Generic.List`1[System.Diagnostics.Eventing.Reader.EventProperty]"
+"Exe: C:\Users\IEUser\Downloads\Invoice@0582.cpl
+
+ResolverName: ControlPanelApplet","17","0",,"4","0","0","4611686018427387904","2","Microsoft-Windows-Program-Compatibility-Assistant","4cb314df-c11f-47d7-9c04-65fb0051561b","Microsoft-Windows-Application-Experience/Program-Compatibility-Assistant","4396","3944","MSEDGEWIN10","S-1-5-18","7/29/2019 2:11:17 PM",,,"System.UInt32[]","System.Diagnostics.Eventing.Reader.EventBookmark","Information","Info",,"System.Collections.ObjectModel.ReadOnlyCollection`1[System.String]","System.Collections.Generic.List`1[System.Diagnostics.Eventing.Reader.EventProperty]"
+"Exe: C:\Users\IEUser\Desktop\procexp64.exe
+
+ResolverName: WrpKeyMitigation","17","0",,"4","0","0","4611686018427387904","1","Microsoft-Windows-Program-Compatibility-Assistant","4cb314df-c11f-47d7-9c04-65fb0051561b","Microsoft-Windows-Application-Experience/Program-Compatibility-Assistant","5020","7468","MSEDGEWIN10","S-1-5-18","7/18/2019 2:50:20 PM",,,"System.UInt32[]","System.Diagnostics.Eventing.Reader.EventBookmark","Information","Info",,"System.Collections.ObjectModel.ReadOnlyCollection`1[System.String]","System.Collections.Generic.List`1[System.Diagnostics.Eventing.Reader.EventProperty]"
