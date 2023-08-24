@@ -1,4 +1,6 @@
-## Concept	
+This repository is a compulation of SOPs and How Tos for conducting a generic Incident Response.  It is designed to provide a wide variety of options.  
+
+## Concept for contributions
 ![IR Concept Design](img/IR-Concept-Design.png)  
 
 * IR Phase - Example: (2.Identification)  
