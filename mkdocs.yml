@@ -195,7 +195,7 @@ nav:
     - 4.Eradication: 4.Eradication/README.md
     - 4.01-Synchronize Time on all hosts: 4.Eradication/4.01_Synchronize_all_host_clocks/README.md
     - 4.02-Enable Account Usage Auditing: 4.Eradication/4.02_Enable_Account_Usage_Auditing/README.md
-    - 4.02Files: 4.Eradication/4.02_Enable_Account_Usage_Auditing
+    - 4.02Files: https://github.com/cmdcnd/IncidentResponse/tree/main/docs/4.Eradication/4.02_Enable_Account_Usage_Auditing/scripts
     - 4.03-Deploy Network Intrusion Detection System: 4.Eradication/4.03_Deploy_network_intrusion_detection_system/README.md
     - 4.03Files: https://github.com/cmdcnd/IncidentResponse/tree/main/docs/4.Eradication/4.03_Deploy_network_intrusion_detection_system/scripts
     - 4.04-Monitor NIDS and Report Threats: 4.Eradication/4.04_Monitor_NIDS_and_Report_Threats/README.md
