@@ -151,32 +151,32 @@ nav:
     - 2.Identification: 2.Identification/README.md
     - 2.01-Review Organizational Processes and Conduct a site survey: 2.Identification/2.01-Review_organizational_processes_and_conduct_a_site_survey/README.md
     - 2.02-Create Active IP List: 2.Identification/2.02-Create_Active_IP_List/README.md
-    - 2.02Files: 2.Identification/2.02-Create_Active_IP_List/scripts
+    - 2.02Files: https://github.com/cmdcnd/IncidentResponse/tree/main/docs/2.Identification/2.02-Create_Active_IP_List/scripts
     - 2.03-DNS Host Name Mapping: 2.Identification/2.03-DNS_Host_Name_Mapping/README.md
-    - 2.03Files: 2.Identification/2.03-DNS_Host_Name_Mapping
+    - 2.03Files: https://github.com/cmdcnd/IncidentResponse/tree/main/docs/2.Identification/2.03-DNS_Host_Name_Mapping/scripts
     - 2.04-Active Host and Service Enumeration: 2.Identification/2.04-Active_Host_and_Service_Enumeration/README.md
-    - 2.04Files: 2.Identification/2.04-Active_Host_and_Service_Enumeration/README.md
+    - 2.04Files: https://github.com/cmdcnd/IncidentResponse/tree/main/docs/2.Identification/2.04-Active_Host_and_Service_Enumeration/README.md/scripts
     - 2.05-Active IP List on Key Ports: 2.Identification/2.05-Active_IP_List_on_Key_Ports/README.md
-    - 2.05Files: 2.Identification/2.05-Active_IP_List_on_Key_Ports
+    - 2.05Files: https://github.com/cmdcnd/IncidentResponse/tree/main/docs/2.Identification/2.05-Active_IP_List_on_Key_Ports/scripts
     - 2.06-All Port Scan: 2.Identification/2.06-All_Port_Scan/README.md
-    - 2.06Files: 2.Identification/2.06-All_Port_Scan
+    - 2.06Files: https://github.com/cmdcnd/IncidentResponse/tree/main/docs/2.Identification/2.06-All_Port_Scan/scripts
     - 2.07-Scan ICS Equipment Ports: 2.Identification/2.07-Scan_ICS_Equipment_Ports/README.md
-    - 2.07Files: 2.Identification/2.07-Scan_ICS_Equipment_Ports
+    - 2.07Files: https://github.com/cmdcnd/IncidentResponse/tree/main/docs/2.Identification/2.07-Scan_ICS_Equipment_Ports/scripts
     - 2.08-Perform Vulnerability Scan: 2.Identification/2.08-Conduct_Vulnerability_Scan/README.md
     - 2.11-Determine Installed Software: 2.Identification/2.11-Determine_Installed_Software/README.md
-    - 2.11Files: 2.Identification/2.11-Determine_Installed_Software
+    - 2.11Files: https://github.com/cmdcnd/IncidentResponse/tree/main/docs/2.Identification/2.11-Determine_Installed_Software/scripts
     - 2.12-Perform SCAP Configuration Scan: 2.Identification/2.12-Perform_SCAP_Configuration_Scan/README.md
     - 2.13-Perform STIG SCAN: 2.Identification/2.13-Perform_STIG_Scan/README.md
     - 2.14-Gather AD Structure Information: 2.Identification/2.14-Gather_AD_Structure_Information/README.md
-    - 2.14Files: 2.Identification/2.14-Gather_AD_Structure_Information
+    - 2.14Files: https://github.com/cmdcnd/IncidentResponse/tree/main/docs/2.Identification/2.14-Gather_AD_Structure_Information/scripts
     - 2.15-AD Configuration Scan with Powershell: 2.Identification/2.15-AD_Configuration_Scan_with_Powershell/README.md
-    - 2.15Files: 2.Identification/2.15-AD_Configuration_Scan_with_Powershell
+    - 2.15Files: https://github.com/cmdcnd/IncidentResponse/tree/main/docs/2.Identification/2.15-AD_Configuration_Scan_with_Powershell/scripts
     - 2.16-List AD Domain Accounts: 2.Identification/2.16-List_all_AD_Domain_Accounts/README.md
-    - 2.16Files: 2.Identification/2.16-List_all_AD_Domain_Accounts
+    - 2.16Files: https://github.com/cmdcnd/IncidentResponse/tree/main/docs/2.Identification/2.16-List_all_AD_Domain_Accounts/scripts
     - 2.17-Scan Device for Default Admin Password: 2.Identification/2.17-Scan_Device_For_Default_Admin_Password/README.md
     - 2.18-Review Organizational User Policies: 2.Identification/2.18-Review_Organizational_User_Policies/README.md
     - 2.19-Create Firewall Rule List: 2.Identification/2.19-Create_firewall_rule_list/README.md
-    - 2.19Files: 2.Identification/2.19-Create_firewall_rule_list
+    - 2.19Files: https://github.com/cmdcnd/IncidentResponse/tree/main/docs/2.Identification/2.19-Create_firewall_rule_list/scripts
   - 3.Containment:
     - 3.Containment: 3.Containment/README.md
     - 3.01-Export Users from Active Directory: 3.Containment/3.01_Export_users_from_Active_Directory/README.md
