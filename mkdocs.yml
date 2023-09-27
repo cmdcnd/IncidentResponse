@@ -185,7 +185,7 @@ nav:
     - 3.04-Export Trust Relationship from Active Directory: 3.Containment/3.04_Export_Trust_relationships_from_Active_Directory/README.md
     - 3.05-Export-OU Structure from Active Directory: 3.Containment/3.05_Export_OU_Structure_from_Active_Directory/README.md
     - 3.06-Monitor Active Directory New Account Creation: 3.Containment/3.06_Monitor_AD_New_Account_Creation/README.md
-    - 3.06Files: 3.Containment/3.06_Monitor_AD_New_Account_Creation
+    - 3.06Files: https://github.com/cmdcnd/IncidentResponse/tree/main/docs/3.Containment/3.06_Monitor_AD_New_Account_Creation/scripts
     - 3.07-Create Team Admin Account in Active Directory: 3.Containment/3.07_Create_team_admin_account_in_AD/README.md
     - 3.08-Change Domain Administrator Account: 3.Containment/3.08_Change_Domain_Administrator_account/README.md
     - 3.09-Disable Domain Administrator Password: 3.Containment/3.09_Disable_Domain_Administrator_password/README.md
@@ -197,14 +197,14 @@ nav:
     - 4.02-Enable Account Usage Auditing: 4.Eradication/4.02_Enable_Account_Usage_Auditing/README.md
     - 4.02Files: 4.Eradication/4.02_Enable_Account_Usage_Auditing
     - 4.03-Deploy Network Intrusion Detection System: 4.Eradication/4.03_Deploy_network_intrusion_detection_system/README.md
-    - 4.03Files: 4.Eradication/4.03_Deploy_network_intrusion_detection_system
+    - 4.03Files: https://github.com/cmdcnd/IncidentResponse/tree/main/docs/4.Eradication/4.03_Deploy_network_intrusion_detection_system/scripts
     - 4.04-Monitor NIDS and Report Threats: 4.Eradication/4.04_Monitor_NIDS_and_Report_Threats/README.md
     - 4.05-SIEM Events to IDS and Network Logs: 4.Eradication/4.05_SIEM_Events_to_IDS_and_network_logs/README.md
     - 4.06-Evaluate Host Kernel to check for Rootkits: 4.Eradication/4.06_Evaluate_Host_Kernel_to_Check_for_Rootkits/README.md
     - 4.07-Use Host Log Data to Evaluate System Processes: 4.Eradication/4.07_Use_Host_Log_Data_to_Evaluate_System_Processes/README.md
-    - 4.07Files: 4.Eradication/4.07_Use_Host_Log_Data_to_Evaluate_System_Processes
+    - 4.07Files: https://github.com/cmdcnd/IncidentResponse/tree/main/docs/4.Eradication/4.07_Use_Host_Log_Data_to_Evaluate_System_Processes/scripts
     - 4.08-Deploy or Evaluate Host Sensors: 4.Eradication/4.08_Deploy_or_evaluate_host_sensors/README.md
-    - 4.08Files: 4.Eradication/4.08_Deploy_or_evaluate_host_sensors
+    - 4.08Files: https://github.com/cmdcnd/IncidentResponse/tree/main/docs/4.Eradication/4.08_Deploy_or_evaluate_host_sensors/scripts
     - 4.09-Install and Deploy Security Onion: 4.Eradication/4.09_Install_and_Deploy_Security_Onion/README.md
     - 4.10-PAN Forward Syslog to SecurityOnion: 4.Eradication/4.10_PAN_Forward_Syslog_SO/README.md
     - 4.11-Monitoring Account Creation using SecurityOnion: 4.Eradication/4.11_Monitoring_account_creation_SO/README.md
@@ -230,7 +230,7 @@ nav:
     - 4.27Files: 4.Eradication/4.27_Stop_malware_backdoor
     - 4.28-Stop C2 Beaconing: 4.Eradication/4.28_Stop_C2_Beaconing/README.md
     - 4.30-SecurityOnion Hunting: 4.Eradication/4.30_Security_Onion_Hunting/README.md
-    - 4.30Files: 4.Eradication/4.30_Security_Onion_Hunting
+    - 4.30Files: https://github.com/cmdcnd/IncidentResponse/tree/main/docs/4.Eradication/4.30_Security_Onion_Hunting/EventLogExamples
   - 5.Recovery:
     - 5.Recovery: 5.Recovery/README.md
     - 5.01-Vulnerability Scans: 5.Recovery/5.01_Vulnerability_Scans/README.md
@@ -250,7 +250,7 @@ nav:
   - 6.Lessons Learned:
     - 6.Lessons Learned: 6.LessonsLearned/README.md
     - 6.01-After Action Review(AAR): 6.LessonsLearned/6.01-After_Action_Review/README.md
-    - 6.01Files: 6.LessonsLearned/6.01-After_Action_Review
+    - 6.01Files: https://github.com/cmdcnd/IncidentResponse/tree/main/docs/6.LessonsLearned/6.01-After_Action_Review/templates
   - Reference Documents: 
     - Reference Documents: ReferenceDocuments/README.md
     - PowerShell Commands: ReferenceDocuments/PowerShell_Commands.md
