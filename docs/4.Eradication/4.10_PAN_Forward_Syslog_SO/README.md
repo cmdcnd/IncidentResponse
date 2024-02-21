@@ -31,7 +31,7 @@ Logs are forwarded and parsed by Security Onion NIDS and searchable in Kibana.
 		* Change `Source Interface` to ethernet interface connected to Syslog servers  
 		* Change `Source Address` to IP Address on same subnet of Syslog server  
 
-![ScreenShots](/img/4.10.01.png)  
+![ScreenShots](../../img/4.10.01.png)  
 
 * Create Syslog Server Profile.  This profile should identify the IP of the Syslog server on the network and Port the Syslog server will be listening on for incoming logs.  
 	* Device > Server Profiles > Syslog  
@@ -47,7 +47,7 @@ Logs are forwarded and parsed by Security Onion NIDS and searchable in Kibana.
 		* Port: 514 (Default)  
 			* Ensure Syslog Server has firewall configured to accept Syslogs over port 514.  
 
-![ScreenShots](/img/4.10.02.png)  
+![ScreenShots](../../img/4.10.02.png)  
 
 * Create a Security Profile to Log alerts on ALL network  traffic  
 	* Objects > Security Profiles  
@@ -56,8 +56,8 @@ Logs are forwarded and parsed by Security Onion NIDS and searchable in Kibana.
 			* Add a name for the rule  
 			* Change all Actions and Wildfire Actions to Alert  
 	
-![ScreenShots](/img/4.10.03.png)  
-![ScreenShots](/img/4.10.04.png)  
+![ScreenShots](../../img/4.10.03.png)  
+![ScreenShots](../../img/4.10.04.png)  
 	
 * Create a Security Profile - Continued	
 	* Anti-Spyware  
@@ -65,16 +65,16 @@ Logs are forwarded and parsed by Security Onion NIDS and searchable in Kibana.
 		* Click Action drop-down and select `Alert`  
 		* Click `OK`  
 
-![ScreenShots](/img/4.10.05.png)  
-![ScreenShots](/img/4.10.06.png)  
-![ScreenShots](/img/4.10.07.png)  
+![ScreenShots](../../img/4.10.05.png)  
+![ScreenShots](../../img/4.10.06.png)  
+![ScreenShots](../../img/4.10.07.png)  
 
 * Create a Security Profile - Continued  
 	* Select `DNS Signature` Tab  
 	* Change `Action on DNS Queries` to Alert for both `Palo Alto Content DNS Signatures` and `Palo Alto Network DNS Security`  
 	* Click `OK`  
 
-![ScreenShots](/img/4.10.08.png)  
+![ScreenShots](../../img/4.10.08.png)  
 
 * Create a Security Profile - Continued
 	* Vulnerability Protection  
@@ -84,8 +84,8 @@ Logs are forwarded and parsed by Security Onion NIDS and searchable in Kibana.
 		* Change `Action` to `Alert`  
 		Click `OK`  
 
-![ScreenShots](/img/4.10.09.png)
-![ScreenShots](/img/4.10.10.png)
+![ScreenShots](../../img/4.10.09.png)
+![ScreenShots](../../img/4.10.10.png)
 
 * Create a Security Profile - Continued  
 	* URL Filtering  
@@ -94,8 +94,8 @@ Logs are forwarded and parsed by Security Onion NIDS and searchable in Kibana.
 	* Repeat STEP 2 for `User Credential Submission`  
 	* Click `OK`  
 
-![ScreenShots](/img/4.10.11.png)
-![ScreenShots](/img/4.10.12.png)
+![ScreenShots](../../img/4.10.11.png)
+![ScreenShots](../../img/4.10.12.png)
 
 * Create a Security Profile - Continued  
 	* File Blocking  
@@ -103,8 +103,8 @@ Logs are forwarded and parsed by Security Onion NIDS and searchable in Kibana.
 	* Change `Action` to `Alert`  
 	* Click `OK`  
 
-![ScreenShots](/img/4.10.13.png)
-![ScreenShots](/img/4.10.14.png)
+![ScreenShots](../../img/4.10.13.png)
+![ScreenShots](../../img/4.10.14.png)
 
 * Create a Security Profile Group  
 	* Objects > Security Profile Group  
@@ -112,8 +112,8 @@ Logs are forwarded and parsed by Security Onion NIDS and searchable in Kibana.
 	* Name the Security Profile  
 	* change each profile to the previously created rules for Alerting  
 
-![ScreenShots](/img/4.10.15.png)
-![ScreenShots](/img/4.10.16.png)
+![ScreenShots](../../img/4.10.15.png)
+![ScreenShots](../../img/4.10.16.png)
 
 * Create Log Forwarding Rule  
 	* Objects > Log Forwarding  
@@ -121,14 +121,14 @@ Logs are forwarded and parsed by Security Onion NIDS and searchable in Kibana.
 	* Create Profile Name  
 	* Click `Add` under the Log Forwarding Profile  
 
-![ScreenShots](/img/4.10.17.png)
+![ScreenShots](../../img/4.10.17.png)
 
 * Create Log Forwarding Rule - Continued  
 	* Name the rule  
 	* Click `add` under the "Syslog" Forward Method  
 	* Select the Syslog Server Profile created previously  
 
-![ScreenShots](/img/4.10.18.png)
+![ScreenShots](../../img/4.10.18.png)
 
 * Attach Logging and Log Forwarding policies to Active Security Policy  
 	* Policies > Security  
@@ -142,7 +142,7 @@ Logs are forwarded and parsed by Security Onion NIDS and searchable in Kibana.
 		* Select Log Forwarding Profile previously created  
 		* Click `Ok`  
 
-![ScreenShots](/img/4.10.19.png)
+![ScreenShots](../../img/4.10.19.png)
 
 * Configure Palo Alto Network Device to forward logs for System, Configuration , User-ID, HIP Match, and IP-Tag to Syslog Server  
 	* Device > Log Settings  
@@ -150,12 +150,12 @@ Logs are forwarded and parsed by Security Onion NIDS and searchable in Kibana.
 		* Click `Add` and name the Log Profile  
 		* Under syslog click `Add` and select Syslog Server Profile.  
 
-![ScreenShots](/img/4.10.20.png)
-![ScreenShots](/img/4.10.21.png)
-![ScreenShots](/img/4.10.22.png)
-![ScreenShots](/img/4.10.23.png)
-![ScreenShots](/img/4.10.24.png)
-![ScreenShots](/img/4.10.25.png)
+![ScreenShots](../../img/4.10.20.png)
+![ScreenShots](../../img/4.10.21.png)
+![ScreenShots](../../img/4.10.22.png)
+![ScreenShots](../../img/4.10.23.png)
+![ScreenShots](../../img/4.10.24.png)
+![ScreenShots](../../img/4.10.25.png)
 
 Commit All Changes  
 
