@@ -28,7 +28,7 @@ Hosts on compromised network utilize wazzuh to forward sysmon and event logs to 
 ### Configure Security Onion to receive logs.  
 On the Security Onion system, log into the local system. Open two Terminal windows, further referred to as Terminal A and B.  
 
-![Terminals](/img/4.08.01.png)
+![Terminals](../../img/4.08.01.png)
 
 In Terminal A:  
 ```bash
@@ -50,19 +50,19 @@ sudo so-wazuh-start
 * The repository comes with all the necessary files for deployment, but it is preferable to download the Wazuh agent from Security Onion system currently deployed for the mission  
 * Login into Security Onion, select `Downloads` from the menu on the left, and download the Wazuh agent for Windows.  Ensure the file is unblocked once downloaded  
 
-![Download Wazuh Agent](/img/4.08.02.png)
+![Download Wazuh Agent](../../img/4.08.02.png)
 
 
 * Modify files:   
 Edit /scripts/install-sysmon.bat  
 Edit IP address to reflect your Security Onion IP address: `/scripts/install-sysmon.bat`  
 
-![Terminals](/img/4.08.03.png)  
+![Terminals](../../img/4.08.03.png)  
 
 Edit ossec.conf   
 Change IP address to reflect your Security Onion address  
 
-![Terminals](/img/4.08.04.png)  
+![Terminals](../../img/4.08.04.png)  
 
 
 * Running PowerShell script on Windows hosts  
@@ -81,7 +81,7 @@ Domain: Domain name
 
 * Click `Run` to allow psexec to execute  
 
-![Terminals](/img/4.08.09.png)  
+![Terminals](../../img/4.08.09.png)  
 
 * Listing Wazuh agents
 ```bash

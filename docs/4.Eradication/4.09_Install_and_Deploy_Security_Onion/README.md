@@ -65,7 +65,7 @@ Fully functioning Security Onion NIDS recieving and parsing logs from target net
       sudo so-allow 
       ```
 
-![Screenshot](/img/SO-Allow.PNG)  
+![Screenshot](../../img/SO-Allow.PNG)  
 
 ```bash
 a 
@@ -77,7 +77,7 @@ a
       sudo so-allow 
       ```  
 
-![Screenshot](/img/SO-Allow.PNG)
+![Screenshot](../../img/SO-Allow.PNG)
 
 ```bash
 e 
@@ -91,7 +91,7 @@ e
 sudo so-allow 
 ```
 
-![Screenshot](/img/SO-Allow.PNG)
+![Screenshot](../../img/SO-Allow.PNG)
 
 ```bash
 l 
@@ -102,7 +102,7 @@ l
       sudo so-allow  
       ```
 
-![Screenshot](/img/SO-Allow.PNG)
+![Screenshot](../../img/SO-Allow.PNG)
 
 ```bash
 o  
@@ -115,7 +115,7 @@ o
 sudo so-allow  
 ```
 
-![Screenshot](/img/SO-Allow.PNG)
+![Screenshot](../../img/SO-Allow.PNG)
 
 ```bash
 r 
