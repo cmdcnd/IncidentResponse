@@ -46,7 +46,7 @@ theme:
       toggle:
         icon: material/brightness-4
         name: Switch to light mode
-  font:
+  font: false
 #    text: Roboto
 #    code: Roboto Mono
   favicon: assets/favicon.png
