@@ -1,0 +1,685 @@
+"Message","Id","Version","Qualifiers","Level","Task","Opcode","Keywords","RecordId","ProviderName","ProviderId","LogName","ProcessId","ThreadId","MachineName","UserId","TimeCreated","ActivityId","RelatedActivityId","MatchedQueryIds","Bookmark","LevelDisplayName","OpcodeDisplayName","TaskDisplayName","KeywordsDisplayNames","Properties"
+"A network share object was checked to see whether client can be granted desired access.
+	
+Subject:
+	Security ID:		S-1-5-21-3583694148-1414552638-2922671848-1000
+	Account Name:		IEUser
+	Account Domain:		IEWIN7
+	Logon ID:		0x162630
+
+Network Information:	
+	Object Type:		File
+	Source Address:		10.0.2.16
+	Source Port:		54765
+	
+Share Information:
+	Share Name:		\\*\IPC$
+	Share Path:		
+	Relative Target Name:	blabla-NLLT108334-37048-stderr
+
+Access Request Information:
+	Access Mask:		0x120089
+	Accesses:		READ_CONTROL
+				SYNCHRONIZE
+				ReadData (or ListDirectory)
+				ReadEA
+				ReadAttributes
+				
+Access Check Results:
+	-
+","5145","0",,"0","12811","0","-9214364837600034816","84052","Microsoft-Windows-Security-Auditing","54849625-5478-4994-a5ba-3e3b0328c30d","Security","512","528","IEWIN7",,"1/19/2019 5:00:10 AM",,,"System.UInt32[]","System.Diagnostics.Eventing.Reader.EventBookmark","Information","Info","Detailed File Share","System.Collections.ObjectModel.ReadOnlyCollection`1[System.String]","System.Collections.Generic.List`1[System.Diagnostics.Eventing.Reader.EventProperty]"
+"A network share object was checked to see whether client can be granted desired access.
+	
+Subject:
+	Security ID:		S-1-5-21-3583694148-1414552638-2922671848-1000
+	Account Name:		IEUser
+	Account Domain:		IEWIN7
+	Logon ID:		0x162630
+
+Network Information:	
+	Object Type:		File
+	Source Address:		10.0.2.16
+	Source Port:		54765
+	
+Share Information:
+	Share Name:		\\*\IPC$
+	Share Path:		
+	Relative Target Name:	blabla-NLLT108334-37048-stdout
+
+Access Request Information:
+	Access Mask:		0x120089
+	Accesses:		READ_CONTROL
+				SYNCHRONIZE
+				ReadData (or ListDirectory)
+				ReadEA
+				ReadAttributes
+				
+Access Check Results:
+	-
+","5145","0",,"0","12811","0","-9214364837600034816","84051","Microsoft-Windows-Security-Auditing","54849625-5478-4994-a5ba-3e3b0328c30d","Security","512","528","IEWIN7",,"1/19/2019 5:00:10 AM",,,"System.UInt32[]","System.Diagnostics.Eventing.Reader.EventBookmark","Information","Info","Detailed File Share","System.Collections.ObjectModel.ReadOnlyCollection`1[System.String]","System.Collections.Generic.List`1[System.Diagnostics.Eventing.Reader.EventProperty]"
+"A network share object was checked to see whether client can be granted desired access.
+	
+Subject:
+	Security ID:		S-1-5-21-3583694148-1414552638-2922671848-1000
+	Account Name:		IEUser
+	Account Domain:		IEWIN7
+	Logon ID:		0x162630
+
+Network Information:	
+	Object Type:		File
+	Source Address:		10.0.2.16
+	Source Port:		54765
+	
+Share Information:
+	Share Name:		\\*\IPC$
+	Share Path:		
+	Relative Target Name:	blabla-NLLT108334-37048-stdin
+
+Access Request Information:
+	Access Mask:		0x120196
+	Accesses:		READ_CONTROL
+				SYNCHRONIZE
+				WriteData (or AddFile)
+				AppendData (or AddSubdirectory or CreatePipeInstance)
+				WriteEA
+				ReadAttributes
+				WriteAttributes
+				
+Access Check Results:
+	-
+","5145","0",,"0","12811","0","-9214364837600034816","84050","Microsoft-Windows-Security-Auditing","54849625-5478-4994-a5ba-3e3b0328c30d","Security","512","528","IEWIN7",,"1/19/2019 5:00:10 AM",,,"System.UInt32[]","System.Diagnostics.Eventing.Reader.EventBookmark","Information","Info","Detailed File Share","System.Collections.ObjectModel.ReadOnlyCollection`1[System.String]","System.Collections.Generic.List`1[System.Diagnostics.Eventing.Reader.EventProperty]"
+"A network share object was checked to see whether client can be granted desired access.
+	
+Subject:
+	Security ID:		S-1-5-21-3583694148-1414552638-2922671848-1000
+	Account Name:		IEUser
+	Account Domain:		IEWIN7
+	Logon ID:		0x162630
+
+Network Information:	
+	Object Type:		File
+	Source Address:		10.0.2.16
+	Source Port:		54765
+	
+Share Information:
+	Share Name:		\\*\IPC$
+	Share Path:		
+	Relative Target Name:	blabla
+
+Access Request Information:
+	Access Mask:		0x12019F
+	Accesses:		READ_CONTROL
+				SYNCHRONIZE
+				ReadData (or ListDirectory)
+				WriteData (or AddFile)
+				AppendData (or AddSubdirectory or CreatePipeInstance)
+				ReadEA
+				WriteEA
+				ReadAttributes
+				WriteAttributes
+				
+Access Check Results:
+	-
+","5145","0",,"0","12811","0","-9214364837600034816","84047","Microsoft-Windows-Security-Auditing","54849625-5478-4994-a5ba-3e3b0328c30d","Security","512","528","IEWIN7",,"1/19/2019 5:00:10 AM",,,"System.UInt32[]","System.Diagnostics.Eventing.Reader.EventBookmark","Information","Info","Detailed File Share","System.Collections.ObjectModel.ReadOnlyCollection`1[System.String]","System.Collections.Generic.List`1[System.Diagnostics.Eventing.Reader.EventProperty]"
+"A network share object was checked to see whether client can be granted desired access.
+	
+Subject:
+	Security ID:		S-1-5-21-3583694148-1414552638-2922671848-1000
+	Account Name:		IEUser
+	Account Domain:		IEWIN7
+	Logon ID:		0x162630
+
+Network Information:	
+	Object Type:		File
+	Source Address:		10.0.2.16
+	Source Port:		54765
+	
+Share Information:
+	Share Name:		\\*\IPC$
+	Share Path:		
+	Relative Target Name:	svcctl
+
+Access Request Information:
+	Access Mask:		0x12019F
+	Accesses:		READ_CONTROL
+				SYNCHRONIZE
+				ReadData (or ListDirectory)
+				WriteData (or AddFile)
+				AppendData (or AddSubdirectory or CreatePipeInstance)
+				ReadEA
+				WriteEA
+				ReadAttributes
+				WriteAttributes
+				
+Access Check Results:
+	-
+","5145","0",,"0","12811","0","-9214364837600034816","84044","Microsoft-Windows-Security-Auditing","54849625-5478-4994-a5ba-3e3b0328c30d","Security","512","528","IEWIN7",,"1/19/2019 5:00:10 AM",,,"System.UInt32[]","System.Diagnostics.Eventing.Reader.EventBookmark","Information","Info","Detailed File Share","System.Collections.ObjectModel.ReadOnlyCollection`1[System.String]","System.Collections.Generic.List`1[System.Diagnostics.Eventing.Reader.EventProperty]"
+"A network share object was checked to see whether client can be granted desired access.
+	
+Subject:
+	Security ID:		S-1-5-21-3583694148-1414552638-2922671848-1000
+	Account Name:		IEUser
+	Account Domain:		IEWIN7
+	Logon ID:		0x162630
+
+Network Information:	
+	Object Type:		File
+	Source Address:		10.0.2.16
+	Source Port:		54765
+	
+Share Information:
+	Share Name:		\\*\ADMIN$
+	Share Path:		\??\C:\Windows
+	Relative Target Name:	blabla.exe
+
+Access Request Information:
+	Access Mask:		0x120196
+	Accesses:		READ_CONTROL
+				SYNCHRONIZE
+				WriteData (or AddFile)
+				AppendData (or AddSubdirectory or CreatePipeInstance)
+				WriteEA
+				ReadAttributes
+				WriteAttributes
+				
+Access Check Results:
+	-
+","5145","0",,"0","12811","0","-9214364837600034816","84039","Microsoft-Windows-Security-Auditing","54849625-5478-4994-a5ba-3e3b0328c30d","Security","512","528","IEWIN7",,"1/19/2019 5:00:10 AM",,,"System.UInt32[]","System.Diagnostics.Eventing.Reader.EventBookmark","Information","Info","Detailed File Share","System.Collections.ObjectModel.ReadOnlyCollection`1[System.String]","System.Collections.Generic.List`1[System.Diagnostics.Eventing.Reader.EventProperty]"
+"A network share object was checked to see whether client can be granted desired access.
+	
+Subject:
+	Security ID:		S-1-5-21-3583694148-1414552638-2922671848-1000
+	Account Name:		IEUser
+	Account Domain:		IEWIN7
+	Logon ID:		0x162630
+
+Network Information:	
+	Object Type:		File
+	Source Address:		10.0.2.16
+	Source Port:		54765
+	
+Share Information:
+	Share Name:		\\*\ADMIN$
+	Share Path:		\??\C:\Windows
+	Relative Target Name:	blabla.exe
+
+Access Request Information:
+	Access Mask:		0x120196
+	Accesses:		READ_CONTROL
+				SYNCHRONIZE
+				WriteData (or AddFile)
+				AppendData (or AddSubdirectory or CreatePipeInstance)
+				WriteEA
+				ReadAttributes
+				WriteAttributes
+				
+Access Check Results:
+	-
+","5145","0",,"0","12811","0","-9214364837600034816","84038","Microsoft-Windows-Security-Auditing","54849625-5478-4994-a5ba-3e3b0328c30d","Security","512","528","IEWIN7",,"1/19/2019 5:00:10 AM",,,"System.UInt32[]","System.Diagnostics.Eventing.Reader.EventBookmark","Information","Info","Detailed File Share","System.Collections.ObjectModel.ReadOnlyCollection`1[System.String]","System.Collections.Generic.List`1[System.Diagnostics.Eventing.Reader.EventProperty]"
+"A network share object was checked to see whether client can be granted desired access.
+	
+Subject:
+	Security ID:		S-1-5-21-3583694148-1414552638-2922671848-1000
+	Account Name:		IEUser
+	Account Domain:		IEWIN7
+	Logon ID:		0x162630
+
+Network Information:	
+	Object Type:		File
+	Source Address:		10.0.2.16
+	Source Port:		54765
+	
+Share Information:
+	Share Name:		\\*\ADMIN$
+	Share Path:		\??\C:\Windows
+	Relative Target Name:	\
+
+Access Request Information:
+	Access Mask:		0x100088
+	Accesses:		SYNCHRONIZE
+				ReadEA
+				ReadAttributes
+				
+Access Check Results:
+	-
+","5145","0",,"0","12811","0","-9214364837600034816","84037","Microsoft-Windows-Security-Auditing","54849625-5478-4994-a5ba-3e3b0328c30d","Security","512","528","IEWIN7",,"1/19/2019 5:00:10 AM",,,"System.UInt32[]","System.Diagnostics.Eventing.Reader.EventBookmark","Information","Info","Detailed File Share","System.Collections.ObjectModel.ReadOnlyCollection`1[System.String]","System.Collections.Generic.List`1[System.Diagnostics.Eventing.Reader.EventProperty]"
+"A network share object was checked to see whether client can be granted desired access.
+	
+Subject:
+	Security ID:		S-1-5-18
+	Account Name:		IEWIN7$
+	Account Domain:		WORKGROUP
+	Logon ID:		0x3E7
+
+Network Information:	
+	Object Type:		File
+	Source Address:		10.0.2.15
+	Source Port:		49160
+	
+Share Information:
+	Share Name:		\\*\IPC$
+	Share Path:		
+	Relative Target Name:	srvsvc
+
+Access Request Information:
+	Access Mask:		0x12019F
+	Accesses:		READ_CONTROL
+				SYNCHRONIZE
+				ReadData (or ListDirectory)
+				WriteData (or AddFile)
+				AppendData (or AddSubdirectory or CreatePipeInstance)
+				ReadEA
+				WriteEA
+				ReadAttributes
+				WriteAttributes
+				
+Access Check Results:
+	-
+","5145","0",,"0","12811","0","-9214364837600034816","84018","Microsoft-Windows-Security-Auditing","54849625-5478-4994-a5ba-3e3b0328c30d","Security","512","528","IEWIN7",,"1/19/2019 4:57:42 AM",,,"System.UInt32[]","System.Diagnostics.Eventing.Reader.EventBookmark","Information","Info","Detailed File Share","System.Collections.ObjectModel.ReadOnlyCollection`1[System.String]","System.Collections.Generic.List`1[System.Diagnostics.Eventing.Reader.EventProperty]"
+"A network share object was checked to see whether client can be granted desired access.
+	
+Subject:
+	Security ID:		S-1-5-21-3583694148-1414552638-2922671848-1000
+	Account Name:		IEUser
+	Account Domain:		IEWIN7
+	Logon ID:		0x11D8C8
+
+Network Information:	
+	Object Type:		File
+	Source Address:		10.0.2.16
+	Source Port:		57357
+	
+Share Information:
+	Share Name:		\\*\IPC$
+	Share Path:		
+	Relative Target Name:	MsFteWds
+
+Access Request Information:
+	Access Mask:		0x12019F
+	Accesses:		READ_CONTROL
+				SYNCHRONIZE
+				ReadData (or ListDirectory)
+				WriteData (or AddFile)
+				AppendData (or AddSubdirectory or CreatePipeInstance)
+				ReadEA
+				WriteEA
+				ReadAttributes
+				WriteAttributes
+				
+Access Check Results:
+	-
+","5145","0",,"0","12811","0","-9214364837600034816","84017","Microsoft-Windows-Security-Auditing","54849625-5478-4994-a5ba-3e3b0328c30d","Security","512","528","IEWIN7",,"1/19/2019 4:57:42 AM",,,"System.UInt32[]","System.Diagnostics.Eventing.Reader.EventBookmark","Information","Info","Detailed File Share","System.Collections.ObjectModel.ReadOnlyCollection`1[System.String]","System.Collections.Generic.List`1[System.Diagnostics.Eventing.Reader.EventProperty]"
+"A network share object was checked to see whether client can be granted desired access.
+	
+Subject:
+	Security ID:		S-1-5-18
+	Account Name:		IEWIN7$
+	Account Domain:		WORKGROUP
+	Logon ID:		0x3E7
+
+Network Information:	
+	Object Type:		File
+	Source Address:		10.0.2.15
+	Source Port:		49160
+	
+Share Information:
+	Share Name:		\\*\IPC$
+	Share Path:		
+	Relative Target Name:	srvsvc
+
+Access Request Information:
+	Access Mask:		0x12019F
+	Accesses:		READ_CONTROL
+				SYNCHRONIZE
+				ReadData (or ListDirectory)
+				WriteData (or AddFile)
+				AppendData (or AddSubdirectory or CreatePipeInstance)
+				ReadEA
+				WriteEA
+				ReadAttributes
+				WriteAttributes
+				
+Access Check Results:
+	-
+","5145","0",,"0","12811","0","-9214364837600034816","84015","Microsoft-Windows-Security-Auditing","54849625-5478-4994-a5ba-3e3b0328c30d","Security","512","528","IEWIN7",,"1/19/2019 4:57:41 AM",,,"System.UInt32[]","System.Diagnostics.Eventing.Reader.EventBookmark","Information","Info","Detailed File Share","System.Collections.ObjectModel.ReadOnlyCollection`1[System.String]","System.Collections.Generic.List`1[System.Diagnostics.Eventing.Reader.EventProperty]"
+"A network share object was checked to see whether client can be granted desired access.
+	
+Subject:
+	Security ID:		S-1-5-21-3583694148-1414552638-2922671848-1000
+	Account Name:		IEUser
+	Account Domain:		IEWIN7
+	Logon ID:		0x11D8C8
+
+Network Information:	
+	Object Type:		File
+	Source Address:		10.0.2.16
+	Source Port:		57357
+	
+Share Information:
+	Share Name:		\\*\IPC$
+	Share Path:		
+	Relative Target Name:	MsFteWds
+
+Access Request Information:
+	Access Mask:		0x12019F
+	Accesses:		READ_CONTROL
+				SYNCHRONIZE
+				ReadData (or ListDirectory)
+				WriteData (or AddFile)
+				AppendData (or AddSubdirectory or CreatePipeInstance)
+				ReadEA
+				WriteEA
+				ReadAttributes
+				WriteAttributes
+				
+Access Check Results:
+	-
+","5145","0",,"0","12811","0","-9214364837600034816","84014","Microsoft-Windows-Security-Auditing","54849625-5478-4994-a5ba-3e3b0328c30d","Security","512","528","IEWIN7",,"1/19/2019 4:57:41 AM",,,"System.UInt32[]","System.Diagnostics.Eventing.Reader.EventBookmark","Information","Info","Detailed File Share","System.Collections.ObjectModel.ReadOnlyCollection`1[System.String]","System.Collections.Generic.List`1[System.Diagnostics.Eventing.Reader.EventProperty]"
+"A network share object was checked to see whether client can be granted desired access.
+	
+Subject:
+	Security ID:		S-1-5-21-3583694148-1414552638-2922671848-1000
+	Account Name:		IEUser
+	Account Domain:		IEWIN7
+	Logon ID:		0x11D8C8
+
+Network Information:	
+	Object Type:		File
+	Source Address:		10.0.2.16
+	Source Port:		57357
+	
+Share Information:
+	Share Name:		\\*\ADMIN$
+	Share Path:		\??\C:\Windows
+	Relative Target Name:	\
+
+Access Request Information:
+	Access Mask:		0x100080
+	Accesses:		SYNCHRONIZE
+				ReadAttributes
+				
+Access Check Results:
+	-
+","5145","0",,"0","12811","0","-9214364837600034816","84012","Microsoft-Windows-Security-Auditing","54849625-5478-4994-a5ba-3e3b0328c30d","Security","512","528","IEWIN7",,"1/19/2019 4:57:40 AM",,,"System.UInt32[]","System.Diagnostics.Eventing.Reader.EventBookmark","Information","Info","Detailed File Share","System.Collections.ObjectModel.ReadOnlyCollection`1[System.String]","System.Collections.Generic.List`1[System.Diagnostics.Eventing.Reader.EventProperty]"
+"A network share object was checked to see whether client can be granted desired access.
+	
+Subject:
+	Security ID:		S-1-5-18
+	Account Name:		IEWIN7$
+	Account Domain:		WORKGROUP
+	Logon ID:		0x3E7
+
+Network Information:	
+	Object Type:		File
+	Source Address:		10.0.2.15
+	Source Port:		49160
+	
+Share Information:
+	Share Name:		\\*\IPC$
+	Share Path:		
+	Relative Target Name:	srvsvc
+
+Access Request Information:
+	Access Mask:		0x12019F
+	Accesses:		READ_CONTROL
+				SYNCHRONIZE
+				ReadData (or ListDirectory)
+				WriteData (or AddFile)
+				AppendData (or AddSubdirectory or CreatePipeInstance)
+				ReadEA
+				WriteEA
+				ReadAttributes
+				WriteAttributes
+				
+Access Check Results:
+	-
+","5145","0",,"0","12811","0","-9214364837600034816","84011","Microsoft-Windows-Security-Auditing","54849625-5478-4994-a5ba-3e3b0328c30d","Security","512","528","IEWIN7",,"1/19/2019 4:57:32 AM",,,"System.UInt32[]","System.Diagnostics.Eventing.Reader.EventBookmark","Information","Info","Detailed File Share","System.Collections.ObjectModel.ReadOnlyCollection`1[System.String]","System.Collections.Generic.List`1[System.Diagnostics.Eventing.Reader.EventProperty]"
+"A network share object was checked to see whether client can be granted desired access.
+	
+Subject:
+	Security ID:		S-1-5-21-3583694148-1414552638-2922671848-1000
+	Account Name:		IEUser
+	Account Domain:		IEWIN7
+	Logon ID:		0x11D8C8
+
+Network Information:	
+	Object Type:		File
+	Source Address:		10.0.2.16
+	Source Port:		57357
+	
+Share Information:
+	Share Name:		\\*\IPC$
+	Share Path:		
+	Relative Target Name:	MsFteWds
+
+Access Request Information:
+	Access Mask:		0x12019F
+	Accesses:		READ_CONTROL
+				SYNCHRONIZE
+				ReadData (or ListDirectory)
+				WriteData (or AddFile)
+				AppendData (or AddSubdirectory or CreatePipeInstance)
+				ReadEA
+				WriteEA
+				ReadAttributes
+				WriteAttributes
+				
+Access Check Results:
+	-
+","5145","0",,"0","12811","0","-9214364837600034816","84010","Microsoft-Windows-Security-Auditing","54849625-5478-4994-a5ba-3e3b0328c30d","Security","512","528","IEWIN7",,"1/19/2019 4:57:32 AM",,,"System.UInt32[]","System.Diagnostics.Eventing.Reader.EventBookmark","Information","Info","Detailed File Share","System.Collections.ObjectModel.ReadOnlyCollection`1[System.String]","System.Collections.Generic.List`1[System.Diagnostics.Eventing.Reader.EventProperty]"
+"A network share object was checked to see whether client can be granted desired access.
+	
+Subject:
+	Security ID:		S-1-5-18
+	Account Name:		IEWIN7$
+	Account Domain:		WORKGROUP
+	Logon ID:		0x3E7
+
+Network Information:	
+	Object Type:		File
+	Source Address:		10.0.2.15
+	Source Port:		49160
+	
+Share Information:
+	Share Name:		\\*\IPC$
+	Share Path:		
+	Relative Target Name:	srvsvc
+
+Access Request Information:
+	Access Mask:		0x12019F
+	Accesses:		READ_CONTROL
+				SYNCHRONIZE
+				ReadData (or ListDirectory)
+				WriteData (or AddFile)
+				AppendData (or AddSubdirectory or CreatePipeInstance)
+				ReadEA
+				WriteEA
+				ReadAttributes
+				WriteAttributes
+				
+Access Check Results:
+	-
+","5145","0",,"0","12811","0","-9214364837600034816","84009","Microsoft-Windows-Security-Auditing","54849625-5478-4994-a5ba-3e3b0328c30d","Security","512","528","IEWIN7",,"1/19/2019 4:57:32 AM",,,"System.UInt32[]","System.Diagnostics.Eventing.Reader.EventBookmark","Information","Info","Detailed File Share","System.Collections.ObjectModel.ReadOnlyCollection`1[System.String]","System.Collections.Generic.List`1[System.Diagnostics.Eventing.Reader.EventProperty]"
+"A network share object was checked to see whether client can be granted desired access.
+	
+Subject:
+	Security ID:		S-1-5-21-3583694148-1414552638-2922671848-1000
+	Account Name:		IEUser
+	Account Domain:		IEWIN7
+	Logon ID:		0x11D8C8
+
+Network Information:	
+	Object Type:		File
+	Source Address:		10.0.2.16
+	Source Port:		57357
+	
+Share Information:
+	Share Name:		\\*\IPC$
+	Share Path:		
+	Relative Target Name:	MsFteWds
+
+Access Request Information:
+	Access Mask:		0x12019F
+	Accesses:		READ_CONTROL
+				SYNCHRONIZE
+				ReadData (or ListDirectory)
+				WriteData (or AddFile)
+				AppendData (or AddSubdirectory or CreatePipeInstance)
+				ReadEA
+				WriteEA
+				ReadAttributes
+				WriteAttributes
+				
+Access Check Results:
+	-
+","5145","0",,"0","12811","0","-9214364837600034816","84005","Microsoft-Windows-Security-Auditing","54849625-5478-4994-a5ba-3e3b0328c30d","Security","512","528","IEWIN7",,"1/19/2019 4:57:32 AM",,,"System.UInt32[]","System.Diagnostics.Eventing.Reader.EventBookmark","Information","Info","Detailed File Share","System.Collections.ObjectModel.ReadOnlyCollection`1[System.String]","System.Collections.Generic.List`1[System.Diagnostics.Eventing.Reader.EventProperty]"
+"A network share object was checked to see whether client can be granted desired access.
+	
+Subject:
+	Security ID:		S-1-5-21-3583694148-1414552638-2922671848-1000
+	Account Name:		IEUser
+	Account Domain:		IEWIN7
+	Logon ID:		0x11D8C8
+
+Network Information:	
+	Object Type:		File
+	Source Address:		10.0.2.16
+	Source Port:		57357
+	
+Share Information:
+	Share Name:		\\*\ADMIN$
+	Share Path:		\??\C:\Windows
+	Relative Target Name:	\
+
+Access Request Information:
+	Access Mask:		0x80
+	Accesses:		ReadAttributes
+				
+Access Check Results:
+	-
+","5145","0",,"0","12811","0","-9214364837600034816","84003","Microsoft-Windows-Security-Auditing","54849625-5478-4994-a5ba-3e3b0328c30d","Security","512","528","IEWIN7",,"1/19/2019 4:57:30 AM",,,"System.UInt32[]","System.Diagnostics.Eventing.Reader.EventBookmark","Information","Info","Detailed File Share","System.Collections.ObjectModel.ReadOnlyCollection`1[System.String]","System.Collections.Generic.List`1[System.Diagnostics.Eventing.Reader.EventProperty]"
+"A network share object was checked to see whether client can be granted desired access.
+	
+Subject:
+	Security ID:		S-1-5-21-3583694148-1414552638-2922671848-1000
+	Account Name:		IEUser
+	Account Domain:		IEWIN7
+	Logon ID:		0x11D8C8
+
+Network Information:	
+	Object Type:		File
+	Source Address:		10.0.2.16
+	Source Port:		57357
+	
+Share Information:
+	Share Name:		\\*\ADMIN$
+	Share Path:		\??\C:\Windows
+	Relative Target Name:	\
+
+Access Request Information:
+	Access Mask:		0x100080
+	Accesses:		SYNCHRONIZE
+				ReadAttributes
+				
+Access Check Results:
+	-
+","5145","0",,"0","12811","0","-9214364837600034816","84002","Microsoft-Windows-Security-Auditing","54849625-5478-4994-a5ba-3e3b0328c30d","Security","512","528","IEWIN7",,"1/19/2019 4:57:30 AM",,,"System.UInt32[]","System.Diagnostics.Eventing.Reader.EventBookmark","Information","Info","Detailed File Share","System.Collections.ObjectModel.ReadOnlyCollection`1[System.String]","System.Collections.Generic.List`1[System.Diagnostics.Eventing.Reader.EventProperty]"
+"A network share object was checked to see whether client can be granted desired access.
+	
+Subject:
+	Security ID:		S-1-5-21-3583694148-1414552638-2922671848-1000
+	Account Name:		IEUser
+	Account Domain:		IEWIN7
+	Logon ID:		0x11D8C8
+
+Network Information:	
+	Object Type:		File
+	Source Address:		10.0.2.16
+	Source Port:		57357
+	
+Share Information:
+	Share Name:		\\*\IPC$
+	Share Path:		
+	Relative Target Name:	srvsvc
+
+Access Request Information:
+	Access Mask:		0x12019F
+	Accesses:		READ_CONTROL
+				SYNCHRONIZE
+				ReadData (or ListDirectory)
+				WriteData (or AddFile)
+				AppendData (or AddSubdirectory or CreatePipeInstance)
+				ReadEA
+				WriteEA
+				ReadAttributes
+				WriteAttributes
+				
+Access Check Results:
+	-
+","5145","0",,"0","12811","0","-9214364837600034816","84000","Microsoft-Windows-Security-Auditing","54849625-5478-4994-a5ba-3e3b0328c30d","Security","512","528","IEWIN7",,"1/19/2019 4:57:09 AM",,,"System.UInt32[]","System.Diagnostics.Eventing.Reader.EventBookmark","Information","Info","Detailed File Share","System.Collections.ObjectModel.ReadOnlyCollection`1[System.String]","System.Collections.Generic.List`1[System.Diagnostics.Eventing.Reader.EventProperty]"
+"A network share object was checked to see whether client can be granted desired access.
+	
+Subject:
+	Security ID:		S-1-5-21-3583694148-1414552638-2922671848-1000
+	Account Name:		IEUser
+	Account Domain:		IEWIN7
+	Logon ID:		0x11D8C8
+
+Network Information:	
+	Object Type:		File
+	Source Address:		10.0.2.16
+	Source Port:		57357
+	
+Share Information:
+	Share Name:		\\*\IPC$
+	Share Path:		
+	Relative Target Name:	winreg
+
+Access Request Information:
+	Access Mask:		0x12019F
+	Accesses:		READ_CONTROL
+				SYNCHRONIZE
+				ReadData (or ListDirectory)
+				WriteData (or AddFile)
+				AppendData (or AddSubdirectory or CreatePipeInstance)
+				ReadEA
+				WriteEA
+				ReadAttributes
+				WriteAttributes
+				
+Access Check Results:
+	-
+","5145","0",,"0","12811","0","-9214364837600034816","83998","Microsoft-Windows-Security-Auditing","54849625-5478-4994-a5ba-3e3b0328c30d","Security","512","528","IEWIN7",,"1/19/2019 4:57:09 AM",,,"System.UInt32[]","System.Diagnostics.Eventing.Reader.EventBookmark","Information","Info","Detailed File Share","System.Collections.ObjectModel.ReadOnlyCollection`1[System.String]","System.Collections.Generic.List`1[System.Diagnostics.Eventing.Reader.EventProperty]"
+"A network share object was checked to see whether client can be granted desired access.
+	
+Subject:
+	Security ID:		S-1-5-21-3583694148-1414552638-2922671848-1000
+	Account Name:		IEUser
+	Account Domain:		IEWIN7
+	Logon ID:		0x11D8C8
+
+Network Information:	
+	Object Type:		File
+	Source Address:		10.0.2.16
+	Source Port:		57357
+	
+Share Information:
+	Share Name:		\\*\IPC$
+	Share Path:		
+	Relative Target Name:	winreg
+
+Access Request Information:
+	Access Mask:		0x12019F
+	Accesses:		READ_CONTROL
+				SYNCHRONIZE
+				ReadData (or ListDirectory)
+				WriteData (or AddFile)
+				AppendData (or AddSubdirectory or CreatePipeInstance)
+				ReadEA
+				WriteEA
+				ReadAttributes
+				WriteAttributes
+				
+Access Check Results:
+	-
+","5145","0",,"0","12811","0","-9214364837600034816","83997","Microsoft-Windows-Security-Auditing","54849625-5478-4994-a5ba-3e3b0328c30d","Security","512","528","IEWIN7",,"1/19/2019 4:57:09 AM",,,"System.UInt32[]","System.Diagnostics.Eventing.Reader.EventBookmark","Information","Info","Detailed File Share","System.Collections.ObjectModel.ReadOnlyCollection`1[System.String]","System.Collections.Generic.List`1[System.Diagnostics.Eventing.Reader.EventProperty]"

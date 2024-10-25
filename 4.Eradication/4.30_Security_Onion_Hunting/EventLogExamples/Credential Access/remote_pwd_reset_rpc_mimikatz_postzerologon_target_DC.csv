@@ -1,0 +1,209 @@
+"Message","Id","Version","Qualifiers","Level","Task","Opcode","Keywords","RecordId","ProviderName","ProviderId","LogName","ProcessId","ThreadId","MachineName","UserId","TimeCreated","ActivityId","RelatedActivityId","MatchedQueryIds","Bookmark","LevelDisplayName","OpcodeDisplayName","TaskDisplayName","KeywordsDisplayNames","Properties"
+"An account was successfully logged on.
+
+Subject:
+	Security ID:		S-1-0-0
+	Account Name:		-
+	Account Domain:		-
+	Logon ID:		0x0
+
+Logon Information:
+	Logon Type:		3
+	Restricted Admin Mode:	-
+	Virtual Account:		No
+	Elevated Token:		Yes
+
+Impersonation Level:		Impersonation
+
+New Logon:
+	Security ID:		S-1-5-18
+	Account Name:		01566S-WIN16-IR$
+	Account Domain:		THREEBEESCO.COM
+	Logon ID:		0x85516E
+	Linked Logon ID:		0x0
+	Network Account Name:	-
+	Network Account Domain:	-
+	Logon GUID:		{063b0961-d1b7-6d2c-1ff3-98764c4fac9d}
+
+Process Information:
+	Process ID:		0x0
+	Process Name:		-
+
+Network Information:
+	Workstation Name:	-
+	Source Network Address:	::1
+	Source Port:		53668
+
+Detailed Authentication Information:
+	Logon Process:		Kerberos
+	Authentication Package:	Kerberos
+	Transited Services:	-
+	Package Name (NTLM only):	-
+	Key Length:		0
+
+This event is generated when a logon session is created. It is generated on the computer that was accessed.
+
+The subject fields indicate the account on the local system which requested the logon. This is most commonly a service such as the Server service, or a local process such as Winlogon.exe or Services.exe.
+
+The logon type field indicates the kind of logon that occurred. The most common types are 2 (interactive) and 3 (network).
+
+The New Logon fields indicate the account for whom the new logon was created, i.e. the account that was logged on.
+
+The network fields indicate where a remote logon request originated. Workstation name is not always available and may be left blank in some cases.
+
+The impersonation level field indicates the extent to which a process in the logon session can impersonate.
+
+The authentication information fields provide detailed information about this specific logon request.
+	- Logon GUID is a unique identifier that can be used to correlate this event with a KDC event.
+	- Transited services indicate which intermediate services have participated in this logon request.
+	- Package name indicates which sub-protocol was used among the NTLM protocols.
+	- Key length indicates the length of the generated session key. This will be 0 if no session key was requested.","4624","2",,"0","12544","0","-9214364837600034816","769798","Microsoft-Windows-Security-Auditing","54849625-5478-4994-a5ba-3e3b0328c30d","Security","584","1820","01566s-win16-ir.threebeesco.com",,"9/17/2020 3:57:53 AM",,,"System.UInt32[]","System.Diagnostics.Eventing.Reader.EventBookmark","Information","Info","Logon","System.Collections.ObjectModel.ReadOnlyCollection`1[System.String]","System.Collections.Generic.List`1[System.Diagnostics.Eventing.Reader.EventProperty]"
+"A network share object was checked to see whether client can be granted desired access.
+	
+Subject:
+	Security ID:		S-1-5-21-308926384-506822093-3341789130-500
+	Account Name:		Administrator
+	Account Domain:		3B
+	Logon ID:		0x853237
+
+Network Information:	
+	Object Type:		File
+	Source Address:		172.16.66.37
+	Source Port:		49959
+	
+Share Information:
+	Share Name:		\\*\IPC$
+	Share Path:		
+	Relative Target Name:	lsarpc
+
+Access Request Information:
+	Access Mask:		0x12019F
+	Accesses:		READ_CONTROL
+				SYNCHRONIZE
+				ReadData (or ListDirectory)
+				WriteData (or AddFile)
+				AppendData (or AddSubdirectory or CreatePipeInstance)
+				ReadEA
+				WriteEA
+				ReadAttributes
+				WriteAttributes
+				
+Access Check Results:
+	-
+","5145","0",,"0","12811","0","-9214364837600034816","769797","Microsoft-Windows-Security-Auditing","54849625-5478-4994-a5ba-3e3b0328c30d","Security","4","3808","01566s-win16-ir.threebeesco.com",,"9/17/2020 3:57:44 AM",,,"System.UInt32[]","System.Diagnostics.Eventing.Reader.EventBookmark","Information","Info","Detailed File Share","System.Collections.ObjectModel.ReadOnlyCollection`1[System.String]","System.Collections.Generic.List`1[System.Diagnostics.Eventing.Reader.EventProperty]"
+"An attempt was made to reset an account's password.
+
+Subject:
+	Security ID:		S-1-5-21-308926384-506822093-3341789130-500
+	Account Name:		Administrator
+	Account Domain:		3B
+	Logon ID:		0x853237
+
+Target Account:
+	Security ID:		S-1-5-21-308926384-506822093-3341789130-35103
+	Account Name:		01566S-WIN16-IR$
+	Account Domain:		3B","4724","0",,"0","13824","0","-9214364837600034816","769796","Microsoft-Windows-Security-Auditing","54849625-5478-4994-a5ba-3e3b0328c30d","Security","584","640","01566s-win16-ir.threebeesco.com",,"9/17/2020 3:57:44 AM","cf4015c6-8b8f-0000-c816-40cf8f8bd601",,"System.UInt32[]","System.Diagnostics.Eventing.Reader.EventBookmark","Information","Info","User Account Management","System.Collections.ObjectModel.ReadOnlyCollection`1[System.String]","System.Collections.Generic.List`1[System.Diagnostics.Eventing.Reader.EventProperty]"
+"A network share object was checked to see whether client can be granted desired access.
+	
+Subject:
+	Security ID:		S-1-5-21-308926384-506822093-3341789130-500
+	Account Name:		Administrator
+	Account Domain:		3B
+	Logon ID:		0x853237
+
+Network Information:	
+	Object Type:		File
+	Source Address:		172.16.66.37
+	Source Port:		49959
+	
+Share Information:
+	Share Name:		\\*\IPC$
+	Share Path:		
+	Relative Target Name:	samr
+
+Access Request Information:
+	Access Mask:		0x12019F
+	Accesses:		READ_CONTROL
+				SYNCHRONIZE
+				ReadData (or ListDirectory)
+				WriteData (or AddFile)
+				AppendData (or AddSubdirectory or CreatePipeInstance)
+				ReadEA
+				WriteEA
+				ReadAttributes
+				WriteAttributes
+				
+Access Check Results:
+	-
+","5145","0",,"0","12811","0","-9214364837600034816","769795","Microsoft-Windows-Security-Auditing","54849625-5478-4994-a5ba-3e3b0328c30d","Security","4","3808","01566s-win16-ir.threebeesco.com",,"9/17/2020 3:57:44 AM",,,"System.UInt32[]","System.Diagnostics.Eventing.Reader.EventBookmark","Information","Info","Detailed File Share","System.Collections.ObjectModel.ReadOnlyCollection`1[System.String]","System.Collections.Generic.List`1[System.Diagnostics.Eventing.Reader.EventProperty]"
+"An account was successfully logged on.
+
+Subject:
+	Security ID:		S-1-0-0
+	Account Name:		-
+	Account Domain:		-
+	Logon ID:		0x0
+
+Logon Information:
+	Logon Type:		3
+	Restricted Admin Mode:	-
+	Virtual Account:		No
+	Elevated Token:		Yes
+
+Impersonation Level:		Impersonation
+
+New Logon:
+	Security ID:		S-1-5-21-308926384-506822093-3341789130-500
+	Account Name:		Administrator
+	Account Domain:		3B
+	Logon ID:		0x853237
+	Linked Logon ID:		0x0
+	Network Account Name:	-
+	Network Account Domain:	-
+	Logon GUID:		{00000000-0000-0000-0000-000000000000}
+
+Process Information:
+	Process ID:		0x0
+	Process Name:		-
+
+Network Information:
+	Workstation Name:	02694W-WIN10
+	Source Network Address:	172.16.66.37
+	Source Port:		49959
+
+Detailed Authentication Information:
+	Logon Process:		NtLmSsp 
+	Authentication Package:	NTLM
+	Transited Services:	-
+	Package Name (NTLM only):	NTLM V2
+	Key Length:		128
+
+This event is generated when a logon session is created. It is generated on the computer that was accessed.
+
+The subject fields indicate the account on the local system which requested the logon. This is most commonly a service such as the Server service, or a local process such as Winlogon.exe or Services.exe.
+
+The logon type field indicates the kind of logon that occurred. The most common types are 2 (interactive) and 3 (network).
+
+The New Logon fields indicate the account for whom the new logon was created, i.e. the account that was logged on.
+
+The network fields indicate where a remote logon request originated. Workstation name is not always available and may be left blank in some cases.
+
+The impersonation level field indicates the extent to which a process in the logon session can impersonate.
+
+The authentication information fields provide detailed information about this specific logon request.
+	- Logon GUID is a unique identifier that can be used to correlate this event with a KDC event.
+	- Transited services indicate which intermediate services have participated in this logon request.
+	- Package name indicates which sub-protocol was used among the NTLM protocols.
+	- Key length indicates the length of the generated session key. This will be 0 if no session key was requested.","4624","2",,"0","12544","0","-9214364837600034816","769794","Microsoft-Windows-Security-Auditing","54849625-5478-4994-a5ba-3e3b0328c30d","Security","584","640","01566s-win16-ir.threebeesco.com",,"9/17/2020 3:57:44 AM",,,"System.UInt32[]","System.Diagnostics.Eventing.Reader.EventBookmark","Information","Info","Logon","System.Collections.ObjectModel.ReadOnlyCollection`1[System.String]","System.Collections.Generic.List`1[System.Diagnostics.Eventing.Reader.EventProperty]"
+"The computer attempted to validate the credentials for an account.
+
+Authentication Package:	MICROSOFT_AUTHENTICATION_PACKAGE_V1_0
+Logon Account:	Administrator
+Source Workstation:	02694W-WIN10
+Error Code:	0x0","4776","0",,"0","14336","0","-9214364837600034816","769793","Microsoft-Windows-Security-Auditing","54849625-5478-4994-a5ba-3e3b0328c30d","Security","584","640","01566s-win16-ir.threebeesco.com",,"9/17/2020 3:57:44 AM",,,"System.UInt32[]","System.Diagnostics.Eventing.Reader.EventBookmark","Information","Info","Credential Validation","System.Collections.ObjectModel.ReadOnlyCollection`1[System.String]","System.Collections.Generic.List`1[System.Diagnostics.Eventing.Reader.EventProperty]"
+"The audit log was cleared.
+Subject:
+	Security ID:	S-1-5-21-308926384-506822093-3341789130-1106
+	Account Name:	a-jbrown
+	Domain Name:	3B
+	Logon ID:	0x4C331","1102","0",,"4","104","0","4620693217682128896","769792","Microsoft-Windows-Eventlog","fc65ddd8-d6ef-4962-83d5-6e5cfe9ce148","Security","264","7672","01566s-win16-ir.threebeesco.com",,"9/17/2020 3:57:37 AM",,,"System.UInt32[]","System.Diagnostics.Eventing.Reader.EventBookmark","Information","Info","Log clear","System.Collections.ObjectModel.ReadOnlyCollection`1[System.String]","System.Collections.Generic.List`1[System.Diagnostics.Eventing.Reader.EventProperty]"
