@@ -6,7 +6,7 @@ Given an incident response workstation configured with the latest SCAP Complianc
 
 
 ## Standards  
-* Team member checks the make, model and software version of the device to be tested and ensures the latest OVAL file has been obtained from the manufacturer’s website or other source, such as DoD Cyber Exchange website https://cyber.mil/stigs/scap/   
+* Team member checks the make, model and software version of the device to be tested and ensures the latest OVAL file has been obtained from the manufacturer’s website or other source, such as [DoD Cyber Exchange site](https://public.cyber.mil/stigs/scap/)  
 * Team member uploads the OVAL file to the SCAP tool.  
 * Team member selects the configuration file for the device to be tested in the SCAP tool.  
 * Team member runs the SCAP tool and upon completion selects for output the detailed report for the scan.  
@@ -44,7 +44,7 @@ Latest SCAP tool and scan content `MUST` be installed
 
 
 ## References  
-[SCC 5.3 GUI Scanner](https://cyber.mil/stigs/scap/)  
+[SCC 5.3 GUI Scanner](https://public.cyber.mil/stigs/scap/)  
 [Cisco OVAL content](http://www.cisco.com/go/psirt)  
 [OVAL Adoption Program Participant information](http://oval.mitre.org/adoption/participants.html)  
 [The Security Content Automation Protocol](https://scap.nist.gov/index.html)  
