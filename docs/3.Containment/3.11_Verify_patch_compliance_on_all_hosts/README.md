@@ -23,6 +23,7 @@ Perform a Vulnerability scan on targeted systems in enclave and verify patch com
 
 ## Manual Steps  
 Detect open vulnerabilities using OpenVAS Security scanner  
+
 * Access OpenVAS web front-end at https://x.x.x.x:9392  
 * Enter the IP address or host name of the system(s) you wish to scan and press `Start Scan`  
 	* You will be presented with an updated progress bar as the scan progresses through the scan  
@@ -33,6 +34,7 @@ Detect open vulnerabilities using OpenVAS Security scanner
 OR  
 
 To manually detect missing updates using the MBSA graphical interface  
+
 * Run MBSA by double-clicking the desktop icon or by selecting it from the Programs menu.  
 * Click Scan a computer. MBSA defaults to the local computer. To scan multiple computers, select Scan more than one computer and select either a range of computers to scan or an IP address range.  
 * Clear all check boxes except Check for security updates. This option detects uninstalled patches and updates.  
@@ -44,98 +46,100 @@ OR
 
 Windows:  
 To detect missing updates using the MBSA command line interface  
+
 * From a command window, change directory to the MBSA installation directory, and type the following command  
-	```bat
-	mbsacli /i 127.0.0.1 /n OS+IIS+SQL+PASSWORD
-	```  
+```bat
+mbsacli /i 127.0.0.1 /n OS+IIS+SQL+PASSWORD
+```  
 
 * You can also specify a computer name. For example:
-	```bat
-	mbsacli /c domain\machinename /n OS+IIS+SQL+PASSWORD
-	```  
+```bat
+mbsacli /c domain\machinename /n OS+IIS+SQL+PASSWORD
+```  
 
 * You can also specify a range of computers by using the /r option. For example:
-	```bat
-	mbsacli /r 192.168.0.1-192.168.0.254 /n OS+IIS+SQL+PASSWORD
-	```  
+```bat
+mbsacli /r 192.168.0.1-192.168.0.254 /n OS+IIS+SQL+PASSWORD
+```  
 
 * Finally, you can scan a domain by using the /d option. For example:  
-	```bat
-	mbsacli /d NameOfMyDomain /n OS+IIS+SQL+PASSWORD
-	```
+```bat
+mbsacli /d NameOfMyDomain /n OS+IIS+SQL+PASSWORD
+```
 
 To analyze the generated MSBA report  
+
 * Run MBSA by double-clicking the desktop icon or by selecting it from the Programs menu.  
 * Click Pick a security report to view and open the report or reports, if you scanned multiple computers.  
 * To view the results of a scan against the target machine, mouse over the computer name listed. Individual reports are sorted by the timestamp of the report.  
 
 * Ubuntu:  
 	* Fetch list of available updates:  
-		```bash
-		apt-get update
-		```  
+	```bash
+	apt-get update
+	```  
 
 	* Strictly upgrade the current packages:  
-		```bash
-		apt-get upgrade
-		```  
+	```bash
+	apt-get upgrade
+	```  
 
 	* Install updates (new ones):  
-		```bash
-		apt-get dist-upgrade
-		```  
+	```bash
+	apt-get dist-upgrade
+	```  
 
 * Red Hat Enterprise Linux 2.1,3,4:  
 	* Install updates (new ones):  
-		```bash
-		up2date
-		```  
+	```bash
+	up2date
+	```  
 
 	* To update non-interactively:  
-		```bash
-		up2date-nox --update
-		```  
+	```bash
+	up2date-nox --update
+	```  
 
 	* To install a specific package:  
-		```bash
-		up2date <PACKAGE NAME>
-		```  
+	```bash
+	up2date <PACKAGE NAME>
+	```  
 
 	* To update a specific package:  
-		```bash
-		up2date -u <PACKAGE NAME>
-		```  
+	```bash
+	up2date -u <PACKAGE NAME>
+	```  
 
 * Red Hat Enterprise Linux 5:
-	```bash
-	pup
-	```  
+```bash
+pup
+```  
 
 * Red Hat Enterprise Linux 6:  
 	* Fetch list of available updates:
-		```bash  
-		yum update
-		```  
+	```bash  
+	yum update
+	```  
 
 	* To list a specific installed package:  
-		```bash  
-		yum list installed <PACKAGE NAME>  
-		```  
+	```bash  
+	yum list installed <PACKAGE NAME>  
+	```  
 
 	* To install a specific package:  
-		```bash  
-		yum install <PACKAGE NAME>
-		```  
+	```bash  
+	yum install <PACKAGE NAME>
+	```  
 
 	* To update a specific package:  
-		```bash  
-		yum update <PACKAGE NAME>
-		```  
+	```bash  
+	yum update <PACKAGE NAME>
+	```  
 
 * Kali:  
-	```bash  
-	apt-get update && apt-get upgrade
-	```  
+```bash  
+apt-get update && apt-get upgrade
+```  
 
 
 ## Running Script  

@@ -7,6 +7,7 @@ Given domain credentials with the appropriate permissions, and an incident respo
 
 ## Standards  
 The built-in administrator account is a well-known account subject to attack. It also provides no accountability to individual administrators on a system.  
+
 * Team member coordinates the requirement of Disabling the Local Workstation Administrator Account.  
 * Team member creates Group Policy Object (GPO) in Group Policy Management Console (GPMC) to disable the Local Workstation Local Administrator account  
 * Team member links Group Policy Object (GPO) to workstation Organizational Unit (OU) in Active Directory  
