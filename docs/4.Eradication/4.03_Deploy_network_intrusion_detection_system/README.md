@@ -8,6 +8,7 @@ Evaluate: IR Team supporting a mission partner or Guardnet/DoDIN enclave with ac
 
 ## Standards  
 Deploy: Same as Evaluate (below) with the exception of assessing mission partner or Guardnet/DoDin enclave networks for placement of IDPS capabilities. Additionally, as requested or directed deploy IDPS capabilities. Once deployed, conduct the Evaluate process to assess operational effectiveness.  
+
 * Identify and prepare Detection Systems.  
 	* Find what systems are available or what is necessary to Mission (likely to be directed if Unit is not allowed).  
 	* Identify/Rate strengths and weaknesses of systems.  
@@ -24,6 +25,7 @@ Deploy: Same as Evaluate (below) with the exception of assessing mission partner
 	* Re-evaluate and continue to develop improved detection throughout the mission.  
 
 Evaluate (and assess):  
+
 * Identify and correlate current system to typical components and network architectures. Build or utilize a Common Operating Picture for the team. (see Figures 4-2 and 4-3, below)  
 * Identify/locate potential entry points to network.  
 	* Identify Internet entry points.  
@@ -46,18 +48,22 @@ Evaluate (and assess):
 	* Grade how often each related patch update is available and equivalent components are capable thereof.  
 
 Components and Architecture  
+
 * Typical Components  
 * Network Architectures  
 
 Security Capabilities  
+
 * Information Gathering Capabilities  
 * Logging Capabilities  
 * Detection Capabilities  
 * Prevention Capabilities  
 
 Management  
+
 * Implementation  
 * Operation and Maintenance  
+
 Considerations include both Wired and Wireless network IDPS capabilities  
 
 
