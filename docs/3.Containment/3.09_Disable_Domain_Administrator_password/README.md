@@ -22,30 +22,30 @@ The specific DCO-E MET that drives this task requires the domain Administrator a
 Useful commands:  
 * Windows  
 	* Open Active Directory Users and Computers(GUI):  
-		```bat
-		dsa.msc  
-		```   
+	```bat
+	dsa.msc  
+	```   
     
 	* Rename local administrator account:  
-		```bat 
-		wmic useraccount where name='Administrator' call rename name='NewAdminName'
-		```  
+	```bat 
+	wmic useraccount where name='Administrator' call rename name='NewAdminName'
+	```  
 
 	* Create account named Administrator, but with no permissions, and only after default Administrator accounts is renamed(Warning if done wrong, could result in lockout):  
-		```bat
-		net user Administrator C0mplex_P@ssword /ADD /PASSWORDCHG:NO
-		```  
+	```bat
+	net user Administrator C0mplex_P@ssword /ADD /PASSWORDCHG:NO
+	```  
 
 	* Disable Administrator account:  
-		```bat
-		Net user Administrator /active:no
-		```  
+	```bat
+	Net user Administrator /active:no
+	```  
 
 	* Remove Administrator account description(beta):  
-		```powershell  
-		Set-ADUser Administrator -Description ""
-		Set-ADUser -Identity Administrator -City "" -Clear "" -Company "" -Country "" -Department "" -Description "" -DisplayName "" -Division "" -EmailAddress "" -EmployeeID "" -EmployeeNumber "" -Fax "" -GivenName "" -HomeDirectory "" -HomeDrive "" -HomePage "" -HomePhone "" -Initials "" -LogonWorkstations "" -MobilePhone "" -Office "" -OfficePhone "" -Organization "" -OtherName "" -POBox "" -PostalCode "" -ProfilePath "" -SamAccountName "" -ScriptPath “” -State "" -StreetAddress "" -Surname "" -Title "" -UserPrincipalName "" -Partition "" -Server ""
-		```  
+	```powershell  
+	Set-ADUser Administrator -Description ""
+	Set-ADUser -Identity Administrator -City "" -Clear "" -Company "" -Country "" -Department "" -Description "" -DisplayName "" -Division "" -EmailAddress "" -EmployeeID "" -EmployeeNumber "" -Fax "" -GivenName "" -HomeDirectory "" -HomeDrive "" -HomePage "" -HomePhone "" -Initials "" -LogonWorkstations "" -MobilePhone "" -Office "" -OfficePhone "" -Organization "" -OtherName "" -POBox "" -PostalCode "" -ProfilePath "" -SamAccountName "" -ScriptPath “” -State "" -StreetAddress "" -Surname "" -Title "" -UserPrincipalName "" -Partition "" -Server ""
+	```  
 
 
 ## Running Script  
@@ -58,9 +58,9 @@ Useful commands:
 
 
 ## References  
-[DISA STIGS](https://iase.disa.mil/stigs)  
-[CIS Benchmark downloads](http://learn.cisecurity.org/benchmarks)  
-[Securing AD Administrative Groups and Accounts](https://technet.microsoft.com/en-us/library/cc700835.aspx)  
+### [DISA STIGS](https://iase.disa.mil/stigs)  
+### [CIS Benchmark downloads](http://learn.cisecurity.org/benchmarks)  
+### [Securing AD Administrative Groups and Accounts](https://technet.microsoft.com/en-us/library/cc700835.aspx)  
 
 
 ## Revision History  
