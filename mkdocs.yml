@@ -188,7 +188,7 @@ nav:
     - 3.06Files: https://github.com/cmdcnd/IncidentResponse/tree/main/docs/3.Containment/3.06_Monitor_AD_New_Account_Creation/scripts
     - 3.07-Create Team Admin Account in Active Directory: 3.Containment/3.07_Create_team_admin_account_in_AD/README.md
     - 3.08-Change Domain Administrator Account: 3.Containment/3.08_Change_Domain_Administrator_account/README.md
-    - 3.09-Disable Domain Administrator Password: 3.Containment/3.09_Disable_Domain_Administrator_password/README.md
+    - 3.09-Disable Domain Administrator Account: 3.Containment/3.09_Disable_Domain_Administrator_password/README.md
     - 3.10-Change or Disable Workstation Local Administrators: 3.Containment/3.10_Change_or_disable_Workstation_local_Administrators/README.md
     - 3.11-Verify Patch Compliance on all hosts: 3.Containment/3.11_Verify_patch_compliance_on_all_hosts/README.md
   - 4.Eradication:
