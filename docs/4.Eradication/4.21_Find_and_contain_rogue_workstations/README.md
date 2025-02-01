@@ -19,6 +19,7 @@ Rogue workstations are identified and contained.
 
 ## Manual Steps  
 Detect - Indicators of Compromise  
+
 * Rogue/Unauthorized Access Points  
   * Internal rogue devices such as a user brings in an unauthorized access point that serves as a gateway to the internal network.  
   * External rogue access points used by an attacker spoofing the legitimate users. The attacker may steal authentication attributes to gain access to the internal network.  
@@ -32,35 +33,39 @@ Detect - Indicators of Compromise
 
 ## Running Script  
 Nmap Commands  
+
 * list scan  
-	```bash
-	nmap -sL <IP Address/Subnet>
-	```  
+```bash
+nmap -sL <IP Address/Subnet>
+```  
 
 * Ping scan
-	```bash
-	nmap -sn <IP Address/Subnet>
-	```  
+```bash
+nmap -sn <IP Address/Subnet>
+```  
 
 * Ping scan, no ports  
-	```bash
-	nmap -sn <IP Address/Subnet>
-	```  
+```bash
+nmap -sn <IP Address/Subnet>
+```  
 
 * ARP scan
-	```bash
-	nmap -PR <IP Address/Subnet>
-	```  
+```bash
+nmap -PR <IP Address/Subnet>
+```  
 
 * No ping scan
-	```bash
-	nmap -Pn <IP Address/Subnet>
-	```  
+```bash
+nmap -Pn <IP Address/Subnet>
+```  
 
 
 * Nessus  
+
 Follow Host Discovery process/procedures using the most current version of Nessus.
+
 Containment  
+
 * Switch Port  
   * Turn off switch port to rogue host  
   * Dispatch Security to investigate  

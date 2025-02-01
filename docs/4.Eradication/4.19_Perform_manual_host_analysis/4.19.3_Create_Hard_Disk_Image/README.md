@@ -7,15 +7,16 @@ Given a Windows or Linux machine, hard drive acquisition tools, and a network de
 
 ## Standards  
 The team member connects to and creates an image from a remote machine using Linux or Windows. (the team member can choose how to create the image from the given tools so long as he/she can provide a log file with a good hash that can be verified against the created image.)  
+
 * Windows  
-	```
-	dc3dd.exe if=\\.\c: of=d:\<ATTACHED OR TARGET DRIVE>\<IMAGE NAME>.dd hash=md5 log=d:\<MOUNTED LOCATION>\<LOG NAME>.log
-	```  
+```
+dc3dd.exe if=\\.\c: of=d:\<ATTACHED OR TARGET DRIVE>\<IMAGE NAME>.dd hash=md5 log=d:\<MOUNTED LOCATION>\<LOG NAME>.log
+```  
 
 * Linux  
-	```
-	dd if=/dev/<INPUT DEVICE> | SSH <USER NAME>@<DESTINATION IP ADDRESS> "DD OF=<DESTINATION PATH>"
-	```  
+```
+dd if=/dev/<INPUT DEVICE> | SSH <USER NAME>@<DESTINATION IP ADDRESS> "DD OF=<DESTINATION PATH>"
+```  
 
 * The team member then verifies that a log file with a hash was created by checking the chosen log file directory.  
 
@@ -26,6 +27,7 @@ A raw physical image of a remote machine is created and ready for analysis.
 
 ## Notes  
 Imaging can be done on a live or dead system using a myriad of tools. Software and hardware tools can be used and are chosen based on available equipment and time constraints. The key portion of this task is the creation of a log file with a good hash to allow for integrity checks and chain of custody. Some tools will perform a hash verification check, and when these tools are used, this should be done if time allows.  
+
 * Tools  
   * Dc3dd.exe used to create images from linux or windows devices. Dc3dd will create a log and hash if the correct command is given.  
   * dd – linux command that will create an image from a physical device. dd will create a log and hash if the correct command is given  

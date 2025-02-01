@@ -7,7 +7,12 @@
 
 
 ## Standards  
-Identified/alerted on compromised credentials.  Identify what the compromised credentials has access to.  Alert appropriate personnel/groups of compromised credentials.  Disable Account a. Active Directory / User account Management Application b. Shared accounts / administrator accounts (domain, server, workstation, local) c. Known servers and databases that are not linked to Active Directory d. Known applications that are LDAP and non-LDAP authenticated e. Email Exchange account and credentials. f. Mobile / MDM g. Physical Access: keyfobs, access cards h. Externally facing websites i. Inactive / Infrequently used accounts j. Emergency or temporary accounts k. PLCs/SCADA l. Misc devices: tablets  Degrade host(s) access via host port a. Active layer switch ACL b. Boundary Firewall GPO c. Remote/VPN Disable d. Remote wipe, if lost device (if available)  Alerting a. If possible, monitor and alert for attempted future attempts with compromised credentials.  
+* Identified/alerted on compromised credentials.  
+* Identify what the compromised credentials has access to.  
+* Alert appropriate personnel/groups of compromised credentials.  
+* Disable Account a. Active Directory / User account Management Application b. Shared accounts / administrator accounts (domain, server, workstation, local) c. Known servers and databases that are not linked to Active Directory d. Known applications that are LDAP and non-LDAP authenticated e. Email Exchange account and credentials. f. Mobile / MDM g. Physical Access: keyfobs, access cards h. Externally facing websites i. Inactive / Infrequently used accounts j. Emergency or temporary accounts k. PLCs/SCADA l. Misc devices: tablets.  
+* Degrade host(s) access via host port a. Active layer switch ACL b. Boundary Firewall GPO c. Remote/VPN Disable d. Remote wipe, if lost device (if available)  
+* Alerting a. If possible, monitor and alert for attempted future attempts with compromised credentials.  
 
 
 ## End State  

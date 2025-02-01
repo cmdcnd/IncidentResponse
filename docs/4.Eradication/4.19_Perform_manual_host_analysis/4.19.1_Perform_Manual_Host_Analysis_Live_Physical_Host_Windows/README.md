@@ -17,6 +17,7 @@ Processes, files, registry entries and other artifacts are identified that match
 
 ## Notes  
 If the IOCs from the incident indicate possible infection passing to any external USB data device plugged into the target system, the tools output results should be sent over the network to a secure share folder.  
+
 * Tools:
   * Redline – Mandiant tool that can analyze the live memory of a compromised computer from from an external USB drive. This required that Mandiant Redline be installed on a team member computer which can then copy the required files to an external USB.  
 

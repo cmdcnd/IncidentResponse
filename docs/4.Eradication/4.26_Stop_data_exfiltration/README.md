@@ -11,6 +11,7 @@
 
 ## End State  
 Prevention or mitigation on the exfiltration of information from a network is accomplished when the following conditions are met:  
+
 * Prevention of information from being transfered/burned to CD/DVD.  
 * Prevention of information from being transfered to Removable or Additional Storage drives.  
 * Education on Social Engineering and Phishing Attacks that lead to data exfiltration.  
@@ -71,22 +72,22 @@ The methods described in this document help prevent data exfiltration on a host 
 The following scripts disable the functionality of USB ports for data exfiltration on user machines:  
 
 * WINDOWS 10 - PowerShell:  
-	```powershell
-	Set-ItemProperty -Path "HKLM:\SYSTEM\CurrentControlSet\Services\USBSTOR\" -Name "start" -Value 4
-	```  
+```powershell
+Set-ItemProperty -Path "HKLM:\SYSTEM\CurrentControlSet\Services\USBSTOR\" -Name "start" -Value 4
+```  
 
 
 * MAC OS X - Terminal:  
 	* Disable:  
-		```bash
-		sudo kextunload /System/Library/Extensions/IOUSBMassStorageClass.kext
-		```  
+	```bash
+	sudo kextunload /System/Library/Extensions/IOUSBMassStorageClass.kext
+	```  
     
 
 	* Enable:  
-		```bash
-		sudo kextload /System/Library/Extensions/IOUSBMassStorageClass.kext
-		```  
+	```bash
+	sudo kextload /System/Library/Extensions/IOUSBMassStorageClass.kext
+	```  
 
 
 ## Dependencies  
