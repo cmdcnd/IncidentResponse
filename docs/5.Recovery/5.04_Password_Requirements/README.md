@@ -17,7 +17,8 @@ Upon moving into the Recovery Phase, the IR Team should recommend stronger passw
 * Implement Screening of New Passwords
   * When processing requests to establish and change memorized secrets, verifiers SHALL compare the prospective secrets against a list that contains values known to be commonly-used, expected, or compromised. For example, the list MAY include, but is not limited to:  
 
-Passwords obtained from previous breach corpuses. 
+Passwords obtained from previous breach corpuses.  
+
 * Dictionary words  
 * Repetitive or sequential characters (e.g. `aaaaaa`, `1234abcd`)  
 * Context-specific words, such as the name of the service, the username, and derivatives thereof  
