@@ -1,0 +1,24 @@
+"Message","Id","Version","Qualifiers","Level","Task","Opcode","Keywords","RecordId","ProviderName","ProviderId","LogName","ProcessId","ThreadId","MachineName","UserId","TimeCreated","ActivityId","RelatedActivityId","MatchedQueryIds","Bookmark","LevelDisplayName","OpcodeDisplayName","TaskDisplayName","KeywordsDisplayNames","Properties"
+"NTDS (3392) The database engine detached a database (1, C:\$SNAP_201911270054_VOLUMEC$\Windows\NTDS\ntds.dit). (Time=0 seconds) 
+ 
+Revived Cache: 0 0 
+Additional Data: %9 
+ 
+Internal Timing Sequence: %7","327",,"0","4","1",,"36028797018963968","1972","ESENT",,"Application",,,"DC1.insecurebank.local",,"11/26/2019 3:55:02 PM",,,"System.UInt32[]","System.Diagnostics.Eventing.Reader.EventBookmark","Information","Info","General","System.Collections.ObjectModel.ReadOnlyCollection`1[System.String]","System.Collections.Generic.List`1[System.Diagnostics.Eventing.Reader.EventProperty]"
+"NTDS (3392) The database engine detached a database (2, C:\Users\bob\Desktop\test\Folder\ntds\Active Directory\ntds.dit). (Time=0 seconds) 
+ 
+Revived Cache: 0 0 
+Additional Data: %9 
+ 
+Internal Timing Sequence: %7","327",,"0","4","1",,"36028797018963968","1971","ESENT",,"Application",,,"DC1.insecurebank.local",,"11/26/2019 3:55:02 PM",,,"System.UInt32[]","System.Diagnostics.Eventing.Reader.EventBookmark","Information","Info","General","System.Collections.ObjectModel.ReadOnlyCollection`1[System.String]","System.Collections.Generic.List`1[System.Diagnostics.Eventing.Reader.EventProperty]"
+"NTDS (3392) The database engine created a new database (2, C:\Users\bob\Desktop\test\Folder\ntds\Active Directory\ntds.dit). (Time=0 seconds) 
+ 
+Additional Data: %9 
+ 
+Internal Timing Sequence: %7","325",,"0","4","1",,"36028797018963968","1970","ESENT",,"Application",,,"DC1.insecurebank.local",,"11/26/2019 3:55:00 PM",,,"System.UInt32[]","System.Diagnostics.Eventing.Reader.EventBookmark","Information","Info","General","System.Collections.ObjectModel.ReadOnlyCollection`1[System.String]","System.Collections.Generic.List`1[System.Diagnostics.Eventing.Reader.EventProperty]"
+"NTDS (3392) The database engine attached a database (1, C:\$SNAP_201911270054_VOLUMEC$\Windows\NTDS\ntds.dit). (Time=0 seconds) 
+ 
+Saved Cache: 1 0 
+Additional Data: %9 
+ 
+Internal Timing Sequence: %7","326",,"0","4","1",,"36028797018963968","1969","ESENT",,"Application",,,"DC1.insecurebank.local",,"11/26/2019 3:55:00 PM",,,"System.UInt32[]","System.Diagnostics.Eventing.Reader.EventBookmark","Information","Info","General","System.Collections.ObjectModel.ReadOnlyCollection`1[System.String]","System.Collections.Generic.List`1[System.Diagnostics.Eventing.Reader.EventProperty]"

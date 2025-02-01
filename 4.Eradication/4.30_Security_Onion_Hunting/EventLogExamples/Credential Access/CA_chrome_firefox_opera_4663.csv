@@ -1,0 +1,95 @@
+"Message","Id","Version","Qualifiers","Level","Task","Opcode","Keywords","RecordId","ProviderName","ProviderId","LogName","ProcessId","ThreadId","MachineName","UserId","TimeCreated","ActivityId","RelatedActivityId","MatchedQueryIds","Bookmark","LevelDisplayName","OpcodeDisplayName","TaskDisplayName","KeywordsDisplayNames","Properties"
+"An attempt was made to access an object.
+
+Subject:
+	Security ID:		S-1-5-21-3583694148-1414552638-2922671848-1000
+	Account Name:		IEUser
+	Account Domain:		IEWIN7
+	Logon ID:		0xFFA8
+
+Object:
+	Object Server:	Security
+	Object Type:	File
+	Object Name:	C:\Users\IEUser\AppData\Local\Google\Chrome\User Data\Default\Login Data
+	Handle ID:	0x50
+
+Process Information:
+	Process ID:	0x134c
+	Process Name:	C:\Users\Defau1t\wsus.exe
+
+Access Request Information:
+	Accesses:	ReadData (or ListDirectory)
+				
+	Access Mask:	0x1","4663","0",,"0","12800","0","-9214364837600034816","4991","Microsoft-Windows-Security-Auditing","54849625-5478-4994-a5ba-3e3b0328c30d","Security","4","44","IEWIN7",,"4/27/2019 12:33:50 PM",,,"System.UInt32[]","System.Diagnostics.Eventing.Reader.EventBookmark","Information","Info","File System","System.Collections.ObjectModel.ReadOnlyCollection`1[System.String]","System.Collections.Generic.List`1[System.Diagnostics.Eventing.Reader.EventProperty]"
+"An attempt was made to access an object.
+
+Subject:
+	Security ID:		S-1-5-21-3583694148-1414552638-2922671848-1000
+	Account Name:		IEUser
+	Account Domain:		IEWIN7
+	Logon ID:		0xFFA8
+
+Object:
+	Object Server:	Security
+	Object Type:	File
+	Object Name:	C:\Users\IEUser\AppData\Roaming\Mozilla\Firefox\Profiles\kushu3sd.default\logins.json
+	Handle ID:	0x50
+
+Process Information:
+	Process ID:	0x134c
+	Process Name:	C:\Users\Defau1t\wsus.exe
+
+Access Request Information:
+	Accesses:	ReadData (or ListDirectory)
+				
+	Access Mask:	0x1","4663","0",,"0","12800","0","-9214364837600034816","4990","Microsoft-Windows-Security-Auditing","54849625-5478-4994-a5ba-3e3b0328c30d","Security","4","56","IEWIN7",,"4/27/2019 12:33:18 PM",,,"System.UInt32[]","System.Diagnostics.Eventing.Reader.EventBookmark","Information","Info","File System","System.Collections.ObjectModel.ReadOnlyCollection`1[System.String]","System.Collections.Generic.List`1[System.Diagnostics.Eventing.Reader.EventProperty]"
+"An attempt was made to access an object.
+
+Subject:
+	Security ID:		S-1-5-21-3583694148-1414552638-2922671848-1000
+	Account Name:		IEUser
+	Account Domain:		IEWIN7
+	Logon ID:		0xFFA8
+
+Object:
+	Object Server:	Security
+	Object Type:	File
+	Object Name:	C:\Users\IEUser\AppData\Roaming\Mozilla\Firefox\Profiles\kushu3sd.default\key4.db
+	Handle ID:	0x50
+
+Process Information:
+	Process ID:	0x134c
+	Process Name:	C:\Users\Defau1t\wsus.exe
+
+Access Request Information:
+	Accesses:	ReadData (or ListDirectory)
+				
+	Access Mask:	0x1","4663","0",,"0","12800","0","-9214364837600034816","4989","Microsoft-Windows-Security-Auditing","54849625-5478-4994-a5ba-3e3b0328c30d","Security","4","56","IEWIN7",,"4/27/2019 12:33:05 PM",,,"System.UInt32[]","System.Diagnostics.Eventing.Reader.EventBookmark","Information","Info","File System","System.Collections.ObjectModel.ReadOnlyCollection`1[System.String]","System.Collections.Generic.List`1[System.Diagnostics.Eventing.Reader.EventProperty]"
+"An attempt was made to access an object.
+
+Subject:
+	Security ID:		S-1-5-21-3583694148-1414552638-2922671848-1000
+	Account Name:		IEUser
+	Account Domain:		IEWIN7
+	Logon ID:		0xFFA8
+
+Object:
+	Object Server:	Security
+	Object Type:	File
+	Object Name:	C:\Users\IEUser\AppData\Roaming\Opera Software\Opera Stable\Login Data
+	Handle ID:	0x50
+
+Process Information:
+	Process ID:	0x134c
+	Process Name:	C:\Users\Defau1t\wsus.exe
+
+Access Request Information:
+	Accesses:	ReadData (or ListDirectory)
+				
+	Access Mask:	0x1","4663","0",,"0","12800","0","-9214364837600034816","4988","Microsoft-Windows-Security-Auditing","54849625-5478-4994-a5ba-3e3b0328c30d","Security","4","68","IEWIN7",,"4/27/2019 12:31:15 PM",,,"System.UInt32[]","System.Diagnostics.Eventing.Reader.EventBookmark","Information","Info","File System","System.Collections.ObjectModel.ReadOnlyCollection`1[System.String]","System.Collections.Generic.List`1[System.Diagnostics.Eventing.Reader.EventProperty]"
+"The audit log was cleared.
+Subject:
+	Security ID:	S-1-5-21-3583694148-1414552638-2922671848-1000
+	Account Name:	IEUser
+	Domain Name:	IEWIN7
+	Logon ID:	0xFFA8","1102","0",,"4","104","0","4620693217682128896","4987","Microsoft-Windows-Eventlog","fc65ddd8-d6ef-4962-83d5-6e5cfe9ce148","Security","824","6060","IEWIN7",,"4/27/2019 12:27:55 PM",,,"System.UInt32[]","System.Diagnostics.Eventing.Reader.EventBookmark","Information","Info","Log clear","System.Collections.ObjectModel.ReadOnlyCollection`1[System.String]","System.Collections.Generic.List`1[System.Diagnostics.Eventing.Reader.EventProperty]"

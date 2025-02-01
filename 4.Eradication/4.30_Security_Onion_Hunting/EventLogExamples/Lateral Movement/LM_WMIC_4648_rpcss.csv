@@ -1,0 +1,110 @@
+"Message","Id","Version","Qualifiers","Level","Task","Opcode","Keywords","RecordId","ProviderName","ProviderId","LogName","ProcessId","ThreadId","MachineName","UserId","TimeCreated","ActivityId","RelatedActivityId","MatchedQueryIds","Bookmark","LevelDisplayName","OpcodeDisplayName","TaskDisplayName","KeywordsDisplayNames","Properties"
+"A logon was attempted using explicit credentials.
+
+Subject:
+	Security ID:		S-1-5-21-1587066498-1489273250-1035260531-1106
+	Account Name:		user01
+	Account Domain:		EXAMPLE
+	Logon ID:		0x18A7875
+	Logon GUID:		{3523b8be-1c1a-a740-a8c3-4cc91a5f3b14}
+
+Account Whose Credentials Were Used:
+	Account Name:		administrator
+	Account Domain:		example
+	Logon GUID:		{00000000-0000-0000-0000-000000000000}
+
+Target Server:
+	Target Server Name:	WIN-77LTAPHIQ1R.example.corp
+	Additional Information:	WIN-77LTAPHIQ1R.example.corp
+
+Process Information:
+	Process ID:		0x44c
+	Process Name:		C:\Windows\System32\wbem\WMIC.exe
+
+Network Information:
+	Network Address:	-
+	Port:			-
+
+This event is generated when a process attempts to log on an account by explicitly specifying that account?s credentials.  This most commonly occurs in batch-type configurations such as scheduled tasks, or when using the RUNAS command.","4648","0",,"0","12544","0","-9214364837600034816","433350","Microsoft-Windows-Security-Auditing","54849625-5478-4994-a5ba-3e3b0328c30d","Security","524","2668","PC01.example.corp",,"3/18/2019 4:27:23 AM","eaa68aad-28c5-4988-80e0-2490bc250f7c",,"System.UInt32[]","System.Diagnostics.Eventing.Reader.EventBookmark","Information","Info","Logon","System.Collections.ObjectModel.ReadOnlyCollection`1[System.String]","System.Collections.Generic.List`1[System.Diagnostics.Eventing.Reader.EventProperty]"
+"A logon was attempted using explicit credentials.
+
+Subject:
+	Security ID:		S-1-5-21-1587066498-1489273250-1035260531-1106
+	Account Name:		user01
+	Account Domain:		EXAMPLE
+	Logon ID:		0x18A7875
+	Logon GUID:		{3523b8be-1c1a-a740-a8c3-4cc91a5f3b14}
+
+Account Whose Credentials Were Used:
+	Account Name:		administrator
+	Account Domain:		EXAMPLE.CORP
+	Logon GUID:		{50419e1a-1c62-023a-239e-78c43a7792ab}
+
+Target Server:
+	Target Server Name:	WIN-77LTAPHIQ1R.example.corp
+	Additional Information:	host/WIN-77LTAPHIQ1R.example.corp
+
+Process Information:
+	Process ID:		0x44c
+	Process Name:		C:\Windows\System32\wbem\WMIC.exe
+
+Network Information:
+	Network Address:	-
+	Port:			-
+
+This event is generated when a process attempts to log on an account by explicitly specifying that account?s credentials.  This most commonly occurs in batch-type configurations such as scheduled tasks, or when using the RUNAS command.","4648","0",,"0","12544","0","-9214364837600034816","433340","Microsoft-Windows-Security-Auditing","54849625-5478-4994-a5ba-3e3b0328c30d","Security","524","2668","PC01.example.corp",,"3/18/2019 4:27:23 AM","6ba96748-a75c-4e51-8287-42789c304d63",,"System.UInt32[]","System.Diagnostics.Eventing.Reader.EventBookmark","Information","Info","Logon","System.Collections.ObjectModel.ReadOnlyCollection`1[System.String]","System.Collections.Generic.List`1[System.Diagnostics.Eventing.Reader.EventProperty]"
+"A logon was attempted using explicit credentials.
+
+Subject:
+	Security ID:		S-1-5-21-1587066498-1489273250-1035260531-1106
+	Account Name:		user01
+	Account Domain:		EXAMPLE
+	Logon ID:		0x18A7875
+	Logon GUID:		{3523b8be-1c1a-a740-a8c3-4cc91a5f3b14}
+
+Account Whose Credentials Were Used:
+	Account Name:		administrator
+	Account Domain:		EXAMPLE.CORP
+	Logon GUID:		{50419e1a-1c62-023a-239e-78c43a7792ab}
+
+Target Server:
+	Target Server Name:	WIN-77LTAPHIQ1R.example.corp
+	Additional Information:	RPCSS/WIN-77LTAPHIQ1R.example.corp
+
+Process Information:
+	Process ID:		0x304
+	Process Name:		C:\Windows\System32\svchost.exe
+
+Network Information:
+	Network Address:	-
+	Port:			-
+
+This event is generated when a process attempts to log on an account by explicitly specifying that account?s credentials.  This most commonly occurs in batch-type configurations such as scheduled tasks, or when using the RUNAS command.","4648","0",,"0","12544","0","-9214364837600034816","433333","Microsoft-Windows-Security-Auditing","54849625-5478-4994-a5ba-3e3b0328c30d","Security","524","2668","PC01.example.corp",,"3/18/2019 4:27:23 AM","4e7eb78f-3e42-4406-b9c2-eb1508584c86",,"System.UInt32[]","System.Diagnostics.Eventing.Reader.EventBookmark","Information","Info","Logon","System.Collections.ObjectModel.ReadOnlyCollection`1[System.String]","System.Collections.Generic.List`1[System.Diagnostics.Eventing.Reader.EventProperty]"
+"A new process has been created.
+
+Subject:
+	Security ID:		S-1-5-21-1587066498-1489273250-1035260531-1106
+	Account Name:		user01
+	Account Domain:		EXAMPLE
+	Logon ID:		0x18A7875
+
+Process Information:
+	New Process ID:		0x44c
+	New Process Name:	C:\Windows\System32\wbem\WMIC.exe
+	Token Elevation Type:	TokenElevationTypeDefault (1)
+	Creator Process ID:	0x86c
+	Process Command Line:	
+
+Token Elevation Type indicates the type of token that was assigned to the new process in accordance with User Account Control policy.
+
+Type 1 is a full token with no privileges removed or groups disabled.  A full token is only used if User Account Control is disabled or if the user is the built-in Administrator account or a service account.
+
+Type 2 is an elevated token with no privileges removed or groups disabled.  An elevated token is used when User Account Control is enabled and the user chooses to start the program using Run as administrator.  An elevated token is also used when an application is configured to always require administrative privilege or to always require maximum privilege, and the user is a member of the Administrators group.
+
+Type 3 is a limited token with administrative privileges removed and administrative groups disabled.  The limited token is used when User Account Control is enabled, the application does not require administrative privilege, and the user does not choose to start the program using Run as administrator.","4688","1",,"0","13312","0","-9214364837600034816","433308","Microsoft-Windows-Security-Auditing","54849625-5478-4994-a5ba-3e3b0328c30d","Security","4","48","PC01.example.corp",,"3/18/2019 4:27:05 AM",,,"System.UInt32[]","System.Diagnostics.Eventing.Reader.EventBookmark","Information","Info","Process Creation","System.Collections.ObjectModel.ReadOnlyCollection`1[System.String]","System.Collections.Generic.List`1[System.Diagnostics.Eventing.Reader.EventProperty]"
+"The audit log was cleared.
+Subject:
+	Security ID:	S-1-5-21-1587066498-1489273250-1035260531-1106
+	Account Name:	user01
+	Domain Name:	EXAMPLE
+	Logon ID:	0x18A7875","1102","0",,"4","104","0","4620693217682128896","433307","Microsoft-Windows-Eventlog","fc65ddd8-d6ef-4962-83d5-6e5cfe9ce148","Security","856","1660","PC01.example.corp",,"3/18/2019 4:27:00 AM",,,"System.UInt32[]","System.Diagnostics.Eventing.Reader.EventBookmark","Information","Info","Log clear","System.Collections.ObjectModel.ReadOnlyCollection`1[System.String]","System.Collections.Generic.List`1[System.Diagnostics.Eventing.Reader.EventProperty]"
