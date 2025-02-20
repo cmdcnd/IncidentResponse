@@ -39,13 +39,11 @@
 ???+ note "INCIDENT SUMMARY"  
     - **Question text:** Please provide a brief summary of the incident.  
     - **User notes:** For each major event or phase in the incident, try to convey **"who did what to what/whom with what result?"** with as much detail as you deem appropriate. Consider, for example, the following scenario:  
-
-      - **Event 1:** External attacker sends a phishing email to a victim employee to gain admin credentials.  
-      - **Event 2:** Employee visits a web link in the phishing email and downloads a keylogger to their desktop.  
-      - **Event 3:** Attacker uses stolen credentials to access the corporate network via legitimate remote access software and searches for sensitive data.  
-      - **Event 4:** Attacker installs a backdoor program and a packet sniffer on a web server to capture card data and store it locally.  
-      - **Event 5:** Attacker returns via the backdoor and exfiltrates the data.  
-
+		- **Event 1:** External attacker sends a phishing email to a victim employee to gain admin credentials.  
+		- **Event 2:** Employee visits a web link in the phishing email and downloads a keylogger to their desktop.  
+		- **Event 3:** Attacker uses stolen credentials to access the corporate network via legitimate remote access software and searches for sensitive data.  
+		- **Event 4:** Attacker installs a backdoor program and a packet sniffer on a web server to capture card data and store it locally.  
+		- **Event 5:** Attacker returns via the backdoor and exfiltrates the data.  
     - **Question type:** text field  
     - **Variable name:** `summary` (string)  
     - **Purpose:** Though the purpose of VERIS is to describe an incident using a structured format, capturing a short free-form narrative is still very useful for many reasons.  
