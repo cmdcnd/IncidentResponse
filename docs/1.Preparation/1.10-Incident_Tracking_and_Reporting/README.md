@@ -10,26 +10,23 @@
 ## Standards  
 
 ???+ note "INCIDENT ID"  
-- **Question text:** Incident or case ID  
-- **User notes:** N/A  
-- **Question type:** text field  
-- **Variable name:** `incident_id` (string)  
-- **Purpose:** To uniquely identify incidents for storage and tracking over time.  
-- **Developer notes:** We recommend auto-generating IDs rather than prompting the user to create/submit one. If you plan to share an incident with others, we suggest not making your org's name part of the incident ID (e.g., `verizonBreach_00001`).  
-- **Miscellaneous:** N/A  
+	- **Question text:** Incident or case ID  
+	- **User notes:** N/A  
+	- **Question type:** text field  
+	- **Variable name:** `incident_id` (string)  
+	- **Purpose:** To uniquely identify incidents for storage and tracking over time.  
+	- **Developer notes:** We recommend auto-generating IDs rather than prompting the user to create/submit one. If you plan to share an incident with others, we suggest not making your org's name part of the incident ID (e.g., `verizonBreach_00001`).  
+	- **Miscellaneous:** N/A  
 
 
-<details><summary>SOURCE ID</summary></br>
-
-* `Question text:` Source or handler ID</br>
-* `User notes:` N/A</br>
-* `Question type:` text field</br>
-* `Variable name:` source_id (string)</br>
-* `Purpose:` Associate an incident with an entity that is handling or reporting it. This may be a CERT, law enforcement agency, consortium body, or some other custodian/aggregator of incident data. If the incident is handled or reported by the victim, this field is unnecessary (the victim_id will suffice).</br>
-* `Developer notes:` N/A</br>
-* `Miscellaneous:` N/A</br>
-
-</details>
+???+ note "SOURCE ID"  
+    - **Question text:** Source or handler ID  
+    - **User notes:** N/A  
+    - **Question type:** text field  
+    - **Variable name:** source_id (string)  
+    - **Purpose:** Associate an incident with an entity that is handling or reporting it. This may be a CERT, law enforcement agency, consortium body, or some other custodian/aggregator of incident data. If the incident is handled or reported by the victim, this field is unnecessary (the victim_id will suffice).  
+    - **Developer notes:** N/A  
+    - **Miscellaneous:** N/A  
 
 <details><summary>INCIDENT CONFIRMATION</summary></br>
 
