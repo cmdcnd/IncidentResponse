@@ -1,0 +1,151 @@
+"Message","Id","Version","Qualifiers","Level","Task","Opcode","Keywords","RecordId","ProviderName","ProviderId","LogName","ProcessId","ThreadId","MachineName","UserId","TimeCreated","ActivityId","RelatedActivityId","MatchedQueryIds","Bookmark","LevelDisplayName","OpcodeDisplayName","TaskDisplayName","KeywordsDisplayNames","Properties"
+"Boot Configuration Data loaded.
+
+Subject:
+	Security ID:		S-1-5-18
+	Account Name:		-
+	Account Domain:		-
+	Logon ID:		0x3E7
+
+General Settings:
+	Load Options:		-
+	Advanced Options:		No
+	Configuration Access Policy:	Default
+	System Event Logging:	No
+	Kernel Debugging:	Yes
+	VSM Launch Type:	Off
+
+Signature Settings:
+	Test Signing:		Yes
+	Flight Signing:		No
+	Disable Integrity Checks:	No
+
+HyperVisor Settings:
+	HyperVisor Load Options:	-
+	HyperVisor Launch Type:	Off
+	HyperVisor Debugging:	No","4826","0",,"0","13573","0","-9214364837600034816","403082","Microsoft-Windows-Security-Auditing","54849625-5478-4994-a5ba-3e3b0328c30d","Security","4","32","MSEDGEWIN10",,"3/9/2020 3:54:06 PM",,,"System.UInt32[]","System.Diagnostics.Eventing.Reader.EventBookmark","Information","Info","Other Policy Change Events","System.Collections.ObjectModel.ReadOnlyCollection`1[System.String]","System.Collections.Generic.List`1[System.Diagnostics.Eventing.Reader.EventProperty]"
+"Boot Configuration Data loaded.
+
+Subject:
+	Security ID:		S-1-5-18
+	Account Name:		-
+	Account Domain:		-
+	Logon ID:		0x3E7
+
+General Settings:
+	Load Options:		-
+	Advanced Options:		No
+	Configuration Access Policy:	Default
+	System Event Logging:	No
+	Kernel Debugging:	Yes
+	VSM Launch Type:	Off
+
+Signature Settings:
+	Test Signing:		No
+	Flight Signing:		No
+	Disable Integrity Checks:	No
+
+HyperVisor Settings:
+	HyperVisor Load Options:	-
+	HyperVisor Launch Type:	Off
+	HyperVisor Debugging:	No","4826","0",,"0","13573","0","-9214364837600034816","397543","Microsoft-Windows-Security-Auditing","54849625-5478-4994-a5ba-3e3b0328c30d","Security","4","32","MSEDGEWIN10",,"3/9/2020 3:17:17 PM",,,"System.UInt32[]","System.Diagnostics.Eventing.Reader.EventBookmark","Information","Info","Other Policy Change Events","System.Collections.ObjectModel.ReadOnlyCollection`1[System.String]","System.Collections.Generic.List`1[System.Diagnostics.Eventing.Reader.EventProperty]"
+"Boot Configuration Data loaded.
+
+Subject:
+	Security ID:		S-1-5-18
+	Account Name:		-
+	Account Domain:		-
+	Logon ID:		0x3E7
+
+General Settings:
+	Load Options:		-
+	Advanced Options:		No
+	Configuration Access Policy:	Default
+	System Event Logging:	No
+	Kernel Debugging:	Yes
+	VSM Launch Type:	Off
+
+Signature Settings:
+	Test Signing:		No
+	Flight Signing:		No
+	Disable Integrity Checks:	No
+
+HyperVisor Settings:
+	HyperVisor Load Options:	-
+	HyperVisor Launch Type:	Off
+	HyperVisor Debugging:	No","4826","0",,"0","13573","0","-9214364837600034816","395852","Microsoft-Windows-Security-Auditing","54849625-5478-4994-a5ba-3e3b0328c30d","Security","4","32","MSEDGEWIN10",,"3/9/2020 11:09:32 PM",,,"System.UInt32[]","System.Diagnostics.Eventing.Reader.EventBookmark","Information","Info","Other Policy Change Events","System.Collections.ObjectModel.ReadOnlyCollection`1[System.String]","System.Collections.Generic.List`1[System.Diagnostics.Eventing.Reader.EventProperty]"
+"Boot Configuration Data loaded.
+
+Subject:
+	Security ID:		S-1-5-18
+	Account Name:		-
+	Account Domain:		-
+	Logon ID:		0x3E7
+
+General Settings:
+	Load Options:		-
+	Advanced Options:		No
+	Configuration Access Policy:	Default
+	System Event Logging:	No
+	Kernel Debugging:	Yes
+	VSM Launch Type:	Off
+
+Signature Settings:
+	Test Signing:		No
+	Flight Signing:		No
+	Disable Integrity Checks:	No
+
+HyperVisor Settings:
+	HyperVisor Load Options:	-
+	HyperVisor Launch Type:	Off
+	HyperVisor Debugging:	No","4826","0",,"0","13573","0","-9214364837600034816","394186","Microsoft-Windows-Security-Auditing","54849625-5478-4994-a5ba-3e3b0328c30d","Security","4","32","MSEDGEWIN10",,"3/9/2020 2:22:56 PM",,,"System.UInt32[]","System.Diagnostics.Eventing.Reader.EventBookmark","Information","Info","Other Policy Change Events","System.Collections.ObjectModel.ReadOnlyCollection`1[System.String]","System.Collections.Generic.List`1[System.Diagnostics.Eventing.Reader.EventProperty]"
+"Boot Configuration Data loaded.
+
+Subject:
+	Security ID:		S-1-5-18
+	Account Name:		-
+	Account Domain:		-
+	Logon ID:		0x3E7
+
+General Settings:
+	Load Options:		-
+	Advanced Options:		No
+	Configuration Access Policy:	Default
+	System Event Logging:	No
+	Kernel Debugging:	Yes
+	VSM Launch Type:	Off
+
+Signature Settings:
+	Test Signing:		No
+	Flight Signing:		No
+	Disable Integrity Checks:	No
+
+HyperVisor Settings:
+	HyperVisor Load Options:	-
+	HyperVisor Launch Type:	Off
+	HyperVisor Debugging:	No","4826","0",,"0","13573","0","-9214364837600034816","392357","Microsoft-Windows-Security-Auditing","54849625-5478-4994-a5ba-3e3b0328c30d","Security","4","32","MSEDGEWIN10",,"3/9/2020 2:17:15 PM",,,"System.UInt32[]","System.Diagnostics.Eventing.Reader.EventBookmark","Information","Info","Other Policy Change Events","System.Collections.ObjectModel.ReadOnlyCollection`1[System.String]","System.Collections.Generic.List`1[System.Diagnostics.Eventing.Reader.EventProperty]"
+"Boot Configuration Data loaded.
+
+Subject:
+	Security ID:		S-1-5-18
+	Account Name:		-
+	Account Domain:		-
+	Logon ID:		0x3E7
+
+General Settings:
+	Load Options:		-
+	Advanced Options:		No
+	Configuration Access Policy:	Default
+	System Event Logging:	No
+	Kernel Debugging:	Yes
+	VSM Launch Type:	Off
+
+Signature Settings:
+	Test Signing:		No
+	Flight Signing:		No
+	Disable Integrity Checks:	No
+
+HyperVisor Settings:
+	HyperVisor Load Options:	-
+	HyperVisor Launch Type:	Off
+	HyperVisor Debugging:	No","4826","0",,"0","13573","0","-9214364837600034816","382006","Microsoft-Windows-Security-Auditing","54849625-5478-4994-a5ba-3e3b0328c30d","Security","4","32","MSEDGEWIN10",,"3/9/2020 6:01:24 PM",,,"System.UInt32[]","System.Diagnostics.Eventing.Reader.EventBookmark","Information","Info","Other Policy Change Events","System.Collections.ObjectModel.ReadOnlyCollection`1[System.String]","System.Collections.Generic.List`1[System.Diagnostics.Eventing.Reader.EventProperty]"

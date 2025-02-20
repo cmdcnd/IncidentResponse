@@ -1,0 +1,81 @@
+"Message","Id","Version","Qualifiers","Level","Task","Opcode","Keywords","RecordId","ProviderName","ProviderId","LogName","ProcessId","ThreadId","MachineName","UserId","TimeCreated","ActivityId","RelatedActivityId","MatchedQueryIds","Bookmark","LevelDisplayName","OpcodeDisplayName","TaskDisplayName","KeywordsDisplayNames","Properties"
+"A security-enabled local group membership was enumerated.
+
+Subject:
+	Security ID:		S-1-5-21-308926384-506822093-3341789130-1105
+	Account Name:		jbrown
+	Account Domain:		3B
+	Logon ID:		0x2C00357
+
+Group:
+	Security ID:		S-1-5-32-545
+	Group Name:		Users
+	Group Domain:		Builtin
+
+Process Information:
+	Process ID:		0x0
+	Process Name:		-","4799","0",,"0","13826","0","-9214364837600034816","3819788","Microsoft-Windows-Security-Auditing","54849625-5478-4994-a5ba-3e3b0328c30d","Security","724","10940","01566s-win16-ir.threebeesco.com",,"1/24/2023 3:54:42 AM",,,"System.UInt32[]","System.Diagnostics.Eventing.Reader.EventBookmark","Information","Info","Security Group Management","System.Collections.ObjectModel.ReadOnlyCollection`1[System.String]","System.Collections.Generic.List`1[System.Diagnostics.Eventing.Reader.EventProperty]"
+"A security-enabled local group membership was enumerated.
+
+Subject:
+	Security ID:		S-1-5-21-308926384-506822093-3341789130-1105
+	Account Name:		jbrown
+	Account Domain:		3B
+	Logon ID:		0x2BFA357
+
+Group:
+	Security ID:		S-1-5-32-555
+	Group Name:		Remote Desktop Users
+	Group Domain:		Builtin
+
+Process Information:
+	Process ID:		0x0
+	Process Name:		-","4799","0",,"0","13826","0","-9214364837600034816","3819771","Microsoft-Windows-Security-Auditing","54849625-5478-4994-a5ba-3e3b0328c30d","Security","724","2604","01566s-win16-ir.threebeesco.com",,"1/24/2023 3:54:18 AM",,,"System.UInt32[]","System.Diagnostics.Eventing.Reader.EventBookmark","Information","Info","Security Group Management","System.Collections.ObjectModel.ReadOnlyCollection`1[System.String]","System.Collections.Generic.List`1[System.Diagnostics.Eventing.Reader.EventProperty]"
+"A security-enabled local group membership was enumerated.
+
+Subject:
+	Security ID:		S-1-5-21-308926384-506822093-3341789130-1105
+	Account Name:		jbrown
+	Account Domain:		3B
+	Logon ID:		0x2BF470D
+
+Group:
+	Security ID:		S-1-5-32-544
+	Group Name:		Administrators
+	Group Domain:		Builtin
+
+Process Information:
+	Process ID:		0x0
+	Process Name:		-","4799","0",,"0","13826","0","-9214364837600034816","3819752","Microsoft-Windows-Security-Auditing","54849625-5478-4994-a5ba-3e3b0328c30d","Security","724","2604","01566s-win16-ir.threebeesco.com",,"1/24/2023 3:54:02 AM",,,"System.UInt32[]","System.Diagnostics.Eventing.Reader.EventBookmark","Information","Info","Security Group Management","System.Collections.ObjectModel.ReadOnlyCollection`1[System.String]","System.Collections.Generic.List`1[System.Diagnostics.Eventing.Reader.EventProperty]"
+"A security-enabled local group membership was enumerated.
+
+Subject:
+	Security ID:		S-1-5-21-308926384-506822093-3341789130-1105
+	Account Name:		jbrown
+	Account Domain:		3B
+	Logon ID:		0x2BE6273
+
+Group:
+	Security ID:		S-1-5-32-544
+	Group Name:		Administrators
+	Group Domain:		Builtin
+
+Process Information:
+	Process ID:		0x0
+	Process Name:		-","4799","0",,"0","13826","0","-9214364837600034816","3819735","Microsoft-Windows-Security-Auditing","54849625-5478-4994-a5ba-3e3b0328c30d","Security","724","2604","01566s-win16-ir.threebeesco.com",,"1/24/2023 3:53:14 AM",,,"System.UInt32[]","System.Diagnostics.Eventing.Reader.EventBookmark","Information","Info","Security Group Management","System.Collections.ObjectModel.ReadOnlyCollection`1[System.String]","System.Collections.Generic.List`1[System.Diagnostics.Eventing.Reader.EventProperty]"
+"A security-enabled local group membership was enumerated.
+
+Subject:
+	Security ID:		S-1-5-21-308926384-506822093-3341789130-1105
+	Account Name:		jbrown
+	Account Domain:		3B
+	Logon ID:		0x23EC715
+
+Group:
+	Security ID:		S-1-5-32-544
+	Group Name:		Administrators
+	Group Domain:		Builtin
+
+Process Information:
+	Process ID:		0x23e8
+	Process Name:		C:\Windows\System32\net1.exe","4799","0",,"0","13826","0","-9214364837600034816","3819707","Microsoft-Windows-Security-Auditing","54849625-5478-4994-a5ba-3e3b0328c30d","Security","724","10848","01566s-win16-ir.threebeesco.com",,"1/24/2023 3:52:02 AM",,,"System.UInt32[]","System.Diagnostics.Eventing.Reader.EventBookmark","Information","Info","Security Group Management","System.Collections.ObjectModel.ReadOnlyCollection`1[System.String]","System.Collections.Generic.List`1[System.Diagnostics.Eventing.Reader.EventProperty]"

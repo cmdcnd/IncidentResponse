@@ -1,0 +1,34 @@
+"Message","Id","Version","Qualifiers","Level","Task","Opcode","Keywords","RecordId","ProviderName","ProviderId","LogName","ProcessId","ThreadId","MachineName","UserId","TimeCreated","ActivityId","RelatedActivityId","MatchedQueryIds","Bookmark","LevelDisplayName","OpcodeDisplayName","TaskDisplayName","KeywordsDisplayNames","Properties"
+"A network share object was checked to see whether client can be granted desired access.
+	
+Subject:
+	Security ID:		S-1-5-21-1587066498-1489273250-1035260531-500
+	Account Name:		Administrator
+	Account Domain:		EXAMPLE
+	Logon ID:		0x197DFA
+
+Network Information:	
+	Object Type:		File
+	Source Address:		10.0.2.17
+	Source Port:		49230
+	
+Share Information:
+	Share Name:		\\*\IPC$
+	Share Path:		
+	Relative Target Name:	svcctl
+
+Access Request Information:
+	Access Mask:		0x12019F
+	Accesses:		READ_CONTROL
+				SYNCHRONIZE
+				ReadData (or ListDirectory)
+				WriteData (or AddFile)
+				AppendData (or AddSubdirectory or CreatePipeInstance)
+				ReadEA
+				WriteEA
+				ReadAttributes
+				WriteAttributes
+				
+Access Check Results:
+	-
+","5145","0",,"0","12811","0","-9214364837600034816","568342","Microsoft-Windows-Security-Auditing","54849625-5478-4994-a5ba-3e3b0328c30d","Security","452","460","WIN-77LTAPHIQ1R.example.corp",,"3/18/2019 5:41:28 PM",,,"System.UInt32[]","System.Diagnostics.Eventing.Reader.EventBookmark","Information","Info","Detailed File Share","System.Collections.ObjectModel.ReadOnlyCollection`1[System.String]","System.Collections.Generic.List`1[System.Diagnostics.Eventing.Reader.EventProperty]"

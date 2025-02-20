@@ -1,0 +1,1063 @@
+"Message","Id","Version","Qualifiers","Level","Task","Opcode","Keywords","RecordId","ProviderName","ProviderId","LogName","ProcessId","ThreadId","MachineName","UserId","TimeCreated","ActivityId","RelatedActivityId","MatchedQueryIds","Bookmark","LevelDisplayName","OpcodeDisplayName","TaskDisplayName","KeywordsDisplayNames","Properties"
+"An account was successfully logged on.
+
+Subject:
+	Security ID:		S-1-0-0
+	Account Name:		-
+	Account Domain:		-
+	Logon ID:		0x0
+
+Logon Type:			3
+
+Impersonation Level:		Delegation
+
+New Logon:
+	Security ID:		S-1-5-18
+	Account Name:		WIN-77LTAPHIQ1R$
+	Account Domain:		EXAMPLE
+	Logon ID:		0x18423D
+	Logon GUID:		{5fdb15ee-2283-f23c-e23b-5e5ddb11bb9c}
+
+Process Information:
+	Process ID:		0x0
+	Process Name:		-
+
+Network Information:
+	Workstation Name:	
+	Source Network Address:	fe80::79bf:8ee2:433c:2567
+	Source Port:		56034
+
+Detailed Authentication Information:
+	Logon Process:		Kerberos
+	Authentication Package:	Kerberos
+	Transited Services:	-
+	Package Name (NTLM only):	-
+	Key Length:		0
+
+This event is generated when a logon session is created. It is generated on the computer that was accessed.
+
+The subject fields indicate the account on the local system which requested the logon. This is most commonly a service such as the Server service, or a local process such as Winlogon.exe or Services.exe.
+
+The logon type field indicates the kind of logon that occurred. The most common types are 2 (interactive) and 3 (network).
+
+The New Logon fields indicate the account for whom the new logon was created, i.e. the account that was logged on.
+
+The network fields indicate where a remote logon request originated. Workstation name is not always available and may be left blank in some cases.
+
+The impersonation level field indicates the extent to which a process in the logon session can impersonate.
+
+The authentication information fields provide detailed information about this specific logon request.
+	- Logon GUID is a unique identifier that can be used to correlate this event with a KDC event.
+	- Transited services indicate which intermediate services have participated in this logon request.
+	- Package name indicates which sub-protocol was used among the NTLM protocols.
+	- Key length indicates the length of the generated session key. This will be 0 if no session key was requested.","4624","1",,"0","12544","0","-9214364837600034816","566894","Microsoft-Windows-Security-Auditing","54849625-5478-4994-a5ba-3e3b0328c30d","Security","452","696","WIN-77LTAPHIQ1R.example.corp",,"3/18/2019 5:02:21 PM",,,"System.UInt32[]","System.Diagnostics.Eventing.Reader.EventBookmark","Information","Info","Logon","System.Collections.ObjectModel.ReadOnlyCollection`1[System.String]","System.Collections.Generic.List`1[System.Diagnostics.Eventing.Reader.EventProperty]"
+"Special privileges assigned to new logon.
+
+Subject:
+	Security ID:		S-1-5-18
+	Account Name:		WIN-77LTAPHIQ1R$
+	Account Domain:		EXAMPLE
+	Logon ID:		0x18423D
+
+Privileges:		SeSecurityPrivilege
+			SeBackupPrivilege
+			SeRestorePrivilege
+			SeTakeOwnershipPrivilege
+			SeDebugPrivilege
+			SeSystemEnvironmentPrivilege
+			SeLoadDriverPrivilege
+			SeImpersonatePrivilege
+			SeEnableDelegationPrivilege","4672","0",,"0","12548","0","-9214364837600034816","566893","Microsoft-Windows-Security-Auditing","54849625-5478-4994-a5ba-3e3b0328c30d","Security","452","696","WIN-77LTAPHIQ1R.example.corp",,"3/18/2019 5:02:21 PM",,,"System.UInt32[]","System.Diagnostics.Eventing.Reader.EventBookmark","Information","Info","Special Logon","System.Collections.ObjectModel.ReadOnlyCollection`1[System.String]","System.Collections.Generic.List`1[System.Diagnostics.Eventing.Reader.EventProperty]"
+"An account was successfully logged on.
+
+Subject:
+	Security ID:		S-1-0-0
+	Account Name:		-
+	Account Domain:		-
+	Logon ID:		0x0
+
+Logon Type:			3
+
+Impersonation Level:		Impersonation
+
+New Logon:
+	Security ID:		S-1-5-18
+	Account Name:		WIN-77LTAPHIQ1R$
+	Account Domain:		EXAMPLE
+	Logon ID:		0x184212
+	Logon GUID:		{5fdb15ee-2283-f23c-e23b-5e5ddb11bb9c}
+
+Process Information:
+	Process ID:		0x0
+	Process Name:		-
+
+Network Information:
+	Workstation Name:	
+	Source Network Address:	::1
+	Source Port:		56033
+
+Detailed Authentication Information:
+	Logon Process:		Kerberos
+	Authentication Package:	Kerberos
+	Transited Services:	-
+	Package Name (NTLM only):	-
+	Key Length:		0
+
+This event is generated when a logon session is created. It is generated on the computer that was accessed.
+
+The subject fields indicate the account on the local system which requested the logon. This is most commonly a service such as the Server service, or a local process such as Winlogon.exe or Services.exe.
+
+The logon type field indicates the kind of logon that occurred. The most common types are 2 (interactive) and 3 (network).
+
+The New Logon fields indicate the account for whom the new logon was created, i.e. the account that was logged on.
+
+The network fields indicate where a remote logon request originated. Workstation name is not always available and may be left blank in some cases.
+
+The impersonation level field indicates the extent to which a process in the logon session can impersonate.
+
+The authentication information fields provide detailed information about this specific logon request.
+	- Logon GUID is a unique identifier that can be used to correlate this event with a KDC event.
+	- Transited services indicate which intermediate services have participated in this logon request.
+	- Package name indicates which sub-protocol was used among the NTLM protocols.
+	- Key length indicates the length of the generated session key. This will be 0 if no session key was requested.","4624","1",,"0","12544","0","-9214364837600034816","566889","Microsoft-Windows-Security-Auditing","54849625-5478-4994-a5ba-3e3b0328c30d","Security","452","696","WIN-77LTAPHIQ1R.example.corp",,"3/18/2019 5:02:21 PM",,,"System.UInt32[]","System.Diagnostics.Eventing.Reader.EventBookmark","Information","Info","Logon","System.Collections.ObjectModel.ReadOnlyCollection`1[System.String]","System.Collections.Generic.List`1[System.Diagnostics.Eventing.Reader.EventProperty]"
+"Special privileges assigned to new logon.
+
+Subject:
+	Security ID:		S-1-5-18
+	Account Name:		WIN-77LTAPHIQ1R$
+	Account Domain:		EXAMPLE
+	Logon ID:		0x184212
+
+Privileges:		SeSecurityPrivilege
+			SeBackupPrivilege
+			SeRestorePrivilege
+			SeTakeOwnershipPrivilege
+			SeDebugPrivilege
+			SeSystemEnvironmentPrivilege
+			SeLoadDriverPrivilege
+			SeImpersonatePrivilege
+			SeEnableDelegationPrivilege","4672","0",,"0","12548","0","-9214364837600034816","566888","Microsoft-Windows-Security-Auditing","54849625-5478-4994-a5ba-3e3b0328c30d","Security","452","696","WIN-77LTAPHIQ1R.example.corp",,"3/18/2019 5:02:21 PM",,,"System.UInt32[]","System.Diagnostics.Eventing.Reader.EventBookmark","Information","Info","Special Logon","System.Collections.ObjectModel.ReadOnlyCollection`1[System.String]","System.Collections.Generic.List`1[System.Diagnostics.Eventing.Reader.EventProperty]"
+"A handle to an object was requested.
+
+Subject :
+	Security ID:		S-1-5-21-1587066498-1489273250-1035260531-500
+	Account Name:		administrator
+	Account Domain:		EXAMPLE
+	Logon ID:		0x4FD77
+
+Object:
+	Object Server:	Security Account Manager
+	Object Type:	SAM_USER
+	Object Name:	S-1-5-21-1587066498-1489273250-1035260531-500
+	Handle ID:	0x14c7b93d0
+
+Process Information:
+	Process ID:	0x1c4
+	Process Name:	C:\Windows\System32\lsass.exe
+
+Access Request Information:
+	Transaction ID:	{00000000-0000-0000-0000-000000000000}
+	Accesses:	DELETE
+				READ_CONTROL
+				WRITE_DAC
+				WRITE_OWNER
+				ReadGeneralInformation
+				ReadPreferences
+				WritePreferences
+				ReadLogon
+				ReadAccount
+				WriteAccount
+				SetPassword (without knowledge of old password)
+				ListGroups
+				
+	Access Mask:	0x2D
+	Privileges Used for Access Check:	?-
+	Properties:	---
+	{bf967aba-0de6-11d0-a285-00aa003049e2}
+DELETE
+READ_CONTROL
+WRITE_DAC
+WRITE_OWNER
+ReadGeneralInformation
+ReadPreferences
+WritePreferences
+ReadLogon
+ReadAccount
+WriteAccount
+SetPassword (without knowledge of old password)
+ListGroups
+		{59ba2f42-79a2-11d0-9020-00c04fc2d3cf}
+			{bf967938-0de6-11d0-a285-00aa003049e2}
+			{5fd42471-1262-11d0-a060-00aa006c33ed}
+			{bf9679e8-0de6-11d0-a285-00aa003049e2}
+			{bf967a00-0de6-11d0-a285-00aa003049e2}
+			{3e0abfd0-126a-11d0-a060-00aa006c33ed}
+			{bf967a6a-0de6-11d0-a285-00aa003049e2}
+			{bf967953-0de6-11d0-a285-00aa003049e2}
+		{4c164200-20c0-11d0-a768-00aa006e0529}
+			{bf967915-0de6-11d0-a285-00aa003049e2}
+			{bf967a0a-0de6-11d0-a285-00aa003049e2}
+			{bf967a68-0de6-11d0-a285-00aa003049e2}
+			{bf967a6d-0de6-11d0-a285-00aa003049e2}
+		{5f202010-79a5-11d0-9020-00c04fc2d4cf}
+			{bf96792e-0de6-11d0-a285-00aa003049e2}
+			{bf967985-0de6-11d0-a285-00aa003049e2}
+			{bf967986-0de6-11d0-a285-00aa003049e2}
+			{bf967996-0de6-11d0-a285-00aa003049e2}
+			{bf967997-0de6-11d0-a285-00aa003049e2}
+			{bf9679aa-0de6-11d0-a285-00aa003049e2}
+			{bf9679ab-0de6-11d0-a285-00aa003049e2}
+			{bf9679ac-0de6-11d0-a285-00aa003049e2}
+			{bf967a05-0de6-11d0-a285-00aa003049e2}
+			{bf9679a8-0de6-11d0-a285-00aa003049e2}
+		{e48d0154-bcf8-11d1-8702-00c04fb96050}
+			{bf967950-0de6-11d0-a285-00aa003049e2}
+		{bc0ac240-79a9-11d0-9020-00c04fc2d4cf}
+			{bf967991-0de6-11d0-a285-00aa003049e2}
+		{ab721a53-1e2f-11d0-9819-00aa0040529b}
+		{00299570-246d-11d0-a768-00aa006e0529}
+		{7ed84960-ad10-11d0-8a92-00aa006e0529}
+
+	Restricted SID Count:	0","4661","0",,"0","12803","0","-9214364837600034816","566862","Microsoft-Windows-Security-Auditing","54849625-5478-4994-a5ba-3e3b0328c30d","Security","452","460","WIN-77LTAPHIQ1R.example.corp",,"3/18/2019 5:02:17 PM",,,"System.UInt32[]","System.Diagnostics.Eventing.Reader.EventBookmark","Information","Info","SAM","System.Collections.ObjectModel.ReadOnlyCollection`1[System.String]","System.Collections.Generic.List`1[System.Diagnostics.Eventing.Reader.EventProperty]"
+"A handle to an object was requested.
+
+Subject :
+	Security ID:		S-1-5-21-1587066498-1489273250-1035260531-500
+	Account Name:		administrator
+	Account Domain:		EXAMPLE
+	Logon ID:		0x4FD77
+
+Object:
+	Object Server:	Security Account Manager
+	Object Type:	SAM_DOMAIN
+	Object Name:	CN=Builtin,DC=example,DC=corp
+	Handle ID:	0x14c7b6630
+
+Process Information:
+	Process ID:	0x1c4
+	Process Name:	C:\Windows\System32\lsass.exe
+
+Access Request Information:
+	Transaction ID:	{00000000-0000-0000-0000-000000000000}
+	Accesses:	DELETE
+				READ_CONTROL
+				WRITE_DAC
+				WRITE_OWNER
+				ReadPasswordParameters
+				WritePasswordParameters
+				ReadOtherParameters
+				WriteOtherParameters
+				CreateUser
+				CreateGlobalGroup
+				CreateLocalGroup
+				GetLocalGroupMembership
+				ListAccounts
+				
+	Access Mask:	0x2D
+	Privileges Used for Access Check:	?-
+	Properties:	---
+	{19195a5a-6da0-11d0-afd3-00c04fd930c9}
+DELETE
+READ_CONTROL
+WRITE_DAC
+WRITE_OWNER
+ReadPasswordParameters
+WritePasswordParameters
+ReadOtherParameters
+WriteOtherParameters
+CreateUser
+CreateGlobalGroup
+CreateLocalGroup
+GetLocalGroupMembership
+ListAccounts
+		{c7407360-20bf-11d0-a768-00aa006e0529}
+			{bf9679a4-0de6-11d0-a285-00aa003049e2}
+			{bf9679a5-0de6-11d0-a285-00aa003049e2}
+			{bf9679a6-0de6-11d0-a285-00aa003049e2}
+			{bf9679bb-0de6-11d0-a285-00aa003049e2}
+			{bf9679c2-0de6-11d0-a285-00aa003049e2}
+			{bf9679c3-0de6-11d0-a285-00aa003049e2}
+			{bf967a09-0de6-11d0-a285-00aa003049e2}
+			{bf967a0b-0de6-11d0-a285-00aa003049e2}
+		{b8119fd0-04f6-4762-ab7a-4986c76b3f9a}
+			{bf967a34-0de6-11d0-a285-00aa003049e2}
+			{bf967a33-0de6-11d0-a285-00aa003049e2}
+			{bf9679c5-0de6-11d0-a285-00aa003049e2}
+			{bf967a61-0de6-11d0-a285-00aa003049e2}
+			{bf967977-0de6-11d0-a285-00aa003049e2}
+			{bf96795e-0de6-11d0-a285-00aa003049e2}
+			{bf9679ea-0de6-11d0-a285-00aa003049e2}
+		{ab721a52-1e2f-11d0-9819-00aa0040529b}
+
+	Restricted SID Count:	0","4661","0",,"0","12803","0","-9214364837600034816","566855","Microsoft-Windows-Security-Auditing","54849625-5478-4994-a5ba-3e3b0328c30d","Security","452","460","WIN-77LTAPHIQ1R.example.corp",,"3/18/2019 5:02:17 PM",,,"System.UInt32[]","System.Diagnostics.Eventing.Reader.EventBookmark","Information","Info","SAM","System.Collections.ObjectModel.ReadOnlyCollection`1[System.String]","System.Collections.Generic.List`1[System.Diagnostics.Eventing.Reader.EventProperty]"
+"A handle to an object was requested.
+
+Subject :
+	Security ID:		S-1-5-21-1587066498-1489273250-1035260531-500
+	Account Name:		administrator
+	Account Domain:		EXAMPLE
+	Logon ID:		0x4FD77
+
+Object:
+	Object Server:	Security Account Manager
+	Object Type:	SAM_DOMAIN
+	Object Name:	DC=example,DC=corp
+	Handle ID:	0x14c7b8ab0
+
+Process Information:
+	Process ID:	0x1c4
+	Process Name:	C:\Windows\System32\lsass.exe
+
+Access Request Information:
+	Transaction ID:	{00000000-0000-0000-0000-000000000000}
+	Accesses:	DELETE
+				READ_CONTROL
+				WRITE_DAC
+				WRITE_OWNER
+				ReadPasswordParameters
+				WritePasswordParameters
+				ReadOtherParameters
+				WriteOtherParameters
+				CreateUser
+				CreateGlobalGroup
+				CreateLocalGroup
+				GetLocalGroupMembership
+				ListAccounts
+				
+	Access Mask:	0x2D
+	Privileges Used for Access Check:	?-
+	Properties:	---
+	{19195a5a-6da0-11d0-afd3-00c04fd930c9}
+DELETE
+READ_CONTROL
+WRITE_DAC
+WRITE_OWNER
+ReadPasswordParameters
+WritePasswordParameters
+ReadOtherParameters
+WriteOtherParameters
+CreateUser
+CreateGlobalGroup
+CreateLocalGroup
+GetLocalGroupMembership
+ListAccounts
+		{c7407360-20bf-11d0-a768-00aa006e0529}
+			{bf9679a4-0de6-11d0-a285-00aa003049e2}
+			{bf9679a5-0de6-11d0-a285-00aa003049e2}
+			{bf9679a6-0de6-11d0-a285-00aa003049e2}
+			{bf9679bb-0de6-11d0-a285-00aa003049e2}
+			{bf9679c2-0de6-11d0-a285-00aa003049e2}
+			{bf9679c3-0de6-11d0-a285-00aa003049e2}
+			{bf967a09-0de6-11d0-a285-00aa003049e2}
+			{bf967a0b-0de6-11d0-a285-00aa003049e2}
+		{b8119fd0-04f6-4762-ab7a-4986c76b3f9a}
+			{bf967a34-0de6-11d0-a285-00aa003049e2}
+			{bf967a33-0de6-11d0-a285-00aa003049e2}
+			{bf9679c5-0de6-11d0-a285-00aa003049e2}
+			{bf967a61-0de6-11d0-a285-00aa003049e2}
+			{bf967977-0de6-11d0-a285-00aa003049e2}
+			{bf96795e-0de6-11d0-a285-00aa003049e2}
+			{bf9679ea-0de6-11d0-a285-00aa003049e2}
+		{ab721a52-1e2f-11d0-9819-00aa0040529b}
+
+	Restricted SID Count:	0","4661","0",,"0","12803","0","-9214364837600034816","566854","Microsoft-Windows-Security-Auditing","54849625-5478-4994-a5ba-3e3b0328c30d","Security","452","460","WIN-77LTAPHIQ1R.example.corp",,"3/18/2019 5:02:17 PM",,,"System.UInt32[]","System.Diagnostics.Eventing.Reader.EventBookmark","Information","Info","SAM","System.Collections.ObjectModel.ReadOnlyCollection`1[System.String]","System.Collections.Generic.List`1[System.Diagnostics.Eventing.Reader.EventProperty]"
+"The computer attempted to validate the credentials for an account.
+
+Authentication Package:	MICROSOFT_AUTHENTICATION_PACKAGE_V1_0
+Logon Account:	Administrator
+Source Workstation:	WIN-77LTAPHIQ1R
+Error Code:	0x0","4776","0",,"0","14336","0","-9214364837600034816","566853","Microsoft-Windows-Security-Auditing","54849625-5478-4994-a5ba-3e3b0328c30d","Security","452","76","WIN-77LTAPHIQ1R.example.corp",,"3/18/2019 5:02:16 PM",,,"System.UInt32[]","System.Diagnostics.Eventing.Reader.EventBookmark","Information","Info","Credential Validation","System.Collections.ObjectModel.ReadOnlyCollection`1[System.String]","System.Collections.Generic.List`1[System.Diagnostics.Eventing.Reader.EventProperty]"
+"A network share object was checked to see whether client can be granted desired access.
+	
+Subject:
+	Security ID:		S-1-5-21-1587066498-1489273250-1035260531-500
+	Account Name:		Administrator
+	Account Domain:		EXAMPLE
+	Logon ID:		0x17E2C0
+
+Network Information:	
+	Object Type:		File
+	Source Address:		10.0.2.17
+	Source Port:		49237
+	
+Share Information:
+	Share Name:		\\*\ADMIN$
+	Share Path:		\??\C:\Windows
+	Relative Target Name:	Temp\CYAlyNSS.tmp
+
+Access Request Information:
+	Access Mask:		0x10080
+	Accesses:		DELETE
+				ReadAttributes
+				
+Access Check Results:
+	-
+","5145","0",,"0","12811","0","-9214364837600034816","566848","Microsoft-Windows-Security-Auditing","54849625-5478-4994-a5ba-3e3b0328c30d","Security","452","460","WIN-77LTAPHIQ1R.example.corp",,"3/18/2019 5:02:07 PM",,,"System.UInt32[]","System.Diagnostics.Eventing.Reader.EventBookmark","Information","Info","Detailed File Share","System.Collections.ObjectModel.ReadOnlyCollection`1[System.String]","System.Collections.Generic.List`1[System.Diagnostics.Eventing.Reader.EventProperty]"
+"A network share object was accessed.
+	
+Subject:
+	Security ID:		S-1-5-21-1587066498-1489273250-1035260531-500
+	Account Name:		Administrator
+	Account Domain:		EXAMPLE
+	Logon ID:		0x17E2C0
+
+Network Information:	
+	Object Type:		File
+	Source Address:		10.0.2.17
+	Source Port:		49237
+	
+Share Information:
+	Share Name:		\\*\ADMIN$
+	Share Path:		\??\C:\Windows
+
+Access Request Information:
+	Access Mask:		0x1
+	Accesses:		ReadData (or ListDirectory)
+				
+","5140","1",,"0","12808","0","-9214364837600034816","566847","Microsoft-Windows-Security-Auditing","54849625-5478-4994-a5ba-3e3b0328c30d","Security","4","1676","WIN-77LTAPHIQ1R.example.corp",,"3/18/2019 5:02:07 PM",,,"System.UInt32[]","System.Diagnostics.Eventing.Reader.EventBookmark","Information","Info","File Share","System.Collections.ObjectModel.ReadOnlyCollection`1[System.String]","System.Collections.Generic.List`1[System.Diagnostics.Eventing.Reader.EventProperty]"
+"A network share object was checked to see whether client can be granted desired access.
+	
+Subject:
+	Security ID:		S-1-5-21-1587066498-1489273250-1035260531-500
+	Account Name:		Administrator
+	Account Domain:		EXAMPLE
+	Logon ID:		0x17E2C0
+
+Network Information:	
+	Object Type:		File
+	Source Address:		10.0.2.17
+	Source Port:		49237
+	
+Share Information:
+	Share Name:		\\*\ADMIN$
+	Share Path:		\??\C:\Windows
+	Relative Target Name:	Temp\CYAlyNSS.tmp
+
+Access Request Information:
+	Access Mask:		0x1
+	Accesses:		ReadData (or ListDirectory)
+				
+Access Check Results:
+	-
+","5145","0",,"0","12811","0","-9214364837600034816","566846","Microsoft-Windows-Security-Auditing","54849625-5478-4994-a5ba-3e3b0328c30d","Security","452","460","WIN-77LTAPHIQ1R.example.corp",,"3/18/2019 5:02:07 PM",,,"System.UInt32[]","System.Diagnostics.Eventing.Reader.EventBookmark","Information","Info","Detailed File Share","System.Collections.ObjectModel.ReadOnlyCollection`1[System.String]","System.Collections.Generic.List`1[System.Diagnostics.Eventing.Reader.EventProperty]"
+"A network share object was accessed.
+	
+Subject:
+	Security ID:		S-1-5-21-1587066498-1489273250-1035260531-500
+	Account Name:		Administrator
+	Account Domain:		EXAMPLE
+	Logon ID:		0x17E2C0
+
+Network Information:	
+	Object Type:		File
+	Source Address:		10.0.2.17
+	Source Port:		49237
+	
+Share Information:
+	Share Name:		\\*\ADMIN$
+	Share Path:		\??\C:\Windows
+
+Access Request Information:
+	Access Mask:		0x1
+	Accesses:		ReadData (or ListDirectory)
+				
+","5140","1",,"0","12808","0","-9214364837600034816","566845","Microsoft-Windows-Security-Auditing","54849625-5478-4994-a5ba-3e3b0328c30d","Security","4","1676","WIN-77LTAPHIQ1R.example.corp",,"3/18/2019 5:02:07 PM",,,"System.UInt32[]","System.Diagnostics.Eventing.Reader.EventBookmark","Information","Info","File Share","System.Collections.ObjectModel.ReadOnlyCollection`1[System.String]","System.Collections.Generic.List`1[System.Diagnostics.Eventing.Reader.EventProperty]"
+"A new process has been created.
+
+Subject:
+	Security ID:		S-1-5-18
+	Account Name:		WIN-77LTAPHIQ1R$
+	Account Domain:		EXAMPLE
+	Logon ID:		0x3E7
+
+Process Information:
+	New Process ID:		0x3b4
+	New Process Name:	C:\Windows\System32\wbem\WmiPrvSE.exe
+	Token Elevation Type:	TokenElevationTypeDefault (1)
+	Creator Process ID:	0x248
+	Process Command Line:	
+
+Token Elevation Type indicates the type of token that was assigned to the new process in accordance with User Account Control policy.
+
+Type 1 is a full token with no privileges removed or groups disabled.  A full token is only used if User Account Control is disabled or if the user is the built-in Administrator account or a service account.
+
+Type 2 is an elevated token with no privileges removed or groups disabled.  An elevated token is used when User Account Control is enabled and the user chooses to start the program using Run as administrator.  An elevated token is also used when an application is configured to always require administrative privilege or to always require maximum privilege, and the user is a member of the Administrators group.
+
+Type 3 is a limited token with administrative privileges removed and administrative groups disabled.  The limited token is used when User Account Control is enabled, the application does not require administrative privilege, and the user does not choose to start the program using Run as administrator.","4688","1",,"0","13312","0","-9214364837600034816","566844","Microsoft-Windows-Security-Auditing","54849625-5478-4994-a5ba-3e3b0328c30d","Security","4","1676","WIN-77LTAPHIQ1R.example.corp",,"3/18/2019 5:02:04 PM",,,"System.UInt32[]","System.Diagnostics.Eventing.Reader.EventBookmark","Information","Info","Process Creation","System.Collections.ObjectModel.ReadOnlyCollection`1[System.String]","System.Collections.Generic.List`1[System.Diagnostics.Eventing.Reader.EventProperty]"
+"A network share object was checked to see whether client can be granted desired access.
+	
+Subject:
+	Security ID:		S-1-5-21-1587066498-1489273250-1035260531-500
+	Account Name:		Administrator
+	Account Domain:		EXAMPLE
+	Logon ID:		0x17E2C0
+
+Network Information:	
+	Object Type:		File
+	Source Address:		10.0.2.17
+	Source Port:		49237
+	
+Share Information:
+	Share Name:		\\*\ADMIN$
+	Share Path:		\??\C:\Windows
+	Relative Target Name:	Temp\CYAlyNSS.tmp
+
+Access Request Information:
+	Access Mask:		0x1
+	Accesses:		ReadData (or ListDirectory)
+				
+Access Check Results:
+	-
+","5145","0",,"0","12811","0","-9214364837600034816","566843","Microsoft-Windows-Security-Auditing","54849625-5478-4994-a5ba-3e3b0328c30d","Security","452","460","WIN-77LTAPHIQ1R.example.corp",,"3/18/2019 5:02:04 PM",,,"System.UInt32[]","System.Diagnostics.Eventing.Reader.EventBookmark","Information","Info","Detailed File Share","System.Collections.ObjectModel.ReadOnlyCollection`1[System.String]","System.Collections.Generic.List`1[System.Diagnostics.Eventing.Reader.EventProperty]"
+"A network share object was checked to see whether client can be granted desired access.
+	
+Subject:
+	Security ID:		S-1-5-21-1587066498-1489273250-1035260531-500
+	Account Name:		Administrator
+	Account Domain:		EXAMPLE
+	Logon ID:		0x17E2C0
+
+Network Information:	
+	Object Type:		File
+	Source Address:		10.0.2.17
+	Source Port:		49237
+	
+Share Information:
+	Share Name:		\\*\ADMIN$
+	Share Path:		\??\C:\Windows
+	Relative Target Name:	Temp\CYAlyNSS.tmp
+
+Access Request Information:
+	Access Mask:		0x1
+	Accesses:		ReadData (or ListDirectory)
+				
+Access Check Results:
+	-
+","5145","0",,"0","12811","0","-9214364837600034816","566842","Microsoft-Windows-Security-Auditing","54849625-5478-4994-a5ba-3e3b0328c30d","Security","452","460","WIN-77LTAPHIQ1R.example.corp",,"3/18/2019 5:02:04 PM",,,"System.UInt32[]","System.Diagnostics.Eventing.Reader.EventBookmark","Information","Info","Detailed File Share","System.Collections.ObjectModel.ReadOnlyCollection`1[System.String]","System.Collections.Generic.List`1[System.Diagnostics.Eventing.Reader.EventProperty]"
+"A network share object was accessed.
+	
+Subject:
+	Security ID:		S-1-5-21-1587066498-1489273250-1035260531-500
+	Account Name:		Administrator
+	Account Domain:		EXAMPLE
+	Logon ID:		0x17E2C0
+
+Network Information:	
+	Object Type:		File
+	Source Address:		10.0.2.17
+	Source Port:		49237
+	
+Share Information:
+	Share Name:		\\*\ADMIN$
+	Share Path:		\??\C:\Windows
+
+Access Request Information:
+	Access Mask:		0x1
+	Accesses:		ReadData (or ListDirectory)
+				
+","5140","1",,"0","12808","0","-9214364837600034816","566841","Microsoft-Windows-Security-Auditing","54849625-5478-4994-a5ba-3e3b0328c30d","Security","4","3812","WIN-77LTAPHIQ1R.example.corp",,"3/18/2019 5:02:04 PM",,,"System.UInt32[]","System.Diagnostics.Eventing.Reader.EventBookmark","Information","Info","File Share","System.Collections.ObjectModel.ReadOnlyCollection`1[System.String]","System.Collections.Generic.List`1[System.Diagnostics.Eventing.Reader.EventProperty]"
+"A scheduled task was deleted.
+
+Subject:
+	Security ID:		S-1-5-21-1587066498-1489273250-1035260531-500
+	Account Name:		Administrator
+	Account Domain:		EXAMPLE
+	Logon ID:		0x17E2D2
+
+Task Information:
+	Task Name: 		\CYAlyNSS
+	Task Content: 		<?xml version=""1.0"" encoding=""UTF-16""?>
+<Task version=""1.2"" xmlns=""http://schemas.microsoft.com/windows/2004/02/mit/task"">
+  <Triggers>
+    <CalendarTrigger>
+      <StartBoundary>2015-07-15T20:35:13.2757294</StartBoundary>
+      <Enabled>true</Enabled>
+      <ScheduleByDay>
+        <DaysInterval>1</DaysInterval>
+      </ScheduleByDay>
+    </CalendarTrigger>
+  </Triggers>
+  <Principals>
+    <Principal id=""LocalSystem"">
+      <UserId>S-1-5-18</UserId>
+      <RunLevel>HighestAvailable</RunLevel>
+      <LogonType>InteractiveToken</LogonType>
+    </Principal>
+  </Principals>
+  <Settings>
+    <MultipleInstancesPolicy>IgnoreNew</MultipleInstancesPolicy>
+    <DisallowStartIfOnBatteries>false</DisallowStartIfOnBatteries>
+    <StopIfGoingOnBatteries>false</StopIfGoingOnBatteries>
+    <AllowHardTerminate>true</AllowHardTerminate>
+    <RunOnlyIfNetworkAvailable>false</RunOnlyIfNetworkAvailable>
+    <IdleSettings>
+      <StopOnIdleEnd>true</StopOnIdleEnd>
+      <RestartOnIdle>false</RestartOnIdle>
+    </IdleSettings>
+    <AllowStartOnDemand>true</AllowStartOnDemand>
+    <Enabled>true</Enabled>
+    <Hidden>true</Hidden>
+    <RunOnlyIfIdle>false</RunOnlyIfIdle>
+    <WakeToRun>false</WakeToRun>
+    <ExecutionTimeLimit>P3D</ExecutionTimeLimit>
+    <Priority>7</Priority>
+  </Settings>
+  <Actions Context=""LocalSystem"">
+    <Exec>
+      <Command>cmd.exe</Command>
+      <Arguments>/C tasklist &gt; %windir%\Temp\CYAlyNSS.tmp 2&gt;&amp;1</Arguments>
+    </Exec>
+  </Actions>
+</Task>
+	","4699","0",,"0","12804","0","-9214364837600034816","566840","Microsoft-Windows-Security-Auditing","54849625-5478-4994-a5ba-3e3b0328c30d","Security","452","2836","WIN-77LTAPHIQ1R.example.corp",,"3/18/2019 5:02:04 PM",,,"System.UInt32[]","System.Diagnostics.Eventing.Reader.EventBookmark","Information","Info","Other Object Access Events","System.Collections.ObjectModel.ReadOnlyCollection`1[System.String]","System.Collections.Generic.List`1[System.Diagnostics.Eventing.Reader.EventProperty]"
+"A new process has been created.
+
+Subject:
+	Security ID:		S-1-5-18
+	Account Name:		WIN-77LTAPHIQ1R$
+	Account Domain:		EXAMPLE
+	Logon ID:		0x3E7
+
+Process Information:
+	New Process ID:		0x970
+	New Process Name:	C:\Windows\System32\tasklist.exe
+	Token Elevation Type:	TokenElevationTypeDefault (1)
+	Creator Process ID:	0xbcc
+	Process Command Line:	
+
+Token Elevation Type indicates the type of token that was assigned to the new process in accordance with User Account Control policy.
+
+Type 1 is a full token with no privileges removed or groups disabled.  A full token is only used if User Account Control is disabled or if the user is the built-in Administrator account or a service account.
+
+Type 2 is an elevated token with no privileges removed or groups disabled.  An elevated token is used when User Account Control is enabled and the user chooses to start the program using Run as administrator.  An elevated token is also used when an application is configured to always require administrative privilege or to always require maximum privilege, and the user is a member of the Administrators group.
+
+Type 3 is a limited token with administrative privileges removed and administrative groups disabled.  The limited token is used when User Account Control is enabled, the application does not require administrative privilege, and the user does not choose to start the program using Run as administrator.","4688","1",,"0","13312","0","-9214364837600034816","566839","Microsoft-Windows-Security-Auditing","54849625-5478-4994-a5ba-3e3b0328c30d","Security","4","3812","WIN-77LTAPHIQ1R.example.corp",,"3/18/2019 5:02:04 PM",,,"System.UInt32[]","System.Diagnostics.Eventing.Reader.EventBookmark","Information","Info","Process Creation","System.Collections.ObjectModel.ReadOnlyCollection`1[System.String]","System.Collections.Generic.List`1[System.Diagnostics.Eventing.Reader.EventProperty]"
+"A new process has been created.
+
+Subject:
+	Security ID:		S-1-5-18
+	Account Name:		WIN-77LTAPHIQ1R$
+	Account Domain:		EXAMPLE
+	Logon ID:		0x3E7
+
+Process Information:
+	New Process ID:		0xebc
+	New Process Name:	C:\Windows\System32\conhost.exe
+	Token Elevation Type:	TokenElevationTypeDefault (1)
+	Creator Process ID:	0xbcc
+	Process Command Line:	
+
+Token Elevation Type indicates the type of token that was assigned to the new process in accordance with User Account Control policy.
+
+Type 1 is a full token with no privileges removed or groups disabled.  A full token is only used if User Account Control is disabled or if the user is the built-in Administrator account or a service account.
+
+Type 2 is an elevated token with no privileges removed or groups disabled.  An elevated token is used when User Account Control is enabled and the user chooses to start the program using Run as administrator.  An elevated token is also used when an application is configured to always require administrative privilege or to always require maximum privilege, and the user is a member of the Administrators group.
+
+Type 3 is a limited token with administrative privileges removed and administrative groups disabled.  The limited token is used when User Account Control is enabled, the application does not require administrative privilege, and the user does not choose to start the program using Run as administrator.","4688","1",,"0","13312","0","-9214364837600034816","566838","Microsoft-Windows-Security-Auditing","54849625-5478-4994-a5ba-3e3b0328c30d","Security","4","3812","WIN-77LTAPHIQ1R.example.corp",,"3/18/2019 5:02:04 PM",,,"System.UInt32[]","System.Diagnostics.Eventing.Reader.EventBookmark","Information","Info","Process Creation","System.Collections.ObjectModel.ReadOnlyCollection`1[System.String]","System.Collections.Generic.List`1[System.Diagnostics.Eventing.Reader.EventProperty]"
+"A new process has been created.
+
+Subject:
+	Security ID:		S-1-5-18
+	Account Name:		WIN-77LTAPHIQ1R$
+	Account Domain:		EXAMPLE
+	Logon ID:		0x3E7
+
+Process Information:
+	New Process ID:		0xbcc
+	New Process Name:	C:\Windows\System32\cmd.exe
+	Token Elevation Type:	TokenElevationTypeDefault (1)
+	Creator Process ID:	0x33c
+	Process Command Line:	
+
+Token Elevation Type indicates the type of token that was assigned to the new process in accordance with User Account Control policy.
+
+Type 1 is a full token with no privileges removed or groups disabled.  A full token is only used if User Account Control is disabled or if the user is the built-in Administrator account or a service account.
+
+Type 2 is an elevated token with no privileges removed or groups disabled.  An elevated token is used when User Account Control is enabled and the user chooses to start the program using Run as administrator.  An elevated token is also used when an application is configured to always require administrative privilege or to always require maximum privilege, and the user is a member of the Administrators group.
+
+Type 3 is a limited token with administrative privileges removed and administrative groups disabled.  The limited token is used when User Account Control is enabled, the application does not require administrative privilege, and the user does not choose to start the program using Run as administrator.","4688","1",,"0","13312","0","-9214364837600034816","566837","Microsoft-Windows-Security-Auditing","54849625-5478-4994-a5ba-3e3b0328c30d","Security","4","3812","WIN-77LTAPHIQ1R.example.corp",,"3/18/2019 5:02:04 PM",,,"System.UInt32[]","System.Diagnostics.Eventing.Reader.EventBookmark","Information","Info","Process Creation","System.Collections.ObjectModel.ReadOnlyCollection`1[System.String]","System.Collections.Generic.List`1[System.Diagnostics.Eventing.Reader.EventProperty]"
+"A scheduled task was created.
+
+Subject:
+	Security ID:		S-1-5-21-1587066498-1489273250-1035260531-500
+	Account Name:		Administrator
+	Account Domain:		EXAMPLE
+	Logon ID:		0x17E2D2
+
+Task Information:
+	Task Name: 		\CYAlyNSS
+	Task Content: 		<?xml version=""1.0"" encoding=""UTF-16""?>
+<Task version=""1.2"" xmlns=""http://schemas.microsoft.com/windows/2004/02/mit/task"">
+  <Triggers>
+    <CalendarTrigger>
+      <StartBoundary>2015-07-15T20:35:13.2757294</StartBoundary>
+      <Enabled>true</Enabled>
+      <ScheduleByDay>
+        <DaysInterval>1</DaysInterval>
+      </ScheduleByDay>
+    </CalendarTrigger>
+  </Triggers>
+  <Principals>
+    <Principal id=""LocalSystem"">
+      <UserId>S-1-5-18</UserId>
+      <RunLevel>HighestAvailable</RunLevel>
+      <LogonType>InteractiveToken</LogonType>
+    </Principal>
+  </Principals>
+  <Settings>
+    <MultipleInstancesPolicy>IgnoreNew</MultipleInstancesPolicy>
+    <DisallowStartIfOnBatteries>false</DisallowStartIfOnBatteries>
+    <StopIfGoingOnBatteries>false</StopIfGoingOnBatteries>
+    <AllowHardTerminate>true</AllowHardTerminate>
+    <RunOnlyIfNetworkAvailable>false</RunOnlyIfNetworkAvailable>
+    <IdleSettings>
+      <StopOnIdleEnd>true</StopOnIdleEnd>
+      <RestartOnIdle>false</RestartOnIdle>
+    </IdleSettings>
+    <AllowStartOnDemand>true</AllowStartOnDemand>
+    <Enabled>true</Enabled>
+    <Hidden>true</Hidden>
+    <RunOnlyIfIdle>false</RunOnlyIfIdle>
+    <WakeToRun>false</WakeToRun>
+    <ExecutionTimeLimit>P3D</ExecutionTimeLimit>
+    <Priority>7</Priority>
+  </Settings>
+  <Actions Context=""LocalSystem"">
+    <Exec>
+      <Command>cmd.exe</Command>
+      <Arguments>/C tasklist &gt; %windir%\Temp\CYAlyNSS.tmp 2&gt;&amp;1</Arguments>
+    </Exec>
+  </Actions>
+</Task>
+	","4698","0",,"0","12804","0","-9214364837600034816","566836","Microsoft-Windows-Security-Auditing","54849625-5478-4994-a5ba-3e3b0328c30d","Security","452","2836","WIN-77LTAPHIQ1R.example.corp",,"3/18/2019 5:02:04 PM",,,"System.UInt32[]","System.Diagnostics.Eventing.Reader.EventBookmark","Information","Info","Other Object Access Events","System.Collections.ObjectModel.ReadOnlyCollection`1[System.String]","System.Collections.Generic.List`1[System.Diagnostics.Eventing.Reader.EventProperty]"
+"An account was successfully logged on.
+
+Subject:
+	Security ID:		S-1-0-0
+	Account Name:		-
+	Account Domain:		-
+	Logon ID:		0x0
+
+Logon Type:			3
+
+Impersonation Level:		Impersonation
+
+New Logon:
+	Security ID:		S-1-5-21-1587066498-1489273250-1035260531-500
+	Account Name:		Administrator
+	Account Domain:		EXAMPLE
+	Logon ID:		0x17E2D2
+	Logon GUID:		{00000000-0000-0000-0000-000000000000}
+
+Process Information:
+	Process ID:		0x0
+	Process Name:		-
+
+Network Information:
+	Workstation Name:	
+	Source Network Address:	-
+	Source Port:		-
+
+Detailed Authentication Information:
+	Logon Process:		NtLmSsp 
+	Authentication Package:	NTLM
+	Transited Services:	-
+	Package Name (NTLM only):	NTLM V2
+	Key Length:		128
+
+This event is generated when a logon session is created. It is generated on the computer that was accessed.
+
+The subject fields indicate the account on the local system which requested the logon. This is most commonly a service such as the Server service, or a local process such as Winlogon.exe or Services.exe.
+
+The logon type field indicates the kind of logon that occurred. The most common types are 2 (interactive) and 3 (network).
+
+The New Logon fields indicate the account for whom the new logon was created, i.e. the account that was logged on.
+
+The network fields indicate where a remote logon request originated. Workstation name is not always available and may be left blank in some cases.
+
+The impersonation level field indicates the extent to which a process in the logon session can impersonate.
+
+The authentication information fields provide detailed information about this specific logon request.
+	- Logon GUID is a unique identifier that can be used to correlate this event with a KDC event.
+	- Transited services indicate which intermediate services have participated in this logon request.
+	- Package name indicates which sub-protocol was used among the NTLM protocols.
+	- Key length indicates the length of the generated session key. This will be 0 if no session key was requested.","4624","1",,"0","12544","0","-9214364837600034816","566835","Microsoft-Windows-Security-Auditing","54849625-5478-4994-a5ba-3e3b0328c30d","Security","452","2836","WIN-77LTAPHIQ1R.example.corp",,"3/18/2019 5:02:04 PM",,,"System.UInt32[]","System.Diagnostics.Eventing.Reader.EventBookmark","Information","Info","Logon","System.Collections.ObjectModel.ReadOnlyCollection`1[System.String]","System.Collections.Generic.List`1[System.Diagnostics.Eventing.Reader.EventProperty]"
+"Special privileges assigned to new logon.
+
+Subject:
+	Security ID:		S-1-5-21-1587066498-1489273250-1035260531-500
+	Account Name:		Administrator
+	Account Domain:		EXAMPLE
+	Logon ID:		0x17E2D2
+
+Privileges:		SeSecurityPrivilege
+			SeBackupPrivilege
+			SeRestorePrivilege
+			SeTakeOwnershipPrivilege
+			SeDebugPrivilege
+			SeSystemEnvironmentPrivilege
+			SeLoadDriverPrivilege
+			SeImpersonatePrivilege
+			SeEnableDelegationPrivilege","4672","0",,"0","12548","0","-9214364837600034816","566834","Microsoft-Windows-Security-Auditing","54849625-5478-4994-a5ba-3e3b0328c30d","Security","452","2836","WIN-77LTAPHIQ1R.example.corp",,"3/18/2019 5:02:04 PM",,,"System.UInt32[]","System.Diagnostics.Eventing.Reader.EventBookmark","Information","Info","Special Logon","System.Collections.ObjectModel.ReadOnlyCollection`1[System.String]","System.Collections.Generic.List`1[System.Diagnostics.Eventing.Reader.EventProperty]"
+"The computer attempted to validate the credentials for an account.
+
+Authentication Package:	MICROSOFT_AUTHENTICATION_PACKAGE_V1_0
+Logon Account:	administrator
+Source Workstation:	
+Error Code:	0x0","4776","0",,"0","14336","0","-9214364837600034816","566833","Microsoft-Windows-Security-Auditing","54849625-5478-4994-a5ba-3e3b0328c30d","Security","452","2836","WIN-77LTAPHIQ1R.example.corp",,"3/18/2019 5:02:04 PM",,,"System.UInt32[]","System.Diagnostics.Eventing.Reader.EventBookmark","Information","Info","Credential Validation","System.Collections.ObjectModel.ReadOnlyCollection`1[System.String]","System.Collections.Generic.List`1[System.Diagnostics.Eventing.Reader.EventProperty]"
+"A network share object was checked to see whether client can be granted desired access.
+	
+Subject:
+	Security ID:		S-1-5-21-1587066498-1489273250-1035260531-500
+	Account Name:		Administrator
+	Account Domain:		EXAMPLE
+	Logon ID:		0x17E2C0
+
+Network Information:	
+	Object Type:		File
+	Source Address:		10.0.2.17
+	Source Port:		49237
+	
+Share Information:
+	Share Name:		\\*\IPC$
+	Share Path:		
+	Relative Target Name:	atsvc
+
+Access Request Information:
+	Access Mask:		0x3
+	Accesses:		ReadData (or ListDirectory)
+				WriteData (or AddFile)
+				
+Access Check Results:
+	-
+","5145","0",,"0","12811","0","-9214364837600034816","566832","Microsoft-Windows-Security-Auditing","54849625-5478-4994-a5ba-3e3b0328c30d","Security","452","460","WIN-77LTAPHIQ1R.example.corp",,"3/18/2019 5:02:04 PM",,,"System.UInt32[]","System.Diagnostics.Eventing.Reader.EventBookmark","Information","Info","Detailed File Share","System.Collections.ObjectModel.ReadOnlyCollection`1[System.String]","System.Collections.Generic.List`1[System.Diagnostics.Eventing.Reader.EventProperty]"
+"A network share object was accessed.
+	
+Subject:
+	Security ID:		S-1-5-21-1587066498-1489273250-1035260531-500
+	Account Name:		Administrator
+	Account Domain:		EXAMPLE
+	Logon ID:		0x17E2C0
+
+Network Information:	
+	Object Type:		File
+	Source Address:		10.0.2.17
+	Source Port:		49237
+	
+Share Information:
+	Share Name:		\\*\IPC$
+	Share Path:		
+
+Access Request Information:
+	Access Mask:		0x1
+	Accesses:		ReadData (or ListDirectory)
+				
+","5140","1",,"0","12808","0","-9214364837600034816","566831","Microsoft-Windows-Security-Auditing","54849625-5478-4994-a5ba-3e3b0328c30d","Security","4","3812","WIN-77LTAPHIQ1R.example.corp",,"3/18/2019 5:02:04 PM",,,"System.UInt32[]","System.Diagnostics.Eventing.Reader.EventBookmark","Information","Info","File Share","System.Collections.ObjectModel.ReadOnlyCollection`1[System.String]","System.Collections.Generic.List`1[System.Diagnostics.Eventing.Reader.EventProperty]"
+"An account was successfully logged on.
+
+Subject:
+	Security ID:		S-1-0-0
+	Account Name:		-
+	Account Domain:		-
+	Logon ID:		0x0
+
+Logon Type:			3
+
+Impersonation Level:		Impersonation
+
+New Logon:
+	Security ID:		S-1-5-21-1587066498-1489273250-1035260531-500
+	Account Name:		Administrator
+	Account Domain:		EXAMPLE
+	Logon ID:		0x17E2C0
+	Logon GUID:		{00000000-0000-0000-0000-000000000000}
+
+Process Information:
+	Process ID:		0x0
+	Process Name:		-
+
+Network Information:
+	Workstation Name:	
+	Source Network Address:	10.0.2.17
+	Source Port:		49237
+
+Detailed Authentication Information:
+	Logon Process:		NtLmSsp 
+	Authentication Package:	NTLM
+	Transited Services:	-
+	Package Name (NTLM only):	NTLM V2
+	Key Length:		128
+
+This event is generated when a logon session is created. It is generated on the computer that was accessed.
+
+The subject fields indicate the account on the local system which requested the logon. This is most commonly a service such as the Server service, or a local process such as Winlogon.exe or Services.exe.
+
+The logon type field indicates the kind of logon that occurred. The most common types are 2 (interactive) and 3 (network).
+
+The New Logon fields indicate the account for whom the new logon was created, i.e. the account that was logged on.
+
+The network fields indicate where a remote logon request originated. Workstation name is not always available and may be left blank in some cases.
+
+The impersonation level field indicates the extent to which a process in the logon session can impersonate.
+
+The authentication information fields provide detailed information about this specific logon request.
+	- Logon GUID is a unique identifier that can be used to correlate this event with a KDC event.
+	- Transited services indicate which intermediate services have participated in this logon request.
+	- Package name indicates which sub-protocol was used among the NTLM protocols.
+	- Key length indicates the length of the generated session key. This will be 0 if no session key was requested.","4624","1",,"0","12544","0","-9214364837600034816","566830","Microsoft-Windows-Security-Auditing","54849625-5478-4994-a5ba-3e3b0328c30d","Security","452","2836","WIN-77LTAPHIQ1R.example.corp",,"3/18/2019 5:02:04 PM",,,"System.UInt32[]","System.Diagnostics.Eventing.Reader.EventBookmark","Information","Info","Logon","System.Collections.ObjectModel.ReadOnlyCollection`1[System.String]","System.Collections.Generic.List`1[System.Diagnostics.Eventing.Reader.EventProperty]"
+"Special privileges assigned to new logon.
+
+Subject:
+	Security ID:		S-1-5-21-1587066498-1489273250-1035260531-500
+	Account Name:		Administrator
+	Account Domain:		EXAMPLE
+	Logon ID:		0x17E2C0
+
+Privileges:		SeSecurityPrivilege
+			SeBackupPrivilege
+			SeRestorePrivilege
+			SeTakeOwnershipPrivilege
+			SeDebugPrivilege
+			SeSystemEnvironmentPrivilege
+			SeLoadDriverPrivilege
+			SeImpersonatePrivilege
+			SeEnableDelegationPrivilege","4672","0",,"0","12548","0","-9214364837600034816","566829","Microsoft-Windows-Security-Auditing","54849625-5478-4994-a5ba-3e3b0328c30d","Security","452","2836","WIN-77LTAPHIQ1R.example.corp",,"3/18/2019 5:02:04 PM",,,"System.UInt32[]","System.Diagnostics.Eventing.Reader.EventBookmark","Information","Info","Special Logon","System.Collections.ObjectModel.ReadOnlyCollection`1[System.String]","System.Collections.Generic.List`1[System.Diagnostics.Eventing.Reader.EventProperty]"
+"The computer attempted to validate the credentials for an account.
+
+Authentication Package:	MICROSOFT_AUTHENTICATION_PACKAGE_V1_0
+Logon Account:	administrator
+Source Workstation:	
+Error Code:	0x0","4776","0",,"0","14336","0","-9214364837600034816","566828","Microsoft-Windows-Security-Auditing","54849625-5478-4994-a5ba-3e3b0328c30d","Security","452","2836","WIN-77LTAPHIQ1R.example.corp",,"3/18/2019 5:02:04 PM",,,"System.UInt32[]","System.Diagnostics.Eventing.Reader.EventBookmark","Information","Info","Credential Validation","System.Collections.ObjectModel.ReadOnlyCollection`1[System.String]","System.Collections.Generic.List`1[System.Diagnostics.Eventing.Reader.EventProperty]"
+"An account was successfully logged on.
+
+Subject:
+	Security ID:		S-1-0-0
+	Account Name:		-
+	Account Domain:		-
+	Logon ID:		0x0
+
+Logon Type:			3
+
+Impersonation Level:		Impersonation
+
+New Logon:
+	Security ID:		S-1-5-21-1587066498-1489273250-1035260531-500
+	Account Name:		Administrator
+	Account Domain:		EXAMPLE
+	Logon ID:		0x17E2AA
+	Logon GUID:		{00000000-0000-0000-0000-000000000000}
+
+Process Information:
+	Process ID:		0x0
+	Process Name:		-
+
+Network Information:
+	Workstation Name:	
+	Source Network Address:	10.0.2.17
+	Source Port:		49236
+
+Detailed Authentication Information:
+	Logon Process:		NtLmSsp 
+	Authentication Package:	NTLM
+	Transited Services:	-
+	Package Name (NTLM only):	NTLM V2
+	Key Length:		128
+
+This event is generated when a logon session is created. It is generated on the computer that was accessed.
+
+The subject fields indicate the account on the local system which requested the logon. This is most commonly a service such as the Server service, or a local process such as Winlogon.exe or Services.exe.
+
+The logon type field indicates the kind of logon that occurred. The most common types are 2 (interactive) and 3 (network).
+
+The New Logon fields indicate the account for whom the new logon was created, i.e. the account that was logged on.
+
+The network fields indicate where a remote logon request originated. Workstation name is not always available and may be left blank in some cases.
+
+The impersonation level field indicates the extent to which a process in the logon session can impersonate.
+
+The authentication information fields provide detailed information about this specific logon request.
+	- Logon GUID is a unique identifier that can be used to correlate this event with a KDC event.
+	- Transited services indicate which intermediate services have participated in this logon request.
+	- Package name indicates which sub-protocol was used among the NTLM protocols.
+	- Key length indicates the length of the generated session key. This will be 0 if no session key was requested.","4624","1",,"0","12544","0","-9214364837600034816","566826","Microsoft-Windows-Security-Auditing","54849625-5478-4994-a5ba-3e3b0328c30d","Security","452","2836","WIN-77LTAPHIQ1R.example.corp",,"3/18/2019 5:02:04 PM",,,"System.UInt32[]","System.Diagnostics.Eventing.Reader.EventBookmark","Information","Info","Logon","System.Collections.ObjectModel.ReadOnlyCollection`1[System.String]","System.Collections.Generic.List`1[System.Diagnostics.Eventing.Reader.EventProperty]"
+"Special privileges assigned to new logon.
+
+Subject:
+	Security ID:		S-1-5-21-1587066498-1489273250-1035260531-500
+	Account Name:		Administrator
+	Account Domain:		EXAMPLE
+	Logon ID:		0x17E2AA
+
+Privileges:		SeSecurityPrivilege
+			SeBackupPrivilege
+			SeRestorePrivilege
+			SeTakeOwnershipPrivilege
+			SeDebugPrivilege
+			SeSystemEnvironmentPrivilege
+			SeLoadDriverPrivilege
+			SeImpersonatePrivilege
+			SeEnableDelegationPrivilege","4672","0",,"0","12548","0","-9214364837600034816","566825","Microsoft-Windows-Security-Auditing","54849625-5478-4994-a5ba-3e3b0328c30d","Security","452","2836","WIN-77LTAPHIQ1R.example.corp",,"3/18/2019 5:02:04 PM",,,"System.UInt32[]","System.Diagnostics.Eventing.Reader.EventBookmark","Information","Info","Special Logon","System.Collections.ObjectModel.ReadOnlyCollection`1[System.String]","System.Collections.Generic.List`1[System.Diagnostics.Eventing.Reader.EventProperty]"
+"The computer attempted to validate the credentials for an account.
+
+Authentication Package:	MICROSOFT_AUTHENTICATION_PACKAGE_V1_0
+Logon Account:	administrator
+Source Workstation:	
+Error Code:	0x0","4776","0",,"0","14336","0","-9214364837600034816","566824","Microsoft-Windows-Security-Auditing","54849625-5478-4994-a5ba-3e3b0328c30d","Security","452","2836","WIN-77LTAPHIQ1R.example.corp",,"3/18/2019 5:02:04 PM",,,"System.UInt32[]","System.Diagnostics.Eventing.Reader.EventBookmark","Information","Info","Credential Validation","System.Collections.ObjectModel.ReadOnlyCollection`1[System.String]","System.Collections.Generic.List`1[System.Diagnostics.Eventing.Reader.EventProperty]"
+"An account was successfully logged on.
+
+Subject:
+	Security ID:		S-1-0-0
+	Account Name:		-
+	Account Domain:		-
+	Logon ID:		0x0
+
+Logon Type:			3
+
+Impersonation Level:		Impersonation
+
+New Logon:
+	Security ID:		S-1-5-7
+	Account Name:		ANONYMOUS LOGON
+	Account Domain:		NT AUTHORITY
+	Logon ID:		0x17E29A
+	Logon GUID:		{00000000-0000-0000-0000-000000000000}
+
+Process Information:
+	Process ID:		0x0
+	Process Name:		-
+
+Network Information:
+	Workstation Name:	NULL
+	Source Network Address:	10.0.2.17
+	Source Port:		49236
+
+Detailed Authentication Information:
+	Logon Process:		NtLmSsp 
+	Authentication Package:	NTLM
+	Transited Services:	-
+	Package Name (NTLM only):	NTLM V1
+	Key Length:		128
+
+This event is generated when a logon session is created. It is generated on the computer that was accessed.
+
+The subject fields indicate the account on the local system which requested the logon. This is most commonly a service such as the Server service, or a local process such as Winlogon.exe or Services.exe.
+
+The logon type field indicates the kind of logon that occurred. The most common types are 2 (interactive) and 3 (network).
+
+The New Logon fields indicate the account for whom the new logon was created, i.e. the account that was logged on.
+
+The network fields indicate where a remote logon request originated. Workstation name is not always available and may be left blank in some cases.
+
+The impersonation level field indicates the extent to which a process in the logon session can impersonate.
+
+The authentication information fields provide detailed information about this specific logon request.
+	- Logon GUID is a unique identifier that can be used to correlate this event with a KDC event.
+	- Transited services indicate which intermediate services have participated in this logon request.
+	- Package name indicates which sub-protocol was used among the NTLM protocols.
+	- Key length indicates the length of the generated session key. This will be 0 if no session key was requested.","4624","1",,"0","12544","0","-9214364837600034816","566823","Microsoft-Windows-Security-Auditing","54849625-5478-4994-a5ba-3e3b0328c30d","Security","452","2836","WIN-77LTAPHIQ1R.example.corp",,"3/18/2019 5:02:04 PM",,,"System.UInt32[]","System.Diagnostics.Eventing.Reader.EventBookmark","Information","Info","Logon","System.Collections.ObjectModel.ReadOnlyCollection`1[System.String]","System.Collections.Generic.List`1[System.Diagnostics.Eventing.Reader.EventProperty]"
+"The audit log was cleared.
+Subject:
+	Security ID:	S-1-5-21-1587066498-1489273250-1035260531-500
+	Account Name:	administrator
+	Domain Name:	EXAMPLE
+	Logon ID:	0x4FD77","1102","0",,"4","104","0","4620693217682128896","566821","Microsoft-Windows-Eventlog","fc65ddd8-d6ef-4962-83d5-6e5cfe9ce148","Security","780","3480","WIN-77LTAPHIQ1R.example.corp",,"3/18/2019 5:02:00 PM",,,"System.UInt32[]","System.Diagnostics.Eventing.Reader.EventBookmark","Information","Info","Log clear","System.Collections.ObjectModel.ReadOnlyCollection`1[System.String]","System.Collections.Generic.List`1[System.Diagnostics.Eventing.Reader.EventProperty]"
