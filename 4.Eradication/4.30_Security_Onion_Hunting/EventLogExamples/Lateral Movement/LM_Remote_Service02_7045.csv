@@ -1,0 +1,22 @@
+"Message","Id","Version","Qualifiers","Level","Task","Opcode","Keywords","RecordId","ProviderName","ProviderId","LogName","ProcessId","ThreadId","MachineName","UserId","TimeCreated","ActivityId","RelatedActivityId","MatchedQueryIds","Bookmark","LevelDisplayName","OpcodeDisplayName","TaskDisplayName","KeywordsDisplayNames","Properties"
+"A service was installed in the system.
+
+Service Name:  remotesvc
+Service File Name:  calc.exe
+Service Type:  user mode service
+Service Start Type:  auto start
+Service Account:  LocalSystem","7045","0","16384","4","0","0","-9187343239835811840","6045","Service Control Manager","555908d1-a6d7-4695-8e1e-26931d2012f4","System","444","2308","WIN-77LTAPHIQ1R.example.corp","S-1-5-21-1587066498-1489273250-1035260531-500","3/18/2019 5:41:29 PM",,,"System.UInt32[]","System.Diagnostics.Eventing.Reader.EventBookmark","Information",,,"System.Collections.ObjectModel.ReadOnlyCollection`1[System.String]","System.Collections.Generic.List`1[System.Diagnostics.Eventing.Reader.EventProperty]"
+"A service was installed in the system.
+
+Service Name:  spoolsv
+Service File Name:  cmd.exe
+Service Type:  user mode service
+Service Start Type:  auto start
+Service Account:  LocalSystem","7045","0","16384","4","0","0","-9187343239835811840","4482","Service Control Manager","555908d1-a6d7-4695-8e1e-26931d2012f4","System","444","2024","WIN-77LTAPHIQ1R.example.corp","S-1-5-21-1587066498-1489273250-1035260531-1108","3/3/2019 1:24:24 AM",,,"System.UInt32[]","System.Diagnostics.Eventing.Reader.EventBookmark","Information",,,"System.Collections.ObjectModel.ReadOnlyCollection`1[System.String]","System.Collections.Generic.List`1[System.Diagnostics.Eventing.Reader.EventProperty]"
+"A service was installed in the system.
+
+Service Name:  spoolfool
+Service File Name:  cmd.exe
+Service Type:  user mode service
+Service Start Type:  auto start
+Service Account:  LocalSystem","7045","0","16384","4","0","0","-9187343239835811840","4480","Service Control Manager","555908d1-a6d7-4695-8e1e-26931d2012f4","System","444","140","WIN-77LTAPHIQ1R.example.corp","S-1-5-21-1587066498-1489273250-1035260531-1108","3/3/2019 1:20:28 AM",,,"System.UInt32[]","System.Diagnostics.Eventing.Reader.EventBookmark","Information",,,"System.Collections.ObjectModel.ReadOnlyCollection`1[System.String]","System.Collections.Generic.List`1[System.Diagnostics.Eventing.Reader.EventProperty]"

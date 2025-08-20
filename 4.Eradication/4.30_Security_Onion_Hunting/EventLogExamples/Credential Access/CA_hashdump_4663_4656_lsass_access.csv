@@ -1,0 +1,69 @@
+"Message","Id","Version","Qualifiers","Level","Task","Opcode","Keywords","RecordId","ProviderName","ProviderId","LogName","ProcessId","ThreadId","MachineName","UserId","TimeCreated","ActivityId","RelatedActivityId","MatchedQueryIds","Bookmark","LevelDisplayName","OpcodeDisplayName","TaskDisplayName","KeywordsDisplayNames","Properties"
+"An attempt was made to access an object.
+
+Subject:
+	Security ID:		S-1-5-21-3461203602-4096304019-2269080069-1000
+	Account Name:		IEUser
+	Account Domain:		MSEDGEWIN10
+	Logon ID:		0x33392
+
+Object:
+	Object Server:		Security
+	Object Type:		Process
+	Object Name:		\Device\HarddiskVolume1\Windows\System32\lsass.exe
+	Handle ID:		0x558
+	Resource Attributes:	-
+
+Process Information:
+	Process ID:		0x1688
+	Process Name:		C:\Windows\System32\cscript.exe
+
+Access Request Information:
+	Accesses:		Read from process memory
+				
+	Access Mask:		0x10","4663","1",,"0","12802","0","-9214364837600034816","314462","Microsoft-Windows-Security-Auditing","54849625-5478-4994-a5ba-3e3b0328c30d","Security","4","160","MSEDGEWIN10",,"3/8/2020 3:11:34 PM",,,"System.UInt32[]","System.Diagnostics.Eventing.Reader.EventBookmark","Information","Info","Kernel Object","System.Collections.ObjectModel.ReadOnlyCollection`1[System.String]","System.Collections.Generic.List`1[System.Diagnostics.Eventing.Reader.EventProperty]"
+"A handle to an object was requested.
+
+Subject:
+	Security ID:		S-1-5-21-3461203602-4096304019-2269080069-1000
+	Account Name:		IEUser
+	Account Domain:		MSEDGEWIN10
+	Logon ID:		0x33392
+
+Object:
+	Object Server:		Security
+	Object Type:		Process
+	Object Name:		\Device\HarddiskVolume1\Windows\System32\lsass.exe
+	Handle ID:		0x558
+	Resource Attributes:	-
+
+Process Information:
+	Process ID:		0x1688
+	Process Name:		C:\Windows\System32\cscript.exe
+
+Access Request Information:
+	Transaction ID:		{00000000-0000-0000-0000-000000000000}
+	Accesses:		DELETE
+				READ_CONTROL
+				WRITE_DAC
+				WRITE_OWNER
+				SYNCHRONIZE
+				Force process termination
+				Create new thread in process
+				Set process session ID
+				Perform virtual memory operation
+				Read from process memory
+				Write to process memory
+				Duplicate handle into or out of process
+				Create a subprocess of process
+				Set process quotas
+				Set process information
+				Query process information
+				Set process termination port
+				Undefined Access (no effect) Bit 12
+				Undefined Access (no effect) Bit 13
+				
+	Access Reasons:		-
+	Access Mask:		0x1F3FFF
+	Privileges Used for Access Check:	-
+	Restricted SID Count:	0","4656","1",,"0","12802","0","-9214364837600034816","314461","Microsoft-Windows-Security-Auditing","54849625-5478-4994-a5ba-3e3b0328c30d","Security","4","160","MSEDGEWIN10",,"3/8/2020 3:11:34 PM",,,"System.UInt32[]","System.Diagnostics.Eventing.Reader.EventBookmark","Information","Info","Kernel Object","System.Collections.ObjectModel.ReadOnlyCollection`1[System.String]","System.Collections.Generic.List`1[System.Diagnostics.Eventing.Reader.EventProperty]"

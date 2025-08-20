@@ -1,0 +1,98 @@
+"Message","Id","Version","Qualifiers","Level","Task","Opcode","Keywords","RecordId","ProviderName","ProviderId","LogName","ProcessId","ThreadId","MachineName","UserId","TimeCreated","ActivityId","RelatedActivityId","MatchedQueryIds","Bookmark","LevelDisplayName","OpcodeDisplayName","TaskDisplayName","KeywordsDisplayNames","Properties"
+,"3","5",,"4","3","0","-9223372036854775808","578510","Microsoft-Windows-Sysmon","5770385f-c22a-43e0-bf4c-06f5698ffbd9","Microsoft-Windows-Sysmon/Operational","3392","4248","MSEDGEWIN10","S-1-5-18","4/20/2021 1:33:20 PM",,,"System.UInt32[]","System.Diagnostics.Eventing.Reader.EventBookmark",,,,,"System.Collections.Generic.List`1[System.Diagnostics.Eventing.Reader.EventProperty]"
+,"3","5",,"4","3","0","-9223372036854775808","578509","Microsoft-Windows-Sysmon","5770385f-c22a-43e0-bf4c-06f5698ffbd9","Microsoft-Windows-Sysmon/Operational","3392","4248","MSEDGEWIN10","S-1-5-18","4/20/2021 1:33:18 PM",,,"System.UInt32[]","System.Diagnostics.Eventing.Reader.EventBookmark",,,,,"System.Collections.Generic.List`1[System.Diagnostics.Eventing.Reader.EventProperty]"
+,"3","5",,"4","3","0","-9223372036854775808","578508","Microsoft-Windows-Sysmon","5770385f-c22a-43e0-bf4c-06f5698ffbd9","Microsoft-Windows-Sysmon/Operational","3392","4248","MSEDGEWIN10","S-1-5-18","4/20/2021 1:33:18 PM",,,"System.UInt32[]","System.Diagnostics.Eventing.Reader.EventBookmark",,,,,"System.Collections.Generic.List`1[System.Diagnostics.Eventing.Reader.EventProperty]"
+,"3","5",,"4","3","0","-9223372036854775808","578507","Microsoft-Windows-Sysmon","5770385f-c22a-43e0-bf4c-06f5698ffbd9","Microsoft-Windows-Sysmon/Operational","3392","4248","MSEDGEWIN10","S-1-5-18","4/20/2021 1:33:14 PM",,,"System.UInt32[]","System.Diagnostics.Eventing.Reader.EventBookmark",,,,,"System.Collections.Generic.List`1[System.Diagnostics.Eventing.Reader.EventProperty]"
+,"3","5",,"4","3","0","-9223372036854775808","578506","Microsoft-Windows-Sysmon","5770385f-c22a-43e0-bf4c-06f5698ffbd9","Microsoft-Windows-Sysmon/Operational","3392","4248","MSEDGEWIN10","S-1-5-18","4/20/2021 1:33:14 PM",,,"System.UInt32[]","System.Diagnostics.Eventing.Reader.EventBookmark",,,,,"System.Collections.Generic.List`1[System.Diagnostics.Eventing.Reader.EventProperty]"
+,"1","5",,"4","1","0","-9223372036854775808","578505","Microsoft-Windows-Sysmon","5770385f-c22a-43e0-bf4c-06f5698ffbd9","Microsoft-Windows-Sysmon/Operational","3392","4112","MSEDGEWIN10","S-1-5-18","4/20/2021 1:33:14 PM",,,"System.UInt32[]","System.Diagnostics.Eventing.Reader.EventBookmark",,,,,"System.Collections.Generic.List`1[System.Diagnostics.Eventing.Reader.EventProperty]"
+,"1","5",,"4","1","0","-9223372036854775808","578503","Microsoft-Windows-Sysmon","5770385f-c22a-43e0-bf4c-06f5698ffbd9","Microsoft-Windows-Sysmon/Operational","3392","4112","MSEDGEWIN10","S-1-5-18","4/20/2021 1:33:13 PM",,,"System.UInt32[]","System.Diagnostics.Eventing.Reader.EventBookmark",,,,,"System.Collections.Generic.List`1[System.Diagnostics.Eventing.Reader.EventProperty]"
+,"3","5",,"4","3","0","-9223372036854775808","578501","Microsoft-Windows-Sysmon","5770385f-c22a-43e0-bf4c-06f5698ffbd9","Microsoft-Windows-Sysmon/Operational","3392","4248","MSEDGEWIN10","S-1-5-18","4/20/2021 1:33:01 PM",,,"System.UInt32[]","System.Diagnostics.Eventing.Reader.EventBookmark",,,,,"System.Collections.Generic.List`1[System.Diagnostics.Eventing.Reader.EventProperty]"
+,"3","5",,"4","3","0","-9223372036854775808","578500","Microsoft-Windows-Sysmon","5770385f-c22a-43e0-bf4c-06f5698ffbd9","Microsoft-Windows-Sysmon/Operational","3392","4248","MSEDGEWIN10","S-1-5-18","4/20/2021 1:33:01 PM",,,"System.UInt32[]","System.Diagnostics.Eventing.Reader.EventBookmark",,,,,"System.Collections.Generic.List`1[System.Diagnostics.Eventing.Reader.EventProperty]"
+,"1","5",,"4","1","0","-9223372036854775808","578499","Microsoft-Windows-Sysmon","5770385f-c22a-43e0-bf4c-06f5698ffbd9","Microsoft-Windows-Sysmon/Operational","3392","4112","MSEDGEWIN10","S-1-5-18","4/20/2021 1:33:00 PM",,,"System.UInt32[]","System.Diagnostics.Eventing.Reader.EventBookmark",,,,,"System.Collections.Generic.List`1[System.Diagnostics.Eventing.Reader.EventProperty]"
+,"18","1",,"4","18","0","-9223372036854775808","578498","Microsoft-Windows-Sysmon","5770385f-c22a-43e0-bf4c-06f5698ffbd9","Microsoft-Windows-Sysmon/Operational","3392","4112","MSEDGEWIN10","S-1-5-18","4/20/2021 1:33:00 PM",,,"System.UInt32[]","System.Diagnostics.Eventing.Reader.EventBookmark",,,,,"System.Collections.Generic.List`1[System.Diagnostics.Eventing.Reader.EventProperty]"
+"A network share object was checked to see whether client can be granted desired access.
+	
+Subject:
+	Security ID:		S-1-5-21-3461203602-4096304019-2269080069-1010
+	Account Name:		user03
+	Account Domain:		MSEDGEWIN10
+	Logon ID:		0x770575
+
+Network Information:	
+	Object Type:		File
+	Source Address:		127.0.0.1
+	Source Port:		49925
+	
+Share Information:
+	Share Name:		\\*\IPC$
+	Share Path:		
+	Relative Target Name:	samir
+
+Access Request Information:
+	Access Mask:		0x3
+	Accesses:		ReadData (or ListDirectory)
+				WriteData (or AddFile)
+				
+Access Check Results:
+	-
+","5145","0",,"0","12811","0","-9214364837600034816","321447","Microsoft-Windows-Security-Auditing","54849625-5478-4994-a5ba-3e3b0328c30d","Security","4","5548","MSEDGEWIN10",,"4/20/2021 1:33:00 PM",,,"System.UInt32[]","System.Diagnostics.Eventing.Reader.EventBookmark","Information","Info","Detailed File Share","System.Collections.ObjectModel.ReadOnlyCollection`1[System.String]","System.Collections.Generic.List`1[System.Diagnostics.Eventing.Reader.EventProperty]"
+"An account was successfully logged on.
+
+Subject:
+	Security ID:		S-1-0-0
+	Account Name:		-
+	Account Domain:		-
+	Logon ID:		0x0
+
+Logon Information:
+	Logon Type:		3
+	Restricted Admin Mode:	-
+	Virtual Account:		No
+	Elevated Token:		No
+
+Impersonation Level:		Impersonation
+
+New Logon:
+	Security ID:		S-1-5-21-3461203602-4096304019-2269080069-1010
+	Account Name:		user03
+	Account Domain:		MSEDGEWIN10
+	Logon ID:		0x770575
+	Linked Logon ID:		0x0
+	Network Account Name:	-
+	Network Account Domain:	-
+	Logon GUID:		{00000000-0000-0000-0000-000000000000}
+
+Process Information:
+	Process ID:		0x0
+	Process Name:		-
+
+Network Information:
+	Workstation Name:	MSEDGEWIN10
+	Source Network Address:	127.0.0.1
+	Source Port:		49925
+
+Detailed Authentication Information:
+	Logon Process:		NtLmSsp 
+	Authentication Package:	NTLM
+	Transited Services:	-
+	Package Name (NTLM only):	NTLM V2
+	Key Length:		0
+
+This event is generated when a logon session is created. It is generated on the computer that was accessed.
+
+The subject fields indicate the account on the local system which requested the logon. This is most commonly a service such as the Server service, or a local process such as Winlogon.exe or Services.exe.
+
+The logon type field indicates the kind of logon that occurred. The most common types are 2 (interactive) and 3 (network).
+
+The New Logon fields indicate the account for whom the new logon was created, i.e. the account that was logged on.
+
+The network fields indicate where a remote logon request originated. Workstation name is not always available and may be left blank in some cases.
+
+The impersonation level field indicates the extent to which a process in the logon session can impersonate.
+
+The authentication information fields provide detailed information about this specific logon request.
+	- Logon GUID is a unique identifier that can be used to correlate this event with a KDC event.
+	- Transited services indicate which intermediate services have participated in this logon request.
+	- Package name indicates which sub-protocol was used among the NTLM protocols.
+	- Key length indicates the length of the generated session key. This will be 0 if no session key was requested.","4624","2",,"0","12544","0","-9214364837600034816","321446","Microsoft-Windows-Security-Auditing","54849625-5478-4994-a5ba-3e3b0328c30d","Security","644","696","MSEDGEWIN10",,"4/20/2021 1:33:00 PM","4eba70c4-364f-0000-5771-ba4e4f36d701",,"System.UInt32[]","System.Diagnostics.Eventing.Reader.EventBookmark","Information","Info","Logon","System.Collections.ObjectModel.ReadOnlyCollection`1[System.String]","System.Collections.Generic.List`1[System.Diagnostics.Eventing.Reader.EventProperty]"
+,"1","5",,"4","1","0","-9223372036854775808","578497","Microsoft-Windows-Sysmon","5770385f-c22a-43e0-bf4c-06f5698ffbd9","Microsoft-Windows-Sysmon/Operational","3392","4112","MSEDGEWIN10","S-1-5-18","4/20/2021 1:32:55 PM",,,"System.UInt32[]","System.Diagnostics.Eventing.Reader.EventBookmark",,,,,"System.Collections.Generic.List`1[System.Diagnostics.Eventing.Reader.EventProperty]"

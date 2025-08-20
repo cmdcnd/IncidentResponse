@@ -1,0 +1,8 @@
+"Message","Id","Version","Qualifiers","Level","Task","Opcode","Keywords","RecordId","ProviderName","ProviderId","LogName","ProcessId","ThreadId","MachineName","UserId","TimeCreated","ActivityId","RelatedActivityId","MatchedQueryIds","Bookmark","LevelDisplayName","OpcodeDisplayName","TaskDisplayName","KeywordsDisplayNames","Properties"
+"A service was installed in the system.
+
+Service Name:  WinPwnage
+Service File Name:  %COMSPEC% /c ping -n 1 127.0.0.1 >nul && echo 'WinPwnage' > \\.\pipe\WinPwnagePipe
+Service Type:  user mode service
+Service Start Type:  demand start
+Service Account:  LocalSystem","7045","0","16384","4","0","0","-9187343239835811840","10446","Service Control Manager","555908d1-a6d7-4695-8e1e-26931d2012f4","System","468","3256","IEWIN7","S-1-5-21-3583694148-1414552638-2922671848-1000","5/12/2019 5:52:43 AM",,,"System.UInt32[]","System.Diagnostics.Eventing.Reader.EventBookmark","Information",,,"System.Collections.ObjectModel.ReadOnlyCollection`1[System.String]","System.Collections.Generic.List`1[System.Diagnostics.Eventing.Reader.EventProperty]"
