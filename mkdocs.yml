@@ -2,13 +2,11 @@ site_name: Incident Response
 site_url: https://ir.cnd.ca.gov
 repo_url: https://github.com/cmdcnd/IncidentResponse
 edit_uri: edit/main/docs
-theme:
-  name: material
+
 
 # Configuration
 theme:
   name: material
-  custom_dir: src/.overrides
   features:
     # - announce.dismiss
     - content.action.edit
@@ -60,10 +58,6 @@ plugins:
   - table-reader
 #  - minify:
 #      minify_html: true
-
-# Hooks
-hooks:
-  - src/.overrides/hooks/translations.py
 
 # Customization
 extra:
