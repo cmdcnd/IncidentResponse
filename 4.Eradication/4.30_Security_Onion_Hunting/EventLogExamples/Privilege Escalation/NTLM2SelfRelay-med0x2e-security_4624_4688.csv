@@ -1,0 +1,352 @@
+"Message","Id","Version","Qualifiers","Level","Task","Opcode","Keywords","RecordId","ProviderName","ProviderId","LogName","ProcessId","ThreadId","MachineName","UserId","TimeCreated","ActivityId","RelatedActivityId","MatchedQueryIds","Bookmark","LevelDisplayName","OpcodeDisplayName","TaskDisplayName","KeywordsDisplayNames","Properties"
+"An account was logged off.
+
+Subject:
+	Security ID:		S-1-5-21-81107902-1099128984-1836738286-500
+	Account Name:		Administrator
+	Account Domain:		WINLAB.LOCAL
+	Logon ID:		0x821AAB
+
+Logon Type:			3
+
+This event is generated when a logon session is destroyed. It may be positively correlated with a logon event using the Logon ID value. Logon IDs are only unique between reboots on the same computer.","4634","0",,"0","12545","0","-9214364837600034816","21375","Microsoft-Windows-Security-Auditing","54849625-5478-4994-a5ba-3e3b0328c30d","Security","704","9984","wind10.winlab.local",,"4/30/2022 9:42:11 PM",,,"System.UInt32[]","System.Diagnostics.Eventing.Reader.EventBookmark","Information","Info","Logoff","System.Collections.ObjectModel.ReadOnlyCollection`1[System.String]","System.Collections.Generic.List`1[System.Diagnostics.Eventing.Reader.EventProperty]"
+"A new process has been created.
+
+Creator Subject:
+	Security ID:		S-1-5-20
+	Account Name:		WIND10$
+	Account Domain:		WINLAB
+	Logon ID:		0x3E4
+
+Target Subject:
+	Security ID:		S-1-0-0
+	Account Name:		Administrator
+	Account Domain:		WINLAB.LOCAL
+	Logon ID:		0x82215A
+
+Process Information:
+	New Process ID:		0x1dc
+	New Process Name:	C:\Windows\System32\notepad.exe
+	Token Elevation Type:	%%1936
+	Mandatory Label:		S-1-16-12288
+	Creator Process ID:	0xe8c
+	Creator Process Name:	C:\Windows\System32\wbem\WmiPrvSE.exe
+	Process Command Line:	
+
+Token Elevation Type indicates the type of token that was assigned to the new process in accordance with User Account Control policy.
+
+Type 1 is a full token with no privileges removed or groups disabled.  A full token is only used if User Account Control is disabled or if the user is the built-in Administrator account or a service account.
+
+Type 2 is an elevated token with no privileges removed or groups disabled.  An elevated token is used when User Account Control is enabled and the user chooses to start the program using Run as administrator.  An elevated token is also used when an application is configured to always require administrative privilege or to always require maximum privilege, and the user is a member of the Administrators group.
+
+Type 3 is a limited token with administrative privileges removed and administrative groups disabled.  The limited token is used when User Account Control is enabled, the application does not require administrative privilege, and the user does not choose to start the program using Run as administrator.","4688","2",,"0","13312","0","-9214364837600034816","21374","Microsoft-Windows-Security-Auditing","54849625-5478-4994-a5ba-3e3b0328c30d","Security","4","9832","wind10.winlab.local",,"4/30/2022 9:42:06 PM",,,"System.UInt32[]","System.Diagnostics.Eventing.Reader.EventBookmark","Information","Info","Process Creation","System.Collections.ObjectModel.ReadOnlyCollection`1[System.String]","System.Collections.Generic.List`1[System.Diagnostics.Eventing.Reader.EventProperty]"
+"An account was successfully logged on.
+
+Subject:
+	Security ID:		S-1-0-0
+	Account Name:		-
+	Account Domain:		-
+	Logon ID:		0x0
+
+Logon Information:
+	Logon Type:		3
+	Restricted Admin Mode:	-
+	Virtual Account:		No
+	Elevated Token:		Yes
+
+Impersonation Level:		Impersonation
+
+New Logon:
+	Security ID:		S-1-5-21-81107902-1099128984-1836738286-500
+	Account Name:		Administrator
+	Account Domain:		WINLAB.LOCAL
+	Logon ID:		0x82215A
+	Linked Logon ID:		0x0
+	Network Account Name:	-
+	Network Account Domain:	-
+	Logon GUID:		{59cefb69-4f9d-7486-c449-471e00b814e3}
+
+Process Information:
+	Process ID:		0x0
+	Process Name:		-
+
+Network Information:
+	Workstation Name:	-
+	Source Network Address:	192.168.1.219
+	Source Port:		63652
+
+Detailed Authentication Information:
+	Logon Process:		Kerberos
+	Authentication Package:	Kerberos
+	Transited Services:	-
+	Package Name (NTLM only):	-
+	Key Length:		0
+
+This event is generated when a logon session is created. It is generated on the computer that was accessed.
+
+The subject fields indicate the account on the local system which requested the logon. This is most commonly a service such as the Server service, or a local process such as Winlogon.exe or Services.exe.
+
+The logon type field indicates the kind of logon that occurred. The most common types are 2 (interactive) and 3 (network).
+
+The New Logon fields indicate the account for whom the new logon was created, i.e. the account that was logged on.
+
+The network fields indicate where a remote logon request originated. Workstation name is not always available and may be left blank in some cases.
+
+The impersonation level field indicates the extent to which a process in the logon session can impersonate.
+
+The authentication information fields provide detailed information about this specific logon request.
+	- Logon GUID is a unique identifier that can be used to correlate this event with a KDC event.
+	- Transited services indicate which intermediate services have participated in this logon request.
+	- Package name indicates which sub-protocol was used among the NTLM protocols.
+	- Key length indicates the length of the generated session key. This will be 0 if no session key was requested.","4624","2",,"0","12544","0","-9214364837600034816","21373","Microsoft-Windows-Security-Auditing","54849625-5478-4994-a5ba-3e3b0328c30d","Security","704","9984","wind10.winlab.local",,"4/30/2022 9:42:00 PM","ad9fd595-5d0f-0001-c2d5-9fad0f5dd801",,"System.UInt32[]","System.Diagnostics.Eventing.Reader.EventBookmark","Information","Info","Logon","System.Collections.ObjectModel.ReadOnlyCollection`1[System.String]","System.Collections.Generic.List`1[System.Diagnostics.Eventing.Reader.EventProperty]"
+"Special privileges assigned to new logon.
+
+Subject:
+	Security ID:		S-1-5-21-81107902-1099128984-1836738286-500
+	Account Name:		Administrator
+	Account Domain:		WINLAB.LOCAL
+	Logon ID:		0x82215A
+
+Privileges:		SeSecurityPrivilege
+			SeBackupPrivilege
+			SeRestorePrivilege
+			SeTakeOwnershipPrivilege
+			SeDebugPrivilege
+			SeSystemEnvironmentPrivilege
+			SeLoadDriverPrivilege
+			SeImpersonatePrivilege
+			SeDelegateSessionUserImpersonatePrivilege","4672","0",,"0","12548","0","-9214364837600034816","21372","Microsoft-Windows-Security-Auditing","54849625-5478-4994-a5ba-3e3b0328c30d","Security","704","10224","wind10.winlab.local",,"4/30/2022 9:41:58 PM","ad9fd595-5d0f-0001-c2d5-9fad0f5dd801",,"System.UInt32[]","System.Diagnostics.Eventing.Reader.EventBookmark","Information","Info","Special Logon","System.Collections.ObjectModel.ReadOnlyCollection`1[System.String]","System.Collections.Generic.List`1[System.Diagnostics.Eventing.Reader.EventProperty]"
+"An account was successfully logged on.
+
+Subject:
+	Security ID:		S-1-0-0
+	Account Name:		-
+	Account Domain:		-
+	Logon ID:		0x0
+
+Logon Information:
+	Logon Type:		3
+	Restricted Admin Mode:	-
+	Virtual Account:		No
+	Elevated Token:		Yes
+
+Impersonation Level:		Impersonation
+
+New Logon:
+	Security ID:		S-1-5-21-81107902-1099128984-1836738286-500
+	Account Name:		Administrator
+	Account Domain:		WINLAB.LOCAL
+	Logon ID:		0x821F28
+	Linked Logon ID:		0x0
+	Network Account Name:	-
+	Network Account Domain:	-
+	Logon GUID:		{59cefb69-4f9d-7486-c449-471e00b814e3}
+
+Process Information:
+	Process ID:		0x0
+	Process Name:		-
+
+Network Information:
+	Workstation Name:	-
+	Source Network Address:	192.168.1.219
+	Source Port:		63652
+
+Detailed Authentication Information:
+	Logon Process:		Kerberos
+	Authentication Package:	Kerberos
+	Transited Services:	-
+	Package Name (NTLM only):	-
+	Key Length:		0
+
+This event is generated when a logon session is created. It is generated on the computer that was accessed.
+
+The subject fields indicate the account on the local system which requested the logon. This is most commonly a service such as the Server service, or a local process such as Winlogon.exe or Services.exe.
+
+The logon type field indicates the kind of logon that occurred. The most common types are 2 (interactive) and 3 (network).
+
+The New Logon fields indicate the account for whom the new logon was created, i.e. the account that was logged on.
+
+The network fields indicate where a remote logon request originated. Workstation name is not always available and may be left blank in some cases.
+
+The impersonation level field indicates the extent to which a process in the logon session can impersonate.
+
+The authentication information fields provide detailed information about this specific logon request.
+	- Logon GUID is a unique identifier that can be used to correlate this event with a KDC event.
+	- Transited services indicate which intermediate services have participated in this logon request.
+	- Package name indicates which sub-protocol was used among the NTLM protocols.
+	- Key length indicates the length of the generated session key. This will be 0 if no session key was requested.","4624","2",,"0","12544","0","-9214364837600034816","21371","Microsoft-Windows-Security-Auditing","54849625-5478-4994-a5ba-3e3b0328c30d","Security","704","740","wind10.winlab.local",,"4/30/2022 9:41:54 PM","ad9fd595-5d0f-0001-c2d5-9fad0f5dd801",,"System.UInt32[]","System.Diagnostics.Eventing.Reader.EventBookmark","Information","Info","Logon","System.Collections.ObjectModel.ReadOnlyCollection`1[System.String]","System.Collections.Generic.List`1[System.Diagnostics.Eventing.Reader.EventProperty]"
+"Special privileges assigned to new logon.
+
+Subject:
+	Security ID:		S-1-5-21-81107902-1099128984-1836738286-500
+	Account Name:		Administrator
+	Account Domain:		WINLAB.LOCAL
+	Logon ID:		0x821F28
+
+Privileges:		SeSecurityPrivilege
+			SeBackupPrivilege
+			SeRestorePrivilege
+			SeTakeOwnershipPrivilege
+			SeDebugPrivilege
+			SeSystemEnvironmentPrivilege
+			SeLoadDriverPrivilege
+			SeImpersonatePrivilege
+			SeDelegateSessionUserImpersonatePrivilege","4672","0",,"0","12548","0","-9214364837600034816","21370","Microsoft-Windows-Security-Auditing","54849625-5478-4994-a5ba-3e3b0328c30d","Security","704","740","wind10.winlab.local",,"4/30/2022 9:41:52 PM","ad9fd595-5d0f-0001-c2d5-9fad0f5dd801",,"System.UInt32[]","System.Diagnostics.Eventing.Reader.EventBookmark","Information","Info","Special Logon","System.Collections.ObjectModel.ReadOnlyCollection`1[System.String]","System.Collections.Generic.List`1[System.Diagnostics.Eventing.Reader.EventProperty]"
+"An account was successfully logged on.
+
+Subject:
+	Security ID:		S-1-0-0
+	Account Name:		-
+	Account Domain:		-
+	Logon ID:		0x0
+
+Logon Information:
+	Logon Type:		3
+	Restricted Admin Mode:	-
+	Virtual Account:		No
+	Elevated Token:		Yes
+
+Impersonation Level:		Impersonation
+
+New Logon:
+	Security ID:		S-1-5-21-81107902-1099128984-1836738286-500
+	Account Name:		Administrator
+	Account Domain:		WINLAB.LOCAL
+	Logon ID:		0x821AAB
+	Linked Logon ID:		0x0
+	Network Account Name:	-
+	Network Account Domain:	-
+	Logon GUID:		{59cefb69-4f9d-7486-c449-471e00b814e3}
+
+Process Information:
+	Process ID:		0x0
+	Process Name:		-
+
+Network Information:
+	Workstation Name:	-
+	Source Network Address:	192.168.1.219
+	Source Port:		63652
+
+Detailed Authentication Information:
+	Logon Process:		Kerberos
+	Authentication Package:	Kerberos
+	Transited Services:	-
+	Package Name (NTLM only):	-
+	Key Length:		0
+
+This event is generated when a logon session is created. It is generated on the computer that was accessed.
+
+The subject fields indicate the account on the local system which requested the logon. This is most commonly a service such as the Server service, or a local process such as Winlogon.exe or Services.exe.
+
+The logon type field indicates the kind of logon that occurred. The most common types are 2 (interactive) and 3 (network).
+
+The New Logon fields indicate the account for whom the new logon was created, i.e. the account that was logged on.
+
+The network fields indicate where a remote logon request originated. Workstation name is not always available and may be left blank in some cases.
+
+The impersonation level field indicates the extent to which a process in the logon session can impersonate.
+
+The authentication information fields provide detailed information about this specific logon request.
+	- Logon GUID is a unique identifier that can be used to correlate this event with a KDC event.
+	- Transited services indicate which intermediate services have participated in this logon request.
+	- Package name indicates which sub-protocol was used among the NTLM protocols.
+	- Key length indicates the length of the generated session key. This will be 0 if no session key was requested.","4624","2",,"0","12544","0","-9214364837600034816","21369","Microsoft-Windows-Security-Auditing","54849625-5478-4994-a5ba-3e3b0328c30d","Security","704","740","wind10.winlab.local",,"4/30/2022 9:41:47 PM","ad9fd595-5d0f-0001-c2d5-9fad0f5dd801",,"System.UInt32[]","System.Diagnostics.Eventing.Reader.EventBookmark","Information","Info","Logon","System.Collections.ObjectModel.ReadOnlyCollection`1[System.String]","System.Collections.Generic.List`1[System.Diagnostics.Eventing.Reader.EventProperty]"
+"Special privileges assigned to new logon.
+
+Subject:
+	Security ID:		S-1-5-21-81107902-1099128984-1836738286-500
+	Account Name:		Administrator
+	Account Domain:		WINLAB.LOCAL
+	Logon ID:		0x821AAB
+
+Privileges:		SeSecurityPrivilege
+			SeBackupPrivilege
+			SeRestorePrivilege
+			SeTakeOwnershipPrivilege
+			SeDebugPrivilege
+			SeSystemEnvironmentPrivilege
+			SeLoadDriverPrivilege
+			SeImpersonatePrivilege
+			SeDelegateSessionUserImpersonatePrivilege","4672","0",,"0","12548","0","-9214364837600034816","21368","Microsoft-Windows-Security-Auditing","54849625-5478-4994-a5ba-3e3b0328c30d","Security","704","740","wind10.winlab.local",,"4/30/2022 9:41:45 PM","ad9fd595-5d0f-0001-c2d5-9fad0f5dd801",,"System.UInt32[]","System.Diagnostics.Eventing.Reader.EventBookmark","Information","Info","Special Logon","System.Collections.ObjectModel.ReadOnlyCollection`1[System.String]","System.Collections.Generic.List`1[System.Diagnostics.Eventing.Reader.EventProperty]"
+"An account was successfully logged on.
+
+Subject:
+	Security ID:		S-1-0-0
+	Account Name:		-
+	Account Domain:		-
+	Logon ID:		0x0
+
+Logon Information:
+	Logon Type:		3
+	Restricted Admin Mode:	-
+	Virtual Account:		No
+	Elevated Token:		Yes
+
+Impersonation Level:		Impersonation
+
+New Logon:
+	Security ID:		S-1-5-21-81107902-1099128984-1836738286-500
+	Account Name:		Administrator
+	Account Domain:		WINLAB.LOCAL
+	Logon ID:		0x820D61
+	Linked Logon ID:		0x0
+	Network Account Name:	-
+	Network Account Domain:	-
+	Logon GUID:		{59cefb69-4f9d-7486-c449-471e00b814e3}
+
+Process Information:
+	Process ID:		0x0
+	Process Name:		-
+
+Network Information:
+	Workstation Name:	-
+	Source Network Address:	192.168.1.219
+	Source Port:		63640
+
+Detailed Authentication Information:
+	Logon Process:		Kerberos
+	Authentication Package:	Kerberos
+	Transited Services:	-
+	Package Name (NTLM only):	-
+	Key Length:		0
+
+This event is generated when a logon session is created. It is generated on the computer that was accessed.
+
+The subject fields indicate the account on the local system which requested the logon. This is most commonly a service such as the Server service, or a local process such as Winlogon.exe or Services.exe.
+
+The logon type field indicates the kind of logon that occurred. The most common types are 2 (interactive) and 3 (network).
+
+The New Logon fields indicate the account for whom the new logon was created, i.e. the account that was logged on.
+
+The network fields indicate where a remote logon request originated. Workstation name is not always available and may be left blank in some cases.
+
+The impersonation level field indicates the extent to which a process in the logon session can impersonate.
+
+The authentication information fields provide detailed information about this specific logon request.
+	- Logon GUID is a unique identifier that can be used to correlate this event with a KDC event.
+	- Transited services indicate which intermediate services have participated in this logon request.
+	- Package name indicates which sub-protocol was used among the NTLM protocols.
+	- Key length indicates the length of the generated session key. This will be 0 if no session key was requested.","4624","2",,"0","12544","0","-9214364837600034816","21367","Microsoft-Windows-Security-Auditing","54849625-5478-4994-a5ba-3e3b0328c30d","Security","704","10224","wind10.winlab.local",,"4/30/2022 9:41:37 PM","ad9fd595-5d0f-0001-c2d5-9fad0f5dd801",,"System.UInt32[]","System.Diagnostics.Eventing.Reader.EventBookmark","Information","Info","Logon","System.Collections.ObjectModel.ReadOnlyCollection`1[System.String]","System.Collections.Generic.List`1[System.Diagnostics.Eventing.Reader.EventProperty]"
+"Special privileges assigned to new logon.
+
+Subject:
+	Security ID:		S-1-5-21-81107902-1099128984-1836738286-500
+	Account Name:		Administrator
+	Account Domain:		WINLAB.LOCAL
+	Logon ID:		0x820D61
+
+Privileges:		SeSecurityPrivilege
+			SeBackupPrivilege
+			SeRestorePrivilege
+			SeTakeOwnershipPrivilege
+			SeDebugPrivilege
+			SeSystemEnvironmentPrivilege
+			SeLoadDriverPrivilege
+			SeImpersonatePrivilege
+			SeDelegateSessionUserImpersonatePrivilege","4672","0",,"0","12548","0","-9214364837600034816","21366","Microsoft-Windows-Security-Auditing","54849625-5478-4994-a5ba-3e3b0328c30d","Security","704","10224","wind10.winlab.local",,"4/30/2022 9:41:34 PM","ad9fd595-5d0f-0001-c2d5-9fad0f5dd801",,"System.UInt32[]","System.Diagnostics.Eventing.Reader.EventBookmark","Information","Info","Special Logon","System.Collections.ObjectModel.ReadOnlyCollection`1[System.String]","System.Collections.Generic.List`1[System.Diagnostics.Eventing.Reader.EventProperty]"
+"The audit log was cleared.
+Subject:
+	Security ID:	S-1-5-21-482804190-775995292-3801157738-1002
+	Account Name:	admin
+	Domain Name:	WIND10
+	Logon ID:	0x47EA55","1102","0",,"4","104","0","4620693217682128896","21365","Microsoft-Windows-Eventlog","fc65ddd8-d6ef-4962-83d5-6e5cfe9ce148","Security","1228","9912","wind10.winlab.local",,"4/30/2022 9:40:18 PM",,,"System.UInt32[]","System.Diagnostics.Eventing.Reader.EventBookmark","Information","Info","Log clear","System.Collections.ObjectModel.ReadOnlyCollection`1[System.String]","System.Collections.Generic.List`1[System.Diagnostics.Eventing.Reader.EventProperty]"

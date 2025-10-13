@@ -1,0 +1,60 @@
+"Message","Id","Version","Qualifiers","Level","Task","Opcode","Keywords","RecordId","ProviderName","ProviderId","LogName","ProcessId","ThreadId","MachineName","UserId","TimeCreated","ActivityId","RelatedActivityId","MatchedQueryIds","Bookmark","LevelDisplayName","OpcodeDisplayName","TaskDisplayName","KeywordsDisplayNames","Properties"
+"An account was successfully logged on.
+
+Subject:
+	Security ID:		S-1-5-21-3461203602-4096304019-2269080069-1000
+	Account Name:		IEUser
+	Account Domain:		MSEDGEWIN10
+	Logon ID:		0x2E4CE
+
+Logon Information:
+	Logon Type:		9
+	Restricted Admin Mode:	-
+	Virtual Account:		No
+	Elevated Token:		No
+
+Impersonation Level:		Impersonation
+
+New Logon:
+	Security ID:		S-1-5-21-3461203602-4096304019-2269080069-1000
+	Account Name:		IEUser
+	Account Domain:		MSEDGEWIN10
+	Logon ID:		0x38F87E
+	Linked Logon ID:		0x0
+	Network Account Name:	l
+	Network Account Domain:	o
+	Logon GUID:		{00000000-0000-0000-0000-000000000000}
+
+Process Information:
+	Process ID:		0x1b90
+	Process Name:		C:\Windows\System32\svchost.exe
+
+Network Information:
+	Workstation Name:	-
+	Source Network Address:	::1
+	Source Port:		0
+
+Detailed Authentication Information:
+	Logon Process:		seclogo
+	Authentication Package:	Negotiate
+	Transited Services:	-
+	Package Name (NTLM only):	-
+	Key Length:		0
+
+This event is generated when a logon session is created. It is generated on the computer that was accessed.
+
+The subject fields indicate the account on the local system which requested the logon. This is most commonly a service such as the Server service, or a local process such as Winlogon.exe or Services.exe.
+
+The logon type field indicates the kind of logon that occurred. The most common types are 2 (interactive) and 3 (network).
+
+The New Logon fields indicate the account for whom the new logon was created, i.e. the account that was logged on.
+
+The network fields indicate where a remote logon request originated. Workstation name is not always available and may be left blank in some cases.
+
+The impersonation level field indicates the extent to which a process in the logon session can impersonate.
+
+The authentication information fields provide detailed information about this specific logon request.
+	- Logon GUID is a unique identifier that can be used to correlate this event with a KDC event.
+	- Transited services indicate which intermediate services have participated in this logon request.
+	- Package name indicates which sub-protocol was used among the NTLM protocols.
+	- Key length indicates the length of the generated session key. This will be 0 if no session key was requested.","4624","2",,"0","12544","0","-9214364837600034816","10113","Microsoft-Windows-Security-Auditing","54849625-5478-4994-a5ba-3e3b0328c30d","Security","620","5596","MSEDGEWIN10",,"8/5/2019 2:39:30 AM","fdc063de-4b69-0000-5564-c0fd694bd501",,"System.UInt32[]","System.Diagnostics.Eventing.Reader.EventBookmark","Information","Info","Logon","System.Collections.ObjectModel.ReadOnlyCollection`1[System.String]","System.Collections.Generic.List`1[System.Diagnostics.Eventing.Reader.EventProperty]"

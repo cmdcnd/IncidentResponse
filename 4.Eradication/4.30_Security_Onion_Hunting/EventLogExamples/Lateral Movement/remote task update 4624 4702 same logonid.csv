@@ -1,0 +1,421 @@
+"Message","Id","Version","Qualifiers","Level","Task","Opcode","Keywords","RecordId","ProviderName","ProviderId","LogName","ProcessId","ThreadId","MachineName","UserId","TimeCreated","ActivityId","RelatedActivityId","MatchedQueryIds","Bookmark","LevelDisplayName","OpcodeDisplayName","TaskDisplayName","KeywordsDisplayNames","Properties"
+"An account was successfully logged on.
+
+Subject:
+	Security ID:		S-1-0-0
+	Account Name:		-
+	Account Domain:		-
+	Logon ID:		0x0
+
+Logon Information:
+	Logon Type:		3
+	Restricted Admin Mode:	-
+	Virtual Account:		No
+	Elevated Token:		Yes
+
+Impersonation Level:		Impersonation
+
+New Logon:
+	Security ID:		S-1-5-18
+	Account Name:		01566S-WIN16-IR$
+	Account Domain:		THREEBEESCO.COM
+	Logon ID:		0x21AADB8
+	Linked Logon ID:		0x0
+	Network Account Name:	-
+	Network Account Domain:	-
+	Logon GUID:		{860d1189-6c67-c57b-59ed-c0676a052019}
+
+Process Information:
+	Process ID:		0x0
+	Process Name:		-
+
+Network Information:
+	Workstation Name:	-
+	Source Network Address:	::1
+	Source Port:		62863
+
+Detailed Authentication Information:
+	Logon Process:		Kerberos
+	Authentication Package:	Kerberos
+	Transited Services:	-
+	Package Name (NTLM only):	-
+	Key Length:		0
+
+This event is generated when a logon session is created. It is generated on the computer that was accessed.
+
+The subject fields indicate the account on the local system which requested the logon. This is most commonly a service such as the Server service, or a local process such as Winlogon.exe or Services.exe.
+
+The logon type field indicates the kind of logon that occurred. The most common types are 2 (interactive) and 3 (network).
+
+The New Logon fields indicate the account for whom the new logon was created, i.e. the account that was logged on.
+
+The network fields indicate where a remote logon request originated. Workstation name is not always available and may be left blank in some cases.
+
+The impersonation level field indicates the extent to which a process in the logon session can impersonate.
+
+The authentication information fields provide detailed information about this specific logon request.
+	- Logon GUID is a unique identifier that can be used to correlate this event with a KDC event.
+	- Transited services indicate which intermediate services have participated in this logon request.
+	- Package name indicates which sub-protocol was used among the NTLM protocols.
+	- Key length indicates the length of the generated session key. This will be 0 if no session key was requested.","4624","2",,"0","12544","0","-9214364837600034816","2171296","Microsoft-Windows-Security-Auditing","54849625-5478-4994-a5ba-3e3b0328c30d","Security","632","2504","01566s-win16-ir.threebeesco.com",,"9/2/2020 4:47:57 AM",,,"System.UInt32[]","System.Diagnostics.Eventing.Reader.EventBookmark","Information","Info","Logon","System.Collections.ObjectModel.ReadOnlyCollection`1[System.String]","System.Collections.Generic.List`1[System.Diagnostics.Eventing.Reader.EventProperty]"
+"An account was successfully logged on.
+
+Subject:
+	Security ID:		S-1-0-0
+	Account Name:		-
+	Account Domain:		-
+	Logon ID:		0x0
+
+Logon Information:
+	Logon Type:		3
+	Restricted Admin Mode:	-
+	Virtual Account:		No
+	Elevated Token:		Yes
+
+Impersonation Level:		Impersonation
+
+New Logon:
+	Security ID:		S-1-5-18
+	Account Name:		01566S-WIN16-IR$
+	Account Domain:		THREEBEESCO.COM
+	Logon ID:		0x21AAD4A
+	Linked Logon ID:		0x0
+	Network Account Name:	-
+	Network Account Domain:	-
+	Logon GUID:		{860d1189-6c67-c57b-59ed-c0676a052019}
+
+Process Information:
+	Process ID:		0x0
+	Process Name:		-
+
+Network Information:
+	Workstation Name:	-
+	Source Network Address:	::1
+	Source Port:		62862
+
+Detailed Authentication Information:
+	Logon Process:		Kerberos
+	Authentication Package:	Kerberos
+	Transited Services:	-
+	Package Name (NTLM only):	-
+	Key Length:		0
+
+This event is generated when a logon session is created. It is generated on the computer that was accessed.
+
+The subject fields indicate the account on the local system which requested the logon. This is most commonly a service such as the Server service, or a local process such as Winlogon.exe or Services.exe.
+
+The logon type field indicates the kind of logon that occurred. The most common types are 2 (interactive) and 3 (network).
+
+The New Logon fields indicate the account for whom the new logon was created, i.e. the account that was logged on.
+
+The network fields indicate where a remote logon request originated. Workstation name is not always available and may be left blank in some cases.
+
+The impersonation level field indicates the extent to which a process in the logon session can impersonate.
+
+The authentication information fields provide detailed information about this specific logon request.
+	- Logon GUID is a unique identifier that can be used to correlate this event with a KDC event.
+	- Transited services indicate which intermediate services have participated in this logon request.
+	- Package name indicates which sub-protocol was used among the NTLM protocols.
+	- Key length indicates the length of the generated session key. This will be 0 if no session key was requested.","4624","2",,"0","12544","0","-9214364837600034816","2171295","Microsoft-Windows-Security-Auditing","54849625-5478-4994-a5ba-3e3b0328c30d","Security","632","2512","01566s-win16-ir.threebeesco.com",,"9/2/2020 4:47:57 AM",,,"System.UInt32[]","System.Diagnostics.Eventing.Reader.EventBookmark","Information","Info","Logon","System.Collections.ObjectModel.ReadOnlyCollection`1[System.String]","System.Collections.Generic.List`1[System.Diagnostics.Eventing.Reader.EventProperty]"
+"An account was successfully logged on.
+
+Subject:
+	Security ID:		S-1-0-0
+	Account Name:		-
+	Account Domain:		-
+	Logon ID:		0x0
+
+Logon Information:
+	Logon Type:		3
+	Restricted Admin Mode:	-
+	Virtual Account:		No
+	Elevated Token:		Yes
+
+Impersonation Level:		Delegation
+
+New Logon:
+	Security ID:		S-1-5-18
+	Account Name:		01566S-WIN16-IR$
+	Account Domain:		THREEBEESCO.COM
+	Logon ID:		0x21AA47F
+	Linked Logon ID:		0x0
+	Network Account Name:	-
+	Network Account Domain:	-
+	Logon GUID:		{27fce179-f80f-f6a6-7df4-c247e783b072}
+
+Process Information:
+	Process ID:		0x0
+	Process Name:		-
+
+Network Information:
+	Workstation Name:	-
+	Source Network Address:	::1
+	Source Port:		62860
+
+Detailed Authentication Information:
+	Logon Process:		Kerberos
+	Authentication Package:	Kerberos
+	Transited Services:	-
+	Package Name (NTLM only):	-
+	Key Length:		0
+
+This event is generated when a logon session is created. It is generated on the computer that was accessed.
+
+The subject fields indicate the account on the local system which requested the logon. This is most commonly a service such as the Server service, or a local process such as Winlogon.exe or Services.exe.
+
+The logon type field indicates the kind of logon that occurred. The most common types are 2 (interactive) and 3 (network).
+
+The New Logon fields indicate the account for whom the new logon was created, i.e. the account that was logged on.
+
+The network fields indicate where a remote logon request originated. Workstation name is not always available and may be left blank in some cases.
+
+The impersonation level field indicates the extent to which a process in the logon session can impersonate.
+
+The authentication information fields provide detailed information about this specific logon request.
+	- Logon GUID is a unique identifier that can be used to correlate this event with a KDC event.
+	- Transited services indicate which intermediate services have participated in this logon request.
+	- Package name indicates which sub-protocol was used among the NTLM protocols.
+	- Key length indicates the length of the generated session key. This will be 0 if no session key was requested.","4624","2",,"0","12544","0","-9214364837600034816","2171294","Microsoft-Windows-Security-Auditing","54849625-5478-4994-a5ba-3e3b0328c30d","Security","632","4244","01566s-win16-ir.threebeesco.com",,"9/2/2020 4:47:49 AM","4f7fbbe3-7bb5-0002-ebbb-7f4fb57bd601",,"System.UInt32[]","System.Diagnostics.Eventing.Reader.EventBookmark","Information","Info","Logon","System.Collections.ObjectModel.ReadOnlyCollection`1[System.String]","System.Collections.Generic.List`1[System.Diagnostics.Eventing.Reader.EventProperty]"
+"A scheduled task was updated.
+
+Subject:
+	Security ID:		S-1-5-21-308926384-506822093-3341789130-1106
+	Account Name:		a-jbrown
+	Account Domain:		3B
+	Logon ID:		0x21A8C68
+
+Task Information:
+	Task Name: 		\LMST
+	Task New Content: 		<?xml version=""1.0"" encoding=""UTF-16""?>
+<Task version=""1.2"" xmlns=""http://schemas.microsoft.com/windows/2004/02/mit/task"">
+  <RegistrationInfo>
+    <Date>2020-09-02T04:47:49.74-07:00</Date>
+    <Author>a-jbrown</Author>
+    <Description>00304d6e</Description>
+    <URI>\LMST</URI>
+  </RegistrationInfo>
+  <Triggers>
+    <TimeTrigger>
+      <StartBoundary>2020-02-09T04:47:48</StartBoundary>
+      <EndBoundary>2020-02-09T04:47:58</EndBoundary>
+      <Enabled>true</Enabled>
+    </TimeTrigger>
+  </Triggers>
+  <Principals>
+    <Principal id=""Author"">
+      <RunLevel>HighestAvailable</RunLevel>
+      <UserId>SYSTEM</UserId>
+    </Principal>
+  </Principals>
+  <Settings>
+    <MultipleInstancesPolicy>IgnoreNew</MultipleInstancesPolicy>
+    <DisallowStartIfOnBatteries>true</DisallowStartIfOnBatteries>
+    <StopIfGoingOnBatteries>true</StopIfGoingOnBatteries>
+    <AllowHardTerminate>true</AllowHardTerminate>
+    <StartWhenAvailable>true</StartWhenAvailable>
+    <RunOnlyIfNetworkAvailable>false</RunOnlyIfNetworkAvailable>
+    <IdleSettings>
+      <Duration>PT10M</Duration>
+      <WaitTimeout>PT1H</WaitTimeout>
+      <StopOnIdleEnd>true</StopOnIdleEnd>
+      <RestartOnIdle>false</RestartOnIdle>
+    </IdleSettings>
+    <AllowStartOnDemand>true</AllowStartOnDemand>
+    <Enabled>true</Enabled>
+    <Hidden>true</Hidden>
+    <RunOnlyIfIdle>false</RunOnlyIfIdle>
+    <WakeToRun>false</WakeToRun>
+    <ExecutionTimeLimit>PT72H</ExecutionTimeLimit>
+    <Priority>7</Priority>
+  </Settings>
+  <Actions Context=""Author"">
+    <Exec>
+      <Command>cmd.exe</Command>
+      <Arguments>/c echo testing &gt; c:\users\public\out.txt</Arguments>
+    </Exec>
+  </Actions>
+</Task>
+	","4702","0",,"0","12804","0","-9214364837600034816","2171293","Microsoft-Windows-Security-Auditing","54849625-5478-4994-a5ba-3e3b0328c30d","Security","632","4244","01566s-win16-ir.threebeesco.com",,"9/2/2020 4:47:48 AM","4f7fbbe3-7bb5-0002-ebbb-7f4fb57bd601",,"System.UInt32[]","System.Diagnostics.Eventing.Reader.EventBookmark","Information","Info","Other Object Access Events","System.Collections.ObjectModel.ReadOnlyCollection`1[System.String]","System.Collections.Generic.List`1[System.Diagnostics.Eventing.Reader.EventProperty]"
+"An account was successfully logged on.
+
+Subject:
+	Security ID:		S-1-0-0
+	Account Name:		-
+	Account Domain:		-
+	Logon ID:		0x0
+
+Logon Information:
+	Logon Type:		3
+	Restricted Admin Mode:	-
+	Virtual Account:		No
+	Elevated Token:		Yes
+
+Impersonation Level:		Impersonation
+
+New Logon:
+	Security ID:		S-1-5-21-308926384-506822093-3341789130-1106
+	Account Name:		a-jbrown
+	Account Domain:		THREEBEESCO.COM
+	Logon ID:		0x21A8C9A
+	Linked Logon ID:		0x0
+	Network Account Name:	-
+	Network Account Domain:	-
+	Logon GUID:		{467413fe-b054-d9ae-c758-b41105a3eca9}
+
+Process Information:
+	Process ID:		0x0
+	Process Name:		-
+
+Network Information:
+	Workstation Name:	-
+	Source Network Address:	172.16.66.142
+	Source Port:		60726
+
+Detailed Authentication Information:
+	Logon Process:		Kerberos
+	Authentication Package:	Kerberos
+	Transited Services:	-
+	Package Name (NTLM only):	-
+	Key Length:		0
+
+This event is generated when a logon session is created. It is generated on the computer that was accessed.
+
+The subject fields indicate the account on the local system which requested the logon. This is most commonly a service such as the Server service, or a local process such as Winlogon.exe or Services.exe.
+
+The logon type field indicates the kind of logon that occurred. The most common types are 2 (interactive) and 3 (network).
+
+The New Logon fields indicate the account for whom the new logon was created, i.e. the account that was logged on.
+
+The network fields indicate where a remote logon request originated. Workstation name is not always available and may be left blank in some cases.
+
+The impersonation level field indicates the extent to which a process in the logon session can impersonate.
+
+The authentication information fields provide detailed information about this specific logon request.
+	- Logon GUID is a unique identifier that can be used to correlate this event with a KDC event.
+	- Transited services indicate which intermediate services have participated in this logon request.
+	- Package name indicates which sub-protocol was used among the NTLM protocols.
+	- Key length indicates the length of the generated session key. This will be 0 if no session key was requested.","4624","2",,"0","12544","0","-9214364837600034816","2171292","Microsoft-Windows-Security-Auditing","54849625-5478-4994-a5ba-3e3b0328c30d","Security","632","4244","01566s-win16-ir.threebeesco.com",,"9/2/2020 4:47:48 AM","4f7fbbe3-7bb5-0002-ebbb-7f4fb57bd601",,"System.UInt32[]","System.Diagnostics.Eventing.Reader.EventBookmark","Information","Info","Logon","System.Collections.ObjectModel.ReadOnlyCollection`1[System.String]","System.Collections.Generic.List`1[System.Diagnostics.Eventing.Reader.EventProperty]"
+"An account was successfully logged on.
+
+Subject:
+	Security ID:		S-1-0-0
+	Account Name:		-
+	Account Domain:		-
+	Logon ID:		0x0
+
+Logon Information:
+	Logon Type:		3
+	Restricted Admin Mode:	-
+	Virtual Account:		No
+	Elevated Token:		Yes
+
+Impersonation Level:		Impersonation
+
+New Logon:
+	Security ID:		S-1-5-21-308926384-506822093-3341789130-1106
+	Account Name:		a-jbrown
+	Account Domain:		THREEBEESCO.COM
+	Logon ID:		0x21A8C80
+	Linked Logon ID:		0x0
+	Network Account Name:	-
+	Network Account Domain:	-
+	Logon GUID:		{467413fe-b054-d9ae-c758-b41105a3eca9}
+
+Process Information:
+	Process ID:		0x0
+	Process Name:		-
+
+Network Information:
+	Workstation Name:	-
+	Source Network Address:	172.16.66.142
+	Source Port:		60728
+
+Detailed Authentication Information:
+	Logon Process:		Kerberos
+	Authentication Package:	Kerberos
+	Transited Services:	-
+	Package Name (NTLM only):	-
+	Key Length:		0
+
+This event is generated when a logon session is created. It is generated on the computer that was accessed.
+
+The subject fields indicate the account on the local system which requested the logon. This is most commonly a service such as the Server service, or a local process such as Winlogon.exe or Services.exe.
+
+The logon type field indicates the kind of logon that occurred. The most common types are 2 (interactive) and 3 (network).
+
+The New Logon fields indicate the account for whom the new logon was created, i.e. the account that was logged on.
+
+The network fields indicate where a remote logon request originated. Workstation name is not always available and may be left blank in some cases.
+
+The impersonation level field indicates the extent to which a process in the logon session can impersonate.
+
+The authentication information fields provide detailed information about this specific logon request.
+	- Logon GUID is a unique identifier that can be used to correlate this event with a KDC event.
+	- Transited services indicate which intermediate services have participated in this logon request.
+	- Package name indicates which sub-protocol was used among the NTLM protocols.
+	- Key length indicates the length of the generated session key. This will be 0 if no session key was requested.","4624","2",,"0","12544","0","-9214364837600034816","2171291","Microsoft-Windows-Security-Auditing","54849625-5478-4994-a5ba-3e3b0328c30d","Security","632","4244","01566s-win16-ir.threebeesco.com",,"9/2/2020 4:47:48 AM","4f7fbbe3-7bb5-0002-ebbb-7f4fb57bd601",,"System.UInt32[]","System.Diagnostics.Eventing.Reader.EventBookmark","Information","Info","Logon","System.Collections.ObjectModel.ReadOnlyCollection`1[System.String]","System.Collections.Generic.List`1[System.Diagnostics.Eventing.Reader.EventProperty]"
+"An account was successfully logged on.
+
+Subject:
+	Security ID:		S-1-0-0
+	Account Name:		-
+	Account Domain:		-
+	Logon ID:		0x0
+
+Logon Information:
+	Logon Type:		3
+	Restricted Admin Mode:	-
+	Virtual Account:		No
+	Elevated Token:		Yes
+
+Impersonation Level:		Impersonation
+
+New Logon:
+	Security ID:		S-1-5-21-308926384-506822093-3341789130-1106
+	Account Name:		a-jbrown
+	Account Domain:		3B
+	Logon ID:		0x21A8C68
+	Linked Logon ID:		0x0
+	Network Account Name:	-
+	Network Account Domain:	-
+	Logon GUID:		{00000000-0000-0000-0000-000000000000}
+
+Process Information:
+	Process ID:		0x0
+	Process Name:		-
+
+Network Information:
+	Workstation Name:	04246W-WIN10
+	Source Network Address:	172.16.66.142
+	Source Port:		60726
+
+Detailed Authentication Information:
+	Logon Process:		NtLmSsp 
+	Authentication Package:	NTLM
+	Transited Services:	-
+	Package Name (NTLM only):	NTLM V2
+	Key Length:		128
+
+This event is generated when a logon session is created. It is generated on the computer that was accessed.
+
+The subject fields indicate the account on the local system which requested the logon. This is most commonly a service such as the Server service, or a local process such as Winlogon.exe or Services.exe.
+
+The logon type field indicates the kind of logon that occurred. The most common types are 2 (interactive) and 3 (network).
+
+The New Logon fields indicate the account for whom the new logon was created, i.e. the account that was logged on.
+
+The network fields indicate where a remote logon request originated. Workstation name is not always available and may be left blank in some cases.
+
+The impersonation level field indicates the extent to which a process in the logon session can impersonate.
+
+The authentication information fields provide detailed information about this specific logon request.
+	- Logon GUID is a unique identifier that can be used to correlate this event with a KDC event.
+	- Transited services indicate which intermediate services have participated in this logon request.
+	- Package name indicates which sub-protocol was used among the NTLM protocols.
+	- Key length indicates the length of the generated session key. This will be 0 if no session key was requested.","4624","2",,"0","12544","0","-9214364837600034816","2171290","Microsoft-Windows-Security-Auditing","54849625-5478-4994-a5ba-3e3b0328c30d","Security","632","4244","01566s-win16-ir.threebeesco.com",,"9/2/2020 4:47:48 AM",,,"System.UInt32[]","System.Diagnostics.Eventing.Reader.EventBookmark","Information","Info","Logon","System.Collections.ObjectModel.ReadOnlyCollection`1[System.String]","System.Collections.Generic.List`1[System.Diagnostics.Eventing.Reader.EventProperty]"
+"The audit log was cleared.
+Subject:
+	Security ID:	S-1-5-21-308926384-506822093-3341789130-1106
+	Account Name:	a-jbrown
+	Domain Name:	3B
+	Logon ID:	0x38A14","1102","0",,"4","104","0","4620693217682128896","2171289","Microsoft-Windows-Eventlog","fc65ddd8-d6ef-4962-83d5-6e5cfe9ce148","Security","420","996","01566s-win16-ir.threebeesco.com",,"9/2/2020 4:47:39 AM",,,"System.UInt32[]","System.Diagnostics.Eventing.Reader.EventBookmark","Information","Info","Log clear","System.Collections.ObjectModel.ReadOnlyCollection`1[System.String]","System.Collections.Generic.List`1[System.Diagnostics.Eventing.Reader.EventProperty]"

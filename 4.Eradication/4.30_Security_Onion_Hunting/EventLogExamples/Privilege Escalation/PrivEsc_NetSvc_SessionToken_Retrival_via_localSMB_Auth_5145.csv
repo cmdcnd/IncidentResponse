@@ -1,0 +1,34 @@
+"Message","Id","Version","Qualifiers","Level","Task","Opcode","Keywords","RecordId","ProviderName","ProviderId","LogName","ProcessId","ThreadId","MachineName","UserId","TimeCreated","ActivityId","RelatedActivityId","MatchedQueryIds","Bookmark","LevelDisplayName","OpcodeDisplayName","TaskDisplayName","KeywordsDisplayNames","Properties"
+"A network share object was checked to see whether client can be granted desired access.
+	
+Subject:
+	Security ID:		S-1-5-20
+	Account Name:		MSEDGEWIN10$
+	Account Domain:		WORKGROUP
+	Logon ID:		0x3E4
+
+Network Information:	
+	Object Type:		File
+	Source Address:		::1
+	Source Port:		49674
+	
+Share Information:
+	Share Name:		\\*\IPC$
+	Share Path:		
+	Relative Target Name:	pipey
+
+Access Request Information:
+	Access Mask:		0x12019F
+	Accesses:		READ_CONTROL
+				SYNCHRONIZE
+				ReadData (or ListDirectory)
+				WriteData (or AddFile)
+				AppendData (or AddSubdirectory or CreatePipeInstance)
+				ReadEA
+				WriteEA
+				ReadAttributes
+				WriteAttributes
+				
+Access Check Results:
+	-
+","5145","0",,"0","12811","0","-9214364837600034816","87753","Microsoft-Windows-Security-Auditing","54849625-5478-4994-a5ba-3e3b0328c30d","Security","4","256","MSEDGEWIN10",,"8/2/2020 9:24:07 AM",,,"System.UInt32[]","System.Diagnostics.Eventing.Reader.EventBookmark","Information","Info","Detailed File Share","System.Collections.ObjectModel.ReadOnlyCollection`1[System.String]","System.Collections.Generic.List`1[System.Diagnostics.Eventing.Reader.EventProperty]"

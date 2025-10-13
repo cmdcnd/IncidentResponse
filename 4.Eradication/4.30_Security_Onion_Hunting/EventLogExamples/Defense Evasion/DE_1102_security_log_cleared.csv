@@ -1,0 +1,2445 @@
+"Message","Id","Version","Qualifiers","Level","Task","Opcode","Keywords","RecordId","ProviderName","ProviderId","LogName","ProcessId","ThreadId","MachineName","UserId","TimeCreated","ActivityId","RelatedActivityId","MatchedQueryIds","Bookmark","LevelDisplayName","OpcodeDisplayName","TaskDisplayName","KeywordsDisplayNames","Properties"
+"An attempt was made to access an object.
+
+Subject:
+	Security ID:		S-1-5-19
+	Account Name:		LOCAL SERVICE
+	Account Domain:		NT AUTHORITY
+	Logon ID:		0x3E5
+
+Object:
+	Object Server:	Security
+	Object Type:	Key
+	Object Name:	\REGISTRY\MACHINE\SYSTEM\ControlSet001\Control\Lsa
+	Handle ID:	0x420
+
+Process Information:
+	Process ID:	0x5a8
+	Process Name:	C:\Windows\System32\svchost.exe
+
+Access Request Information:
+	Accesses:	Query key value
+				
+	Access Mask:	0x1","4663","0",,"0","12801","0","-9214364837600034816","452922","Microsoft-Windows-Security-Auditing","54849625-5478-4994-a5ba-3e3b0328c30d","Security","4","60","PC01.example.corp",,"3/19/2019 4:35:15 PM",,,"System.UInt32[]","System.Diagnostics.Eventing.Reader.EventBookmark","Information","Info","Registry","System.Collections.ObjectModel.ReadOnlyCollection`1[System.String]","System.Collections.Generic.List`1[System.Diagnostics.Eventing.Reader.EventProperty]"
+"An attempt was made to access an object.
+
+Subject:
+	Security ID:		S-1-5-19
+	Account Name:		LOCAL SERVICE
+	Account Domain:		NT AUTHORITY
+	Logon ID:		0x3E5
+
+Object:
+	Object Server:	Security
+	Object Type:	Key
+	Object Name:	\REGISTRY\MACHINE\SYSTEM\ControlSet001\Control\Lsa\FipsAlgorithmPolicy
+	Handle ID:	0x1ac
+
+Process Information:
+	Process ID:	0x5a8
+	Process Name:	C:\Windows\System32\svchost.exe
+
+Access Request Information:
+	Accesses:	Query key value
+				
+	Access Mask:	0x1","4663","0",,"0","12801","0","-9214364837600034816","452921","Microsoft-Windows-Security-Auditing","54849625-5478-4994-a5ba-3e3b0328c30d","Security","4","60","PC01.example.corp",,"3/19/2019 4:35:15 PM",,,"System.UInt32[]","System.Diagnostics.Eventing.Reader.EventBookmark","Information","Info","Registry","System.Collections.ObjectModel.ReadOnlyCollection`1[System.String]","System.Collections.Generic.List`1[System.Diagnostics.Eventing.Reader.EventProperty]"
+"An attempt was made to access an object.
+
+Subject:
+	Security ID:		S-1-5-19
+	Account Name:		LOCAL SERVICE
+	Account Domain:		NT AUTHORITY
+	Logon ID:		0x3E5
+
+Object:
+	Object Server:	Security
+	Object Type:	Key
+	Object Name:	\REGISTRY\MACHINE\SYSTEM\ControlSet001\Control\Lsa
+	Handle ID:	0x1ac
+
+Process Information:
+	Process ID:	0x5a8
+	Process Name:	C:\Windows\System32\svchost.exe
+
+Access Request Information:
+	Accesses:	Query key value
+				
+	Access Mask:	0x1","4663","0",,"0","12801","0","-9214364837600034816","452920","Microsoft-Windows-Security-Auditing","54849625-5478-4994-a5ba-3e3b0328c30d","Security","4","60","PC01.example.corp",,"3/19/2019 4:35:15 PM",,,"System.UInt32[]","System.Diagnostics.Eventing.Reader.EventBookmark","Information","Info","Registry","System.Collections.ObjectModel.ReadOnlyCollection`1[System.String]","System.Collections.Generic.List`1[System.Diagnostics.Eventing.Reader.EventProperty]"
+"An attempt was made to access an object.
+
+Subject:
+	Security ID:		S-1-5-19
+	Account Name:		LOCAL SERVICE
+	Account Domain:		NT AUTHORITY
+	Logon ID:		0x3E5
+
+Object:
+	Object Server:	Security
+	Object Type:	Key
+	Object Name:	\REGISTRY\MACHINE\SYSTEM\ControlSet001\Control\Lsa\FipsAlgorithmPolicy
+	Handle ID:	0x420
+
+Process Information:
+	Process ID:	0x5a8
+	Process Name:	C:\Windows\System32\svchost.exe
+
+Access Request Information:
+	Accesses:	Query key value
+				
+	Access Mask:	0x1","4663","0",,"0","12801","0","-9214364837600034816","452919","Microsoft-Windows-Security-Auditing","54849625-5478-4994-a5ba-3e3b0328c30d","Security","4","60","PC01.example.corp",,"3/19/2019 4:35:15 PM",,,"System.UInt32[]","System.Diagnostics.Eventing.Reader.EventBookmark","Information","Info","Registry","System.Collections.ObjectModel.ReadOnlyCollection`1[System.String]","System.Collections.Generic.List`1[System.Diagnostics.Eventing.Reader.EventProperty]"
+"An attempt was made to access an object.
+
+Subject:
+	Security ID:		S-1-5-19
+	Account Name:		LOCAL SERVICE
+	Account Domain:		NT AUTHORITY
+	Logon ID:		0x3E5
+
+Object:
+	Object Server:	Security
+	Object Type:	Key
+	Object Name:	\REGISTRY\MACHINE\SYSTEM\ControlSet001\Control\Lsa
+	Handle ID:	0x420
+
+Process Information:
+	Process ID:	0x5a8
+	Process Name:	C:\Windows\System32\svchost.exe
+
+Access Request Information:
+	Accesses:	Query key value
+				
+	Access Mask:	0x1","4663","0",,"0","12801","0","-9214364837600034816","452918","Microsoft-Windows-Security-Auditing","54849625-5478-4994-a5ba-3e3b0328c30d","Security","4","60","PC01.example.corp",,"3/19/2019 4:35:15 PM",,,"System.UInt32[]","System.Diagnostics.Eventing.Reader.EventBookmark","Information","Info","Registry","System.Collections.ObjectModel.ReadOnlyCollection`1[System.String]","System.Collections.Generic.List`1[System.Diagnostics.Eventing.Reader.EventProperty]"
+"An attempt was made to access an object.
+
+Subject:
+	Security ID:		S-1-5-19
+	Account Name:		LOCAL SERVICE
+	Account Domain:		NT AUTHORITY
+	Logon ID:		0x3E5
+
+Object:
+	Object Server:	Security
+	Object Type:	Key
+	Object Name:	\REGISTRY\MACHINE\SYSTEM\ControlSet001\Control\Lsa\FipsAlgorithmPolicy
+	Handle ID:	0x1ac
+
+Process Information:
+	Process ID:	0x5a8
+	Process Name:	C:\Windows\System32\svchost.exe
+
+Access Request Information:
+	Accesses:	Query key value
+				
+	Access Mask:	0x1","4663","0",,"0","12801","0","-9214364837600034816","452917","Microsoft-Windows-Security-Auditing","54849625-5478-4994-a5ba-3e3b0328c30d","Security","4","60","PC01.example.corp",,"3/19/2019 4:35:15 PM",,,"System.UInt32[]","System.Diagnostics.Eventing.Reader.EventBookmark","Information","Info","Registry","System.Collections.ObjectModel.ReadOnlyCollection`1[System.String]","System.Collections.Generic.List`1[System.Diagnostics.Eventing.Reader.EventProperty]"
+"An attempt was made to access an object.
+
+Subject:
+	Security ID:		S-1-5-19
+	Account Name:		LOCAL SERVICE
+	Account Domain:		NT AUTHORITY
+	Logon ID:		0x3E5
+
+Object:
+	Object Server:	Security
+	Object Type:	Key
+	Object Name:	\REGISTRY\MACHINE\SYSTEM\ControlSet001\Control\Lsa
+	Handle ID:	0x1ac
+
+Process Information:
+	Process ID:	0x5a8
+	Process Name:	C:\Windows\System32\svchost.exe
+
+Access Request Information:
+	Accesses:	Query key value
+				
+	Access Mask:	0x1","4663","0",,"0","12801","0","-9214364837600034816","452916","Microsoft-Windows-Security-Auditing","54849625-5478-4994-a5ba-3e3b0328c30d","Security","4","60","PC01.example.corp",,"3/19/2019 4:35:15 PM",,,"System.UInt32[]","System.Diagnostics.Eventing.Reader.EventBookmark","Information","Info","Registry","System.Collections.ObjectModel.ReadOnlyCollection`1[System.String]","System.Collections.Generic.List`1[System.Diagnostics.Eventing.Reader.EventProperty]"
+"An attempt was made to access an object.
+
+Subject:
+	Security ID:		S-1-5-19
+	Account Name:		LOCAL SERVICE
+	Account Domain:		NT AUTHORITY
+	Logon ID:		0x3E5
+
+Object:
+	Object Server:	Security
+	Object Type:	Key
+	Object Name:	\REGISTRY\MACHINE\SYSTEM\ControlSet001\Control\Lsa\FipsAlgorithmPolicy
+	Handle ID:	0x420
+
+Process Information:
+	Process ID:	0x5a8
+	Process Name:	C:\Windows\System32\svchost.exe
+
+Access Request Information:
+	Accesses:	Query key value
+				
+	Access Mask:	0x1","4663","0",,"0","12801","0","-9214364837600034816","452915","Microsoft-Windows-Security-Auditing","54849625-5478-4994-a5ba-3e3b0328c30d","Security","4","60","PC01.example.corp",,"3/19/2019 4:35:15 PM",,,"System.UInt32[]","System.Diagnostics.Eventing.Reader.EventBookmark","Information","Info","Registry","System.Collections.ObjectModel.ReadOnlyCollection`1[System.String]","System.Collections.Generic.List`1[System.Diagnostics.Eventing.Reader.EventProperty]"
+"An attempt was made to access an object.
+
+Subject:
+	Security ID:		S-1-5-19
+	Account Name:		LOCAL SERVICE
+	Account Domain:		NT AUTHORITY
+	Logon ID:		0x3E5
+
+Object:
+	Object Server:	Security
+	Object Type:	Key
+	Object Name:	\REGISTRY\MACHINE\SYSTEM\ControlSet001\Control\Lsa
+	Handle ID:	0x420
+
+Process Information:
+	Process ID:	0x5a8
+	Process Name:	C:\Windows\System32\svchost.exe
+
+Access Request Information:
+	Accesses:	Query key value
+				
+	Access Mask:	0x1","4663","0",,"0","12801","0","-9214364837600034816","452914","Microsoft-Windows-Security-Auditing","54849625-5478-4994-a5ba-3e3b0328c30d","Security","4","60","PC01.example.corp",,"3/19/2019 4:35:15 PM",,,"System.UInt32[]","System.Diagnostics.Eventing.Reader.EventBookmark","Information","Info","Registry","System.Collections.ObjectModel.ReadOnlyCollection`1[System.String]","System.Collections.Generic.List`1[System.Diagnostics.Eventing.Reader.EventProperty]"
+"An attempt was made to access an object.
+
+Subject:
+	Security ID:		S-1-5-19
+	Account Name:		LOCAL SERVICE
+	Account Domain:		NT AUTHORITY
+	Logon ID:		0x3E5
+
+Object:
+	Object Server:	Security
+	Object Type:	Key
+	Object Name:	\REGISTRY\MACHINE\SYSTEM\ControlSet001\Control\Lsa\FipsAlgorithmPolicy
+	Handle ID:	0x1ac
+
+Process Information:
+	Process ID:	0x5a8
+	Process Name:	C:\Windows\System32\svchost.exe
+
+Access Request Information:
+	Accesses:	Query key value
+				
+	Access Mask:	0x1","4663","0",,"0","12801","0","-9214364837600034816","452913","Microsoft-Windows-Security-Auditing","54849625-5478-4994-a5ba-3e3b0328c30d","Security","4","60","PC01.example.corp",,"3/19/2019 4:35:15 PM",,,"System.UInt32[]","System.Diagnostics.Eventing.Reader.EventBookmark","Information","Info","Registry","System.Collections.ObjectModel.ReadOnlyCollection`1[System.String]","System.Collections.Generic.List`1[System.Diagnostics.Eventing.Reader.EventProperty]"
+"An attempt was made to access an object.
+
+Subject:
+	Security ID:		S-1-5-19
+	Account Name:		LOCAL SERVICE
+	Account Domain:		NT AUTHORITY
+	Logon ID:		0x3E5
+
+Object:
+	Object Server:	Security
+	Object Type:	Key
+	Object Name:	\REGISTRY\MACHINE\SYSTEM\ControlSet001\Control\Lsa
+	Handle ID:	0x1ac
+
+Process Information:
+	Process ID:	0x5a8
+	Process Name:	C:\Windows\System32\svchost.exe
+
+Access Request Information:
+	Accesses:	Query key value
+				
+	Access Mask:	0x1","4663","0",,"0","12801","0","-9214364837600034816","452912","Microsoft-Windows-Security-Auditing","54849625-5478-4994-a5ba-3e3b0328c30d","Security","4","60","PC01.example.corp",,"3/19/2019 4:35:15 PM",,,"System.UInt32[]","System.Diagnostics.Eventing.Reader.EventBookmark","Information","Info","Registry","System.Collections.ObjectModel.ReadOnlyCollection`1[System.String]","System.Collections.Generic.List`1[System.Diagnostics.Eventing.Reader.EventProperty]"
+"An attempt was made to access an object.
+
+Subject:
+	Security ID:		S-1-5-19
+	Account Name:		LOCAL SERVICE
+	Account Domain:		NT AUTHORITY
+	Logon ID:		0x3E5
+
+Object:
+	Object Server:	Security
+	Object Type:	Key
+	Object Name:	\REGISTRY\MACHINE\SYSTEM\ControlSet001\Control\Lsa\FipsAlgorithmPolicy
+	Handle ID:	0x420
+
+Process Information:
+	Process ID:	0x5a8
+	Process Name:	C:\Windows\System32\svchost.exe
+
+Access Request Information:
+	Accesses:	Query key value
+				
+	Access Mask:	0x1","4663","0",,"0","12801","0","-9214364837600034816","452911","Microsoft-Windows-Security-Auditing","54849625-5478-4994-a5ba-3e3b0328c30d","Security","4","60","PC01.example.corp",,"3/19/2019 4:35:15 PM",,,"System.UInt32[]","System.Diagnostics.Eventing.Reader.EventBookmark","Information","Info","Registry","System.Collections.ObjectModel.ReadOnlyCollection`1[System.String]","System.Collections.Generic.List`1[System.Diagnostics.Eventing.Reader.EventProperty]"
+"An attempt was made to access an object.
+
+Subject:
+	Security ID:		S-1-5-19
+	Account Name:		LOCAL SERVICE
+	Account Domain:		NT AUTHORITY
+	Logon ID:		0x3E5
+
+Object:
+	Object Server:	Security
+	Object Type:	Key
+	Object Name:	\REGISTRY\MACHINE\SYSTEM\ControlSet001\Control\Lsa
+	Handle ID:	0x420
+
+Process Information:
+	Process ID:	0x5a8
+	Process Name:	C:\Windows\System32\svchost.exe
+
+Access Request Information:
+	Accesses:	Query key value
+				
+	Access Mask:	0x1","4663","0",,"0","12801","0","-9214364837600034816","452910","Microsoft-Windows-Security-Auditing","54849625-5478-4994-a5ba-3e3b0328c30d","Security","4","60","PC01.example.corp",,"3/19/2019 4:35:15 PM",,,"System.UInt32[]","System.Diagnostics.Eventing.Reader.EventBookmark","Information","Info","Registry","System.Collections.ObjectModel.ReadOnlyCollection`1[System.String]","System.Collections.Generic.List`1[System.Diagnostics.Eventing.Reader.EventProperty]"
+"An attempt was made to access an object.
+
+Subject:
+	Security ID:		S-1-5-19
+	Account Name:		LOCAL SERVICE
+	Account Domain:		NT AUTHORITY
+	Logon ID:		0x3E5
+
+Object:
+	Object Server:	Security
+	Object Type:	Key
+	Object Name:	\REGISTRY\MACHINE\SYSTEM\ControlSet001\Control\Lsa\FipsAlgorithmPolicy
+	Handle ID:	0x1ac
+
+Process Information:
+	Process ID:	0x5a8
+	Process Name:	C:\Windows\System32\svchost.exe
+
+Access Request Information:
+	Accesses:	Query key value
+				
+	Access Mask:	0x1","4663","0",,"0","12801","0","-9214364837600034816","452909","Microsoft-Windows-Security-Auditing","54849625-5478-4994-a5ba-3e3b0328c30d","Security","4","60","PC01.example.corp",,"3/19/2019 4:35:15 PM",,,"System.UInt32[]","System.Diagnostics.Eventing.Reader.EventBookmark","Information","Info","Registry","System.Collections.ObjectModel.ReadOnlyCollection`1[System.String]","System.Collections.Generic.List`1[System.Diagnostics.Eventing.Reader.EventProperty]"
+"An attempt was made to access an object.
+
+Subject:
+	Security ID:		S-1-5-19
+	Account Name:		LOCAL SERVICE
+	Account Domain:		NT AUTHORITY
+	Logon ID:		0x3E5
+
+Object:
+	Object Server:	Security
+	Object Type:	Key
+	Object Name:	\REGISTRY\MACHINE\SYSTEM\ControlSet001\Control\Lsa
+	Handle ID:	0x1ac
+
+Process Information:
+	Process ID:	0x5a8
+	Process Name:	C:\Windows\System32\svchost.exe
+
+Access Request Information:
+	Accesses:	Query key value
+				
+	Access Mask:	0x1","4663","0",,"0","12801","0","-9214364837600034816","452908","Microsoft-Windows-Security-Auditing","54849625-5478-4994-a5ba-3e3b0328c30d","Security","4","60","PC01.example.corp",,"3/19/2019 4:35:15 PM",,,"System.UInt32[]","System.Diagnostics.Eventing.Reader.EventBookmark","Information","Info","Registry","System.Collections.ObjectModel.ReadOnlyCollection`1[System.String]","System.Collections.Generic.List`1[System.Diagnostics.Eventing.Reader.EventProperty]"
+"An attempt was made to access an object.
+
+Subject:
+	Security ID:		S-1-5-19
+	Account Name:		LOCAL SERVICE
+	Account Domain:		NT AUTHORITY
+	Logon ID:		0x3E5
+
+Object:
+	Object Server:	Security
+	Object Type:	Key
+	Object Name:	\REGISTRY\MACHINE\SYSTEM\ControlSet001\Control\Lsa\FipsAlgorithmPolicy
+	Handle ID:	0x420
+
+Process Information:
+	Process ID:	0x5a8
+	Process Name:	C:\Windows\System32\svchost.exe
+
+Access Request Information:
+	Accesses:	Query key value
+				
+	Access Mask:	0x1","4663","0",,"0","12801","0","-9214364837600034816","452907","Microsoft-Windows-Security-Auditing","54849625-5478-4994-a5ba-3e3b0328c30d","Security","4","60","PC01.example.corp",,"3/19/2019 4:35:15 PM",,,"System.UInt32[]","System.Diagnostics.Eventing.Reader.EventBookmark","Information","Info","Registry","System.Collections.ObjectModel.ReadOnlyCollection`1[System.String]","System.Collections.Generic.List`1[System.Diagnostics.Eventing.Reader.EventProperty]"
+"An attempt was made to access an object.
+
+Subject:
+	Security ID:		S-1-5-19
+	Account Name:		LOCAL SERVICE
+	Account Domain:		NT AUTHORITY
+	Logon ID:		0x3E5
+
+Object:
+	Object Server:	Security
+	Object Type:	Key
+	Object Name:	\REGISTRY\MACHINE\SYSTEM\ControlSet001\Control\Lsa
+	Handle ID:	0x420
+
+Process Information:
+	Process ID:	0x5a8
+	Process Name:	C:\Windows\System32\svchost.exe
+
+Access Request Information:
+	Accesses:	Query key value
+				
+	Access Mask:	0x1","4663","0",,"0","12801","0","-9214364837600034816","452906","Microsoft-Windows-Security-Auditing","54849625-5478-4994-a5ba-3e3b0328c30d","Security","4","60","PC01.example.corp",,"3/19/2019 4:35:15 PM",,,"System.UInt32[]","System.Diagnostics.Eventing.Reader.EventBookmark","Information","Info","Registry","System.Collections.ObjectModel.ReadOnlyCollection`1[System.String]","System.Collections.Generic.List`1[System.Diagnostics.Eventing.Reader.EventProperty]"
+"An attempt was made to access an object.
+
+Subject:
+	Security ID:		S-1-5-19
+	Account Name:		LOCAL SERVICE
+	Account Domain:		NT AUTHORITY
+	Logon ID:		0x3E5
+
+Object:
+	Object Server:	Security
+	Object Type:	Key
+	Object Name:	\REGISTRY\MACHINE\SYSTEM\ControlSet001\Control\Lsa\FipsAlgorithmPolicy
+	Handle ID:	0x1ac
+
+Process Information:
+	Process ID:	0x5a8
+	Process Name:	C:\Windows\System32\svchost.exe
+
+Access Request Information:
+	Accesses:	Query key value
+				
+	Access Mask:	0x1","4663","0",,"0","12801","0","-9214364837600034816","452905","Microsoft-Windows-Security-Auditing","54849625-5478-4994-a5ba-3e3b0328c30d","Security","4","60","PC01.example.corp",,"3/19/2019 4:35:15 PM",,,"System.UInt32[]","System.Diagnostics.Eventing.Reader.EventBookmark","Information","Info","Registry","System.Collections.ObjectModel.ReadOnlyCollection`1[System.String]","System.Collections.Generic.List`1[System.Diagnostics.Eventing.Reader.EventProperty]"
+"An attempt was made to access an object.
+
+Subject:
+	Security ID:		S-1-5-19
+	Account Name:		LOCAL SERVICE
+	Account Domain:		NT AUTHORITY
+	Logon ID:		0x3E5
+
+Object:
+	Object Server:	Security
+	Object Type:	Key
+	Object Name:	\REGISTRY\MACHINE\SYSTEM\ControlSet001\Control\Lsa
+	Handle ID:	0x1ac
+
+Process Information:
+	Process ID:	0x5a8
+	Process Name:	C:\Windows\System32\svchost.exe
+
+Access Request Information:
+	Accesses:	Query key value
+				
+	Access Mask:	0x1","4663","0",,"0","12801","0","-9214364837600034816","452904","Microsoft-Windows-Security-Auditing","54849625-5478-4994-a5ba-3e3b0328c30d","Security","4","60","PC01.example.corp",,"3/19/2019 4:35:15 PM",,,"System.UInt32[]","System.Diagnostics.Eventing.Reader.EventBookmark","Information","Info","Registry","System.Collections.ObjectModel.ReadOnlyCollection`1[System.String]","System.Collections.Generic.List`1[System.Diagnostics.Eventing.Reader.EventProperty]"
+"An attempt was made to access an object.
+
+Subject:
+	Security ID:		S-1-5-19
+	Account Name:		LOCAL SERVICE
+	Account Domain:		NT AUTHORITY
+	Logon ID:		0x3E5
+
+Object:
+	Object Server:	Security
+	Object Type:	Key
+	Object Name:	\REGISTRY\MACHINE\SYSTEM\ControlSet001\Control\Lsa\FipsAlgorithmPolicy
+	Handle ID:	0x420
+
+Process Information:
+	Process ID:	0x5a8
+	Process Name:	C:\Windows\System32\svchost.exe
+
+Access Request Information:
+	Accesses:	Query key value
+				
+	Access Mask:	0x1","4663","0",,"0","12801","0","-9214364837600034816","452903","Microsoft-Windows-Security-Auditing","54849625-5478-4994-a5ba-3e3b0328c30d","Security","4","60","PC01.example.corp",,"3/19/2019 4:35:15 PM",,,"System.UInt32[]","System.Diagnostics.Eventing.Reader.EventBookmark","Information","Info","Registry","System.Collections.ObjectModel.ReadOnlyCollection`1[System.String]","System.Collections.Generic.List`1[System.Diagnostics.Eventing.Reader.EventProperty]"
+"An attempt was made to access an object.
+
+Subject:
+	Security ID:		S-1-5-19
+	Account Name:		LOCAL SERVICE
+	Account Domain:		NT AUTHORITY
+	Logon ID:		0x3E5
+
+Object:
+	Object Server:	Security
+	Object Type:	Key
+	Object Name:	\REGISTRY\MACHINE\SYSTEM\ControlSet001\Control\Lsa
+	Handle ID:	0x420
+
+Process Information:
+	Process ID:	0x5a8
+	Process Name:	C:\Windows\System32\svchost.exe
+
+Access Request Information:
+	Accesses:	Query key value
+				
+	Access Mask:	0x1","4663","0",,"0","12801","0","-9214364837600034816","452902","Microsoft-Windows-Security-Auditing","54849625-5478-4994-a5ba-3e3b0328c30d","Security","4","60","PC01.example.corp",,"3/19/2019 4:35:15 PM",,,"System.UInt32[]","System.Diagnostics.Eventing.Reader.EventBookmark","Information","Info","Registry","System.Collections.ObjectModel.ReadOnlyCollection`1[System.String]","System.Collections.Generic.List`1[System.Diagnostics.Eventing.Reader.EventProperty]"
+"An attempt was made to access an object.
+
+Subject:
+	Security ID:		S-1-5-19
+	Account Name:		LOCAL SERVICE
+	Account Domain:		NT AUTHORITY
+	Logon ID:		0x3E5
+
+Object:
+	Object Server:	Security
+	Object Type:	Key
+	Object Name:	\REGISTRY\MACHINE\SYSTEM\ControlSet001\Control\Lsa\FipsAlgorithmPolicy
+	Handle ID:	0x1ac
+
+Process Information:
+	Process ID:	0x5a8
+	Process Name:	C:\Windows\System32\svchost.exe
+
+Access Request Information:
+	Accesses:	Query key value
+				
+	Access Mask:	0x1","4663","0",,"0","12801","0","-9214364837600034816","452901","Microsoft-Windows-Security-Auditing","54849625-5478-4994-a5ba-3e3b0328c30d","Security","4","60","PC01.example.corp",,"3/19/2019 4:35:15 PM",,,"System.UInt32[]","System.Diagnostics.Eventing.Reader.EventBookmark","Information","Info","Registry","System.Collections.ObjectModel.ReadOnlyCollection`1[System.String]","System.Collections.Generic.List`1[System.Diagnostics.Eventing.Reader.EventProperty]"
+"An attempt was made to access an object.
+
+Subject:
+	Security ID:		S-1-5-19
+	Account Name:		LOCAL SERVICE
+	Account Domain:		NT AUTHORITY
+	Logon ID:		0x3E5
+
+Object:
+	Object Server:	Security
+	Object Type:	Key
+	Object Name:	\REGISTRY\MACHINE\SYSTEM\ControlSet001\Control\Lsa
+	Handle ID:	0x1ac
+
+Process Information:
+	Process ID:	0x5a8
+	Process Name:	C:\Windows\System32\svchost.exe
+
+Access Request Information:
+	Accesses:	Query key value
+				
+	Access Mask:	0x1","4663","0",,"0","12801","0","-9214364837600034816","452900","Microsoft-Windows-Security-Auditing","54849625-5478-4994-a5ba-3e3b0328c30d","Security","4","60","PC01.example.corp",,"3/19/2019 4:35:15 PM",,,"System.UInt32[]","System.Diagnostics.Eventing.Reader.EventBookmark","Information","Info","Registry","System.Collections.ObjectModel.ReadOnlyCollection`1[System.String]","System.Collections.Generic.List`1[System.Diagnostics.Eventing.Reader.EventProperty]"
+"An attempt was made to access an object.
+
+Subject:
+	Security ID:		S-1-5-19
+	Account Name:		LOCAL SERVICE
+	Account Domain:		NT AUTHORITY
+	Logon ID:		0x3E5
+
+Object:
+	Object Server:	Security
+	Object Type:	Key
+	Object Name:	\REGISTRY\MACHINE\SYSTEM\ControlSet001\Control\Lsa\FipsAlgorithmPolicy
+	Handle ID:	0x420
+
+Process Information:
+	Process ID:	0x5a8
+	Process Name:	C:\Windows\System32\svchost.exe
+
+Access Request Information:
+	Accesses:	Query key value
+				
+	Access Mask:	0x1","4663","0",,"0","12801","0","-9214364837600034816","452899","Microsoft-Windows-Security-Auditing","54849625-5478-4994-a5ba-3e3b0328c30d","Security","4","60","PC01.example.corp",,"3/19/2019 4:35:15 PM",,,"System.UInt32[]","System.Diagnostics.Eventing.Reader.EventBookmark","Information","Info","Registry","System.Collections.ObjectModel.ReadOnlyCollection`1[System.String]","System.Collections.Generic.List`1[System.Diagnostics.Eventing.Reader.EventProperty]"
+"An attempt was made to access an object.
+
+Subject:
+	Security ID:		S-1-5-19
+	Account Name:		LOCAL SERVICE
+	Account Domain:		NT AUTHORITY
+	Logon ID:		0x3E5
+
+Object:
+	Object Server:	Security
+	Object Type:	Key
+	Object Name:	\REGISTRY\MACHINE\SYSTEM\ControlSet001\Control\Lsa
+	Handle ID:	0x420
+
+Process Information:
+	Process ID:	0x5a8
+	Process Name:	C:\Windows\System32\svchost.exe
+
+Access Request Information:
+	Accesses:	Query key value
+				
+	Access Mask:	0x1","4663","0",,"0","12801","0","-9214364837600034816","452898","Microsoft-Windows-Security-Auditing","54849625-5478-4994-a5ba-3e3b0328c30d","Security","4","60","PC01.example.corp",,"3/19/2019 4:35:15 PM",,,"System.UInt32[]","System.Diagnostics.Eventing.Reader.EventBookmark","Information","Info","Registry","System.Collections.ObjectModel.ReadOnlyCollection`1[System.String]","System.Collections.Generic.List`1[System.Diagnostics.Eventing.Reader.EventProperty]"
+"An attempt was made to access an object.
+
+Subject:
+	Security ID:		S-1-5-19
+	Account Name:		LOCAL SERVICE
+	Account Domain:		NT AUTHORITY
+	Logon ID:		0x3E5
+
+Object:
+	Object Server:	Security
+	Object Type:	Key
+	Object Name:	\REGISTRY\MACHINE\SYSTEM\ControlSet001\Control\Lsa\FipsAlgorithmPolicy
+	Handle ID:	0x1ac
+
+Process Information:
+	Process ID:	0x5a8
+	Process Name:	C:\Windows\System32\svchost.exe
+
+Access Request Information:
+	Accesses:	Query key value
+				
+	Access Mask:	0x1","4663","0",,"0","12801","0","-9214364837600034816","452897","Microsoft-Windows-Security-Auditing","54849625-5478-4994-a5ba-3e3b0328c30d","Security","4","60","PC01.example.corp",,"3/19/2019 4:35:15 PM",,,"System.UInt32[]","System.Diagnostics.Eventing.Reader.EventBookmark","Information","Info","Registry","System.Collections.ObjectModel.ReadOnlyCollection`1[System.String]","System.Collections.Generic.List`1[System.Diagnostics.Eventing.Reader.EventProperty]"
+"An attempt was made to access an object.
+
+Subject:
+	Security ID:		S-1-5-19
+	Account Name:		LOCAL SERVICE
+	Account Domain:		NT AUTHORITY
+	Logon ID:		0x3E5
+
+Object:
+	Object Server:	Security
+	Object Type:	Key
+	Object Name:	\REGISTRY\MACHINE\SYSTEM\ControlSet001\Control\Lsa
+	Handle ID:	0x1ac
+
+Process Information:
+	Process ID:	0x5a8
+	Process Name:	C:\Windows\System32\svchost.exe
+
+Access Request Information:
+	Accesses:	Query key value
+				
+	Access Mask:	0x1","4663","0",,"0","12801","0","-9214364837600034816","452896","Microsoft-Windows-Security-Auditing","54849625-5478-4994-a5ba-3e3b0328c30d","Security","4","60","PC01.example.corp",,"3/19/2019 4:35:15 PM",,,"System.UInt32[]","System.Diagnostics.Eventing.Reader.EventBookmark","Information","Info","Registry","System.Collections.ObjectModel.ReadOnlyCollection`1[System.String]","System.Collections.Generic.List`1[System.Diagnostics.Eventing.Reader.EventProperty]"
+"An attempt was made to access an object.
+
+Subject:
+	Security ID:		S-1-5-19
+	Account Name:		LOCAL SERVICE
+	Account Domain:		NT AUTHORITY
+	Logon ID:		0x3E5
+
+Object:
+	Object Server:	Security
+	Object Type:	Key
+	Object Name:	\REGISTRY\MACHINE\SYSTEM\ControlSet001\Control\Lsa\FipsAlgorithmPolicy
+	Handle ID:	0x420
+
+Process Information:
+	Process ID:	0x5a8
+	Process Name:	C:\Windows\System32\svchost.exe
+
+Access Request Information:
+	Accesses:	Query key value
+				
+	Access Mask:	0x1","4663","0",,"0","12801","0","-9214364837600034816","452895","Microsoft-Windows-Security-Auditing","54849625-5478-4994-a5ba-3e3b0328c30d","Security","4","60","PC01.example.corp",,"3/19/2019 4:35:15 PM",,,"System.UInt32[]","System.Diagnostics.Eventing.Reader.EventBookmark","Information","Info","Registry","System.Collections.ObjectModel.ReadOnlyCollection`1[System.String]","System.Collections.Generic.List`1[System.Diagnostics.Eventing.Reader.EventProperty]"
+"An attempt was made to access an object.
+
+Subject:
+	Security ID:		S-1-5-19
+	Account Name:		LOCAL SERVICE
+	Account Domain:		NT AUTHORITY
+	Logon ID:		0x3E5
+
+Object:
+	Object Server:	Security
+	Object Type:	Key
+	Object Name:	\REGISTRY\MACHINE\SYSTEM\ControlSet001\Control\Lsa
+	Handle ID:	0x420
+
+Process Information:
+	Process ID:	0x5a8
+	Process Name:	C:\Windows\System32\svchost.exe
+
+Access Request Information:
+	Accesses:	Query key value
+				
+	Access Mask:	0x1","4663","0",,"0","12801","0","-9214364837600034816","452894","Microsoft-Windows-Security-Auditing","54849625-5478-4994-a5ba-3e3b0328c30d","Security","4","60","PC01.example.corp",,"3/19/2019 4:35:15 PM",,,"System.UInt32[]","System.Diagnostics.Eventing.Reader.EventBookmark","Information","Info","Registry","System.Collections.ObjectModel.ReadOnlyCollection`1[System.String]","System.Collections.Generic.List`1[System.Diagnostics.Eventing.Reader.EventProperty]"
+"An attempt was made to access an object.
+
+Subject:
+	Security ID:		S-1-5-19
+	Account Name:		LOCAL SERVICE
+	Account Domain:		NT AUTHORITY
+	Logon ID:		0x3E5
+
+Object:
+	Object Server:	Security
+	Object Type:	Key
+	Object Name:	\REGISTRY\MACHINE\SYSTEM\ControlSet001\Control\Lsa\FipsAlgorithmPolicy
+	Handle ID:	0x1ac
+
+Process Information:
+	Process ID:	0x5a8
+	Process Name:	C:\Windows\System32\svchost.exe
+
+Access Request Information:
+	Accesses:	Query key value
+				
+	Access Mask:	0x1","4663","0",,"0","12801","0","-9214364837600034816","452893","Microsoft-Windows-Security-Auditing","54849625-5478-4994-a5ba-3e3b0328c30d","Security","4","60","PC01.example.corp",,"3/19/2019 4:35:15 PM",,,"System.UInt32[]","System.Diagnostics.Eventing.Reader.EventBookmark","Information","Info","Registry","System.Collections.ObjectModel.ReadOnlyCollection`1[System.String]","System.Collections.Generic.List`1[System.Diagnostics.Eventing.Reader.EventProperty]"
+"An attempt was made to access an object.
+
+Subject:
+	Security ID:		S-1-5-19
+	Account Name:		LOCAL SERVICE
+	Account Domain:		NT AUTHORITY
+	Logon ID:		0x3E5
+
+Object:
+	Object Server:	Security
+	Object Type:	Key
+	Object Name:	\REGISTRY\MACHINE\SYSTEM\ControlSet001\Control\Lsa
+	Handle ID:	0x1ac
+
+Process Information:
+	Process ID:	0x5a8
+	Process Name:	C:\Windows\System32\svchost.exe
+
+Access Request Information:
+	Accesses:	Query key value
+				
+	Access Mask:	0x1","4663","0",,"0","12801","0","-9214364837600034816","452892","Microsoft-Windows-Security-Auditing","54849625-5478-4994-a5ba-3e3b0328c30d","Security","4","60","PC01.example.corp",,"3/19/2019 4:35:15 PM",,,"System.UInt32[]","System.Diagnostics.Eventing.Reader.EventBookmark","Information","Info","Registry","System.Collections.ObjectModel.ReadOnlyCollection`1[System.String]","System.Collections.Generic.List`1[System.Diagnostics.Eventing.Reader.EventProperty]"
+"An attempt was made to access an object.
+
+Subject:
+	Security ID:		S-1-5-19
+	Account Name:		LOCAL SERVICE
+	Account Domain:		NT AUTHORITY
+	Logon ID:		0x3E5
+
+Object:
+	Object Server:	Security
+	Object Type:	Key
+	Object Name:	\REGISTRY\MACHINE\SYSTEM\ControlSet001\Control\Lsa\FipsAlgorithmPolicy
+	Handle ID:	0x420
+
+Process Information:
+	Process ID:	0x5a8
+	Process Name:	C:\Windows\System32\svchost.exe
+
+Access Request Information:
+	Accesses:	Query key value
+				
+	Access Mask:	0x1","4663","0",,"0","12801","0","-9214364837600034816","452891","Microsoft-Windows-Security-Auditing","54849625-5478-4994-a5ba-3e3b0328c30d","Security","4","60","PC01.example.corp",,"3/19/2019 4:35:15 PM",,,"System.UInt32[]","System.Diagnostics.Eventing.Reader.EventBookmark","Information","Info","Registry","System.Collections.ObjectModel.ReadOnlyCollection`1[System.String]","System.Collections.Generic.List`1[System.Diagnostics.Eventing.Reader.EventProperty]"
+"An attempt was made to access an object.
+
+Subject:
+	Security ID:		S-1-5-19
+	Account Name:		LOCAL SERVICE
+	Account Domain:		NT AUTHORITY
+	Logon ID:		0x3E5
+
+Object:
+	Object Server:	Security
+	Object Type:	Key
+	Object Name:	\REGISTRY\MACHINE\SYSTEM\ControlSet001\Control\Lsa
+	Handle ID:	0x420
+
+Process Information:
+	Process ID:	0x5a8
+	Process Name:	C:\Windows\System32\svchost.exe
+
+Access Request Information:
+	Accesses:	Query key value
+				
+	Access Mask:	0x1","4663","0",,"0","12801","0","-9214364837600034816","452890","Microsoft-Windows-Security-Auditing","54849625-5478-4994-a5ba-3e3b0328c30d","Security","4","60","PC01.example.corp",,"3/19/2019 4:35:15 PM",,,"System.UInt32[]","System.Diagnostics.Eventing.Reader.EventBookmark","Information","Info","Registry","System.Collections.ObjectModel.ReadOnlyCollection`1[System.String]","System.Collections.Generic.List`1[System.Diagnostics.Eventing.Reader.EventProperty]"
+"An attempt was made to access an object.
+
+Subject:
+	Security ID:		S-1-5-19
+	Account Name:		LOCAL SERVICE
+	Account Domain:		NT AUTHORITY
+	Logon ID:		0x3E5
+
+Object:
+	Object Server:	Security
+	Object Type:	Key
+	Object Name:	\REGISTRY\MACHINE\SYSTEM\ControlSet001\Control\Lsa\FipsAlgorithmPolicy
+	Handle ID:	0x1ac
+
+Process Information:
+	Process ID:	0x5a8
+	Process Name:	C:\Windows\System32\svchost.exe
+
+Access Request Information:
+	Accesses:	Query key value
+				
+	Access Mask:	0x1","4663","0",,"0","12801","0","-9214364837600034816","452889","Microsoft-Windows-Security-Auditing","54849625-5478-4994-a5ba-3e3b0328c30d","Security","4","60","PC01.example.corp",,"3/19/2019 4:35:15 PM",,,"System.UInt32[]","System.Diagnostics.Eventing.Reader.EventBookmark","Information","Info","Registry","System.Collections.ObjectModel.ReadOnlyCollection`1[System.String]","System.Collections.Generic.List`1[System.Diagnostics.Eventing.Reader.EventProperty]"
+"An attempt was made to access an object.
+
+Subject:
+	Security ID:		S-1-5-19
+	Account Name:		LOCAL SERVICE
+	Account Domain:		NT AUTHORITY
+	Logon ID:		0x3E5
+
+Object:
+	Object Server:	Security
+	Object Type:	Key
+	Object Name:	\REGISTRY\MACHINE\SYSTEM\ControlSet001\Control\Lsa
+	Handle ID:	0x1ac
+
+Process Information:
+	Process ID:	0x5a8
+	Process Name:	C:\Windows\System32\svchost.exe
+
+Access Request Information:
+	Accesses:	Query key value
+				
+	Access Mask:	0x1","4663","0",,"0","12801","0","-9214364837600034816","452888","Microsoft-Windows-Security-Auditing","54849625-5478-4994-a5ba-3e3b0328c30d","Security","4","60","PC01.example.corp",,"3/19/2019 4:35:15 PM",,,"System.UInt32[]","System.Diagnostics.Eventing.Reader.EventBookmark","Information","Info","Registry","System.Collections.ObjectModel.ReadOnlyCollection`1[System.String]","System.Collections.Generic.List`1[System.Diagnostics.Eventing.Reader.EventProperty]"
+"An attempt was made to access an object.
+
+Subject:
+	Security ID:		S-1-5-19
+	Account Name:		LOCAL SERVICE
+	Account Domain:		NT AUTHORITY
+	Logon ID:		0x3E5
+
+Object:
+	Object Server:	Security
+	Object Type:	Key
+	Object Name:	\REGISTRY\MACHINE\SYSTEM\ControlSet001\Control\Lsa\FipsAlgorithmPolicy
+	Handle ID:	0x420
+
+Process Information:
+	Process ID:	0x5a8
+	Process Name:	C:\Windows\System32\svchost.exe
+
+Access Request Information:
+	Accesses:	Query key value
+				
+	Access Mask:	0x1","4663","0",,"0","12801","0","-9214364837600034816","452887","Microsoft-Windows-Security-Auditing","54849625-5478-4994-a5ba-3e3b0328c30d","Security","4","60","PC01.example.corp",,"3/19/2019 4:35:15 PM",,,"System.UInt32[]","System.Diagnostics.Eventing.Reader.EventBookmark","Information","Info","Registry","System.Collections.ObjectModel.ReadOnlyCollection`1[System.String]","System.Collections.Generic.List`1[System.Diagnostics.Eventing.Reader.EventProperty]"
+"An attempt was made to access an object.
+
+Subject:
+	Security ID:		S-1-5-19
+	Account Name:		LOCAL SERVICE
+	Account Domain:		NT AUTHORITY
+	Logon ID:		0x3E5
+
+Object:
+	Object Server:	Security
+	Object Type:	Key
+	Object Name:	\REGISTRY\MACHINE\SYSTEM\ControlSet001\Control\Lsa
+	Handle ID:	0x468
+
+Process Information:
+	Process ID:	0x5a8
+	Process Name:	C:\Windows\System32\svchost.exe
+
+Access Request Information:
+	Accesses:	Query key value
+				
+	Access Mask:	0x1","4663","0",,"0","12801","0","-9214364837600034816","452886","Microsoft-Windows-Security-Auditing","54849625-5478-4994-a5ba-3e3b0328c30d","Security","4","60","PC01.example.corp",,"3/19/2019 4:35:15 PM",,,"System.UInt32[]","System.Diagnostics.Eventing.Reader.EventBookmark","Information","Info","Registry","System.Collections.ObjectModel.ReadOnlyCollection`1[System.String]","System.Collections.Generic.List`1[System.Diagnostics.Eventing.Reader.EventProperty]"
+"An attempt was made to access an object.
+
+Subject:
+	Security ID:		S-1-5-19
+	Account Name:		LOCAL SERVICE
+	Account Domain:		NT AUTHORITY
+	Logon ID:		0x3E5
+
+Object:
+	Object Server:	Security
+	Object Type:	Key
+	Object Name:	\REGISTRY\MACHINE\SYSTEM\ControlSet001\Control\Lsa\FipsAlgorithmPolicy
+	Handle ID:	0x420
+
+Process Information:
+	Process ID:	0x5a8
+	Process Name:	C:\Windows\System32\svchost.exe
+
+Access Request Information:
+	Accesses:	Query key value
+				
+	Access Mask:	0x1","4663","0",,"0","12801","0","-9214364837600034816","452885","Microsoft-Windows-Security-Auditing","54849625-5478-4994-a5ba-3e3b0328c30d","Security","4","60","PC01.example.corp",,"3/19/2019 4:35:15 PM",,,"System.UInt32[]","System.Diagnostics.Eventing.Reader.EventBookmark","Information","Info","Registry","System.Collections.ObjectModel.ReadOnlyCollection`1[System.String]","System.Collections.Generic.List`1[System.Diagnostics.Eventing.Reader.EventProperty]"
+"An attempt was made to access an object.
+
+Subject:
+	Security ID:		S-1-5-19
+	Account Name:		LOCAL SERVICE
+	Account Domain:		NT AUTHORITY
+	Logon ID:		0x3E5
+
+Object:
+	Object Server:	Security
+	Object Type:	Key
+	Object Name:	\REGISTRY\MACHINE\SYSTEM\ControlSet001\Control\Lsa
+	Handle ID:	0x468
+
+Process Information:
+	Process ID:	0x5a8
+	Process Name:	C:\Windows\System32\svchost.exe
+
+Access Request Information:
+	Accesses:	Query key value
+				
+	Access Mask:	0x1","4663","0",,"0","12801","0","-9214364837600034816","452884","Microsoft-Windows-Security-Auditing","54849625-5478-4994-a5ba-3e3b0328c30d","Security","4","60","PC01.example.corp",,"3/19/2019 4:35:15 PM",,,"System.UInt32[]","System.Diagnostics.Eventing.Reader.EventBookmark","Information","Info","Registry","System.Collections.ObjectModel.ReadOnlyCollection`1[System.String]","System.Collections.Generic.List`1[System.Diagnostics.Eventing.Reader.EventProperty]"
+"An attempt was made to access an object.
+
+Subject:
+	Security ID:		S-1-5-19
+	Account Name:		LOCAL SERVICE
+	Account Domain:		NT AUTHORITY
+	Logon ID:		0x3E5
+
+Object:
+	Object Server:	Security
+	Object Type:	Key
+	Object Name:	\REGISTRY\MACHINE\SYSTEM\ControlSet001\Control\Lsa\FipsAlgorithmPolicy
+	Handle ID:	0x520
+
+Process Information:
+	Process ID:	0x5a8
+	Process Name:	C:\Windows\System32\svchost.exe
+
+Access Request Information:
+	Accesses:	Query key value
+				
+	Access Mask:	0x1","4663","0",,"0","12801","0","-9214364837600034816","452883","Microsoft-Windows-Security-Auditing","54849625-5478-4994-a5ba-3e3b0328c30d","Security","4","60","PC01.example.corp",,"3/19/2019 4:35:15 PM",,,"System.UInt32[]","System.Diagnostics.Eventing.Reader.EventBookmark","Information","Info","Registry","System.Collections.ObjectModel.ReadOnlyCollection`1[System.String]","System.Collections.Generic.List`1[System.Diagnostics.Eventing.Reader.EventProperty]"
+"An attempt was made to access an object.
+
+Subject:
+	Security ID:		S-1-5-19
+	Account Name:		LOCAL SERVICE
+	Account Domain:		NT AUTHORITY
+	Logon ID:		0x3E5
+
+Object:
+	Object Server:	Security
+	Object Type:	Key
+	Object Name:	\REGISTRY\MACHINE\SYSTEM\ControlSet001\Control\Lsa
+	Handle ID:	0x520
+
+Process Information:
+	Process ID:	0x5a8
+	Process Name:	C:\Windows\System32\svchost.exe
+
+Access Request Information:
+	Accesses:	Query key value
+				
+	Access Mask:	0x1","4663","0",,"0","12801","0","-9214364837600034816","452882","Microsoft-Windows-Security-Auditing","54849625-5478-4994-a5ba-3e3b0328c30d","Security","4","60","PC01.example.corp",,"3/19/2019 4:35:15 PM",,,"System.UInt32[]","System.Diagnostics.Eventing.Reader.EventBookmark","Information","Info","Registry","System.Collections.ObjectModel.ReadOnlyCollection`1[System.String]","System.Collections.Generic.List`1[System.Diagnostics.Eventing.Reader.EventProperty]"
+"An attempt was made to access an object.
+
+Subject:
+	Security ID:		S-1-5-19
+	Account Name:		LOCAL SERVICE
+	Account Domain:		NT AUTHORITY
+	Logon ID:		0x3E5
+
+Object:
+	Object Server:	Security
+	Object Type:	Key
+	Object Name:	\REGISTRY\MACHINE\SYSTEM\ControlSet001\Control\Lsa\FipsAlgorithmPolicy
+	Handle ID:	0x468
+
+Process Information:
+	Process ID:	0x5a8
+	Process Name:	C:\Windows\System32\svchost.exe
+
+Access Request Information:
+	Accesses:	Query key value
+				
+	Access Mask:	0x1","4663","0",,"0","12801","0","-9214364837600034816","452881","Microsoft-Windows-Security-Auditing","54849625-5478-4994-a5ba-3e3b0328c30d","Security","4","60","PC01.example.corp",,"3/19/2019 4:35:15 PM",,,"System.UInt32[]","System.Diagnostics.Eventing.Reader.EventBookmark","Information","Info","Registry","System.Collections.ObjectModel.ReadOnlyCollection`1[System.String]","System.Collections.Generic.List`1[System.Diagnostics.Eventing.Reader.EventProperty]"
+"An attempt was made to access an object.
+
+Subject:
+	Security ID:		S-1-5-19
+	Account Name:		LOCAL SERVICE
+	Account Domain:		NT AUTHORITY
+	Logon ID:		0x3E5
+
+Object:
+	Object Server:	Security
+	Object Type:	Key
+	Object Name:	\REGISTRY\MACHINE\SYSTEM\ControlSet001\Control\Lsa
+	Handle ID:	0x468
+
+Process Information:
+	Process ID:	0x5a8
+	Process Name:	C:\Windows\System32\svchost.exe
+
+Access Request Information:
+	Accesses:	Query key value
+				
+	Access Mask:	0x1","4663","0",,"0","12801","0","-9214364837600034816","452880","Microsoft-Windows-Security-Auditing","54849625-5478-4994-a5ba-3e3b0328c30d","Security","4","60","PC01.example.corp",,"3/19/2019 4:35:15 PM",,,"System.UInt32[]","System.Diagnostics.Eventing.Reader.EventBookmark","Information","Info","Registry","System.Collections.ObjectModel.ReadOnlyCollection`1[System.String]","System.Collections.Generic.List`1[System.Diagnostics.Eventing.Reader.EventProperty]"
+"An attempt was made to access an object.
+
+Subject:
+	Security ID:		S-1-5-19
+	Account Name:		LOCAL SERVICE
+	Account Domain:		NT AUTHORITY
+	Logon ID:		0x3E5
+
+Object:
+	Object Server:	Security
+	Object Type:	Key
+	Object Name:	\REGISTRY\MACHINE\SYSTEM\ControlSet001\Control\Lsa\FipsAlgorithmPolicy
+	Handle ID:	0x520
+
+Process Information:
+	Process ID:	0x5a8
+	Process Name:	C:\Windows\System32\svchost.exe
+
+Access Request Information:
+	Accesses:	Query key value
+				
+	Access Mask:	0x1","4663","0",,"0","12801","0","-9214364837600034816","452879","Microsoft-Windows-Security-Auditing","54849625-5478-4994-a5ba-3e3b0328c30d","Security","4","60","PC01.example.corp",,"3/19/2019 4:35:15 PM",,,"System.UInt32[]","System.Diagnostics.Eventing.Reader.EventBookmark","Information","Info","Registry","System.Collections.ObjectModel.ReadOnlyCollection`1[System.String]","System.Collections.Generic.List`1[System.Diagnostics.Eventing.Reader.EventProperty]"
+"An attempt was made to access an object.
+
+Subject:
+	Security ID:		S-1-5-19
+	Account Name:		LOCAL SERVICE
+	Account Domain:		NT AUTHORITY
+	Logon ID:		0x3E5
+
+Object:
+	Object Server:	Security
+	Object Type:	Key
+	Object Name:	\REGISTRY\MACHINE\SYSTEM\ControlSet001\Control\Lsa
+	Handle ID:	0x520
+
+Process Information:
+	Process ID:	0x5a8
+	Process Name:	C:\Windows\System32\svchost.exe
+
+Access Request Information:
+	Accesses:	Query key value
+				
+	Access Mask:	0x1","4663","0",,"0","12801","0","-9214364837600034816","452878","Microsoft-Windows-Security-Auditing","54849625-5478-4994-a5ba-3e3b0328c30d","Security","4","60","PC01.example.corp",,"3/19/2019 4:35:15 PM",,,"System.UInt32[]","System.Diagnostics.Eventing.Reader.EventBookmark","Information","Info","Registry","System.Collections.ObjectModel.ReadOnlyCollection`1[System.String]","System.Collections.Generic.List`1[System.Diagnostics.Eventing.Reader.EventProperty]"
+"An attempt was made to access an object.
+
+Subject:
+	Security ID:		S-1-5-19
+	Account Name:		LOCAL SERVICE
+	Account Domain:		NT AUTHORITY
+	Logon ID:		0x3E5
+
+Object:
+	Object Server:	Security
+	Object Type:	Key
+	Object Name:	\REGISTRY\MACHINE\SYSTEM\ControlSet001\Control\Lsa\FipsAlgorithmPolicy
+	Handle ID:	0x468
+
+Process Information:
+	Process ID:	0x5a8
+	Process Name:	C:\Windows\System32\svchost.exe
+
+Access Request Information:
+	Accesses:	Query key value
+				
+	Access Mask:	0x1","4663","0",,"0","12801","0","-9214364837600034816","452877","Microsoft-Windows-Security-Auditing","54849625-5478-4994-a5ba-3e3b0328c30d","Security","4","60","PC01.example.corp",,"3/19/2019 4:35:15 PM",,,"System.UInt32[]","System.Diagnostics.Eventing.Reader.EventBookmark","Information","Info","Registry","System.Collections.ObjectModel.ReadOnlyCollection`1[System.String]","System.Collections.Generic.List`1[System.Diagnostics.Eventing.Reader.EventProperty]"
+"An attempt was made to access an object.
+
+Subject:
+	Security ID:		S-1-5-19
+	Account Name:		LOCAL SERVICE
+	Account Domain:		NT AUTHORITY
+	Logon ID:		0x3E5
+
+Object:
+	Object Server:	Security
+	Object Type:	Key
+	Object Name:	\REGISTRY\MACHINE\SYSTEM\ControlSet001\Control\Lsa
+	Handle ID:	0x468
+
+Process Information:
+	Process ID:	0x5a8
+	Process Name:	C:\Windows\System32\svchost.exe
+
+Access Request Information:
+	Accesses:	Query key value
+				
+	Access Mask:	0x1","4663","0",,"0","12801","0","-9214364837600034816","452876","Microsoft-Windows-Security-Auditing","54849625-5478-4994-a5ba-3e3b0328c30d","Security","4","60","PC01.example.corp",,"3/19/2019 4:35:15 PM",,,"System.UInt32[]","System.Diagnostics.Eventing.Reader.EventBookmark","Information","Info","Registry","System.Collections.ObjectModel.ReadOnlyCollection`1[System.String]","System.Collections.Generic.List`1[System.Diagnostics.Eventing.Reader.EventProperty]"
+"An attempt was made to access an object.
+
+Subject:
+	Security ID:		S-1-5-19
+	Account Name:		LOCAL SERVICE
+	Account Domain:		NT AUTHORITY
+	Logon ID:		0x3E5
+
+Object:
+	Object Server:	Security
+	Object Type:	Key
+	Object Name:	\REGISTRY\MACHINE\SYSTEM\ControlSet001\Control\Lsa\FipsAlgorithmPolicy
+	Handle ID:	0x520
+
+Process Information:
+	Process ID:	0x5a8
+	Process Name:	C:\Windows\System32\svchost.exe
+
+Access Request Information:
+	Accesses:	Query key value
+				
+	Access Mask:	0x1","4663","0",,"0","12801","0","-9214364837600034816","452875","Microsoft-Windows-Security-Auditing","54849625-5478-4994-a5ba-3e3b0328c30d","Security","4","60","PC01.example.corp",,"3/19/2019 4:35:15 PM",,,"System.UInt32[]","System.Diagnostics.Eventing.Reader.EventBookmark","Information","Info","Registry","System.Collections.ObjectModel.ReadOnlyCollection`1[System.String]","System.Collections.Generic.List`1[System.Diagnostics.Eventing.Reader.EventProperty]"
+"An attempt was made to access an object.
+
+Subject:
+	Security ID:		S-1-5-19
+	Account Name:		LOCAL SERVICE
+	Account Domain:		NT AUTHORITY
+	Logon ID:		0x3E5
+
+Object:
+	Object Server:	Security
+	Object Type:	Key
+	Object Name:	\REGISTRY\MACHINE\SYSTEM\ControlSet001\Control\Lsa
+	Handle ID:	0x520
+
+Process Information:
+	Process ID:	0x5a8
+	Process Name:	C:\Windows\System32\svchost.exe
+
+Access Request Information:
+	Accesses:	Query key value
+				
+	Access Mask:	0x1","4663","0",,"0","12801","0","-9214364837600034816","452874","Microsoft-Windows-Security-Auditing","54849625-5478-4994-a5ba-3e3b0328c30d","Security","4","60","PC01.example.corp",,"3/19/2019 4:35:15 PM",,,"System.UInt32[]","System.Diagnostics.Eventing.Reader.EventBookmark","Information","Info","Registry","System.Collections.ObjectModel.ReadOnlyCollection`1[System.String]","System.Collections.Generic.List`1[System.Diagnostics.Eventing.Reader.EventProperty]"
+"An attempt was made to access an object.
+
+Subject:
+	Security ID:		S-1-5-19
+	Account Name:		LOCAL SERVICE
+	Account Domain:		NT AUTHORITY
+	Logon ID:		0x3E5
+
+Object:
+	Object Server:	Security
+	Object Type:	Key
+	Object Name:	\REGISTRY\MACHINE\SYSTEM\ControlSet001\Control\Lsa\FipsAlgorithmPolicy
+	Handle ID:	0x468
+
+Process Information:
+	Process ID:	0x5a8
+	Process Name:	C:\Windows\System32\svchost.exe
+
+Access Request Information:
+	Accesses:	Query key value
+				
+	Access Mask:	0x1","4663","0",,"0","12801","0","-9214364837600034816","452873","Microsoft-Windows-Security-Auditing","54849625-5478-4994-a5ba-3e3b0328c30d","Security","4","60","PC01.example.corp",,"3/19/2019 4:35:15 PM",,,"System.UInt32[]","System.Diagnostics.Eventing.Reader.EventBookmark","Information","Info","Registry","System.Collections.ObjectModel.ReadOnlyCollection`1[System.String]","System.Collections.Generic.List`1[System.Diagnostics.Eventing.Reader.EventProperty]"
+"An attempt was made to access an object.
+
+Subject:
+	Security ID:		S-1-5-19
+	Account Name:		LOCAL SERVICE
+	Account Domain:		NT AUTHORITY
+	Logon ID:		0x3E5
+
+Object:
+	Object Server:	Security
+	Object Type:	Key
+	Object Name:	\REGISTRY\MACHINE\SYSTEM\ControlSet001\Control\Lsa
+	Handle ID:	0x468
+
+Process Information:
+	Process ID:	0x5a8
+	Process Name:	C:\Windows\System32\svchost.exe
+
+Access Request Information:
+	Accesses:	Query key value
+				
+	Access Mask:	0x1","4663","0",,"0","12801","0","-9214364837600034816","452872","Microsoft-Windows-Security-Auditing","54849625-5478-4994-a5ba-3e3b0328c30d","Security","4","60","PC01.example.corp",,"3/19/2019 4:35:15 PM",,,"System.UInt32[]","System.Diagnostics.Eventing.Reader.EventBookmark","Information","Info","Registry","System.Collections.ObjectModel.ReadOnlyCollection`1[System.String]","System.Collections.Generic.List`1[System.Diagnostics.Eventing.Reader.EventProperty]"
+"An attempt was made to access an object.
+
+Subject:
+	Security ID:		S-1-5-19
+	Account Name:		LOCAL SERVICE
+	Account Domain:		NT AUTHORITY
+	Logon ID:		0x3E5
+
+Object:
+	Object Server:	Security
+	Object Type:	Key
+	Object Name:	\REGISTRY\MACHINE\SYSTEM\ControlSet001\Control\Lsa\FipsAlgorithmPolicy
+	Handle ID:	0x520
+
+Process Information:
+	Process ID:	0x5a8
+	Process Name:	C:\Windows\System32\svchost.exe
+
+Access Request Information:
+	Accesses:	Query key value
+				
+	Access Mask:	0x1","4663","0",,"0","12801","0","-9214364837600034816","452871","Microsoft-Windows-Security-Auditing","54849625-5478-4994-a5ba-3e3b0328c30d","Security","4","60","PC01.example.corp",,"3/19/2019 4:35:15 PM",,,"System.UInt32[]","System.Diagnostics.Eventing.Reader.EventBookmark","Information","Info","Registry","System.Collections.ObjectModel.ReadOnlyCollection`1[System.String]","System.Collections.Generic.List`1[System.Diagnostics.Eventing.Reader.EventProperty]"
+"An attempt was made to access an object.
+
+Subject:
+	Security ID:		S-1-5-19
+	Account Name:		LOCAL SERVICE
+	Account Domain:		NT AUTHORITY
+	Logon ID:		0x3E5
+
+Object:
+	Object Server:	Security
+	Object Type:	Key
+	Object Name:	\REGISTRY\MACHINE\SYSTEM\ControlSet001\Control\Lsa
+	Handle ID:	0x520
+
+Process Information:
+	Process ID:	0x5a8
+	Process Name:	C:\Windows\System32\svchost.exe
+
+Access Request Information:
+	Accesses:	Query key value
+				
+	Access Mask:	0x1","4663","0",,"0","12801","0","-9214364837600034816","452870","Microsoft-Windows-Security-Auditing","54849625-5478-4994-a5ba-3e3b0328c30d","Security","4","60","PC01.example.corp",,"3/19/2019 4:35:15 PM",,,"System.UInt32[]","System.Diagnostics.Eventing.Reader.EventBookmark","Information","Info","Registry","System.Collections.ObjectModel.ReadOnlyCollection`1[System.String]","System.Collections.Generic.List`1[System.Diagnostics.Eventing.Reader.EventProperty]"
+"An attempt was made to access an object.
+
+Subject:
+	Security ID:		S-1-5-19
+	Account Name:		LOCAL SERVICE
+	Account Domain:		NT AUTHORITY
+	Logon ID:		0x3E5
+
+Object:
+	Object Server:	Security
+	Object Type:	Key
+	Object Name:	\REGISTRY\MACHINE\SYSTEM\ControlSet001\Control\Lsa\FipsAlgorithmPolicy
+	Handle ID:	0x468
+
+Process Information:
+	Process ID:	0x5a8
+	Process Name:	C:\Windows\System32\svchost.exe
+
+Access Request Information:
+	Accesses:	Query key value
+				
+	Access Mask:	0x1","4663","0",,"0","12801","0","-9214364837600034816","452869","Microsoft-Windows-Security-Auditing","54849625-5478-4994-a5ba-3e3b0328c30d","Security","4","60","PC01.example.corp",,"3/19/2019 4:35:15 PM",,,"System.UInt32[]","System.Diagnostics.Eventing.Reader.EventBookmark","Information","Info","Registry","System.Collections.ObjectModel.ReadOnlyCollection`1[System.String]","System.Collections.Generic.List`1[System.Diagnostics.Eventing.Reader.EventProperty]"
+"An attempt was made to access an object.
+
+Subject:
+	Security ID:		S-1-5-19
+	Account Name:		LOCAL SERVICE
+	Account Domain:		NT AUTHORITY
+	Logon ID:		0x3E5
+
+Object:
+	Object Server:	Security
+	Object Type:	Key
+	Object Name:	\REGISTRY\MACHINE\SYSTEM\ControlSet001\Control\Lsa
+	Handle ID:	0x468
+
+Process Information:
+	Process ID:	0x5a8
+	Process Name:	C:\Windows\System32\svchost.exe
+
+Access Request Information:
+	Accesses:	Query key value
+				
+	Access Mask:	0x1","4663","0",,"0","12801","0","-9214364837600034816","452868","Microsoft-Windows-Security-Auditing","54849625-5478-4994-a5ba-3e3b0328c30d","Security","4","60","PC01.example.corp",,"3/19/2019 4:35:15 PM",,,"System.UInt32[]","System.Diagnostics.Eventing.Reader.EventBookmark","Information","Info","Registry","System.Collections.ObjectModel.ReadOnlyCollection`1[System.String]","System.Collections.Generic.List`1[System.Diagnostics.Eventing.Reader.EventProperty]"
+"An attempt was made to access an object.
+
+Subject:
+	Security ID:		S-1-5-19
+	Account Name:		LOCAL SERVICE
+	Account Domain:		NT AUTHORITY
+	Logon ID:		0x3E5
+
+Object:
+	Object Server:	Security
+	Object Type:	Key
+	Object Name:	\REGISTRY\MACHINE\SYSTEM\ControlSet001\Control\Lsa\FipsAlgorithmPolicy
+	Handle ID:	0x520
+
+Process Information:
+	Process ID:	0x5a8
+	Process Name:	C:\Windows\System32\svchost.exe
+
+Access Request Information:
+	Accesses:	Query key value
+				
+	Access Mask:	0x1","4663","0",,"0","12801","0","-9214364837600034816","452867","Microsoft-Windows-Security-Auditing","54849625-5478-4994-a5ba-3e3b0328c30d","Security","4","60","PC01.example.corp",,"3/19/2019 4:35:15 PM",,,"System.UInt32[]","System.Diagnostics.Eventing.Reader.EventBookmark","Information","Info","Registry","System.Collections.ObjectModel.ReadOnlyCollection`1[System.String]","System.Collections.Generic.List`1[System.Diagnostics.Eventing.Reader.EventProperty]"
+"An attempt was made to access an object.
+
+Subject:
+	Security ID:		S-1-5-19
+	Account Name:		LOCAL SERVICE
+	Account Domain:		NT AUTHORITY
+	Logon ID:		0x3E5
+
+Object:
+	Object Server:	Security
+	Object Type:	Key
+	Object Name:	\REGISTRY\MACHINE\SYSTEM\ControlSet001\Control\Lsa
+	Handle ID:	0x520
+
+Process Information:
+	Process ID:	0x5a8
+	Process Name:	C:\Windows\System32\svchost.exe
+
+Access Request Information:
+	Accesses:	Query key value
+				
+	Access Mask:	0x1","4663","0",,"0","12801","0","-9214364837600034816","452866","Microsoft-Windows-Security-Auditing","54849625-5478-4994-a5ba-3e3b0328c30d","Security","4","60","PC01.example.corp",,"3/19/2019 4:35:15 PM",,,"System.UInt32[]","System.Diagnostics.Eventing.Reader.EventBookmark","Information","Info","Registry","System.Collections.ObjectModel.ReadOnlyCollection`1[System.String]","System.Collections.Generic.List`1[System.Diagnostics.Eventing.Reader.EventProperty]"
+"An attempt was made to access an object.
+
+Subject:
+	Security ID:		S-1-5-19
+	Account Name:		LOCAL SERVICE
+	Account Domain:		NT AUTHORITY
+	Logon ID:		0x3E5
+
+Object:
+	Object Server:	Security
+	Object Type:	Key
+	Object Name:	\REGISTRY\MACHINE\SYSTEM\ControlSet001\Control\Lsa\FipsAlgorithmPolicy
+	Handle ID:	0x468
+
+Process Information:
+	Process ID:	0x5a8
+	Process Name:	C:\Windows\System32\svchost.exe
+
+Access Request Information:
+	Accesses:	Query key value
+				
+	Access Mask:	0x1","4663","0",,"0","12801","0","-9214364837600034816","452865","Microsoft-Windows-Security-Auditing","54849625-5478-4994-a5ba-3e3b0328c30d","Security","4","60","PC01.example.corp",,"3/19/2019 4:35:15 PM",,,"System.UInt32[]","System.Diagnostics.Eventing.Reader.EventBookmark","Information","Info","Registry","System.Collections.ObjectModel.ReadOnlyCollection`1[System.String]","System.Collections.Generic.List`1[System.Diagnostics.Eventing.Reader.EventProperty]"
+"An attempt was made to access an object.
+
+Subject:
+	Security ID:		S-1-5-19
+	Account Name:		LOCAL SERVICE
+	Account Domain:		NT AUTHORITY
+	Logon ID:		0x3E5
+
+Object:
+	Object Server:	Security
+	Object Type:	Key
+	Object Name:	\REGISTRY\MACHINE\SYSTEM\ControlSet001\Control\Lsa
+	Handle ID:	0x468
+
+Process Information:
+	Process ID:	0x5a8
+	Process Name:	C:\Windows\System32\svchost.exe
+
+Access Request Information:
+	Accesses:	Query key value
+				
+	Access Mask:	0x1","4663","0",,"0","12801","0","-9214364837600034816","452864","Microsoft-Windows-Security-Auditing","54849625-5478-4994-a5ba-3e3b0328c30d","Security","4","60","PC01.example.corp",,"3/19/2019 4:35:15 PM",,,"System.UInt32[]","System.Diagnostics.Eventing.Reader.EventBookmark","Information","Info","Registry","System.Collections.ObjectModel.ReadOnlyCollection`1[System.String]","System.Collections.Generic.List`1[System.Diagnostics.Eventing.Reader.EventProperty]"
+"An attempt was made to access an object.
+
+Subject:
+	Security ID:		S-1-5-19
+	Account Name:		LOCAL SERVICE
+	Account Domain:		NT AUTHORITY
+	Logon ID:		0x3E5
+
+Object:
+	Object Server:	Security
+	Object Type:	Key
+	Object Name:	\REGISTRY\MACHINE\SYSTEM\ControlSet001\Control\Lsa\FipsAlgorithmPolicy
+	Handle ID:	0x520
+
+Process Information:
+	Process ID:	0x5a8
+	Process Name:	C:\Windows\System32\svchost.exe
+
+Access Request Information:
+	Accesses:	Query key value
+				
+	Access Mask:	0x1","4663","0",,"0","12801","0","-9214364837600034816","452863","Microsoft-Windows-Security-Auditing","54849625-5478-4994-a5ba-3e3b0328c30d","Security","4","60","PC01.example.corp",,"3/19/2019 4:35:15 PM",,,"System.UInt32[]","System.Diagnostics.Eventing.Reader.EventBookmark","Information","Info","Registry","System.Collections.ObjectModel.ReadOnlyCollection`1[System.String]","System.Collections.Generic.List`1[System.Diagnostics.Eventing.Reader.EventProperty]"
+"An attempt was made to access an object.
+
+Subject:
+	Security ID:		S-1-5-19
+	Account Name:		LOCAL SERVICE
+	Account Domain:		NT AUTHORITY
+	Logon ID:		0x3E5
+
+Object:
+	Object Server:	Security
+	Object Type:	Key
+	Object Name:	\REGISTRY\MACHINE\SYSTEM\ControlSet001\Control\Lsa
+	Handle ID:	0x520
+
+Process Information:
+	Process ID:	0x5a8
+	Process Name:	C:\Windows\System32\svchost.exe
+
+Access Request Information:
+	Accesses:	Query key value
+				
+	Access Mask:	0x1","4663","0",,"0","12801","0","-9214364837600034816","452862","Microsoft-Windows-Security-Auditing","54849625-5478-4994-a5ba-3e3b0328c30d","Security","4","60","PC01.example.corp",,"3/19/2019 4:35:15 PM",,,"System.UInt32[]","System.Diagnostics.Eventing.Reader.EventBookmark","Information","Info","Registry","System.Collections.ObjectModel.ReadOnlyCollection`1[System.String]","System.Collections.Generic.List`1[System.Diagnostics.Eventing.Reader.EventProperty]"
+"An attempt was made to access an object.
+
+Subject:
+	Security ID:		S-1-5-19
+	Account Name:		LOCAL SERVICE
+	Account Domain:		NT AUTHORITY
+	Logon ID:		0x3E5
+
+Object:
+	Object Server:	Security
+	Object Type:	Key
+	Object Name:	\REGISTRY\MACHINE\SYSTEM\ControlSet001\Control\Lsa\FipsAlgorithmPolicy
+	Handle ID:	0x468
+
+Process Information:
+	Process ID:	0x5a8
+	Process Name:	C:\Windows\System32\svchost.exe
+
+Access Request Information:
+	Accesses:	Query key value
+				
+	Access Mask:	0x1","4663","0",,"0","12801","0","-9214364837600034816","452861","Microsoft-Windows-Security-Auditing","54849625-5478-4994-a5ba-3e3b0328c30d","Security","4","60","PC01.example.corp",,"3/19/2019 4:35:15 PM",,,"System.UInt32[]","System.Diagnostics.Eventing.Reader.EventBookmark","Information","Info","Registry","System.Collections.ObjectModel.ReadOnlyCollection`1[System.String]","System.Collections.Generic.List`1[System.Diagnostics.Eventing.Reader.EventProperty]"
+"An attempt was made to access an object.
+
+Subject:
+	Security ID:		S-1-5-19
+	Account Name:		LOCAL SERVICE
+	Account Domain:		NT AUTHORITY
+	Logon ID:		0x3E5
+
+Object:
+	Object Server:	Security
+	Object Type:	Key
+	Object Name:	\REGISTRY\MACHINE\SYSTEM\ControlSet001\Control\Lsa
+	Handle ID:	0x468
+
+Process Information:
+	Process ID:	0x5a8
+	Process Name:	C:\Windows\System32\svchost.exe
+
+Access Request Information:
+	Accesses:	Query key value
+				
+	Access Mask:	0x1","4663","0",,"0","12801","0","-9214364837600034816","452860","Microsoft-Windows-Security-Auditing","54849625-5478-4994-a5ba-3e3b0328c30d","Security","4","60","PC01.example.corp",,"3/19/2019 4:35:15 PM",,,"System.UInt32[]","System.Diagnostics.Eventing.Reader.EventBookmark","Information","Info","Registry","System.Collections.ObjectModel.ReadOnlyCollection`1[System.String]","System.Collections.Generic.List`1[System.Diagnostics.Eventing.Reader.EventProperty]"
+"An attempt was made to access an object.
+
+Subject:
+	Security ID:		S-1-5-19
+	Account Name:		LOCAL SERVICE
+	Account Domain:		NT AUTHORITY
+	Logon ID:		0x3E5
+
+Object:
+	Object Server:	Security
+	Object Type:	Key
+	Object Name:	\REGISTRY\MACHINE\SYSTEM\ControlSet001\Control\Lsa\FipsAlgorithmPolicy
+	Handle ID:	0x520
+
+Process Information:
+	Process ID:	0x5a8
+	Process Name:	C:\Windows\System32\svchost.exe
+
+Access Request Information:
+	Accesses:	Query key value
+				
+	Access Mask:	0x1","4663","0",,"0","12801","0","-9214364837600034816","452859","Microsoft-Windows-Security-Auditing","54849625-5478-4994-a5ba-3e3b0328c30d","Security","4","60","PC01.example.corp",,"3/19/2019 4:35:15 PM",,,"System.UInt32[]","System.Diagnostics.Eventing.Reader.EventBookmark","Information","Info","Registry","System.Collections.ObjectModel.ReadOnlyCollection`1[System.String]","System.Collections.Generic.List`1[System.Diagnostics.Eventing.Reader.EventProperty]"
+"An attempt was made to access an object.
+
+Subject:
+	Security ID:		S-1-5-19
+	Account Name:		LOCAL SERVICE
+	Account Domain:		NT AUTHORITY
+	Logon ID:		0x3E5
+
+Object:
+	Object Server:	Security
+	Object Type:	Key
+	Object Name:	\REGISTRY\MACHINE\SYSTEM\ControlSet001\Control\Lsa
+	Handle ID:	0x520
+
+Process Information:
+	Process ID:	0x5a8
+	Process Name:	C:\Windows\System32\svchost.exe
+
+Access Request Information:
+	Accesses:	Query key value
+				
+	Access Mask:	0x1","4663","0",,"0","12801","0","-9214364837600034816","452858","Microsoft-Windows-Security-Auditing","54849625-5478-4994-a5ba-3e3b0328c30d","Security","4","60","PC01.example.corp",,"3/19/2019 4:35:15 PM",,,"System.UInt32[]","System.Diagnostics.Eventing.Reader.EventBookmark","Information","Info","Registry","System.Collections.ObjectModel.ReadOnlyCollection`1[System.String]","System.Collections.Generic.List`1[System.Diagnostics.Eventing.Reader.EventProperty]"
+"An attempt was made to access an object.
+
+Subject:
+	Security ID:		S-1-5-19
+	Account Name:		LOCAL SERVICE
+	Account Domain:		NT AUTHORITY
+	Logon ID:		0x3E5
+
+Object:
+	Object Server:	Security
+	Object Type:	Key
+	Object Name:	\REGISTRY\MACHINE\SYSTEM\ControlSet001\Control\Lsa\FipsAlgorithmPolicy
+	Handle ID:	0x468
+
+Process Information:
+	Process ID:	0x5a8
+	Process Name:	C:\Windows\System32\svchost.exe
+
+Access Request Information:
+	Accesses:	Query key value
+				
+	Access Mask:	0x1","4663","0",,"0","12801","0","-9214364837600034816","452857","Microsoft-Windows-Security-Auditing","54849625-5478-4994-a5ba-3e3b0328c30d","Security","4","60","PC01.example.corp",,"3/19/2019 4:35:15 PM",,,"System.UInt32[]","System.Diagnostics.Eventing.Reader.EventBookmark","Information","Info","Registry","System.Collections.ObjectModel.ReadOnlyCollection`1[System.String]","System.Collections.Generic.List`1[System.Diagnostics.Eventing.Reader.EventProperty]"
+"An attempt was made to access an object.
+
+Subject:
+	Security ID:		S-1-5-19
+	Account Name:		LOCAL SERVICE
+	Account Domain:		NT AUTHORITY
+	Logon ID:		0x3E5
+
+Object:
+	Object Server:	Security
+	Object Type:	Key
+	Object Name:	\REGISTRY\MACHINE\SYSTEM\ControlSet001\Control\Lsa
+	Handle ID:	0x468
+
+Process Information:
+	Process ID:	0x5a8
+	Process Name:	C:\Windows\System32\svchost.exe
+
+Access Request Information:
+	Accesses:	Query key value
+				
+	Access Mask:	0x1","4663","0",,"0","12801","0","-9214364837600034816","452856","Microsoft-Windows-Security-Auditing","54849625-5478-4994-a5ba-3e3b0328c30d","Security","4","60","PC01.example.corp",,"3/19/2019 4:35:15 PM",,,"System.UInt32[]","System.Diagnostics.Eventing.Reader.EventBookmark","Information","Info","Registry","System.Collections.ObjectModel.ReadOnlyCollection`1[System.String]","System.Collections.Generic.List`1[System.Diagnostics.Eventing.Reader.EventProperty]"
+"An attempt was made to access an object.
+
+Subject:
+	Security ID:		S-1-5-19
+	Account Name:		LOCAL SERVICE
+	Account Domain:		NT AUTHORITY
+	Logon ID:		0x3E5
+
+Object:
+	Object Server:	Security
+	Object Type:	Key
+	Object Name:	\REGISTRY\MACHINE\SYSTEM\ControlSet001\Control\Lsa\FipsAlgorithmPolicy
+	Handle ID:	0x520
+
+Process Information:
+	Process ID:	0x5a8
+	Process Name:	C:\Windows\System32\svchost.exe
+
+Access Request Information:
+	Accesses:	Query key value
+				
+	Access Mask:	0x1","4663","0",,"0","12801","0","-9214364837600034816","452855","Microsoft-Windows-Security-Auditing","54849625-5478-4994-a5ba-3e3b0328c30d","Security","4","60","PC01.example.corp",,"3/19/2019 4:35:15 PM",,,"System.UInt32[]","System.Diagnostics.Eventing.Reader.EventBookmark","Information","Info","Registry","System.Collections.ObjectModel.ReadOnlyCollection`1[System.String]","System.Collections.Generic.List`1[System.Diagnostics.Eventing.Reader.EventProperty]"
+"An attempt was made to access an object.
+
+Subject:
+	Security ID:		S-1-5-19
+	Account Name:		LOCAL SERVICE
+	Account Domain:		NT AUTHORITY
+	Logon ID:		0x3E5
+
+Object:
+	Object Server:	Security
+	Object Type:	Key
+	Object Name:	\REGISTRY\MACHINE\SYSTEM\ControlSet001\Control\Lsa
+	Handle ID:	0x520
+
+Process Information:
+	Process ID:	0x5a8
+	Process Name:	C:\Windows\System32\svchost.exe
+
+Access Request Information:
+	Accesses:	Query key value
+				
+	Access Mask:	0x1","4663","0",,"0","12801","0","-9214364837600034816","452854","Microsoft-Windows-Security-Auditing","54849625-5478-4994-a5ba-3e3b0328c30d","Security","4","60","PC01.example.corp",,"3/19/2019 4:35:15 PM",,,"System.UInt32[]","System.Diagnostics.Eventing.Reader.EventBookmark","Information","Info","Registry","System.Collections.ObjectModel.ReadOnlyCollection`1[System.String]","System.Collections.Generic.List`1[System.Diagnostics.Eventing.Reader.EventProperty]"
+"An attempt was made to access an object.
+
+Subject:
+	Security ID:		S-1-5-19
+	Account Name:		LOCAL SERVICE
+	Account Domain:		NT AUTHORITY
+	Logon ID:		0x3E5
+
+Object:
+	Object Server:	Security
+	Object Type:	Key
+	Object Name:	\REGISTRY\MACHINE\SYSTEM\ControlSet001\Control\Lsa\FipsAlgorithmPolicy
+	Handle ID:	0x468
+
+Process Information:
+	Process ID:	0x5a8
+	Process Name:	C:\Windows\System32\svchost.exe
+
+Access Request Information:
+	Accesses:	Query key value
+				
+	Access Mask:	0x1","4663","0",,"0","12801","0","-9214364837600034816","452853","Microsoft-Windows-Security-Auditing","54849625-5478-4994-a5ba-3e3b0328c30d","Security","4","60","PC01.example.corp",,"3/19/2019 4:35:15 PM",,,"System.UInt32[]","System.Diagnostics.Eventing.Reader.EventBookmark","Information","Info","Registry","System.Collections.ObjectModel.ReadOnlyCollection`1[System.String]","System.Collections.Generic.List`1[System.Diagnostics.Eventing.Reader.EventProperty]"
+"An attempt was made to access an object.
+
+Subject:
+	Security ID:		S-1-5-19
+	Account Name:		LOCAL SERVICE
+	Account Domain:		NT AUTHORITY
+	Logon ID:		0x3E5
+
+Object:
+	Object Server:	Security
+	Object Type:	Key
+	Object Name:	\REGISTRY\MACHINE\SYSTEM\ControlSet001\Control\Lsa
+	Handle ID:	0x420
+
+Process Information:
+	Process ID:	0x5a8
+	Process Name:	C:\Windows\System32\svchost.exe
+
+Access Request Information:
+	Accesses:	Query key value
+				
+	Access Mask:	0x1","4663","0",,"0","12801","0","-9214364837600034816","452852","Microsoft-Windows-Security-Auditing","54849625-5478-4994-a5ba-3e3b0328c30d","Security","4","60","PC01.example.corp",,"3/19/2019 4:35:15 PM",,,"System.UInt32[]","System.Diagnostics.Eventing.Reader.EventBookmark","Information","Info","Registry","System.Collections.ObjectModel.ReadOnlyCollection`1[System.String]","System.Collections.Generic.List`1[System.Diagnostics.Eventing.Reader.EventProperty]"
+"An attempt was made to access an object.
+
+Subject:
+	Security ID:		S-1-5-19
+	Account Name:		LOCAL SERVICE
+	Account Domain:		NT AUTHORITY
+	Logon ID:		0x3E5
+
+Object:
+	Object Server:	Security
+	Object Type:	Key
+	Object Name:	\REGISTRY\MACHINE\SYSTEM\ControlSet001\Control\Lsa\FipsAlgorithmPolicy
+	Handle ID:	0x1ac
+
+Process Information:
+	Process ID:	0x5a8
+	Process Name:	C:\Windows\System32\svchost.exe
+
+Access Request Information:
+	Accesses:	Query key value
+				
+	Access Mask:	0x1","4663","0",,"0","12801","0","-9214364837600034816","452851","Microsoft-Windows-Security-Auditing","54849625-5478-4994-a5ba-3e3b0328c30d","Security","4","60","PC01.example.corp",,"3/19/2019 4:35:15 PM",,,"System.UInt32[]","System.Diagnostics.Eventing.Reader.EventBookmark","Information","Info","Registry","System.Collections.ObjectModel.ReadOnlyCollection`1[System.String]","System.Collections.Generic.List`1[System.Diagnostics.Eventing.Reader.EventProperty]"
+"An attempt was made to access an object.
+
+Subject:
+	Security ID:		S-1-5-19
+	Account Name:		LOCAL SERVICE
+	Account Domain:		NT AUTHORITY
+	Logon ID:		0x3E5
+
+Object:
+	Object Server:	Security
+	Object Type:	Key
+	Object Name:	\REGISTRY\MACHINE\SYSTEM\ControlSet001\Control\Lsa
+	Handle ID:	0x1ac
+
+Process Information:
+	Process ID:	0x5a8
+	Process Name:	C:\Windows\System32\svchost.exe
+
+Access Request Information:
+	Accesses:	Query key value
+				
+	Access Mask:	0x1","4663","0",,"0","12801","0","-9214364837600034816","452850","Microsoft-Windows-Security-Auditing","54849625-5478-4994-a5ba-3e3b0328c30d","Security","4","60","PC01.example.corp",,"3/19/2019 4:35:15 PM",,,"System.UInt32[]","System.Diagnostics.Eventing.Reader.EventBookmark","Information","Info","Registry","System.Collections.ObjectModel.ReadOnlyCollection`1[System.String]","System.Collections.Generic.List`1[System.Diagnostics.Eventing.Reader.EventProperty]"
+"An attempt was made to access an object.
+
+Subject:
+	Security ID:		S-1-5-19
+	Account Name:		LOCAL SERVICE
+	Account Domain:		NT AUTHORITY
+	Logon ID:		0x3E5
+
+Object:
+	Object Server:	Security
+	Object Type:	Key
+	Object Name:	\REGISTRY\MACHINE\SYSTEM\ControlSet001\Control\Lsa\FipsAlgorithmPolicy
+	Handle ID:	0x420
+
+Process Information:
+	Process ID:	0x5a8
+	Process Name:	C:\Windows\System32\svchost.exe
+
+Access Request Information:
+	Accesses:	Query key value
+				
+	Access Mask:	0x1","4663","0",,"0","12801","0","-9214364837600034816","452849","Microsoft-Windows-Security-Auditing","54849625-5478-4994-a5ba-3e3b0328c30d","Security","4","60","PC01.example.corp",,"3/19/2019 4:35:15 PM",,,"System.UInt32[]","System.Diagnostics.Eventing.Reader.EventBookmark","Information","Info","Registry","System.Collections.ObjectModel.ReadOnlyCollection`1[System.String]","System.Collections.Generic.List`1[System.Diagnostics.Eventing.Reader.EventProperty]"
+"An attempt was made to access an object.
+
+Subject:
+	Security ID:		S-1-5-19
+	Account Name:		LOCAL SERVICE
+	Account Domain:		NT AUTHORITY
+	Logon ID:		0x3E5
+
+Object:
+	Object Server:	Security
+	Object Type:	Key
+	Object Name:	\REGISTRY\MACHINE\SYSTEM\ControlSet001\Control\Lsa
+	Handle ID:	0x420
+
+Process Information:
+	Process ID:	0x5a8
+	Process Name:	C:\Windows\System32\svchost.exe
+
+Access Request Information:
+	Accesses:	Query key value
+				
+	Access Mask:	0x1","4663","0",,"0","12801","0","-9214364837600034816","452848","Microsoft-Windows-Security-Auditing","54849625-5478-4994-a5ba-3e3b0328c30d","Security","4","60","PC01.example.corp",,"3/19/2019 4:35:15 PM",,,"System.UInt32[]","System.Diagnostics.Eventing.Reader.EventBookmark","Information","Info","Registry","System.Collections.ObjectModel.ReadOnlyCollection`1[System.String]","System.Collections.Generic.List`1[System.Diagnostics.Eventing.Reader.EventProperty]"
+"An attempt was made to access an object.
+
+Subject:
+	Security ID:		S-1-5-19
+	Account Name:		LOCAL SERVICE
+	Account Domain:		NT AUTHORITY
+	Logon ID:		0x3E5
+
+Object:
+	Object Server:	Security
+	Object Type:	Key
+	Object Name:	\REGISTRY\MACHINE\SYSTEM\ControlSet001\Control\Lsa\FipsAlgorithmPolicy
+	Handle ID:	0x1ac
+
+Process Information:
+	Process ID:	0x5a8
+	Process Name:	C:\Windows\System32\svchost.exe
+
+Access Request Information:
+	Accesses:	Query key value
+				
+	Access Mask:	0x1","4663","0",,"0","12801","0","-9214364837600034816","452847","Microsoft-Windows-Security-Auditing","54849625-5478-4994-a5ba-3e3b0328c30d","Security","4","60","PC01.example.corp",,"3/19/2019 4:35:15 PM",,,"System.UInt32[]","System.Diagnostics.Eventing.Reader.EventBookmark","Information","Info","Registry","System.Collections.ObjectModel.ReadOnlyCollection`1[System.String]","System.Collections.Generic.List`1[System.Diagnostics.Eventing.Reader.EventProperty]"
+"An attempt was made to access an object.
+
+Subject:
+	Security ID:		S-1-5-19
+	Account Name:		LOCAL SERVICE
+	Account Domain:		NT AUTHORITY
+	Logon ID:		0x3E5
+
+Object:
+	Object Server:	Security
+	Object Type:	Key
+	Object Name:	\REGISTRY\MACHINE\SYSTEM\ControlSet001\Control\Lsa
+	Handle ID:	0x468
+
+Process Information:
+	Process ID:	0x5a8
+	Process Name:	C:\Windows\System32\svchost.exe
+
+Access Request Information:
+	Accesses:	Query key value
+				
+	Access Mask:	0x1","4663","0",,"0","12801","0","-9214364837600034816","452846","Microsoft-Windows-Security-Auditing","54849625-5478-4994-a5ba-3e3b0328c30d","Security","4","60","PC01.example.corp",,"3/19/2019 4:35:15 PM",,,"System.UInt32[]","System.Diagnostics.Eventing.Reader.EventBookmark","Information","Info","Registry","System.Collections.ObjectModel.ReadOnlyCollection`1[System.String]","System.Collections.Generic.List`1[System.Diagnostics.Eventing.Reader.EventProperty]"
+"An attempt was made to access an object.
+
+Subject:
+	Security ID:		S-1-5-19
+	Account Name:		LOCAL SERVICE
+	Account Domain:		NT AUTHORITY
+	Logon ID:		0x3E5
+
+Object:
+	Object Server:	Security
+	Object Type:	Key
+	Object Name:	\REGISTRY\MACHINE\SYSTEM\ControlSet001\Control\Lsa\FipsAlgorithmPolicy
+	Handle ID:	0x1ac
+
+Process Information:
+	Process ID:	0x5a8
+	Process Name:	C:\Windows\System32\svchost.exe
+
+Access Request Information:
+	Accesses:	Query key value
+				
+	Access Mask:	0x1","4663","0",,"0","12801","0","-9214364837600034816","452845","Microsoft-Windows-Security-Auditing","54849625-5478-4994-a5ba-3e3b0328c30d","Security","4","60","PC01.example.corp",,"3/19/2019 4:35:15 PM",,,"System.UInt32[]","System.Diagnostics.Eventing.Reader.EventBookmark","Information","Info","Registry","System.Collections.ObjectModel.ReadOnlyCollection`1[System.String]","System.Collections.Generic.List`1[System.Diagnostics.Eventing.Reader.EventProperty]"
+"An attempt was made to access an object.
+
+Subject:
+	Security ID:		S-1-5-19
+	Account Name:		LOCAL SERVICE
+	Account Domain:		NT AUTHORITY
+	Logon ID:		0x3E5
+
+Object:
+	Object Server:	Security
+	Object Type:	Key
+	Object Name:	\REGISTRY\MACHINE\SYSTEM\ControlSet001\Control\Lsa
+	Handle ID:	0x468
+
+Process Information:
+	Process ID:	0x5a8
+	Process Name:	C:\Windows\System32\svchost.exe
+
+Access Request Information:
+	Accesses:	Query key value
+				
+	Access Mask:	0x1","4663","0",,"0","12801","0","-9214364837600034816","452844","Microsoft-Windows-Security-Auditing","54849625-5478-4994-a5ba-3e3b0328c30d","Security","4","60","PC01.example.corp",,"3/19/2019 4:35:15 PM",,,"System.UInt32[]","System.Diagnostics.Eventing.Reader.EventBookmark","Information","Info","Registry","System.Collections.ObjectModel.ReadOnlyCollection`1[System.String]","System.Collections.Generic.List`1[System.Diagnostics.Eventing.Reader.EventProperty]"
+"An attempt was made to access an object.
+
+Subject:
+	Security ID:		S-1-5-19
+	Account Name:		LOCAL SERVICE
+	Account Domain:		NT AUTHORITY
+	Logon ID:		0x3E5
+
+Object:
+	Object Server:	Security
+	Object Type:	Key
+	Object Name:	\REGISTRY\MACHINE\SYSTEM\ControlSet001\Control\Lsa\FipsAlgorithmPolicy
+	Handle ID:	0x520
+
+Process Information:
+	Process ID:	0x5a8
+	Process Name:	C:\Windows\System32\svchost.exe
+
+Access Request Information:
+	Accesses:	Query key value
+				
+	Access Mask:	0x1","4663","0",,"0","12801","0","-9214364837600034816","452843","Microsoft-Windows-Security-Auditing","54849625-5478-4994-a5ba-3e3b0328c30d","Security","4","60","PC01.example.corp",,"3/19/2019 4:35:15 PM",,,"System.UInt32[]","System.Diagnostics.Eventing.Reader.EventBookmark","Information","Info","Registry","System.Collections.ObjectModel.ReadOnlyCollection`1[System.String]","System.Collections.Generic.List`1[System.Diagnostics.Eventing.Reader.EventProperty]"
+"An attempt was made to access an object.
+
+Subject:
+	Security ID:		S-1-5-19
+	Account Name:		LOCAL SERVICE
+	Account Domain:		NT AUTHORITY
+	Logon ID:		0x3E5
+
+Object:
+	Object Server:	Security
+	Object Type:	Key
+	Object Name:	\REGISTRY\MACHINE\SYSTEM\ControlSet001\Control\Lsa
+	Handle ID:	0x520
+
+Process Information:
+	Process ID:	0x5a8
+	Process Name:	C:\Windows\System32\svchost.exe
+
+Access Request Information:
+	Accesses:	Query key value
+				
+	Access Mask:	0x1","4663","0",,"0","12801","0","-9214364837600034816","452842","Microsoft-Windows-Security-Auditing","54849625-5478-4994-a5ba-3e3b0328c30d","Security","4","60","PC01.example.corp",,"3/19/2019 4:35:15 PM",,,"System.UInt32[]","System.Diagnostics.Eventing.Reader.EventBookmark","Information","Info","Registry","System.Collections.ObjectModel.ReadOnlyCollection`1[System.String]","System.Collections.Generic.List`1[System.Diagnostics.Eventing.Reader.EventProperty]"
+"An attempt was made to access an object.
+
+Subject:
+	Security ID:		S-1-5-19
+	Account Name:		LOCAL SERVICE
+	Account Domain:		NT AUTHORITY
+	Logon ID:		0x3E5
+
+Object:
+	Object Server:	Security
+	Object Type:	Key
+	Object Name:	\REGISTRY\MACHINE\SYSTEM\ControlSet001\Control\Lsa\FipsAlgorithmPolicy
+	Handle ID:	0x468
+
+Process Information:
+	Process ID:	0x5a8
+	Process Name:	C:\Windows\System32\svchost.exe
+
+Access Request Information:
+	Accesses:	Query key value
+				
+	Access Mask:	0x1","4663","0",,"0","12801","0","-9214364837600034816","452841","Microsoft-Windows-Security-Auditing","54849625-5478-4994-a5ba-3e3b0328c30d","Security","4","60","PC01.example.corp",,"3/19/2019 4:35:15 PM",,,"System.UInt32[]","System.Diagnostics.Eventing.Reader.EventBookmark","Information","Info","Registry","System.Collections.ObjectModel.ReadOnlyCollection`1[System.String]","System.Collections.Generic.List`1[System.Diagnostics.Eventing.Reader.EventProperty]"
+"An attempt was made to access an object.
+
+Subject:
+	Security ID:		S-1-5-19
+	Account Name:		LOCAL SERVICE
+	Account Domain:		NT AUTHORITY
+	Logon ID:		0x3E5
+
+Object:
+	Object Server:	Security
+	Object Type:	Key
+	Object Name:	\REGISTRY\MACHINE\SYSTEM\ControlSet001\Control\Lsa
+	Handle ID:	0x468
+
+Process Information:
+	Process ID:	0x5a8
+	Process Name:	C:\Windows\System32\svchost.exe
+
+Access Request Information:
+	Accesses:	Query key value
+				
+	Access Mask:	0x1","4663","0",,"0","12801","0","-9214364837600034816","452840","Microsoft-Windows-Security-Auditing","54849625-5478-4994-a5ba-3e3b0328c30d","Security","4","60","PC01.example.corp",,"3/19/2019 4:35:15 PM",,,"System.UInt32[]","System.Diagnostics.Eventing.Reader.EventBookmark","Information","Info","Registry","System.Collections.ObjectModel.ReadOnlyCollection`1[System.String]","System.Collections.Generic.List`1[System.Diagnostics.Eventing.Reader.EventProperty]"
+"An attempt was made to access an object.
+
+Subject:
+	Security ID:		S-1-5-19
+	Account Name:		LOCAL SERVICE
+	Account Domain:		NT AUTHORITY
+	Logon ID:		0x3E5
+
+Object:
+	Object Server:	Security
+	Object Type:	Key
+	Object Name:	\REGISTRY\MACHINE\SYSTEM\ControlSet001\Control\Lsa\FipsAlgorithmPolicy
+	Handle ID:	0x520
+
+Process Information:
+	Process ID:	0x5a8
+	Process Name:	C:\Windows\System32\svchost.exe
+
+Access Request Information:
+	Accesses:	Query key value
+				
+	Access Mask:	0x1","4663","0",,"0","12801","0","-9214364837600034816","452839","Microsoft-Windows-Security-Auditing","54849625-5478-4994-a5ba-3e3b0328c30d","Security","4","60","PC01.example.corp",,"3/19/2019 4:35:15 PM",,,"System.UInt32[]","System.Diagnostics.Eventing.Reader.EventBookmark","Information","Info","Registry","System.Collections.ObjectModel.ReadOnlyCollection`1[System.String]","System.Collections.Generic.List`1[System.Diagnostics.Eventing.Reader.EventProperty]"
+"An attempt was made to access an object.
+
+Subject:
+	Security ID:		S-1-5-19
+	Account Name:		LOCAL SERVICE
+	Account Domain:		NT AUTHORITY
+	Logon ID:		0x3E5
+
+Object:
+	Object Server:	Security
+	Object Type:	Key
+	Object Name:	\REGISTRY\MACHINE\SYSTEM\ControlSet001\Control\Lsa
+	Handle ID:	0x520
+
+Process Information:
+	Process ID:	0x5a8
+	Process Name:	C:\Windows\System32\svchost.exe
+
+Access Request Information:
+	Accesses:	Query key value
+				
+	Access Mask:	0x1","4663","0",,"0","12801","0","-9214364837600034816","452838","Microsoft-Windows-Security-Auditing","54849625-5478-4994-a5ba-3e3b0328c30d","Security","4","60","PC01.example.corp",,"3/19/2019 4:35:15 PM",,,"System.UInt32[]","System.Diagnostics.Eventing.Reader.EventBookmark","Information","Info","Registry","System.Collections.ObjectModel.ReadOnlyCollection`1[System.String]","System.Collections.Generic.List`1[System.Diagnostics.Eventing.Reader.EventProperty]"
+"An attempt was made to access an object.
+
+Subject:
+	Security ID:		S-1-5-19
+	Account Name:		LOCAL SERVICE
+	Account Domain:		NT AUTHORITY
+	Logon ID:		0x3E5
+
+Object:
+	Object Server:	Security
+	Object Type:	Key
+	Object Name:	\REGISTRY\MACHINE\SYSTEM\ControlSet001\Control\Lsa\FipsAlgorithmPolicy
+	Handle ID:	0x468
+
+Process Information:
+	Process ID:	0x5a8
+	Process Name:	C:\Windows\System32\svchost.exe
+
+Access Request Information:
+	Accesses:	Query key value
+				
+	Access Mask:	0x1","4663","0",,"0","12801","0","-9214364837600034816","452837","Microsoft-Windows-Security-Auditing","54849625-5478-4994-a5ba-3e3b0328c30d","Security","4","60","PC01.example.corp",,"3/19/2019 4:35:15 PM",,,"System.UInt32[]","System.Diagnostics.Eventing.Reader.EventBookmark","Information","Info","Registry","System.Collections.ObjectModel.ReadOnlyCollection`1[System.String]","System.Collections.Generic.List`1[System.Diagnostics.Eventing.Reader.EventProperty]"
+"An attempt was made to access an object.
+
+Subject:
+	Security ID:		S-1-5-19
+	Account Name:		LOCAL SERVICE
+	Account Domain:		NT AUTHORITY
+	Logon ID:		0x3E5
+
+Object:
+	Object Server:	Security
+	Object Type:	Key
+	Object Name:	\REGISTRY\MACHINE\SYSTEM\ControlSet001\Control\Lsa
+	Handle ID:	0x468
+
+Process Information:
+	Process ID:	0x5a8
+	Process Name:	C:\Windows\System32\svchost.exe
+
+Access Request Information:
+	Accesses:	Query key value
+				
+	Access Mask:	0x1","4663","0",,"0","12801","0","-9214364837600034816","452836","Microsoft-Windows-Security-Auditing","54849625-5478-4994-a5ba-3e3b0328c30d","Security","4","60","PC01.example.corp",,"3/19/2019 4:35:15 PM",,,"System.UInt32[]","System.Diagnostics.Eventing.Reader.EventBookmark","Information","Info","Registry","System.Collections.ObjectModel.ReadOnlyCollection`1[System.String]","System.Collections.Generic.List`1[System.Diagnostics.Eventing.Reader.EventProperty]"
+"An attempt was made to access an object.
+
+Subject:
+	Security ID:		S-1-5-19
+	Account Name:		LOCAL SERVICE
+	Account Domain:		NT AUTHORITY
+	Logon ID:		0x3E5
+
+Object:
+	Object Server:	Security
+	Object Type:	Key
+	Object Name:	\REGISTRY\MACHINE\SYSTEM\ControlSet001\Control\Lsa\FipsAlgorithmPolicy
+	Handle ID:	0x520
+
+Process Information:
+	Process ID:	0x5a8
+	Process Name:	C:\Windows\System32\svchost.exe
+
+Access Request Information:
+	Accesses:	Query key value
+				
+	Access Mask:	0x1","4663","0",,"0","12801","0","-9214364837600034816","452835","Microsoft-Windows-Security-Auditing","54849625-5478-4994-a5ba-3e3b0328c30d","Security","4","60","PC01.example.corp",,"3/19/2019 4:35:15 PM",,,"System.UInt32[]","System.Diagnostics.Eventing.Reader.EventBookmark","Information","Info","Registry","System.Collections.ObjectModel.ReadOnlyCollection`1[System.String]","System.Collections.Generic.List`1[System.Diagnostics.Eventing.Reader.EventProperty]"
+"An attempt was made to access an object.
+
+Subject:
+	Security ID:		S-1-5-19
+	Account Name:		LOCAL SERVICE
+	Account Domain:		NT AUTHORITY
+	Logon ID:		0x3E5
+
+Object:
+	Object Server:	Security
+	Object Type:	Key
+	Object Name:	\REGISTRY\MACHINE\SYSTEM\ControlSet001\Control\Lsa
+	Handle ID:	0x520
+
+Process Information:
+	Process ID:	0x5a8
+	Process Name:	C:\Windows\System32\svchost.exe
+
+Access Request Information:
+	Accesses:	Query key value
+				
+	Access Mask:	0x1","4663","0",,"0","12801","0","-9214364837600034816","452834","Microsoft-Windows-Security-Auditing","54849625-5478-4994-a5ba-3e3b0328c30d","Security","4","60","PC01.example.corp",,"3/19/2019 4:35:15 PM",,,"System.UInt32[]","System.Diagnostics.Eventing.Reader.EventBookmark","Information","Info","Registry","System.Collections.ObjectModel.ReadOnlyCollection`1[System.String]","System.Collections.Generic.List`1[System.Diagnostics.Eventing.Reader.EventProperty]"
+"An attempt was made to access an object.
+
+Subject:
+	Security ID:		S-1-5-19
+	Account Name:		LOCAL SERVICE
+	Account Domain:		NT AUTHORITY
+	Logon ID:		0x3E5
+
+Object:
+	Object Server:	Security
+	Object Type:	Key
+	Object Name:	\REGISTRY\MACHINE\SYSTEM\ControlSet001\Control\Lsa\FipsAlgorithmPolicy
+	Handle ID:	0x468
+
+Process Information:
+	Process ID:	0x5a8
+	Process Name:	C:\Windows\System32\svchost.exe
+
+Access Request Information:
+	Accesses:	Query key value
+				
+	Access Mask:	0x1","4663","0",,"0","12801","0","-9214364837600034816","452833","Microsoft-Windows-Security-Auditing","54849625-5478-4994-a5ba-3e3b0328c30d","Security","4","60","PC01.example.corp",,"3/19/2019 4:35:15 PM",,,"System.UInt32[]","System.Diagnostics.Eventing.Reader.EventBookmark","Information","Info","Registry","System.Collections.ObjectModel.ReadOnlyCollection`1[System.String]","System.Collections.Generic.List`1[System.Diagnostics.Eventing.Reader.EventProperty]"
+"An attempt was made to access an object.
+
+Subject:
+	Security ID:		S-1-5-19
+	Account Name:		LOCAL SERVICE
+	Account Domain:		NT AUTHORITY
+	Logon ID:		0x3E5
+
+Object:
+	Object Server:	Security
+	Object Type:	Key
+	Object Name:	\REGISTRY\MACHINE\SYSTEM\ControlSet001\Control\Lsa
+	Handle ID:	0x468
+
+Process Information:
+	Process ID:	0x5a8
+	Process Name:	C:\Windows\System32\svchost.exe
+
+Access Request Information:
+	Accesses:	Query key value
+				
+	Access Mask:	0x1","4663","0",,"0","12801","0","-9214364837600034816","452832","Microsoft-Windows-Security-Auditing","54849625-5478-4994-a5ba-3e3b0328c30d","Security","4","60","PC01.example.corp",,"3/19/2019 4:35:15 PM",,,"System.UInt32[]","System.Diagnostics.Eventing.Reader.EventBookmark","Information","Info","Registry","System.Collections.ObjectModel.ReadOnlyCollection`1[System.String]","System.Collections.Generic.List`1[System.Diagnostics.Eventing.Reader.EventProperty]"
+"An attempt was made to access an object.
+
+Subject:
+	Security ID:		S-1-5-19
+	Account Name:		LOCAL SERVICE
+	Account Domain:		NT AUTHORITY
+	Logon ID:		0x3E5
+
+Object:
+	Object Server:	Security
+	Object Type:	Key
+	Object Name:	\REGISTRY\MACHINE\SYSTEM\ControlSet001\Control\Lsa\FipsAlgorithmPolicy
+	Handle ID:	0x520
+
+Process Information:
+	Process ID:	0x5a8
+	Process Name:	C:\Windows\System32\svchost.exe
+
+Access Request Information:
+	Accesses:	Query key value
+				
+	Access Mask:	0x1","4663","0",,"0","12801","0","-9214364837600034816","452831","Microsoft-Windows-Security-Auditing","54849625-5478-4994-a5ba-3e3b0328c30d","Security","4","60","PC01.example.corp",,"3/19/2019 4:35:15 PM",,,"System.UInt32[]","System.Diagnostics.Eventing.Reader.EventBookmark","Information","Info","Registry","System.Collections.ObjectModel.ReadOnlyCollection`1[System.String]","System.Collections.Generic.List`1[System.Diagnostics.Eventing.Reader.EventProperty]"
+"An attempt was made to access an object.
+
+Subject:
+	Security ID:		S-1-5-19
+	Account Name:		LOCAL SERVICE
+	Account Domain:		NT AUTHORITY
+	Logon ID:		0x3E5
+
+Object:
+	Object Server:	Security
+	Object Type:	Key
+	Object Name:	\REGISTRY\MACHINE\SYSTEM\ControlSet001\Control\Lsa
+	Handle ID:	0x520
+
+Process Information:
+	Process ID:	0x5a8
+	Process Name:	C:\Windows\System32\svchost.exe
+
+Access Request Information:
+	Accesses:	Query key value
+				
+	Access Mask:	0x1","4663","0",,"0","12801","0","-9214364837600034816","452830","Microsoft-Windows-Security-Auditing","54849625-5478-4994-a5ba-3e3b0328c30d","Security","4","60","PC01.example.corp",,"3/19/2019 4:35:15 PM",,,"System.UInt32[]","System.Diagnostics.Eventing.Reader.EventBookmark","Information","Info","Registry","System.Collections.ObjectModel.ReadOnlyCollection`1[System.String]","System.Collections.Generic.List`1[System.Diagnostics.Eventing.Reader.EventProperty]"
+"An attempt was made to access an object.
+
+Subject:
+	Security ID:		S-1-5-19
+	Account Name:		LOCAL SERVICE
+	Account Domain:		NT AUTHORITY
+	Logon ID:		0x3E5
+
+Object:
+	Object Server:	Security
+	Object Type:	Key
+	Object Name:	\REGISTRY\MACHINE\SYSTEM\ControlSet001\Control\Lsa\FipsAlgorithmPolicy
+	Handle ID:	0x468
+
+Process Information:
+	Process ID:	0x5a8
+	Process Name:	C:\Windows\System32\svchost.exe
+
+Access Request Information:
+	Accesses:	Query key value
+				
+	Access Mask:	0x1","4663","0",,"0","12801","0","-9214364837600034816","452829","Microsoft-Windows-Security-Auditing","54849625-5478-4994-a5ba-3e3b0328c30d","Security","4","60","PC01.example.corp",,"3/19/2019 4:35:15 PM",,,"System.UInt32[]","System.Diagnostics.Eventing.Reader.EventBookmark","Information","Info","Registry","System.Collections.ObjectModel.ReadOnlyCollection`1[System.String]","System.Collections.Generic.List`1[System.Diagnostics.Eventing.Reader.EventProperty]"
+"An attempt was made to access an object.
+
+Subject:
+	Security ID:		S-1-5-19
+	Account Name:		LOCAL SERVICE
+	Account Domain:		NT AUTHORITY
+	Logon ID:		0x3E5
+
+Object:
+	Object Server:	Security
+	Object Type:	Key
+	Object Name:	\REGISTRY\MACHINE\SYSTEM\ControlSet001\Control\Lsa
+	Handle ID:	0x468
+
+Process Information:
+	Process ID:	0x5a8
+	Process Name:	C:\Windows\System32\svchost.exe
+
+Access Request Information:
+	Accesses:	Query key value
+				
+	Access Mask:	0x1","4663","0",,"0","12801","0","-9214364837600034816","452828","Microsoft-Windows-Security-Auditing","54849625-5478-4994-a5ba-3e3b0328c30d","Security","4","60","PC01.example.corp",,"3/19/2019 4:35:15 PM",,,"System.UInt32[]","System.Diagnostics.Eventing.Reader.EventBookmark","Information","Info","Registry","System.Collections.ObjectModel.ReadOnlyCollection`1[System.String]","System.Collections.Generic.List`1[System.Diagnostics.Eventing.Reader.EventProperty]"
+"An attempt was made to access an object.
+
+Subject:
+	Security ID:		S-1-5-19
+	Account Name:		LOCAL SERVICE
+	Account Domain:		NT AUTHORITY
+	Logon ID:		0x3E5
+
+Object:
+	Object Server:	Security
+	Object Type:	Key
+	Object Name:	\REGISTRY\MACHINE\SYSTEM\ControlSet001\Control\Lsa\FipsAlgorithmPolicy
+	Handle ID:	0x520
+
+Process Information:
+	Process ID:	0x5a8
+	Process Name:	C:\Windows\System32\svchost.exe
+
+Access Request Information:
+	Accesses:	Query key value
+				
+	Access Mask:	0x1","4663","0",,"0","12801","0","-9214364837600034816","452827","Microsoft-Windows-Security-Auditing","54849625-5478-4994-a5ba-3e3b0328c30d","Security","4","60","PC01.example.corp",,"3/19/2019 4:35:15 PM",,,"System.UInt32[]","System.Diagnostics.Eventing.Reader.EventBookmark","Information","Info","Registry","System.Collections.ObjectModel.ReadOnlyCollection`1[System.String]","System.Collections.Generic.List`1[System.Diagnostics.Eventing.Reader.EventProperty]"
+"An attempt was made to access an object.
+
+Subject:
+	Security ID:		S-1-5-19
+	Account Name:		LOCAL SERVICE
+	Account Domain:		NT AUTHORITY
+	Logon ID:		0x3E5
+
+Object:
+	Object Server:	Security
+	Object Type:	Key
+	Object Name:	\REGISTRY\MACHINE\SYSTEM\ControlSet001\Control\Lsa
+	Handle ID:	0x520
+
+Process Information:
+	Process ID:	0x5a8
+	Process Name:	C:\Windows\System32\svchost.exe
+
+Access Request Information:
+	Accesses:	Query key value
+				
+	Access Mask:	0x1","4663","0",,"0","12801","0","-9214364837600034816","452826","Microsoft-Windows-Security-Auditing","54849625-5478-4994-a5ba-3e3b0328c30d","Security","4","60","PC01.example.corp",,"3/19/2019 4:35:15 PM",,,"System.UInt32[]","System.Diagnostics.Eventing.Reader.EventBookmark","Information","Info","Registry","System.Collections.ObjectModel.ReadOnlyCollection`1[System.String]","System.Collections.Generic.List`1[System.Diagnostics.Eventing.Reader.EventProperty]"
+"An attempt was made to access an object.
+
+Subject:
+	Security ID:		S-1-5-19
+	Account Name:		LOCAL SERVICE
+	Account Domain:		NT AUTHORITY
+	Logon ID:		0x3E5
+
+Object:
+	Object Server:	Security
+	Object Type:	Key
+	Object Name:	\REGISTRY\MACHINE\SYSTEM\ControlSet001\Control\Lsa\FipsAlgorithmPolicy
+	Handle ID:	0x468
+
+Process Information:
+	Process ID:	0x5a8
+	Process Name:	C:\Windows\System32\svchost.exe
+
+Access Request Information:
+	Accesses:	Query key value
+				
+	Access Mask:	0x1","4663","0",,"0","12801","0","-9214364837600034816","452825","Microsoft-Windows-Security-Auditing","54849625-5478-4994-a5ba-3e3b0328c30d","Security","4","60","PC01.example.corp",,"3/19/2019 4:35:15 PM",,,"System.UInt32[]","System.Diagnostics.Eventing.Reader.EventBookmark","Information","Info","Registry","System.Collections.ObjectModel.ReadOnlyCollection`1[System.String]","System.Collections.Generic.List`1[System.Diagnostics.Eventing.Reader.EventProperty]"
+"An attempt was made to access an object.
+
+Subject:
+	Security ID:		S-1-5-19
+	Account Name:		LOCAL SERVICE
+	Account Domain:		NT AUTHORITY
+	Logon ID:		0x3E5
+
+Object:
+	Object Server:	Security
+	Object Type:	Key
+	Object Name:	\REGISTRY\MACHINE\SYSTEM\ControlSet001\Control\Lsa
+	Handle ID:	0x468
+
+Process Information:
+	Process ID:	0x5a8
+	Process Name:	C:\Windows\System32\svchost.exe
+
+Access Request Information:
+	Accesses:	Query key value
+				
+	Access Mask:	0x1","4663","0",,"0","12801","0","-9214364837600034816","452824","Microsoft-Windows-Security-Auditing","54849625-5478-4994-a5ba-3e3b0328c30d","Security","4","60","PC01.example.corp",,"3/19/2019 4:35:15 PM",,,"System.UInt32[]","System.Diagnostics.Eventing.Reader.EventBookmark","Information","Info","Registry","System.Collections.ObjectModel.ReadOnlyCollection`1[System.String]","System.Collections.Generic.List`1[System.Diagnostics.Eventing.Reader.EventProperty]"
+"An attempt was made to access an object.
+
+Subject:
+	Security ID:		S-1-5-19
+	Account Name:		LOCAL SERVICE
+	Account Domain:		NT AUTHORITY
+	Logon ID:		0x3E5
+
+Object:
+	Object Server:	Security
+	Object Type:	Key
+	Object Name:	\REGISTRY\MACHINE\SYSTEM\ControlSet001\Control\Lsa\FipsAlgorithmPolicy
+	Handle ID:	0x520
+
+Process Information:
+	Process ID:	0x5a8
+	Process Name:	C:\Windows\System32\svchost.exe
+
+Access Request Information:
+	Accesses:	Query key value
+				
+	Access Mask:	0x1","4663","0",,"0","12801","0","-9214364837600034816","452823","Microsoft-Windows-Security-Auditing","54849625-5478-4994-a5ba-3e3b0328c30d","Security","4","60","PC01.example.corp",,"3/19/2019 4:35:15 PM",,,"System.UInt32[]","System.Diagnostics.Eventing.Reader.EventBookmark","Information","Info","Registry","System.Collections.ObjectModel.ReadOnlyCollection`1[System.String]","System.Collections.Generic.List`1[System.Diagnostics.Eventing.Reader.EventProperty]"
+"An attempt was made to access an object.
+
+Subject:
+	Security ID:		S-1-5-19
+	Account Name:		LOCAL SERVICE
+	Account Domain:		NT AUTHORITY
+	Logon ID:		0x3E5
+
+Object:
+	Object Server:	Security
+	Object Type:	Key
+	Object Name:	\REGISTRY\MACHINE\SYSTEM\ControlSet001\Control\Lsa
+	Handle ID:	0x520
+
+Process Information:
+	Process ID:	0x5a8
+	Process Name:	C:\Windows\System32\svchost.exe
+
+Access Request Information:
+	Accesses:	Query key value
+				
+	Access Mask:	0x1","4663","0",,"0","12801","0","-9214364837600034816","452822","Microsoft-Windows-Security-Auditing","54849625-5478-4994-a5ba-3e3b0328c30d","Security","4","60","PC01.example.corp",,"3/19/2019 4:35:15 PM",,,"System.UInt32[]","System.Diagnostics.Eventing.Reader.EventBookmark","Information","Info","Registry","System.Collections.ObjectModel.ReadOnlyCollection`1[System.String]","System.Collections.Generic.List`1[System.Diagnostics.Eventing.Reader.EventProperty]"
+"An attempt was made to access an object.
+
+Subject:
+	Security ID:		S-1-5-19
+	Account Name:		LOCAL SERVICE
+	Account Domain:		NT AUTHORITY
+	Logon ID:		0x3E5
+
+Object:
+	Object Server:	Security
+	Object Type:	Key
+	Object Name:	\REGISTRY\MACHINE\SYSTEM\ControlSet001\Control\Lsa\FipsAlgorithmPolicy
+	Handle ID:	0x468
+
+Process Information:
+	Process ID:	0x5a8
+	Process Name:	C:\Windows\System32\svchost.exe
+
+Access Request Information:
+	Accesses:	Query key value
+				
+	Access Mask:	0x1","4663","0",,"0","12801","0","-9214364837600034816","452821","Microsoft-Windows-Security-Auditing","54849625-5478-4994-a5ba-3e3b0328c30d","Security","4","60","PC01.example.corp",,"3/19/2019 4:35:15 PM",,,"System.UInt32[]","System.Diagnostics.Eventing.Reader.EventBookmark","Information","Info","Registry","System.Collections.ObjectModel.ReadOnlyCollection`1[System.String]","System.Collections.Generic.List`1[System.Diagnostics.Eventing.Reader.EventProperty]"
+"An attempt was made to access an object.
+
+Subject:
+	Security ID:		S-1-5-19
+	Account Name:		LOCAL SERVICE
+	Account Domain:		NT AUTHORITY
+	Logon ID:		0x3E5
+
+Object:
+	Object Server:	Security
+	Object Type:	Key
+	Object Name:	\REGISTRY\MACHINE\SYSTEM\ControlSet001\Control\Lsa
+	Handle ID:	0x468
+
+Process Information:
+	Process ID:	0x5a8
+	Process Name:	C:\Windows\System32\svchost.exe
+
+Access Request Information:
+	Accesses:	Query key value
+				
+	Access Mask:	0x1","4663","0",,"0","12801","0","-9214364837600034816","452820","Microsoft-Windows-Security-Auditing","54849625-5478-4994-a5ba-3e3b0328c30d","Security","4","60","PC01.example.corp",,"3/19/2019 4:35:15 PM",,,"System.UInt32[]","System.Diagnostics.Eventing.Reader.EventBookmark","Information","Info","Registry","System.Collections.ObjectModel.ReadOnlyCollection`1[System.String]","System.Collections.Generic.List`1[System.Diagnostics.Eventing.Reader.EventProperty]"
+"An attempt was made to access an object.
+
+Subject:
+	Security ID:		S-1-5-19
+	Account Name:		LOCAL SERVICE
+	Account Domain:		NT AUTHORITY
+	Logon ID:		0x3E5
+
+Object:
+	Object Server:	Security
+	Object Type:	Key
+	Object Name:	\REGISTRY\MACHINE\SYSTEM\ControlSet001\Control\Lsa\FipsAlgorithmPolicy
+	Handle ID:	0x520
+
+Process Information:
+	Process ID:	0x5a8
+	Process Name:	C:\Windows\System32\svchost.exe
+
+Access Request Information:
+	Accesses:	Query key value
+				
+	Access Mask:	0x1","4663","0",,"0","12801","0","-9214364837600034816","452819","Microsoft-Windows-Security-Auditing","54849625-5478-4994-a5ba-3e3b0328c30d","Security","4","60","PC01.example.corp",,"3/19/2019 4:35:15 PM",,,"System.UInt32[]","System.Diagnostics.Eventing.Reader.EventBookmark","Information","Info","Registry","System.Collections.ObjectModel.ReadOnlyCollection`1[System.String]","System.Collections.Generic.List`1[System.Diagnostics.Eventing.Reader.EventProperty]"
+"An attempt was made to access an object.
+
+Subject:
+	Security ID:		S-1-5-19
+	Account Name:		LOCAL SERVICE
+	Account Domain:		NT AUTHORITY
+	Logon ID:		0x3E5
+
+Object:
+	Object Server:	Security
+	Object Type:	Key
+	Object Name:	\REGISTRY\MACHINE\SYSTEM\ControlSet001\Control\Lsa
+	Handle ID:	0x520
+
+Process Information:
+	Process ID:	0x5a8
+	Process Name:	C:\Windows\System32\svchost.exe
+
+Access Request Information:
+	Accesses:	Query key value
+				
+	Access Mask:	0x1","4663","0",,"0","12801","0","-9214364837600034816","452818","Microsoft-Windows-Security-Auditing","54849625-5478-4994-a5ba-3e3b0328c30d","Security","4","60","PC01.example.corp",,"3/19/2019 4:35:14 PM",,,"System.UInt32[]","System.Diagnostics.Eventing.Reader.EventBookmark","Information","Info","Registry","System.Collections.ObjectModel.ReadOnlyCollection`1[System.String]","System.Collections.Generic.List`1[System.Diagnostics.Eventing.Reader.EventProperty]"
+"An attempt was made to access an object.
+
+Subject:
+	Security ID:		S-1-5-19
+	Account Name:		LOCAL SERVICE
+	Account Domain:		NT AUTHORITY
+	Logon ID:		0x3E5
+
+Object:
+	Object Server:	Security
+	Object Type:	Key
+	Object Name:	\REGISTRY\MACHINE\SYSTEM\ControlSet001\Control\Lsa\FipsAlgorithmPolicy
+	Handle ID:	0x468
+
+Process Information:
+	Process ID:	0x5a8
+	Process Name:	C:\Windows\System32\svchost.exe
+
+Access Request Information:
+	Accesses:	Query key value
+				
+	Access Mask:	0x1","4663","0",,"0","12801","0","-9214364837600034816","452817","Microsoft-Windows-Security-Auditing","54849625-5478-4994-a5ba-3e3b0328c30d","Security","4","60","PC01.example.corp",,"3/19/2019 4:35:14 PM",,,"System.UInt32[]","System.Diagnostics.Eventing.Reader.EventBookmark","Information","Info","Registry","System.Collections.ObjectModel.ReadOnlyCollection`1[System.String]","System.Collections.Generic.List`1[System.Diagnostics.Eventing.Reader.EventProperty]"
+"An attempt was made to access an object.
+
+Subject:
+	Security ID:		S-1-5-19
+	Account Name:		LOCAL SERVICE
+	Account Domain:		NT AUTHORITY
+	Logon ID:		0x3E5
+
+Object:
+	Object Server:	Security
+	Object Type:	Key
+	Object Name:	\REGISTRY\MACHINE\SYSTEM\ControlSet001\Control\Lsa
+	Handle ID:	0x468
+
+Process Information:
+	Process ID:	0x5a8
+	Process Name:	C:\Windows\System32\svchost.exe
+
+Access Request Information:
+	Accesses:	Query key value
+				
+	Access Mask:	0x1","4663","0",,"0","12801","0","-9214364837600034816","452816","Microsoft-Windows-Security-Auditing","54849625-5478-4994-a5ba-3e3b0328c30d","Security","4","60","PC01.example.corp",,"3/19/2019 4:35:14 PM",,,"System.UInt32[]","System.Diagnostics.Eventing.Reader.EventBookmark","Information","Info","Registry","System.Collections.ObjectModel.ReadOnlyCollection`1[System.String]","System.Collections.Generic.List`1[System.Diagnostics.Eventing.Reader.EventProperty]"
+"An attempt was made to access an object.
+
+Subject:
+	Security ID:		S-1-5-19
+	Account Name:		LOCAL SERVICE
+	Account Domain:		NT AUTHORITY
+	Logon ID:		0x3E5
+
+Object:
+	Object Server:	Security
+	Object Type:	Key
+	Object Name:	\REGISTRY\MACHINE\SYSTEM\ControlSet001\Control\Lsa\FipsAlgorithmPolicy
+	Handle ID:	0x520
+
+Process Information:
+	Process ID:	0x5a8
+	Process Name:	C:\Windows\System32\svchost.exe
+
+Access Request Information:
+	Accesses:	Query key value
+				
+	Access Mask:	0x1","4663","0",,"0","12801","0","-9214364837600034816","452815","Microsoft-Windows-Security-Auditing","54849625-5478-4994-a5ba-3e3b0328c30d","Security","4","60","PC01.example.corp",,"3/19/2019 4:35:14 PM",,,"System.UInt32[]","System.Diagnostics.Eventing.Reader.EventBookmark","Information","Info","Registry","System.Collections.ObjectModel.ReadOnlyCollection`1[System.String]","System.Collections.Generic.List`1[System.Diagnostics.Eventing.Reader.EventProperty]"
+"An attempt was made to access an object.
+
+Subject:
+	Security ID:		S-1-5-19
+	Account Name:		LOCAL SERVICE
+	Account Domain:		NT AUTHORITY
+	Logon ID:		0x3E5
+
+Object:
+	Object Server:	Security
+	Object Type:	Key
+	Object Name:	\REGISTRY\MACHINE\SYSTEM\ControlSet001\Control\Lsa
+	Handle ID:	0x520
+
+Process Information:
+	Process ID:	0x5a8
+	Process Name:	C:\Windows\System32\svchost.exe
+
+Access Request Information:
+	Accesses:	Query key value
+				
+	Access Mask:	0x1","4663","0",,"0","12801","0","-9214364837600034816","452814","Microsoft-Windows-Security-Auditing","54849625-5478-4994-a5ba-3e3b0328c30d","Security","4","60","PC01.example.corp",,"3/19/2019 4:35:14 PM",,,"System.UInt32[]","System.Diagnostics.Eventing.Reader.EventBookmark","Information","Info","Registry","System.Collections.ObjectModel.ReadOnlyCollection`1[System.String]","System.Collections.Generic.List`1[System.Diagnostics.Eventing.Reader.EventProperty]"
+"An attempt was made to access an object.
+
+Subject:
+	Security ID:		S-1-5-19
+	Account Name:		LOCAL SERVICE
+	Account Domain:		NT AUTHORITY
+	Logon ID:		0x3E5
+
+Object:
+	Object Server:	Security
+	Object Type:	Key
+	Object Name:	\REGISTRY\MACHINE\SYSTEM\ControlSet001\Control\Lsa\FipsAlgorithmPolicy
+	Handle ID:	0x468
+
+Process Information:
+	Process ID:	0x5a8
+	Process Name:	C:\Windows\System32\svchost.exe
+
+Access Request Information:
+	Accesses:	Query key value
+				
+	Access Mask:	0x1","4663","0",,"0","12801","0","-9214364837600034816","452813","Microsoft-Windows-Security-Auditing","54849625-5478-4994-a5ba-3e3b0328c30d","Security","4","60","PC01.example.corp",,"3/19/2019 4:35:14 PM",,,"System.UInt32[]","System.Diagnostics.Eventing.Reader.EventBookmark","Information","Info","Registry","System.Collections.ObjectModel.ReadOnlyCollection`1[System.String]","System.Collections.Generic.List`1[System.Diagnostics.Eventing.Reader.EventProperty]"
+"The Windows Filtering Platform has permitted a connection.
+
+Application Information:
+	Process ID:		812
+	Application Name:	\device\harddiskvolume1\windows\system32\svchost.exe
+
+Network Information:
+	Direction:		Outbound
+	Source Address:		fe80::80ac:4126:fa58:1b81
+	Source Port:		546
+	Destination Address:	ff02::1:2
+	Destination Port:		547
+	Protocol:		17
+
+Filter Information:
+	Filter Run-Time ID:	65853
+	Layer Name:		Connect
+	Layer Run-Time ID:	50","5156","1",,"0","12810","0","-9214364837600034816","452812","Microsoft-Windows-Security-Auditing","54849625-5478-4994-a5ba-3e3b0328c30d","Security","4","60","PC01.example.corp",,"3/19/2019 4:35:08 PM",,,"System.UInt32[]","System.Diagnostics.Eventing.Reader.EventBookmark","Information","Info","Filtering Platform Connection","System.Collections.ObjectModel.ReadOnlyCollection`1[System.String]","System.Collections.Generic.List`1[System.Diagnostics.Eventing.Reader.EventProperty]"
+"The audit log was cleared.
+Subject:
+	Security ID:	S-1-5-21-1587066498-1489273250-1035260531-1106
+	Account Name:	user01
+	Domain Name:	EXAMPLE
+	Logon ID:	0x17DAD","1102","0",,"4","104","0","4620693217682128896","452811","Microsoft-Windows-Eventlog","fc65ddd8-d6ef-4962-83d5-6e5cfe9ce148","Security","812","3916","PC01.example.corp",,"3/19/2019 4:35:07 PM",,,"System.UInt32[]","System.Diagnostics.Eventing.Reader.EventBookmark","Information","Info","Log clear","System.Collections.ObjectModel.ReadOnlyCollection`1[System.String]","System.Collections.Generic.List`1[System.Diagnostics.Eventing.Reader.EventProperty]"

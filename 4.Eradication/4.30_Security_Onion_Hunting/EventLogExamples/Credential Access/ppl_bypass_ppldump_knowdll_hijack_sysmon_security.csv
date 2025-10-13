@@ -1,0 +1,51 @@
+"Message","Id","Version","Qualifiers","Level","Task","Opcode","Keywords","RecordId","ProviderName","ProviderId","LogName","ProcessId","ThreadId","MachineName","UserId","TimeCreated","ActivityId","RelatedActivityId","MatchedQueryIds","Bookmark","LevelDisplayName","OpcodeDisplayName","TaskDisplayName","KeywordsDisplayNames","Properties"
+,"10","3",,"4","10","0","-9223372036854775808","564606","Microsoft-Windows-Sysmon","5770385f-c22a-43e0-bf4c-06f5698ffbd9","Microsoft-Windows-Sysmon/Operational","3352","4696","MSEDGEWIN10","S-1-5-18","4/22/2021 3:09:35 PM",,,"System.UInt32[]","System.Diagnostics.Eventing.Reader.EventBookmark",,,,,"System.Collections.Generic.List`1[System.Diagnostics.Eventing.Reader.EventProperty]"
+,"1","5",,"4","1","0","-9223372036854775808","564605","Microsoft-Windows-Sysmon","5770385f-c22a-43e0-bf4c-06f5698ffbd9","Microsoft-Windows-Sysmon/Operational","3352","4696","MSEDGEWIN10","S-1-5-18","4/22/2021 3:09:35 PM",,,"System.UInt32[]","System.Diagnostics.Eventing.Reader.EventBookmark",,,,,"System.Collections.Generic.List`1[System.Diagnostics.Eventing.Reader.EventProperty]"
+,"10","3",,"4","10","0","-9223372036854775808","564604","Microsoft-Windows-Sysmon","5770385f-c22a-43e0-bf4c-06f5698ffbd9","Microsoft-Windows-Sysmon/Operational","3352","4696","MSEDGEWIN10","S-1-5-18","4/22/2021 3:09:35 PM",,,"System.UInt32[]","System.Diagnostics.Eventing.Reader.EventBookmark",,,,,"System.Collections.Generic.List`1[System.Diagnostics.Eventing.Reader.EventProperty]"
+,"12","2",,"4","12","0","-9223372036854775808","564603","Microsoft-Windows-Sysmon","5770385f-c22a-43e0-bf4c-06f5698ffbd9","Microsoft-Windows-Sysmon/Operational","3352","4696","MSEDGEWIN10","S-1-5-18","4/22/2021 3:09:35 PM",,,"System.UInt32[]","System.Diagnostics.Eventing.Reader.EventBookmark",,,,,"System.Collections.Generic.List`1[System.Diagnostics.Eventing.Reader.EventProperty]"
+,"10","3",,"4","10","0","-9223372036854775808","564602","Microsoft-Windows-Sysmon","5770385f-c22a-43e0-bf4c-06f5698ffbd9","Microsoft-Windows-Sysmon/Operational","3352","4696","MSEDGEWIN10","S-1-5-18","4/22/2021 3:09:27 PM",,,"System.UInt32[]","System.Diagnostics.Eventing.Reader.EventBookmark",,,,,"System.Collections.Generic.List`1[System.Diagnostics.Eventing.Reader.EventProperty]"
+,"10","3",,"4","10","0","-9223372036854775808","564601","Microsoft-Windows-Sysmon","5770385f-c22a-43e0-bf4c-06f5698ffbd9","Microsoft-Windows-Sysmon/Operational","3352","4696","MSEDGEWIN10","S-1-5-18","4/22/2021 3:09:27 PM",,,"System.UInt32[]","System.Diagnostics.Eventing.Reader.EventBookmark",,,,,"System.Collections.Generic.List`1[System.Diagnostics.Eventing.Reader.EventProperty]"
+,"7","3",,"4","7","0","-9223372036854775808","564600","Microsoft-Windows-Sysmon","5770385f-c22a-43e0-bf4c-06f5698ffbd9","Microsoft-Windows-Sysmon/Operational","3352","4704","MSEDGEWIN10","S-1-5-18","4/22/2021 3:09:26 PM",,,"System.UInt32[]","System.Diagnostics.Eventing.Reader.EventBookmark",,,,,"System.Collections.Generic.List`1[System.Diagnostics.Eventing.Reader.EventProperty]"
+"The state of a transaction has changed.
+
+Subject:
+	Security ID:		S-1-5-21-3461203602-4096304019-2269080069-1000
+	Account Name:		IEUser
+	Account Domain:		MSEDGEWIN10
+	Logon ID:		0xBCE3A
+
+Transaction Information:
+	RM Transaction ID:	{166192ff-a400-11eb-b76a-0800276b894e}
+	New State:		56
+	Resource Manager:	{d1a38506-4a7e-11e9-9f82-d8ba40b6d8da}
+
+Process Information:
+	Process ID:		0x18ac
+	Process Name:		C:\Users\IEUser\Desktop\PPLdump.exe","4985","0",,"0","12800","0","-9214364837600034816","302043","Microsoft-Windows-Security-Auditing","54849625-5478-4994-a5ba-3e3b0328c30d","Security","4","2516","MSEDGEWIN10",,"4/22/2021 3:09:26 PM",,,"System.UInt32[]","System.Diagnostics.Eventing.Reader.EventBookmark","Information","Info","File System","System.Collections.ObjectModel.ReadOnlyCollection`1[System.String]","System.Collections.Generic.List`1[System.Diagnostics.Eventing.Reader.EventProperty]"
+,"5","3",,"4","5","0","-9223372036854775808","564599","Microsoft-Windows-Sysmon","5770385f-c22a-43e0-bf4c-06f5698ffbd9","Microsoft-Windows-Sysmon/Operational","3352","4696","MSEDGEWIN10","S-1-5-18","4/22/2021 3:09:26 PM",,,"System.UInt32[]","System.Diagnostics.Eventing.Reader.EventBookmark",,,,,"System.Collections.Generic.List`1[System.Diagnostics.Eventing.Reader.EventProperty]"
+,"10","3",,"4","10","0","-9223372036854775808","564598","Microsoft-Windows-Sysmon","5770385f-c22a-43e0-bf4c-06f5698ffbd9","Microsoft-Windows-Sysmon/Operational","3352","4696","MSEDGEWIN10","S-1-5-18","4/22/2021 3:09:26 PM",,,"System.UInt32[]","System.Diagnostics.Eventing.Reader.EventBookmark",,,,,"System.Collections.Generic.List`1[System.Diagnostics.Eventing.Reader.EventProperty]"
+,"10","3",,"4","10","0","-9223372036854775808","564597","Microsoft-Windows-Sysmon","5770385f-c22a-43e0-bf4c-06f5698ffbd9","Microsoft-Windows-Sysmon/Operational","3352","4696","MSEDGEWIN10","S-1-5-18","4/22/2021 3:09:26 PM",,,"System.UInt32[]","System.Diagnostics.Eventing.Reader.EventBookmark",,,,,"System.Collections.Generic.List`1[System.Diagnostics.Eventing.Reader.EventProperty]"
+,"11","2",,"4","11","0","-9223372036854775808","564596","Microsoft-Windows-Sysmon","5770385f-c22a-43e0-bf4c-06f5698ffbd9","Microsoft-Windows-Sysmon/Operational","3352","4696","MSEDGEWIN10","S-1-5-18","4/22/2021 3:09:26 PM",,,"System.UInt32[]","System.Diagnostics.Eventing.Reader.EventBookmark",,,,,"System.Collections.Generic.List`1[System.Diagnostics.Eventing.Reader.EventProperty]"
+,"10","3",,"4","10","0","-9223372036854775808","564595","Microsoft-Windows-Sysmon","5770385f-c22a-43e0-bf4c-06f5698ffbd9","Microsoft-Windows-Sysmon/Operational","3352","4696","MSEDGEWIN10","S-1-5-18","4/22/2021 3:09:26 PM",,,"System.UInt32[]","System.Diagnostics.Eventing.Reader.EventBookmark",,,,,"System.Collections.Generic.List`1[System.Diagnostics.Eventing.Reader.EventProperty]"
+,"10","3",,"4","10","0","-9223372036854775808","564594","Microsoft-Windows-Sysmon","5770385f-c22a-43e0-bf4c-06f5698ffbd9","Microsoft-Windows-Sysmon/Operational","3352","4696","MSEDGEWIN10","S-1-5-18","4/22/2021 3:09:26 PM",,,"System.UInt32[]","System.Diagnostics.Eventing.Reader.EventBookmark",,,,,"System.Collections.Generic.List`1[System.Diagnostics.Eventing.Reader.EventProperty]"
+,"1","5",,"4","1","0","-9223372036854775808","564593","Microsoft-Windows-Sysmon","5770385f-c22a-43e0-bf4c-06f5698ffbd9","Microsoft-Windows-Sysmon/Operational","3352","4696","MSEDGEWIN10","S-1-5-18","4/22/2021 3:09:26 PM",,,"System.UInt32[]","System.Diagnostics.Eventing.Reader.EventBookmark",,,,,"System.Collections.Generic.List`1[System.Diagnostics.Eventing.Reader.EventProperty]"
+"The state of a transaction has changed.
+
+Subject:
+	Security ID:		S-1-5-18
+	Account Name:		MSEDGEWIN10$
+	Account Domain:		WORKGROUP
+	Logon ID:		0x3E7
+
+Transaction Information:
+	RM Transaction ID:	{166192ff-a400-11eb-b76a-0800276b894e}
+	New State:		48
+	Resource Manager:	{d1a38506-4a7e-11e9-9f82-d8ba40b6d8da}
+
+Process Information:
+	Process ID:		0x18ac
+	Process Name:		C:\Users\IEUser\Desktop\PPLdump.exe","4985","0",,"0","12800","0","-9214364837600034816","302042","Microsoft-Windows-Security-Auditing","54849625-5478-4994-a5ba-3e3b0328c30d","Security","4","3264","MSEDGEWIN10",,"4/22/2021 3:09:25 PM",,,"System.UInt32[]","System.Diagnostics.Eventing.Reader.EventBookmark","Information","Info","File System","System.Collections.ObjectModel.ReadOnlyCollection`1[System.String]","System.Collections.Generic.List`1[System.Diagnostics.Eventing.Reader.EventProperty]"
+,"10","3",,"4","10","0","-9223372036854775808","564592","Microsoft-Windows-Sysmon","5770385f-c22a-43e0-bf4c-06f5698ffbd9","Microsoft-Windows-Sysmon/Operational","3352","4696","MSEDGEWIN10","S-1-5-18","4/22/2021 3:09:25 PM",,,"System.UInt32[]","System.Diagnostics.Eventing.Reader.EventBookmark",,,,,"System.Collections.Generic.List`1[System.Diagnostics.Eventing.Reader.EventProperty]"
+,"10","3",,"4","10","0","-9223372036854775808","564591","Microsoft-Windows-Sysmon","5770385f-c22a-43e0-bf4c-06f5698ffbd9","Microsoft-Windows-Sysmon/Operational","3352","4696","MSEDGEWIN10","S-1-5-18","4/22/2021 3:09:25 PM",,,"System.UInt32[]","System.Diagnostics.Eventing.Reader.EventBookmark",,,,,"System.Collections.Generic.List`1[System.Diagnostics.Eventing.Reader.EventProperty]"
+,"10","3",,"4","10","0","-9223372036854775808","564590","Microsoft-Windows-Sysmon","5770385f-c22a-43e0-bf4c-06f5698ffbd9","Microsoft-Windows-Sysmon/Operational","3352","4696","MSEDGEWIN10","S-1-5-18","4/22/2021 3:09:25 PM",,,"System.UInt32[]","System.Diagnostics.Eventing.Reader.EventBookmark",,,,,"System.Collections.Generic.List`1[System.Diagnostics.Eventing.Reader.EventProperty]"
+,"1","5",,"4","1","0","-9223372036854775808","564589","Microsoft-Windows-Sysmon","5770385f-c22a-43e0-bf4c-06f5698ffbd9","Microsoft-Windows-Sysmon/Operational","3352","4696","MSEDGEWIN10","S-1-5-18","4/22/2021 3:09:25 PM",,,"System.UInt32[]","System.Diagnostics.Eventing.Reader.EventBookmark",,,,,"System.Collections.Generic.List`1[System.Diagnostics.Eventing.Reader.EventProperty]"
