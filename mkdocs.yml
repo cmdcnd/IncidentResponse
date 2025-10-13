@@ -1,36 +1,33 @@
 site_name: Incident Response
 site_url: https://ir.cnd.ca.gov
 repo_url: https://github.com/cmdcnd/IncidentResponse
-edit_uri: edit/main/docs
+edit_uri: edit/main/docs/
 
-
-# Configuration
+# ------------------------------------------------------------------------------
+# THEME CONFIGURATION
+# ------------------------------------------------------------------------------
 theme:
   name: material
+  logo: img/CND_LogoTop.jpg   # Fixed logo path
+  favicon: assets/favicon.png
+  icon:
+    logo: material/shield-search
   features:
-    # - announce.dismiss
     - content.action.edit
     - content.action.view
     - content.code.annotate
     - content.code.copy
-    # - content.tabs.link
     - content.tooltips
-    # - header.autohide
-    # - navigation.expand
     - navigation.footer
     - navigation.indexes
-    # - navigation.instant
-    # - navigation.prune
     - navigation.sections
     - navigation.tabs
-    # - navigation.tabs.sticky
     - navigation.top
     - navigation.tracking
     - search.highlight
     - search.share
     - search.suggest
     - toc.follow
-    # - toc.integrate
   palette:
     - scheme: default
       primary: indigo
@@ -44,41 +41,37 @@ theme:
       toggle:
         icon: material/brightness-4
         name: Switch to light mode
-  font: false
-#    text: Roboto
-#    code: Roboto Mono
-  favicon: assets/favicon.png
-  icon:
-    logo: logo
+  font:
+    text: Roboto
+    code: Roboto Mono
 
-# Plugins
+# ------------------------------------------------------------------------------
+# PLUGINS
+# ------------------------------------------------------------------------------
 plugins:
   - search:
       separator: '[\s\-,:!=\[\]()"`/]+|\.(?!\d)|&[lg]t;|(?!\b)(?=[A-Z][a-z])'
   - table-reader
-#  - minify:
-#      minify_html: true
+  # - minify:
+  #     minify_html: true
 
-# Customization
+# ------------------------------------------------------------------------------
+# CUSTOMIZATION
+# ------------------------------------------------------------------------------
 extra:
   analytics:
     provider: google
     property: !ENV GOOGLE_ANALYTICS_KEY
   social:
-#    - icon: fontawesome/brands/github
-#      link: https://github.com/squidfunk
-#    - icon: fontawesome/brands/gitter
-#      link: https://gitter.im/squidfunk/mkdocs-material
-#    - icon: fontawesome/brands/docker
-#      link: https://hub.docker.com/r/squidfunk/mkdocs-material/
-#    - icon: fontawesome/brands/python
-#      link: https://pypi.org/project/mkdocs-material/
-#    - icon: fontawesome/brands/mastodon
-#      link: https://fosstodon.org/@squidfunk
-#    - icon: fontawesome/brands/twitter
-#      link: https://twitter.com/squidfunk
+    # Example (enable for footer icons)
+    # - icon: fontawesome/brands/github
+    #   link: https://github.com/cmdcnd
+    # - icon: fontawesome/brands/twitter
+    #   link: https://twitter.com/cnd_ca
 
-# Extensions
+# ------------------------------------------------------------------------------
+# MARKDOWN EXTENSIONS
+# ------------------------------------------------------------------------------
 markdown_extensions:
   - abbr
   - admonition
@@ -95,16 +88,16 @@ markdown_extensions:
   - pymdownx.caret
   - pymdownx.details
   - pymdownx.emoji:
-      emoji_generator: !!python/name:materialx.emoji.to_svg
       emoji_index: !!python/name:materialx.emoji.twemoji
+      emoji_generator: !!python/name:materialx.emoji.to_svg
   - pymdownx.highlight:
       anchor_linenums: true
   - pymdownx.inlinehilite
   - pymdownx.keys
   - pymdownx.magiclink:
       repo_url_shorthand: true
-      user: squidfunk
-      repo: mkdocs-material
+      user: cmdcnd
+      repo: IncidentResponse
   - pymdownx.mark
   - pymdownx.smartsymbols
   - pymdownx.superfences:
@@ -118,133 +111,98 @@ markdown_extensions:
       custom_checkbox: true
   - pymdownx.tilde
 
-# Page tree
+# ------------------------------------------------------------------------------
+# NAVIGATION TREE
+# ------------------------------------------------------------------------------
 nav:
-  - 1.Preparation:
-    - 1.Preparation: 1.Preparation/README.md
-    - 1.01-Troop Leading Procedures: 1.Preparation/1.01-Troop_Leading_Procedures/README.md
-    - 1.02-Receive Mission: 1.Preparation/1.02-Receive_Mission/README.md
-    - 1.03-Personnel Status: 1.Preparation/1.03-Personnel_Status/README.md
-    - 1.04-Legal Support: 1.Preparation/1.04-Legal_Support/README.md
-    - 1.05-Partner Engagements: 1.Preparation/1.05-Partner_Engagements/README.md
-    - 1.06-Create and Execute IR Orders: 1.Preparation/1.06-Create_and_Execute_IR_Orders/README.md
-    - 1.07-Integrate Additional Support: 1.Preparation/1.07-Integrate_Additional_Support/README.md
-    - 1.08-Mission Intent: 1.Preparation/1.08-Mission_Intent/README.md
-    - 1.09-Continuous AAR: 1.Preparation/1.09-Continuous_AARs/README.md
-    - 1.10-Incident Tracking and Reporting: 1.Preparation/1.10-Incident_Tracking_and_Reporting/README.md
-    - 1.13-Review Information Security Policies Constraint: 1.Preparation/1.13-Review_Information_Security_Policies_Constraint/README.md
-    - 1.14-Request Logs: 1.Preparation/1.14-Request_Logs/README.md
-    - 1.15-Interview Network Owner: 1.Preparation/1.15-Interview_Network_Owner/README.md
-    - 1.16-Establish Network Owner Priorities Objectives: 1.Preparation/1.16-Establish_Network_Owner_Priorities_Objectives/README.md
-    - 1.17-Establish Mission Log: 1.Preparation/1.17-Establish_Mission_Log/README.md
-    - 1.17.1-Establish Mission Log Files: 1.Preparation/1.17-Establish_Mission_Log
-    - 1.18-Request Network Accounts: 1.Preparation/1.18-Request_Network_Accounts/README.md
-    - 1.19-Legal Authorities Regulatory Constraints: 1.Preparation/1.19-Legal_Authorities_Regulatory_Constraints/README.md
+  - 1. Preparation:
+    - 1. Preparation: 1.Preparation/README.md
+    - 1.01 - Troop Leading Procedures: 1.Preparation/1.01-Troop_Leading_Procedures/README.md
+    - 1.02 - Receive Mission: 1.Preparation/1.02-Receive_Mission/README.md
+    - 1.03 - Personnel Status: 1.Preparation/1.03-Personnel_Status/README.md
+    - 1.04 - Legal Support: 1.Preparation/1.04-Legal_Support/README.md
+    - 1.05 - Partner Engagements: 1.Preparation/1.05-Partner_Engagements/README.md
+    - 1.06 - Create and Execute IR Orders: 1.Preparation/1.06-Create_and_Execute_IR_Orders/README.md
+    - 1.07 - Integrate Additional Support: 1.Preparation/1.07-Integrate_Additional_Support/README.md
+    - 1.08 - Mission Intent: 1.Preparation/1.08-Mission_Intent/README.md
+    - 1.09 - Continuous AAR: 1.Preparation/1.09-Continuous_AARs/README.md
+    - 1.10 - Incident Tracking and Reporting: 1.Preparation/1.10-Incident_Tracking_and_Reporting/README.md
+    - 1.13 - Review Information Security Policies Constraint: 1.Preparation/1.13-Review_Information_Security_Policies_Constraint/README.md
+    - 1.14 - Request Logs: 1.Preparation/1.14-Request_Logs/README.md
+    - 1.15 - Interview Network Owner: 1.Preparation/1.15-Interview_Network_Owner/README.md
+    - 1.16 - Establish Network Owner Priorities Objectives: 1.Preparation/1.16-Establish_Network_Owner_Priorities_Objectives/README.md
+    - 1.17 - Establish Mission Log: 1.Preparation/1.17-Establish_Mission_Log/README.md
+    - 1.18 - Request Network Accounts: 1.Preparation/1.18-Request_Network_Accounts/README.md
+    - 1.19 - Legal Authorities Regulatory Constraints: 1.Preparation/1.19-Legal_Authorities_Regulatory_Constraints/README.md
     - Preparation References: 1.Preparation/Preparation_References
-  - 2.Identification:
-    - 2.Identification: 2.Identification/README.md
-    - 2.01-Review Organizational Processes and Conduct a site survey: 2.Identification/2.01-Review_organizational_processes_and_conduct_a_site_survey/README.md
-    - 2.02-Create Active IP List: 2.Identification/2.02-Create_Active_IP_List/README.md
-    - 2.02Files: https://github.com/cmdcnd/IncidentResponse/tree/main/docs/2.Identification/2.02-Create_Active_IP_List/scripts
-    - 2.03-DNS Host Name Mapping: 2.Identification/2.03-DNS_Host_Name_Mapping/README.md
-    - 2.03Files: https://github.com/cmdcnd/IncidentResponse/tree/main/docs/2.Identification/2.03-DNS_Host_Name_Mapping/scripts
-    - 2.04-Active Host and Service Enumeration: 2.Identification/2.04-Active_Host_and_Service_Enumeration/README.md
-    - 2.04Files: https://github.com/cmdcnd/IncidentResponse/tree/main/docs/2.Identification/2.04-Active_Host_and_Service_Enumeration/README.md/scripts
-    - 2.05-Active IP List on Key Ports: 2.Identification/2.05-Active_IP_List_on_Key_Ports/README.md
-    - 2.05Files: https://github.com/cmdcnd/IncidentResponse/tree/main/docs/2.Identification/2.05-Active_IP_List_on_Key_Ports/scripts
-    - 2.06-All Port Scan: 2.Identification/2.06-All_Port_Scan/README.md
-    - 2.06Files: https://github.com/cmdcnd/IncidentResponse/tree/main/docs/2.Identification/2.06-All_Port_Scan/scripts
-    - 2.07-Scan ICS Equipment Ports: 2.Identification/2.07-Scan_ICS_Equipment_Ports/README.md
-    - 2.07Files: https://github.com/cmdcnd/IncidentResponse/tree/main/docs/2.Identification/2.07-Scan_ICS_Equipment_Ports/scripts
-    - 2.08-Perform Vulnerability Scan: 2.Identification/2.08-Conduct_Vulnerability_Scan/README.md
-    - 2.11-Determine Installed Software: 2.Identification/2.11-Determine_Installed_Software/README.md
-    - 2.11Files: https://github.com/cmdcnd/IncidentResponse/tree/main/docs/2.Identification/2.11-Determine_Installed_Software/scripts
-    - 2.12-Perform SCAP Configuration Scan: 2.Identification/2.12-Perform_SCAP_Configuration_Scan/README.md
-    - 2.13-Perform STIG SCAN: 2.Identification/2.13-Perform_STIG_Scan/README.md
-    - 2.14-Gather AD Structure Information: 2.Identification/2.14-Gather_AD_Structure_Information/README.md
-    - 2.14Files: https://github.com/cmdcnd/IncidentResponse/tree/main/docs/2.Identification/2.14-Gather_AD_Structure_Information/scripts
-    - 2.15-AD Configuration Scan with Powershell: 2.Identification/2.15-AD_Configuration_Scan_with_Powershell/README.md
-    - 2.15Files: https://github.com/cmdcnd/IncidentResponse/tree/main/docs/2.Identification/2.15-AD_Configuration_Scan_with_Powershell/scripts
-    - 2.16-List AD Domain Accounts: 2.Identification/2.16-List_all_AD_Domain_Accounts/README.md
-    - 2.16Files: https://github.com/cmdcnd/IncidentResponse/tree/main/docs/2.Identification/2.16-List_all_AD_Domain_Accounts/scripts
-    - 2.17-Scan Device for Default Admin Password: 2.Identification/2.17-Scan_Device_For_Default_Admin_Password/README.md
-    - 2.18-Review Organizational User Policies: 2.Identification/2.18-Review_Organizational_User_Policies/README.md
-    - 2.19-Create Firewall Rule List: 2.Identification/2.19-Create_firewall_rule_list/README.md
-    - 2.19Files: https://github.com/cmdcnd/IncidentResponse/tree/main/docs/2.Identification/2.19-Create_firewall_rule_list/scripts
-  - 3.Containment:
-    - 3.Containment: 3.Containment/README.md
-    - 3.01-Export Users from Active Directory: 3.Containment/3.01_Export_users_from_Active_Directory/README.md
-    - 3.02-Export Groups from Active Directory: 3.Containment/3.02_Export_groups_from_Active_Directory/README.md
-    - 3.03-Export Group Policy Objects from Active Directory: 3.Containment/3.03_Export_Group_Policy_Objects_from_Active_Directory/README.md
-    - 3.04-Export Trust Relationship from Active Directory: 3.Containment/3.04_Export_Trust_relationships_from_Active_Directory/README.md
-    - 3.05-Export-OU Structure from Active Directory: 3.Containment/3.05_Export_OU_Structure_from_Active_Directory/README.md
-    - 3.06-Monitor Active Directory New Account Creation: 3.Containment/3.06_Monitor_AD_New_Account_Creation/README.md
-    - 3.06Files: https://github.com/cmdcnd/IncidentResponse/tree/main/docs/3.Containment/3.06_Monitor_AD_New_Account_Creation/scripts
-    - 3.07-Create Team Admin Account in Active Directory: 3.Containment/3.07_Create_team_admin_account_in_AD/README.md
-    - 3.08-Change Domain Administrator Account: 3.Containment/3.08_Change_Domain_Administrator_account/README.md
-    - 3.09-Disable Domain Administrator Account: 3.Containment/3.09_Disable_Domain_Administrator_password/README.md
-    - 3.10-Change or Disable Workstation Local Administrators: 3.Containment/3.10_Change_or_disable_Workstation_local_Administrators/README.md
-    - 3.11-Verify Patch Compliance on all hosts: 3.Containment/3.11_Verify_patch_compliance_on_all_hosts/README.md
-  - 4.Eradication:
-    - 4.Eradication: 4.Eradication/README.md
-    - 4.01-Synchronize Time on all hosts: 4.Eradication/4.01_Synchronize_all_host_clocks/README.md
-    - 4.02-Enable Account Usage Auditing: 4.Eradication/4.02_Enable_Account_Usage_Auditing/README.md
-    - 4.02Files: https://github.com/cmdcnd/IncidentResponse/tree/main/docs/4.Eradication/4.02_Enable_Account_Usage_Auditing/scripts
-    - 4.03-Deploy Network Intrusion Detection System: 4.Eradication/4.03_Deploy_network_intrusion_detection_system/README.md
-    - 4.03Files: https://github.com/cmdcnd/IncidentResponse/tree/main/docs/4.Eradication/4.03_Deploy_network_intrusion_detection_system/scripts
-    - 4.04-Monitor NIDS and Report Threats: 4.Eradication/4.04_Monitor_NIDS_and_Report_Threats/README.md
-    - 4.05-SIEM Events to IDS and Network Logs: 4.Eradication/4.05_SIEM_Events_to_IDS_and_network_logs/README.md
-    - 4.06-Evaluate Host Kernel to check for Rootkits: 4.Eradication/4.06_Evaluate_Host_Kernel_to_Check_for_Rootkits/README.md
-    - 4.07-Use Host Log Data to Evaluate System Processes: 4.Eradication/4.07_Use_Host_Log_Data_to_Evaluate_System_Processes/README.md
-    - 4.07Files: https://github.com/cmdcnd/IncidentResponse/tree/main/docs/4.Eradication/4.07_Use_Host_Log_Data_to_Evaluate_System_Processes/scripts
-    - 4.08-Deploy or Evaluate Host Sensors: 4.Eradication/4.08_Deploy_or_evaluate_host_sensors/README.md
-    - 4.08Files: https://github.com/cmdcnd/IncidentResponse/tree/main/docs/4.Eradication/4.08_Deploy_or_evaluate_host_sensors/scripts
-    - 4.09-Install and Deploy Security Onion: 4.Eradication/4.09_Install_and_Deploy_Security_Onion/README.md
-    - 4.10-PAN Forward Syslog to SecurityOnion: 4.Eradication/4.10_PAN_Forward_Syslog_SO/README.md
-    - 4.11-Monitoring Account Creation using SecurityOnion: 4.Eradication/4.11_Monitoring_account_creation_SO/README.md
-    - 4.12-Detect Network Vulnerability Scans using SecurityOnion: 4.Eradication/4.12_Detect_network_vulnerability_scans_SO/README.md
-    - 4.13-Detect SMB using SecurityOnion: 4.Eradication/4.13_Detect_SMB_using_SO/README.md
-    - 4.14-Monitor Active Directory New Account Creation: 4.Eradication/4.14_Monitor_AD_New_Account_Creation/README.md
-    - 4.15-Monitor DHCP for New Reservations: 4.Eradication/4.15_Monitor_DHCP_for_new_reservations/README.md
-    - 4.16-Monitor Active Directory for New DNS Names: 4.Eradication/4.16_Monitor_AD_for_new_DNS_names/README.md
-    - 4.17-Respond to Alerts about unauthorized users: 4.Eradication/4.17_Respond_to_alerts_about_unauthorized_users/README.md
-    - 4.18-Compare Hashes of suspected malware: 4.Eradication/4.18_Compare_hashes_of_suspected_malware/README.md
-    - 4.19-Perform Manual Host Analysis: 4.Eradication/4.19_Perform_manual_host_analysis/README.md
-    - 4.19.1-Perform Manual Host Analysis Live Physical Host Windows: 4.Eradication/4.19_Perform_manual_host_analysis/4.19.1_Perform_Manual_Host_Analysis_Live_Physical_Host_Windows/README.md
-    - 4.19.2-Perform Manual Host Analysis Memory Image File: 4.Eradication/4.19_Perform_manual_host_analysis/4.19.2_Perform_Manual_Host_Analysis_Memory_Image_File/README.md
-    - 4.19.3-Create Hard Disk Image: 4.Eradication/4.19_Perform_manual_host_analysis/4.19.3_Create_Hard_Disk_Image/README.md
-    - 4.20-Investigate Alerts from Host Sensors: 4.Eradication/4.20_Investigate_Alerts_From_Host_Sensors/README.md
-    - 4.21-Find and Contain Rogue Workstation: 4.Eradication/4.21_Find_and_contain_rogue_workstations/README.md
-    - 4.22-Block Unauthorized Software: 4.Eradication/4.22_Block_unauthorized_software/README.md
-    - 4.23-Stop Credential Reuse Attack: 4.Eradication/4.23_Stop_Credential_reuse_attack/README.md
-    - 4.24-Stop Brute Force Attack: 4.Eradication/4.24_Stop_brute_force_attack/README.md
-    - 4.25-Stop Malware Rootkit: 4.Eradication/4.25_Stop_malware_rootkit/README.md
-    - 4.26-Stop Data Exfiltration: 4.Eradication/4.26_Stop_data_exfiltration/README.md
-    - 4.27-Stop Malware Backdoor: 4.Eradication/4.27_Stop_malware_backdoor/README.md
-    - 4.27Files: https://github.com/cmdcnd/IncidentResponse/tree/main/docs/4.Eradication/4.27_Stop_malware_backdoor/scripts
-    - 4.28-Stop C2 Beaconing: 4.Eradication/4.28_Stop_C2_Beaconing/README.md
-    - 4.30-SecurityOnion Hunting: 4.Eradication/4.30_Security_Onion_Hunting/README.md
-    - 4.30Files: https://github.com/cmdcnd/IncidentResponse/tree/main/docs/4.Eradication/4.30_Security_Onion_Hunting/EventLogExamples
-  - 5.Recovery:
-    - 5.Recovery: 5.Recovery/README.md
-    - 5.01-Vulnerability Scans: 5.Recovery/5.01_Vulnerability_Scans/README.md
-    - 5.02-Cyber Security Improvements: 5.Recovery/5.02_Cyber-Security-Improvements/README.md
-    - 5.03-Firewall Analysis: 5.Recovery/5.03_Firewall_Analysis/README.md
-    - 5.04-Password Requirements: 5.Recovery/5.04_Password_Requirements/README.md
-    - 5.05-Create New Baselines: 5.Recovery/5.05_Create_new_baselines/README.md
-    - 5.06-Syslog Retention: 5.Recovery/5.06_Syslog_Retention/README.md
-    - 5.07-Patch Management: 5.Recovery/5.07_Patch_Management/README.md
-    - 5.08-User Cyber Training: 5.Recovery/5.08_User_Cyber_Training/README.md
-    - 5.09-System Restoration: 5.Recovery/5.09_System_Restoration/README.md
-    - 5.10-Account Audit: 5.Recovery/5.10_Account_Audit/README.md
-    - 5.11-Turn over Mission related Documents: 5.Recovery/5.11_Turn_Over_Mission_Related_Documents/README.md
-    - 5.12-Creating Clean Backups: 5.Recovery/5.12_Creating_Clean_Backups/README.md
-    - 5.13-Conduct Outbriefing: 5.Recovery/5.13-Conduct_Outbriefing/README.md
-    - 5.14-Conduct AAR: 5.Recovery/5.14-Conduct_AAR/README.md
-  - 6.Lessons Learned:
-    - 6.Lessons Learned: 6.LessonsLearned/README.md
-    - 6.01-After Action Review(AAR): 6.LessonsLearned/6.01-After_Action_Review/README.md
-    - 6.01Files: https://github.com/cmdcnd/IncidentResponse/tree/main/docs/6.LessonsLearned/6.01-After_Action_Review/templates
-  - Reference Documents: 
+  - 2. Identification:
+    - 2. Identification: 2.Identification/README.md
+    - 2.01 - Review Organizational Processes and Site Survey: 2.Identification/2.01-Review_organizational_processes_and_conduct_a_site_survey/README.md
+    - 2.02 - Create Active IP List: 2.Identification/2.02-Create_Active_IP_List/README.md
+    - 2.03 - DNS Host Name Mapping: 2.Identification/2.03-DNS_Host_Name_Mapping/README.md
+    - 2.04 - Active Host and Service Enumeration: 2.Identification/2.04-Active_Host_and_Service_Enumeration/README.md
+    - 2.05 - Active IP List on Key Ports: 2.Identification/2.05-Active_IP_List_on_Key_Ports/README.md
+    - 2.06 - All Port Scan: 2.Identification/2.06-All_Port_Scan/README.md
+    - 2.07 - Scan ICS Equipment Ports: 2.Identification/2.07-Scan_ICS_Equipment_Ports/README.md
+    - 2.08 - Perform Vulnerability Scan: 2.Identification/2.08-Conduct_Vulnerability_Scan/README.md
+    - 2.11 - Determine Installed Software: 2.Identification/2.11-Determine_Installed_Software/README.md
+    - 2.12 - Perform SCAP Configuration Scan: 2.Identification/2.12-Perform_SCAP_Configuration_Scan/README.md
+    - 2.13 - Perform STIG Scan: 2.Identification/2.13-Perform_STIG_Scan/README.md
+    - 2.14 - Gather AD Structure Information: 2.Identification/2.14-Gather_AD_Structure_Information/README.md
+    - 2.15 - AD Configuration Scan with PowerShell: 2.Identification/2.15-AD_Configuration_Scan_with_Powershell/README.md
+    - 2.16 - List AD Domain Accounts: 2.Identification/2.16-List_all_AD_Domain_Accounts/README.md
+    - 2.17 - Scan Device for Default Admin Password: 2.Identification/2.17-Scan_Device_For_Default_Admin_Password/README.md
+    - 2.18 - Review Organizational User Policies: 2.Identification/2.18-Review_Organizational_User_Policies/README.md
+    - 2.19 - Create Firewall Rule List: 2.Identification/2.19-Create_firewall_rule_list/README.md
+  - 3. Containment:
+    - 3. Containment: 3.Containment/README.md
+    - 3.01 - Export Users from Active Directory: 3.Containment/3.01_Export_users_from_Active_Directory/README.md
+    - 3.02 - Export Groups from Active Directory: 3.Containment/3.02_Export_groups_from_Active_Directory/README.md
+    - 3.03 - Export Group Policy Objects: 3.Containment/3.03_Export_Group_Policy_Objects_from_Active_Directory/README.md
+    - 3.04 - Export Trust Relationships: 3.Containment/3.04_Export_Trust_relationships_from_Active_Directory/README.md
+    - 3.05 - Export OU Structure: 3.Containment/3.05_Export_OU_Structure_from_Active_Directory/README.md
+    - 3.06 - Monitor New Account Creation: 3.Containment/3.06_Monitor_AD_New_Account_Creation/README.md
+    - 3.07 - Create Team Admin Account: 3.Containment/3.07_Create_team_admin_account_in_AD/README.md
+    - 3.08 - Change Domain Administrator Account: 3.Containment/3.08_Change_Domain_Administrator_account/README.md
+    - 3.09 - Disable Domain Administrator Account: 3.Containment/3.09_Disable_Domain_Administrator_password/README.md
+    - 3.10 - Change or Disable Local Admins: 3.Containment/3.10_Change_or_disable_Workstation_local_Administrators/README.md
+    - 3.11 - Verify Patch Compliance: 3.Containment/3.11_Verify_patch_compliance_on_all_hosts/README.md
+  - 4. Eradication:
+    - 4. Eradication: 4.Eradication/README.md
+    - 4.01 - Synchronize Host Time: 4.Eradication/4.01_Synchronize_all_host_clocks/README.md
+    - 4.02 - Enable Account Usage Auditing: 4.Eradication/4.02_Enable_Account_Usage_Auditing/README.md
+    - 4.03 - Deploy Network IDS: 4.Eradication/4.03_Deploy_network_intrusion_detection_system/README.md
+    - 4.04 - Monitor NIDS and Report Threats: 4.Eradication/4.04_Monitor_NIDS_and_Report_Threats/README.md
+    - 4.05 - SIEM Events to IDS and Network Logs: 4.Eradication/4.05_SIEM_Events_to_IDS_and_network_logs/README.md
+    - 4.06 - Evaluate Host Kernel for Rootkits: 4.Eradication/4.06_Evaluate_Host_Kernel_to_Check_for_Rootkits/README.md
+    - 4.07 - Evaluate System Processes via Logs: 4.Eradication/4.07_Use_Host_Log_Data_to_Evaluate_System_Processes/README.md
+    - 4.08 - Deploy or Evaluate Host Sensors: 4.Eradication/4.08_Deploy_or_evaluate_host_sensors/README.md
+    - 4.09 - Install and Deploy Security Onion: 4.Eradication/4.09_Install_and_Deploy_Security_Onion/README.md
+    - 4.10 - PAN Forward Syslog to SecurityOnion: 4.Eradication/4.10_PAN_Forward_Syslog_SO/README.md
+    - 4.11 - Monitor AD Account Creation via SO: 4.Eradication/4.11_Monitoring_account_creation_SO/README.md
+    - 4.12 - Detect Network Scans via SO: 4.Eradication/4.12_Detect_network_vulnerability_scans_SO/README.md
+    - 4.13 - Detect SMB via SO: 4.Eradication/4.13_Detect_SMB_using_SO/README.md
+    - 4.14 - Monitor DHCP for New Reservations: 4.Eradication/4.15_Monitor_DHCP_for_new_reservations/README.md
+    - 4.15 - Detect New DNS Names via AD: 4.Eradication/4.16_Monitor_AD_for_new_DNS_names/README.md
+  - 5. Recovery:
+    - 5. Recovery: 5.Recovery/README.md
+    - 5.01 - Vulnerability Scans: 5.Recovery/5.01_Vulnerability_Scans/README.md
+    - 5.02 - Cyber Security Improvements: 5.Recovery/5.02_Cyber-Security-Improvements/README.md
+    - 5.03 - Firewall Analysis: 5.Recovery/5.03_Firewall_Analysis/README.md
+    - 5.04 - Password Requirements: 5.Recovery/5.04_Password_Requirements/README.md
+    - 5.05 - Create New Baselines: 5.Recovery/5.05_Create_new_baselines/README.md
+    - 5.06 - Syslog Retention: 5.Recovery/5.06_Syslog_Retention/README.md
+    - 5.07 - Patch Management: 5.Recovery/5.07_Patch_Management/README.md
+    - 5.08 - User Cyber Training: 5.Recovery/5.08_User_Cyber_Training/README.md
+    - 5.09 - System Restoration: 5.Recovery/5.09_System_Restoration/README.md
+    - 5.10 - Account Audit: 5.Recovery/5.10_Account_Audit/README.md
+    - 5.11 - Turn over Mission Documents: 5.Recovery/5.11_Turn_Over_Mission_Related_Documents/README.md
+    - 5.12 - Creating Clean Backups: 5.Recovery/5.12_Creating_Clean_Backups/README.md
+    - 5.13 - Conduct Outbriefing: 5.Recovery/5.13-Conduct_Outbriefing/README.md
+    - 5.14 - Conduct AAR: 5.Recovery/5.14-Conduct_AAR/README.md
+  - 6. Lessons Learned:
+    - 6. Lessons Learned: 6.LessonsLearned/README.md
+    - 6.01 - After Action Review (AAR): 6.LessonsLearned/6.01-After_Action_Review/README.md
+  - Reference Documents:
     - Reference Documents: ReferenceDocuments/README.md
     - PowerShell Commands: ReferenceDocuments/PowerShell_Commands.md
