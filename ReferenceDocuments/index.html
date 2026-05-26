@@ -14,22 +14,30 @@
         <link rel="prev" href="../6.LessonsLearned/6.01-After_Action_Review/">
       
       
-        <link rel="next" href="PowerShell_Commands/">
+        <link rel="next" href="./PowerShell_Commands/">
+      
+      
+        
       
       
       <link rel="icon" href="../assets/favicon.png">
-      <meta name="generator" content="mkdocs-1.6.1, mkdocs-material-9.6.23">
+      <meta name="generator" content="zensical-0.0.43">
     
     
       
-        <title>Reference Documents - Incident Response</title>
+        <title>README - Incident Response</title>
       
     
     
-      <link rel="stylesheet" href="../assets/stylesheets/main.84d31ad4.min.css">
       
         
-        <link rel="stylesheet" href="../assets/stylesheets/palette.06af60db.min.css">
+      
+      <link rel="stylesheet" href="../assets/stylesheets/classic/main.a2001754.min.css">
+      
+        
+          
+        
+        <link rel="stylesheet" href="../assets/stylesheets/classic/palette.7dc9a0ad.min.css">
       
       
 
@@ -43,12 +51,12 @@
         
         
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,300i,400,400i,700,700i%7CRoboto+Mono:400,400i,700,700i&display=fallback">
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,300i,400,400i,500,500i,700,700i%7CRoboto+Mono:400,400i,700,700i&amp;display=fallback">
         <style>:root{--md-text-font:"Roboto";--md-code-font:"Roboto Mono"}</style>
       
     
     
-    <script>__md_scope=new URL("..",location),__md_hash=e=>[...e].reduce(((e,_)=>(e<<5)-e+_.charCodeAt(0)),0),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script>
+    <script>__md_scope=new URL("..",location),__md_scope.pathname.endsWith("/")||(__md_scope=new URL(__md_scope.pathname+"/",location)),__md_hash=e=>[...e].reduce(((e,t)=>(e<<5)-e+t.charCodeAt(0)),0),__md_get=(e,t=localStorage,_=__md_scope)=>JSON.parse(t.getItem(_.pathname+"."+e)),__md_set=(e,t,_=localStorage,a=__md_scope)=>{try{_.setItem(a.pathname+"."+e,JSON.stringify(t))}catch(e){}},document.documentElement.setAttribute("data-platform",navigator.platform)</script>
     
       
   
@@ -62,7 +70,6 @@
     <script>"undefined"!=typeof __md_analytics&&__md_analytics()</script>
   
 
-    
     
     
   </head>
@@ -80,8 +87,12 @@
     
     <input class="md-toggle" data-md-toggle="drawer" type="checkbox" id="__drawer" autocomplete="off">
     <input class="md-toggle" data-md-toggle="search" type="checkbox" id="__search" autocomplete="off">
-    <label class="md-overlay" for="__drawer"></label>
+    <label class="md-overlay" for="__drawer" aria-label="Navigation"></label>
     <div data-md-component="skip">
+      
+        <a href="#__skip" class="md-skip">
+          Skip to content
+        </a>
       
     </div>
     <div data-md-component="announce">
@@ -93,12 +104,12 @@
 
 <header class="md-header" data-md-component="header">
   <nav class="md-header__inner md-grid" aria-label="Header">
-    <a href=".." title="Incident Response" class="md-header__button md-logo" aria-label="Incident Response" data-md-component="logo">
+    <a href="./.." title="Incident Response" class="md-header__button md-logo" aria-label="Incident Response" data-md-component="logo">
       
-  <img src="../img/CND_LogoTop.jpg" alt="logo">
+  <img src="../img/CND_LogoTop.jpg" alt="Incident Response">
 
     </a>
-    <label class="md-header__button md-icon" for="__drawer">
+    <label class="md-header__button md-icon" for="__drawer" aria-label="Navigation">
       
       <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M3 6h18v2H3zm0 5h18v2H3zm0 5h18v2H3z"/></svg>
     </label>
@@ -112,7 +123,7 @@
         <div class="md-header__topic" data-md-component="header-topic">
           <span class="md-ellipsis">
             
-              Reference Documents
+              README
             
           </span>
         </div>
@@ -125,7 +136,7 @@
     
     
     
-    <input class="md-option" data-md-color-media="" data-md-color-scheme="default" data-md-color-primary="indigo" data-md-color-accent="indigo"  aria-label="Switch to dark mode"  type="radio" name="__palette" id="__palette_0">
+    <input class="md-option" data-md-color-media="none" data-md-color-scheme="default" data-md-color-primary="indigo" data-md-color-accent="indigo"  aria-label="Switch to dark mode"  type="radio" name="__palette" id="__palette_0">
     
       <label class="md-header__button md-icon" title="Switch to dark mode" for="__palette_1" hidden>
         <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 8a4 4 0 0 0-4 4 4 4 0 0 0 4 4 4 4 0 0 0 4-4 4 4 0 0 0-4-4m0 10a6 6 0 0 1-6-6 6 6 0 0 1 6-6 6 6 0 0 1 6 6 6 6 0 0 1-6 6m8-9.31V4h-4.69L12 .69 8.69 4H4v4.69L.69 12 4 15.31V20h4.69L12 23.31 15.31 20H20v-4.69L23.31 12z"/></svg>
@@ -135,7 +146,7 @@
     
     
     
-    <input class="md-option" data-md-color-media="" data-md-color-scheme="slate" data-md-color-primary="indigo" data-md-color-accent="indigo"  aria-label="Switch to light mode"  type="radio" name="__palette" id="__palette_1">
+    <input class="md-option" data-md-color-media="none" data-md-color-scheme="slate" data-md-color-primary="indigo" data-md-color-accent="indigo"  aria-label="Switch to light mode"  type="radio" name="__palette" id="__palette_1">
     
       <label class="md-header__button md-icon" title="Switch to light mode" for="__palette_0" hidden>
         <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 18c-.89 0-1.74-.2-2.5-.55C11.56 16.5 13 14.42 13 12s-1.44-4.5-3.5-5.45C10.26 6.2 11.11 6 12 6a6 6 0 0 1 6 6 6 6 0 0 1-6 6m8-9.31V4h-4.69L12 .69 8.69 4H4v4.69L.69 12 4 15.31V20h4.69L12 23.31 15.31 20H20v-4.69L23.31 12z"/></svg>
@@ -152,64 +163,30 @@
     
       
       
-        <label class="md-header__button md-icon" for="__search">
+        <label class="md-header__button md-icon" for="__search" aria-label="Search">
           
           <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.52 6.52 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5"/></svg>
         </label>
-        <div class="md-search" data-md-component="search" role="dialog">
-  <label class="md-search__overlay" for="__search"></label>
-  <div class="md-search__inner" role="search">
-    <form class="md-search__form" name="search">
-      <input type="text" class="md-search__input" name="query" aria-label="Search" placeholder="Search" autocapitalize="off" autocorrect="off" autocomplete="off" spellcheck="false" data-md-component="search-query" required>
-      <label class="md-search__icon md-icon" for="__search">
-        
-        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.52 6.52 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5"/></svg>
-        
-        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11z"/></svg>
-      </label>
-      <nav class="md-search__options" aria-label="Search">
-        
-          <a href="javascript:void(0)" class="md-search__icon md-icon" title="Share" aria-label="Share" data-clipboard data-clipboard-text="" data-md-component="search-share" tabindex="-1">
-            
-            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M18 16.08c-.76 0-1.44.3-1.96.77L8.91 12.7c.05-.23.09-.46.09-.7s-.04-.47-.09-.7l7.05-4.11c.54.5 1.25.81 2.04.81a3 3 0 0 0 3-3 3 3 0 0 0-3-3 3 3 0 0 0-3 3c0 .24.04.47.09.7L8.04 9.81C7.5 9.31 6.79 9 6 9a3 3 0 0 0-3 3 3 3 0 0 0 3 3c.79 0 1.5-.31 2.04-.81l7.12 4.15c-.05.21-.08.43-.08.66 0 1.61 1.31 2.91 2.92 2.91s2.92-1.3 2.92-2.91A2.92 2.92 0 0 0 18 16.08"/></svg>
-          </a>
-        
-        <button type="reset" class="md-search__icon md-icon" title="Clear" aria-label="Clear" tabindex="-1">
-          
-          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M19 6.41 17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12z"/></svg>
-        </button>
-      </nav>
-      
-        <div class="md-search__suggest" data-md-component="search-suggest"></div>
-      
-    </form>
-    <div class="md-search__output">
-      <div class="md-search__scrollwrap" tabindex="0" data-md-scrollfix>
-        <div class="md-search-result" data-md-component="search-result">
-          <div class="md-search-result__meta">
-            Initializing search
-          </div>
-          <ol class="md-search-result__list" role="presentation"></ol>
-        </div>
-      </div>
-    </div>
-  </div>
+        <div class="md-search" data-md-component="search" role="dialog" aria-label="Search">
+  <button type="button" class="md-search__button">
+    Search
+  </button>
 </div>
       
     
-    
-      <div class="md-header__source">
+    <div class="md-header__source">
+      
         <a href="https://github.com/cmdcnd/IncidentResponse" title="Go to repository" class="md-source" data-md-component="source">
   <div class="md-source__icon md-icon">
     
-    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><!--! Font Awesome Free 7.1.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2025 Fonticons, Inc.--><path d="M439.6 236.1 244 40.5c-5.4-5.5-12.8-8.5-20.4-8.5s-15 3-20.4 8.4L162.5 81l51.5 51.5c27.1-9.1 52.7 16.8 43.4 43.7l49.7 49.7c34.2-11.8 61.2 31 35.5 56.7-26.5 26.5-70.2-2.9-56-37.3L240.3 199v121.9c25.3 12.5 22.3 41.8 9.1 55-6.4 6.4-15.2 10.1-24.3 10.1s-17.8-3.6-24.3-10.1c-17.6-17.6-11.1-46.9 11.2-56v-123c-20.8-8.5-24.6-30.7-18.6-45L142.6 101 8.5 235.1C3 240.6 0 247.9 0 255.5s3 15 8.5 20.4l195.6 195.7c5.4 5.4 12.7 8.4 20.4 8.4s15-3 20.4-8.4l194.7-194.7c5.4-5.4 8.4-12.8 8.4-20.4s-3-15-8.4-20.4"/></svg>
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><!--! Font Awesome Free 7.2.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2026 Fonticons, Inc.--><path fill="currentColor" d="M439.6 236.1 244 40.5c-5.4-5.5-12.8-8.5-20.4-8.5s-15 3-20.4 8.4L162.5 81l51.5 51.5c27.1-9.1 52.7 16.8 43.4 43.7l49.7 49.7c34.2-11.8 61.2 31 35.5 56.7-26.5 26.5-70.2-2.9-56-37.3L240.3 199v121.9c25.3 12.5 22.3 41.8 9.1 55-6.4 6.4-15.2 10.1-24.3 10.1s-17.8-3.6-24.3-10.1c-17.6-17.6-11.1-46.9 11.2-56v-123c-20.8-8.5-24.6-30.7-18.6-45L142.6 101 8.5 235.1C3 240.6 0 247.9 0 255.5s3 15 8.5 20.4l195.6 195.7c5.4 5.4 12.7 8.4 20.4 8.4s15-3 20.4-8.4l194.7-194.7c5.4-5.4 8.4-12.8 8.4-20.4s-3-15-8.4-20.4"/></svg>
   </div>
   <div class="md-source__repository">
     GitHub
   </div>
 </a>
-      </div>
-    
+      
+    </div>
   </nav>
   
 </header>
@@ -230,13 +207,55 @@
   
   
     
+      
+      
+        
+          
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+    
+    
+    
     
       <li class="md-tabs__item">
         <a href="../1.Preparation/" class="md-tabs__link">
           
-  
-  
-    
   
   1. Preparation
 
@@ -252,13 +271,53 @@
   
   
     
+      
+      
+        
+          
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+    
+    
+    
     
       <li class="md-tabs__item">
         <a href="../2.Identification/" class="md-tabs__link">
           
-  
-  
-    
   
   2. Identification
 
@@ -274,13 +333,41 @@
   
   
     
+      
+      
+        
+          
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+    
+    
+    
     
       <li class="md-tabs__item">
         <a href="../3.Containment/" class="md-tabs__link">
           
-  
-  
-    
   
   3. Containment
 
@@ -296,13 +383,95 @@
   
   
     
+      
+      
+        
+          
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+    
+    
+    
     
       <li class="md-tabs__item">
         <a href="../4.Eradication/" class="md-tabs__link">
           
-  
-  
-    
   
   4. Eradication
 
@@ -318,13 +487,47 @@
   
   
     
+      
+      
+        
+          
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+    
+    
+    
     
       <li class="md-tabs__item">
         <a href="../5.Recovery/" class="md-tabs__link">
           
-  
-  
-    
   
   5. Recovery
 
@@ -340,13 +543,21 @@
   
   
     
+      
+      
+        
+          
+        
+      
+        
+      
+    
+    
+    
     
       <li class="md-tabs__item">
         <a href="../6.LessonsLearned/" class="md-tabs__link">
           
-  
-  
-    
   
   6. Lessons Learned
 
@@ -364,13 +575,21 @@
   
   
     
+      
+      
+        
+          
+        
+      
+        
+      
+    
+    
+    
     
       <li class="md-tabs__item md-tabs__item--active">
-        <a href="./" class="md-tabs__link">
+        <a href="././" class="md-tabs__link">
           
-  
-  
-    
   
   Reference Documents
 
@@ -402,9 +621,9 @@
 
 <nav class="md-nav md-nav--primary md-nav--lifted" aria-label="Navigation" data-md-level="0">
   <label class="md-nav__title" for="__drawer">
-    <a href=".." title="Incident Response" class="md-nav__button md-logo" aria-label="Incident Response" data-md-component="logo">
+    <a href="./.." title="Incident Response" class="md-nav__button md-logo" aria-label="Incident Response" data-md-component="logo">
       
-  <img src="../img/CND_LogoTop.jpg" alt="logo">
+  <img src="../img/CND_LogoTop.jpg" alt="Incident Response">
 
     </a>
     Incident Response
@@ -414,7 +633,7 @@
       <a href="https://github.com/cmdcnd/IncidentResponse" title="Go to repository" class="md-source" data-md-component="source">
   <div class="md-source__icon md-icon">
     
-    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><!--! Font Awesome Free 7.1.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2025 Fonticons, Inc.--><path d="M439.6 236.1 244 40.5c-5.4-5.5-12.8-8.5-20.4-8.5s-15 3-20.4 8.4L162.5 81l51.5 51.5c27.1-9.1 52.7 16.8 43.4 43.7l49.7 49.7c34.2-11.8 61.2 31 35.5 56.7-26.5 26.5-70.2-2.9-56-37.3L240.3 199v121.9c25.3 12.5 22.3 41.8 9.1 55-6.4 6.4-15.2 10.1-24.3 10.1s-17.8-3.6-24.3-10.1c-17.6-17.6-11.1-46.9 11.2-56v-123c-20.8-8.5-24.6-30.7-18.6-45L142.6 101 8.5 235.1C3 240.6 0 247.9 0 255.5s3 15 8.5 20.4l195.6 195.7c5.4 5.4 12.7 8.4 20.4 8.4s15-3 20.4-8.4l194.7-194.7c5.4-5.4 8.4-12.8 8.4-20.4s-3-15-8.4-20.4"/></svg>
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><!--! Font Awesome Free 7.2.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2026 Fonticons, Inc.--><path fill="currentColor" d="M439.6 236.1 244 40.5c-5.4-5.5-12.8-8.5-20.4-8.5s-15 3-20.4 8.4L162.5 81l51.5 51.5c27.1-9.1 52.7 16.8 43.4 43.7l49.7 49.7c34.2-11.8 61.2 31 35.5 56.7-26.5 26.5-70.2-2.9-56-37.3L240.3 199v121.9c25.3 12.5 22.3 41.8 9.1 55-6.4 6.4-15.2 10.1-24.3 10.1s-17.8-3.6-24.3-10.1c-17.6-17.6-11.1-46.9 11.2-56v-123c-20.8-8.5-24.6-30.7-18.6-45L142.6 101 8.5 235.1C3 240.6 0 247.9 0 255.5s3 15 8.5 20.4l195.6 195.7c5.4 5.4 12.7 8.4 20.4 8.4s15-3 20.4-8.4l194.7-194.7c5.4-5.4 8.4-12.8 8.4-20.4s-3-15-8.4-20.4"/></svg>
   </div>
   <div class="md-source__repository">
     GitHub
@@ -495,9 +714,13 @@
   
   
   <span class="md-ellipsis">
-    1. Preparation
+    
+  
+  1. Preparation
+
     
   </span>
+  
   
 
             </a>
@@ -512,7 +735,10 @@
         <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_1_label" aria-expanded="false">
           <label class="md-nav__title" for="__nav_1">
             <span class="md-nav__icon md-icon"></span>
-            1. Preparation
+            
+  
+  1. Preparation
+
           </label>
           <ul class="md-nav__list" data-md-scrollfix>
             
@@ -530,9 +756,13 @@
   
   
   <span class="md-ellipsis">
-    1.01 - Troop Leading Procedures
+    
+  
+  1.01 - Troop Leading Procedures
+
     
   </span>
+  
   
 
       </a>
@@ -553,9 +783,13 @@
   
   
   <span class="md-ellipsis">
-    1.02 - Receive Mission
+    
+  
+  1.02 - Receive Mission
+
     
   </span>
+  
   
 
       </a>
@@ -576,9 +810,13 @@
   
   
   <span class="md-ellipsis">
-    1.03 - Personnel Status
+    
+  
+  1.03 - Personnel Status
+
     
   </span>
+  
   
 
       </a>
@@ -599,9 +837,13 @@
   
   
   <span class="md-ellipsis">
-    1.04 - Legal Support
+    
+  
+  1.04 - Legal Support
+
     
   </span>
+  
   
 
       </a>
@@ -622,9 +864,13 @@
   
   
   <span class="md-ellipsis">
-    1.05 - Partner Engagements
+    
+  
+  1.05 - Partner Engagements
+
     
   </span>
+  
   
 
       </a>
@@ -645,9 +891,13 @@
   
   
   <span class="md-ellipsis">
-    1.06 - Create and Execute IR Orders
+    
+  
+  1.06 - Create and Execute IR Orders
+
     
   </span>
+  
   
 
       </a>
@@ -668,9 +918,13 @@
   
   
   <span class="md-ellipsis">
-    1.07 - Integrate Additional Support
+    
+  
+  1.07 - Integrate Additional Support
+
     
   </span>
+  
   
 
       </a>
@@ -691,9 +945,13 @@
   
   
   <span class="md-ellipsis">
-    1.08 - Mission Intent
+    
+  
+  1.08 - Mission Intent
+
     
   </span>
+  
   
 
       </a>
@@ -714,9 +972,13 @@
   
   
   <span class="md-ellipsis">
-    1.09 - Continuous AAR
+    
+  
+  1.09 - Continuous AAR
+
     
   </span>
+  
   
 
       </a>
@@ -737,9 +999,13 @@
   
   
   <span class="md-ellipsis">
-    1.10 - Incident Tracking and Reporting
+    
+  
+  1.10 - Incident Tracking and Reporting
+
     
   </span>
+  
   
 
       </a>
@@ -760,9 +1026,13 @@
   
   
   <span class="md-ellipsis">
-    1.13 - Review Information Security Policies Constraint
+    
+  
+  1.13 - Review Information Security Policies Constraint
+
     
   </span>
+  
   
 
       </a>
@@ -783,9 +1053,13 @@
   
   
   <span class="md-ellipsis">
-    1.14 - Request Logs
+    
+  
+  1.14 - Request Logs
+
     
   </span>
+  
   
 
       </a>
@@ -806,9 +1080,13 @@
   
   
   <span class="md-ellipsis">
-    1.15 - Interview Network Owner
+    
+  
+  1.15 - Interview Network Owner
+
     
   </span>
+  
   
 
       </a>
@@ -829,9 +1107,13 @@
   
   
   <span class="md-ellipsis">
-    1.16 - Establish Network Owner Priorities Objectives
+    
+  
+  1.16 - Establish Network Owner Priorities Objectives
+
     
   </span>
+  
   
 
       </a>
@@ -852,9 +1134,13 @@
   
   
   <span class="md-ellipsis">
-    1.17 - Establish Mission Log
+    
+  
+  1.17 - Establish Mission Log
+
     
   </span>
+  
   
 
       </a>
@@ -875,9 +1161,13 @@
   
   
   <span class="md-ellipsis">
-    1.18 - Request Network Accounts
+    
+  
+  1.18 - Request Network Accounts
+
     
   </span>
+  
   
 
       </a>
@@ -898,9 +1188,13 @@
   
   
   <span class="md-ellipsis">
-    1.19 - Legal Authorities Regulatory Constraints
+    
+  
+  1.19 - Legal Authorities Regulatory Constraints
+
     
   </span>
+  
   
 
       </a>
@@ -916,14 +1210,18 @@
   
   
     <li class="md-nav__item">
-      <a href="../1.Preparation/Preparation_References" class="md-nav__link">
+      <a href="../1.Preparation/Preparation_References/" class="md-nav__link">
         
   
   
   <span class="md-ellipsis">
-    Preparation References
+    
+  
+  Preparation References
+
     
   </span>
+  
   
 
       </a>
@@ -1008,9 +1306,13 @@
   
   
   <span class="md-ellipsis">
-    2. Identification
+    
+  
+  2. Identification
+
     
   </span>
+  
   
 
             </a>
@@ -1025,7 +1327,10 @@
         <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_2_label" aria-expanded="false">
           <label class="md-nav__title" for="__nav_2">
             <span class="md-nav__icon md-icon"></span>
-            2. Identification
+            
+  
+  2. Identification
+
           </label>
           <ul class="md-nav__list" data-md-scrollfix>
             
@@ -1043,9 +1348,13 @@
   
   
   <span class="md-ellipsis">
-    2.01 - Review Organizational Processes and Site Survey
+    
+  
+  2.01 - Review Organizational Processes and Site Survey
+
     
   </span>
+  
   
 
       </a>
@@ -1066,9 +1375,13 @@
   
   
   <span class="md-ellipsis">
-    2.02 - Create Active IP List
+    
+  
+  2.02 - Create Active IP List
+
     
   </span>
+  
   
 
       </a>
@@ -1089,9 +1402,13 @@
   
   
   <span class="md-ellipsis">
-    2.03 - DNS Host Name Mapping
+    
+  
+  2.03 - DNS Host Name Mapping
+
     
   </span>
+  
   
 
       </a>
@@ -1112,9 +1429,13 @@
   
   
   <span class="md-ellipsis">
-    2.04 - Active Host and Service Enumeration
+    
+  
+  2.04 - Active Host and Service Enumeration
+
     
   </span>
+  
   
 
       </a>
@@ -1135,9 +1456,13 @@
   
   
   <span class="md-ellipsis">
-    2.05 - Active IP List on Key Ports
+    
+  
+  2.05 - Active IP List on Key Ports
+
     
   </span>
+  
   
 
       </a>
@@ -1158,9 +1483,13 @@
   
   
   <span class="md-ellipsis">
-    2.06 - All Port Scan
+    
+  
+  2.06 - All Port Scan
+
     
   </span>
+  
   
 
       </a>
@@ -1181,9 +1510,13 @@
   
   
   <span class="md-ellipsis">
-    2.07 - Scan ICS Equipment Ports
+    
+  
+  2.07 - Scan ICS Equipment Ports
+
     
   </span>
+  
   
 
       </a>
@@ -1204,9 +1537,13 @@
   
   
   <span class="md-ellipsis">
-    2.08 - Perform Vulnerability Scan
+    
+  
+  2.08 - Perform Vulnerability Scan
+
     
   </span>
+  
   
 
       </a>
@@ -1227,9 +1564,13 @@
   
   
   <span class="md-ellipsis">
-    2.11 - Determine Installed Software
+    
+  
+  2.11 - Determine Installed Software
+
     
   </span>
+  
   
 
       </a>
@@ -1250,9 +1591,13 @@
   
   
   <span class="md-ellipsis">
-    2.12 - Perform SCAP Configuration Scan
+    
+  
+  2.12 - Perform SCAP Configuration Scan
+
     
   </span>
+  
   
 
       </a>
@@ -1273,9 +1618,13 @@
   
   
   <span class="md-ellipsis">
-    2.13 - Perform STIG Scan
+    
+  
+  2.13 - Perform STIG Scan
+
     
   </span>
+  
   
 
       </a>
@@ -1296,9 +1645,13 @@
   
   
   <span class="md-ellipsis">
-    2.14 - Gather AD Structure Information
+    
+  
+  2.14 - Gather AD Structure Information
+
     
   </span>
+  
   
 
       </a>
@@ -1319,9 +1672,13 @@
   
   
   <span class="md-ellipsis">
-    2.15 - AD Configuration Scan with PowerShell
+    
+  
+  2.15 - AD Configuration Scan with PowerShell
+
     
   </span>
+  
   
 
       </a>
@@ -1342,9 +1699,13 @@
   
   
   <span class="md-ellipsis">
-    2.16 - List AD Domain Accounts
+    
+  
+  2.16 - List AD Domain Accounts
+
     
   </span>
+  
   
 
       </a>
@@ -1365,9 +1726,13 @@
   
   
   <span class="md-ellipsis">
-    2.17 - Scan Device for Default Admin Password
+    
+  
+  2.17 - Scan Device for Default Admin Password
+
     
   </span>
+  
   
 
       </a>
@@ -1388,9 +1753,13 @@
   
   
   <span class="md-ellipsis">
-    2.18 - Review Organizational User Policies
+    
+  
+  2.18 - Review Organizational User Policies
+
     
   </span>
+  
   
 
       </a>
@@ -1411,9 +1780,13 @@
   
   
   <span class="md-ellipsis">
-    2.19 - Create Firewall Rule List
+    
+  
+  2.19 - Create Firewall Rule List
+
     
   </span>
+  
   
 
       </a>
@@ -1486,9 +1859,13 @@
   
   
   <span class="md-ellipsis">
-    3. Containment
+    
+  
+  3. Containment
+
     
   </span>
+  
   
 
             </a>
@@ -1503,7 +1880,10 @@
         <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_3_label" aria-expanded="false">
           <label class="md-nav__title" for="__nav_3">
             <span class="md-nav__icon md-icon"></span>
-            3. Containment
+            
+  
+  3. Containment
+
           </label>
           <ul class="md-nav__list" data-md-scrollfix>
             
@@ -1521,9 +1901,13 @@
   
   
   <span class="md-ellipsis">
-    3.01 - Export Users from Active Directory
+    
+  
+  3.01 - Export Users from Active Directory
+
     
   </span>
+  
   
 
       </a>
@@ -1544,9 +1928,13 @@
   
   
   <span class="md-ellipsis">
-    3.02 - Export Groups from Active Directory
+    
+  
+  3.02 - Export Groups from Active Directory
+
     
   </span>
+  
   
 
       </a>
@@ -1567,9 +1955,13 @@
   
   
   <span class="md-ellipsis">
-    3.03 - Export Group Policy Objects
+    
+  
+  3.03 - Export Group Policy Objects
+
     
   </span>
+  
   
 
       </a>
@@ -1590,9 +1982,13 @@
   
   
   <span class="md-ellipsis">
-    3.04 - Export Trust Relationships
+    
+  
+  3.04 - Export Trust Relationships
+
     
   </span>
+  
   
 
       </a>
@@ -1613,9 +2009,13 @@
   
   
   <span class="md-ellipsis">
-    3.05 - Export OU Structure
+    
+  
+  3.05 - Export OU Structure
+
     
   </span>
+  
   
 
       </a>
@@ -1636,9 +2036,13 @@
   
   
   <span class="md-ellipsis">
-    3.06 - Monitor New Account Creation
+    
+  
+  3.06 - Monitor New Account Creation
+
     
   </span>
+  
   
 
       </a>
@@ -1659,9 +2063,13 @@
   
   
   <span class="md-ellipsis">
-    3.07 - Create Team Admin Account
+    
+  
+  3.07 - Create Team Admin Account
+
     
   </span>
+  
   
 
       </a>
@@ -1682,9 +2090,13 @@
   
   
   <span class="md-ellipsis">
-    3.08 - Change Domain Administrator Account
+    
+  
+  3.08 - Change Domain Administrator Account
+
     
   </span>
+  
   
 
       </a>
@@ -1705,9 +2117,13 @@
   
   
   <span class="md-ellipsis">
-    3.09 - Disable Domain Administrator Account
+    
+  
+  3.09 - Disable Domain Administrator Account
+
     
   </span>
+  
   
 
       </a>
@@ -1728,9 +2144,13 @@
   
   
   <span class="md-ellipsis">
-    3.10 - Change or Disable Local Admins
+    
+  
+  3.10 - Change or Disable Local Admins
+
     
   </span>
+  
   
 
       </a>
@@ -1751,9 +2171,13 @@
   
   
   <span class="md-ellipsis">
-    3.11 - Verify Patch Compliance
+    
+  
+  3.11 - Verify Patch Compliance
+
     
   </span>
+  
   
 
       </a>
@@ -1880,9 +2304,13 @@
   
   
   <span class="md-ellipsis">
-    4. Eradication
+    
+  
+  4. Eradication
+
     
   </span>
+  
   
 
             </a>
@@ -1897,7 +2325,10 @@
         <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_4_label" aria-expanded="false">
           <label class="md-nav__title" for="__nav_4">
             <span class="md-nav__icon md-icon"></span>
-            4. Eradication
+            
+  
+  4. Eradication
+
           </label>
           <ul class="md-nav__list" data-md-scrollfix>
             
@@ -1915,9 +2346,13 @@
   
   
   <span class="md-ellipsis">
-    4.01 - Synchronize Time on all hosts
+    
+  
+  4.01 - Synchronize Time on all hosts
+
     
   </span>
+  
   
 
       </a>
@@ -1938,9 +2373,13 @@
   
   
   <span class="md-ellipsis">
-    4.02 - Enable Account Usage Auditing
+    
+  
+  4.02 - Enable Account Usage Auditing
+
     
   </span>
+  
   
 
       </a>
@@ -1961,9 +2400,13 @@
   
   
   <span class="md-ellipsis">
-    4.02 Files (Scripts)
+    
+  
+  4.02 Files (Scripts)
+
     
   </span>
+  
   
 
       </a>
@@ -1984,9 +2427,13 @@
   
   
   <span class="md-ellipsis">
-    4.03 - Deploy Network Intrusion Detection System
+    
+  
+  4.03 - Deploy Network Intrusion Detection System
+
     
   </span>
+  
   
 
       </a>
@@ -2007,9 +2454,13 @@
   
   
   <span class="md-ellipsis">
-    4.03 Files (Scripts)
+    
+  
+  4.03 Files (Scripts)
+
     
   </span>
+  
   
 
       </a>
@@ -2030,9 +2481,13 @@
   
   
   <span class="md-ellipsis">
-    4.04 - Monitor NIDS and Report Threats
+    
+  
+  4.04 - Monitor NIDS and Report Threats
+
     
   </span>
+  
   
 
       </a>
@@ -2053,9 +2508,13 @@
   
   
   <span class="md-ellipsis">
-    4.05 - SIEM Events to IDS and Network Logs
+    
+  
+  4.05 - SIEM Events to IDS and Network Logs
+
     
   </span>
+  
   
 
       </a>
@@ -2076,9 +2535,13 @@
   
   
   <span class="md-ellipsis">
-    4.06 - Evaluate Host Kernel to check for Rootkits
+    
+  
+  4.06 - Evaluate Host Kernel to check for Rootkits
+
     
   </span>
+  
   
 
       </a>
@@ -2099,9 +2562,13 @@
   
   
   <span class="md-ellipsis">
-    4.07 - Use Host Log Data to Evaluate System Processes
+    
+  
+  4.07 - Use Host Log Data to Evaluate System Processes
+
     
   </span>
+  
   
 
       </a>
@@ -2122,9 +2589,13 @@
   
   
   <span class="md-ellipsis">
-    4.07 Files (Scripts)
+    
+  
+  4.07 Files (Scripts)
+
     
   </span>
+  
   
 
       </a>
@@ -2145,9 +2616,13 @@
   
   
   <span class="md-ellipsis">
-    4.08 - Deploy or Evaluate Host Sensors
+    
+  
+  4.08 - Deploy or Evaluate Host Sensors
+
     
   </span>
+  
   
 
       </a>
@@ -2168,9 +2643,13 @@
   
   
   <span class="md-ellipsis">
-    4.08 Files (Scripts)
+    
+  
+  4.08 Files (Scripts)
+
     
   </span>
+  
   
 
       </a>
@@ -2191,9 +2670,13 @@
   
   
   <span class="md-ellipsis">
-    4.09 - Install and Deploy Security Onion
+    
+  
+  4.09 - Install and Deploy Security Onion
+
     
   </span>
+  
   
 
       </a>
@@ -2214,9 +2697,13 @@
   
   
   <span class="md-ellipsis">
-    4.10 - PAN Forward Syslog to SecurityOnion
+    
+  
+  4.10 - PAN Forward Syslog to SecurityOnion
+
     
   </span>
+  
   
 
       </a>
@@ -2237,9 +2724,13 @@
   
   
   <span class="md-ellipsis">
-    4.11 - Monitoring Account Creation using SecurityOnion
+    
+  
+  4.11 - Monitoring Account Creation using SecurityOnion
+
     
   </span>
+  
   
 
       </a>
@@ -2260,9 +2751,13 @@
   
   
   <span class="md-ellipsis">
-    4.12 - Detect Network Vulnerability Scans using SecurityOnion
+    
+  
+  4.12 - Detect Network Vulnerability Scans using SecurityOnion
+
     
   </span>
+  
   
 
       </a>
@@ -2283,9 +2778,13 @@
   
   
   <span class="md-ellipsis">
-    4.13 - Detect SMB using SecurityOnion
+    
+  
+  4.13 - Detect SMB using SecurityOnion
+
     
   </span>
+  
   
 
       </a>
@@ -2306,9 +2805,13 @@
   
   
   <span class="md-ellipsis">
-    4.14 - Monitor Active Directory New Account Creation
+    
+  
+  4.14 - Monitor Active Directory New Account Creation
+
     
   </span>
+  
   
 
       </a>
@@ -2329,9 +2832,13 @@
   
   
   <span class="md-ellipsis">
-    4.15 - Monitor DHCP for New Reservations
+    
+  
+  4.15 - Monitor DHCP for New Reservations
+
     
   </span>
+  
   
 
       </a>
@@ -2352,9 +2859,13 @@
   
   
   <span class="md-ellipsis">
-    4.16 - Monitor Active Directory for New DNS Names
+    
+  
+  4.16 - Monitor Active Directory for New DNS Names
+
     
   </span>
+  
   
 
       </a>
@@ -2375,9 +2886,13 @@
   
   
   <span class="md-ellipsis">
-    4.17 - Respond to Alerts about unauthorized users
+    
+  
+  4.17 - Respond to Alerts about unauthorized users
+
     
   </span>
+  
   
 
       </a>
@@ -2398,9 +2913,13 @@
   
   
   <span class="md-ellipsis">
-    4.18 - Compare Hashes of suspected malware
+    
+  
+  4.18 - Compare Hashes of suspected malware
+
     
   </span>
+  
   
 
       </a>
@@ -2421,9 +2940,13 @@
   
   
   <span class="md-ellipsis">
-    4.19 - Perform Manual Host Analysis
+    
+  
+  4.19 - Perform Manual Host Analysis
+
     
   </span>
+  
   
 
       </a>
@@ -2444,9 +2967,13 @@
   
   
   <span class="md-ellipsis">
-    4.19.1 - Perform Manual Host Analysis Live Physical Host Windows
+    
+  
+  4.19.1 - Perform Manual Host Analysis Live Physical Host Windows
+
     
   </span>
+  
   
 
       </a>
@@ -2467,9 +2994,13 @@
   
   
   <span class="md-ellipsis">
-    4.19.2 - Perform Manual Host Analysis Memory Image File
+    
+  
+  4.19.2 - Perform Manual Host Analysis Memory Image File
+
     
   </span>
+  
   
 
       </a>
@@ -2490,9 +3021,13 @@
   
   
   <span class="md-ellipsis">
-    4.19.3 - Create Hard Disk Image
+    
+  
+  4.19.3 - Create Hard Disk Image
+
     
   </span>
+  
   
 
       </a>
@@ -2513,9 +3048,13 @@
   
   
   <span class="md-ellipsis">
-    4.20 - Investigate Alerts from Host Sensors
+    
+  
+  4.20 - Investigate Alerts from Host Sensors
+
     
   </span>
+  
   
 
       </a>
@@ -2536,9 +3075,13 @@
   
   
   <span class="md-ellipsis">
-    4.21 - Find and Contain Rogue Workstation
+    
+  
+  4.21 - Find and Contain Rogue Workstation
+
     
   </span>
+  
   
 
       </a>
@@ -2559,9 +3102,13 @@
   
   
   <span class="md-ellipsis">
-    4.22 - Block Unauthorized Software
+    
+  
+  4.22 - Block Unauthorized Software
+
     
   </span>
+  
   
 
       </a>
@@ -2582,9 +3129,13 @@
   
   
   <span class="md-ellipsis">
-    4.23 - Stop Credential Reuse Attack
+    
+  
+  4.23 - Stop Credential Reuse Attack
+
     
   </span>
+  
   
 
       </a>
@@ -2605,9 +3156,13 @@
   
   
   <span class="md-ellipsis">
-    4.24 - Stop Brute Force Attack
+    
+  
+  4.24 - Stop Brute Force Attack
+
     
   </span>
+  
   
 
       </a>
@@ -2628,9 +3183,13 @@
   
   
   <span class="md-ellipsis">
-    4.25 - Stop Malware Rootkit
+    
+  
+  4.25 - Stop Malware Rootkit
+
     
   </span>
+  
   
 
       </a>
@@ -2651,9 +3210,13 @@
   
   
   <span class="md-ellipsis">
-    4.26 - Stop Data Exfiltration
+    
+  
+  4.26 - Stop Data Exfiltration
+
     
   </span>
+  
   
 
       </a>
@@ -2674,9 +3237,13 @@
   
   
   <span class="md-ellipsis">
-    4.27 - Stop Malware Backdoor
+    
+  
+  4.27 - Stop Malware Backdoor
+
     
   </span>
+  
   
 
       </a>
@@ -2697,9 +3264,13 @@
   
   
   <span class="md-ellipsis">
-    4.27 Files (Scripts)
+    
+  
+  4.27 Files (Scripts)
+
     
   </span>
+  
   
 
       </a>
@@ -2720,9 +3291,13 @@
   
   
   <span class="md-ellipsis">
-    4.28 - Stop C2 Beaconing
+    
+  
+  4.28 - Stop C2 Beaconing
+
     
   </span>
+  
   
 
       </a>
@@ -2743,9 +3318,13 @@
   
   
   <span class="md-ellipsis">
-    4.30 - SecurityOnion Hunting
+    
+  
+  4.30 - SecurityOnion Hunting
+
     
   </span>
+  
   
 
       </a>
@@ -2766,9 +3345,13 @@
   
   
   <span class="md-ellipsis">
-    4.30 Files (Event Log Examples)
+    
+  
+  4.30 Files (Event Log Examples)
+
     
   </span>
+  
   
 
       </a>
@@ -2847,9 +3430,13 @@
   
   
   <span class="md-ellipsis">
-    5. Recovery
+    
+  
+  5. Recovery
+
     
   </span>
+  
   
 
             </a>
@@ -2864,7 +3451,10 @@
         <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_5_label" aria-expanded="false">
           <label class="md-nav__title" for="__nav_5">
             <span class="md-nav__icon md-icon"></span>
-            5. Recovery
+            
+  
+  5. Recovery
+
           </label>
           <ul class="md-nav__list" data-md-scrollfix>
             
@@ -2882,9 +3472,13 @@
   
   
   <span class="md-ellipsis">
-    5.01 - Vulnerability Scans
+    
+  
+  5.01 - Vulnerability Scans
+
     
   </span>
+  
   
 
       </a>
@@ -2905,9 +3499,13 @@
   
   
   <span class="md-ellipsis">
-    5.02 - Cyber Security Improvements
+    
+  
+  5.02 - Cyber Security Improvements
+
     
   </span>
+  
   
 
       </a>
@@ -2928,9 +3526,13 @@
   
   
   <span class="md-ellipsis">
-    5.03 - Firewall Analysis
+    
+  
+  5.03 - Firewall Analysis
+
     
   </span>
+  
   
 
       </a>
@@ -2951,9 +3553,13 @@
   
   
   <span class="md-ellipsis">
-    5.04 - Password Requirements
+    
+  
+  5.04 - Password Requirements
+
     
   </span>
+  
   
 
       </a>
@@ -2974,9 +3580,13 @@
   
   
   <span class="md-ellipsis">
-    5.05 - Create New Baselines
+    
+  
+  5.05 - Create New Baselines
+
     
   </span>
+  
   
 
       </a>
@@ -2997,9 +3607,13 @@
   
   
   <span class="md-ellipsis">
-    5.06 - Syslog Retention
+    
+  
+  5.06 - Syslog Retention
+
     
   </span>
+  
   
 
       </a>
@@ -3020,9 +3634,13 @@
   
   
   <span class="md-ellipsis">
-    5.07 - Patch Management
+    
+  
+  5.07 - Patch Management
+
     
   </span>
+  
   
 
       </a>
@@ -3043,9 +3661,13 @@
   
   
   <span class="md-ellipsis">
-    5.08 - User Cyber Training
+    
+  
+  5.08 - User Cyber Training
+
     
   </span>
+  
   
 
       </a>
@@ -3066,9 +3688,13 @@
   
   
   <span class="md-ellipsis">
-    5.09 - System Restoration
+    
+  
+  5.09 - System Restoration
+
     
   </span>
+  
   
 
       </a>
@@ -3089,9 +3715,13 @@
   
   
   <span class="md-ellipsis">
-    5.10 - Account Audit
+    
+  
+  5.10 - Account Audit
+
     
   </span>
+  
   
 
       </a>
@@ -3112,9 +3742,13 @@
   
   
   <span class="md-ellipsis">
-    5.11 - Turn over Mission Documents
+    
+  
+  5.11 - Turn over Mission Documents
+
     
   </span>
+  
   
 
       </a>
@@ -3135,9 +3769,13 @@
   
   
   <span class="md-ellipsis">
-    5.12 - Creating Clean Backups
+    
+  
+  5.12 - Creating Clean Backups
+
     
   </span>
+  
   
 
       </a>
@@ -3158,9 +3796,13 @@
   
   
   <span class="md-ellipsis">
-    5.13 - Conduct Outbriefing
+    
+  
+  5.13 - Conduct Outbriefing
+
     
   </span>
+  
   
 
       </a>
@@ -3181,9 +3823,13 @@
   
   
   <span class="md-ellipsis">
-    5.14 - Conduct AAR
+    
+  
+  5.14 - Conduct AAR
+
     
   </span>
+  
   
 
       </a>
@@ -3236,9 +3882,13 @@
   
   
   <span class="md-ellipsis">
-    6. Lessons Learned
+    
+  
+  6. Lessons Learned
+
     
   </span>
+  
   
 
             </a>
@@ -3253,7 +3903,10 @@
         <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_6_label" aria-expanded="false">
           <label class="md-nav__title" for="__nav_6">
             <span class="md-nav__icon md-icon"></span>
-            6. Lessons Learned
+            
+  
+  6. Lessons Learned
+
           </label>
           <ul class="md-nav__list" data-md-scrollfix>
             
@@ -3271,9 +3924,13 @@
   
   
   <span class="md-ellipsis">
-    6.01 - After Action Review (AAR)
+    
+  
+  6.01 - After Action Review (AAR)
+
     
   </span>
+  
   
 
       </a>
@@ -3326,14 +3983,18 @@
         
           
           <div class="md-nav__link md-nav__container">
-            <a href="./" class="md-nav__link md-nav__link--active">
+            <a href="././" class="md-nav__link md-nav__link--active">
               
   
   
   <span class="md-ellipsis">
-    Reference Documents
+    
+  
+  Reference Documents
+
     
   </span>
+  
   
 
             </a>
@@ -3348,7 +4009,10 @@
         <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_7_label" aria-expanded="true">
           <label class="md-nav__title" for="__nav_7">
             <span class="md-nav__icon md-icon"></span>
-            Reference Documents
+            
+  
+  Reference Documents
+
           </label>
           <ul class="md-nav__list" data-md-scrollfix>
             
@@ -3361,14 +4025,18 @@
   
   
     <li class="md-nav__item">
-      <a href="PowerShell_Commands/" class="md-nav__link">
+      <a href="./PowerShell_Commands/" class="md-nav__link">
         
   
   
   <span class="md-ellipsis">
-    PowerShell Commands
+    
+  
+  PowerShell Commands
+
     
   </span>
+  
   
 
       </a>
@@ -3394,10 +4062,12 @@
               
               <div class="md-sidebar md-sidebar--secondary" data-md-component="sidebar" data-md-type="toc" >
                 <div class="md-sidebar__scrollwrap">
+                  
                   <div class="md-sidebar__inner">
                     
 
-<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
+
+<nav class="md-nav md-nav--secondary" aria-label="On this page">
   
   
   
@@ -3410,11 +4080,10 @@
           
           
             <div class="md-content" data-md-component="content">
+              
               <article class="md-content__inner md-typeset">
                 
                   
-
-
   
     <a href="https://github.com/cmdcnd/IncidentResponse/edit/main/docs/ReferenceDocuments/README.md" title="Edit this page" class="md-content__button md-icon" rel="edit">
       
@@ -3432,7 +4101,7 @@
   
 
 
-  <h1>Reference Documents</h1>
+  <h1 id="__skip">README</h1>
 
 <!--
 This is the beginning of your document
@@ -3440,6 +4109,8 @@ This is the beginning of your document
 * To create a nested list using the web editor on GitHub or a text editor that uses a monospaced font, like Atom, you can align your list visually. Type tabs in front of your nested list item, until the list marker character (*) lies directly below the first character of the text in the item above it.
 -->
 <p>This section should cover any unique references for commands, tools or any other helpful information that does not fit any where else.  </p>
+
+
 
 
 
@@ -3494,7 +4165,7 @@ This is the beginning of your document
         
         
           
-          <a href="PowerShell_Commands/" class="md-footer__link md-footer__link--next" aria-label="Next: PowerShell Commands">
+          <a href="./PowerShell_Commands/" class="md-footer__link md-footer__link--next" aria-label="Next: PowerShell Commands">
             <div class="md-footer__title">
               <span class="md-footer__direction">
                 Next
@@ -3518,8 +4189,8 @@ This is the beginning of your document
   
   
     Made with
-    <a href="https://squidfunk.github.io/mkdocs-material/" target="_blank" rel="noopener">
-      Material for MkDocs
+    <a href="https://zensical.org/" target="_blank" rel="noopener">
+      Zensical
     </a>
   
 </div>
@@ -3536,10 +4207,11 @@ This is the beginning of your document
     
     
       
-      <script id="__config" type="application/json">{"base": "..", "features": ["content.action.edit", "content.action.view", "content.code.annotate", "content.code.copy", "content.tooltips", "navigation.footer", "navigation.indexes", "navigation.sections", "navigation.tabs", "navigation.top", "navigation.tracking", "search.highlight", "search.share", "search.suggest", "toc.follow"], "search": "../assets/javascripts/workers/search.973d3a69.min.js", "tags": null, "translations": {"clipboard.copied": "Copied to clipboard", "clipboard.copy": "Copy to clipboard", "search.result.more.one": "1 more on this page", "search.result.more.other": "# more on this page", "search.result.none": "No matching documents", "search.result.one": "1 matching document", "search.result.other": "# matching documents", "search.result.placeholder": "Type to start searching", "search.result.term.missing": "Missing", "select.version": "Select version"}, "version": null}</script>
+      
+      <script id="__config" type="application/json">{"annotate":null,"base":"..","features":["content.action.edit","content.action.view","content.code.annotate","content.code.copy","content.tooltips","navigation.footer","navigation.indexes","navigation.sections","navigation.tabs","navigation.top","navigation.tracking","search.highlight","search.share","search.suggest","toc.follow"],"search":"../assets/javascripts/workers/search.e2d2d235.min.js","tags":null,"translations":{"clipboard.copied":"Copied to clipboard","clipboard.copy":"Copy to clipboard","search.result.more.one":"1 more on this page","search.result.more.other":"# more on this page","search.result.none":"No matching documents","search.result.one":"1 matching document","search.result.other":"# matching documents","search.result.placeholder":"Type to start searching","search.result.term.missing":"Missing","select.version":"Select version"},"version":null}</script>
     
     
-      <script src="../assets/javascripts/bundle.f55a23d4.min.js"></script>
+      <script src="../assets/javascripts/bundle.6e5f0216.min.js"></script>
       
     
   </body>
