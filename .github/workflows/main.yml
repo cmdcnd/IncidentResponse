@@ -1,4 +1,4 @@
-name: zensical-docs-build
+name: Documentation
 
 on:
   push:
@@ -7,7 +7,9 @@ on:
   workflow_dispatch:
 
 permissions:
-  contents: write  # required to push to gh-pages
+  contents: read
+  pages: write
+  id-token: write
 
 concurrency:
   group: docsbuild-${{ github.ref }}
@@ -15,20 +17,20 @@ concurrency:
 
 jobs:
   deploy:
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
     runs-on: ubuntu-latest
 
     steps:
-      # ----------------------------------------------------------------------
-      # CHECKOUT
-      # ----------------------------------------------------------------------
+      - name: Configure GitHub Pages
+        uses: actions/configure-pages@v5
+        
       - name: Checkout repository
         uses: actions/checkout@v6
         with:
-          fetch-depth: 0  # Zensical docs builds keep full history available
+          fetch-depth: 0
 
-      # ----------------------------------------------------------------------
-      # PYTHON SETUP
-      # ----------------------------------------------------------------------
       - name: Set up Python
         uses: actions/setup-python@v5
         with:
@@ -42,17 +44,11 @@ jobs:
           restore-keys: |
             ${{ runner.os }}-pip-
 
-      # ----------------------------------------------------------------------
-      # INSTALL DEPENDENCIES
-      # ----------------------------------------------------------------------
       - name: Install Zensical
         run: |
           python -m pip install -U pip
           pip install zensical
 
-      # ----------------------------------------------------------------------
-      # BUILD
-      # ----------------------------------------------------------------------
       - name: Build Zensical site
         env:
           GOOGLE_ANALYTICS_KEY: ${{ secrets.GOOGLE_ANALYTICS_KEY }}
@@ -67,9 +63,8 @@ jobs:
               path.read_text().replace("__GOOGLE_ANALYTICS_KEY__", analytics_key)
           )
           PY
-          zensical build 2> build-warnings.txt || true
+          zensical build --clean 2> build-warnings.txt || true
 
-      # Optional: Capture any warnings (broken links, etc.)
       - name: Upload build warnings
         if: always()
         uses: actions/upload-artifact@v7
@@ -77,12 +72,11 @@ jobs:
           name: build-warnings
           path: build-warnings.txt
 
-      # ----------------------------------------------------------------------
-      # DEPLOY
-      # ----------------------------------------------------------------------
-      - name: Deploy to GitHub Pages
-        uses: peaceiris/actions-gh-pages@v4
+      - name: Upload Pages artifact
+        uses: actions/upload-pages-artifact@v5
         with:
-          github_token: ${{ secrets.GITHUB_TOKEN }}
-          publish_dir: ./site
-          publish_branch: gh-pages
+          path: site
+
+      - name: Deploy to GitHub Pages
+        uses: actions/deploy-pages@v5
+        id: deployment
