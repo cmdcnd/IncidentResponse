@@ -126,6 +126,10 @@ nav = [
     {"6. Lessons Learned" = "6.LessonsLearned/README.md"}, 
     {"6.01 - After Action Review (AAR)" = "6.LessonsLearned/6.01-After_Action_Review/README.md"}
   ]},
+
+  {"7. Tactical Hardening" = [
+    {"7. Tactical Hardening" = "7.TacticalHardening/README.md"}
+  ]},
   
   {"Reference Documents" = [
     {"Reference Documents" = "ReferenceDocuments/README.md"}, 
