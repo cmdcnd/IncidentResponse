@@ -22,7 +22,7 @@ FTP deployments differ by daemon and distribution. Identify the daemon, configur
   * vsftpd: set `anonymous_enable=NO` in the active `vsftpd.conf` (commonly `/etc/vsftpd/vsftpd.conf` or `/etc/vsftpd.conf`).
   * ProFTPD: disable the applicable `<Anonymous>` block in the active configuration.
   * Pure-FTPd: use its no-anonymous option (commonly `-E`) or the distribution's supported `NoAnonymous yes` setting.
-* If FTP cannot be shut down, require encrypted sessions and disable obsolete TLS versions. For a compatible vsftpd configuration, for example:
+* Where TLS is supported, require encrypted sessions (FTPS) and disable obsolete TLS versions. For a compatible vsftpd configuration, for example:
 
   ```ini
   ssl_enable=YES
@@ -72,7 +72,7 @@ FTP deployments differ by daemon and distribution. Identify the daemon, configur
 
 * Require SMB signing in accordance with the server role and compatibility requirements. For example, `Set-SmbServerConfiguration -RequireSecuritySignature $true -Force` changes the server-side requirement; assess client-side policy separately.
 * Enable SMB encryption for shares that require it and whose clients support it. For example, `Set-SmbShare -Name "<ShareName>" -EncryptData $true` applies encryption to a specific share. Confirm performance, client compatibility, and successful access.
-* Enable LSASS protection using the supported Windows security baseline or policy. If setting `HKLM\SYSTEM\CurrentControlSet\Control\Lsa\RunAsPPL`, validate the Windows version and deployment method and plan for the required restart.
+* Enable LSASS protection using the supported Windows security baseline or policy. `RunAsPPL` prevents non-protected processes from injecting code or reading LSASS process memory. If setting `HKLM\SYSTEM\CurrentControlSet\Control\Lsa\RunAsPPL`, validate the Windows version and deployment method and plan for the required restart.
 * Set `HKLM\SYSTEM\CurrentControlSet\Control\SecurityProviders\WDigest\UseLogonCredential` to `0` (DWORD) to prevent WDigest from storing reusable credentials in memory, where applicable. Verify the effective setting and any application dependencies.
 * Apply **Deny access to this computer from the network** to built-in local administrator accounts only after confirming the policy's scope and ensuring responders retain an authorized administrative account and recovery route.
 * Use Windows Defender Firewall to scope SMB and RPC access to approved systems rather than indiscriminately blocking required server-to-server traffic.
@@ -118,9 +118,12 @@ For each change, record the host and owner, incident phase, evidence-preservatio
 ## References
 
 * [NIST SP 800-61 Rev. 3: Incident Response Recommendations and Considerations](https://csrc.nist.gov/pubs/sp/800/61/r3/final)
+* Microsoft DART (Detection and Incident Response Team): Compromise Recovery Guide and Ransomware Response Playbooks
 * [Microsoft Security Compliance Toolkit](https://learn.microsoft.com/en-us/windows/security/operating-system-security/device-management/windows-security-configuration-framework/security-compliance-toolkit-10)
 * [Microsoft SMB security enhancements](https://learn.microsoft.com/en-us/windows-server/storage/file-server/smb-security)
 * [Microsoft Defender Attack Surface Reduction rules](https://learn.microsoft.com/en-us/defender-endpoint/attack-surface-reduction-rules-reference)
+* Mandiant Incident Response and Tactical Hardening Guidelines (eviction sequencing and credential containment)
+* Palo Alto Networks Unit 42: Incident Response and Cloud Containment Playbooks (cloud perimeter lockdown and service account/token isolation)
 * [CIS Benchmarks](https://www.cisecurity.org/cis-benchmarks)
 * [Red Hat Enterprise Linux Security Hardening](https://docs.redhat.com/en/documentation/red_hat_enterprise_linux/9/html/security_hardening/)
 * [Ubuntu Security documentation](https://ubuntu.com/security)
